@@ -11,6 +11,7 @@ env:
 jobs:
   fetch-schedule:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repo
@@ -20,6 +21,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+
+      - name: Wait before fetch (avoid rate limiting)
+        run: sleep 3
 
       - name: Fetch and save schedule
         run: node scripts/fetch.js
