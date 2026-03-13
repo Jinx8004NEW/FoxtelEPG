@@ -2,80 +2,37 @@ name: Fetch Foxtel Schedule
 
 on:
   schedule:
-    # 18:30 UTC = midnight IST
     - cron: '30 18 * * *'
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
-  fetch:
+  fetch-schedule:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Fetch FS1 schedule
-        run: |
-          DATE=$(date -u +%Y-%m-%d)
-          TS=$(date +%s)000
-          curl -sf \
-            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
-            -H "Accept: application/json" \
-            -H "Referer: https://www.foxtel.com.au/tv-guide/" \
-            -H "Origin: https://www.foxtel.com.au" \
-            "https://www.foxtel.com.au/webepg/ws/foxtel/channel/FS1/events?movieHeight=110&tvShowHeight=90&regionId=8336" \
-          | python3 -c "
-          import json,sys
-          d=json.load(sys.stdin)
-          for e in d.get('events',[]): e['imageUrl']=e.get('imageUrl','').split('?')[0]
-          print(json.dumps({'channel':'FS1','channelName':'FOX CRICKET HD','channelNumber':'501','fetchedAt':$TS,'date':'$DATE','events':d.get('events',[])},indent=2))
-          " > data/FS1/$DATE.json
-          echo "FS1: $(python3 -c "import json; print(len(json.load(open('data/FS1/$DATE.json'))['events']),'events')")"
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
 
-      - name: Fetch FSP schedule
-        run: |
-          DATE=$(date -u +%Y-%m-%d)
-          TS=$(date +%s)000
-          curl -sf \
-            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
-            -H "Accept: application/json" \
-            -H "Referer: https://www.foxtel.com.au/tv-guide/" \
-            -H "Origin: https://www.foxtel.com.au" \
-            "https://www.foxtel.com.au/webepg/ws/foxtel/channel/FSP/events?movieHeight=110&tvShowHeight=90&regionId=8336" \
-          | python3 -c "
-          import json,sys
-          d=json.load(sys.stdin)
-          for e in d.get('events',[]): e['imageUrl']=e.get('imageUrl','').split('?')[0]
-          print(json.dumps({'channel':'FSP','channelName':'FOX SPORTS 505','channelNumber':'505','fetchedAt':$TS,'date':'$DATE','events':d.get('events',[])},indent=2))
-          " > data/FSP/$DATE.json
-          echo "FSP: $(python3 -c "import json; print(len(json.load(open('data/FSP/$DATE.json'))['events']),'events')")"
+      - name: Fetch and save schedule
+        run: node scripts/fetch.js
+        env:
+          REGION_ID: 8336
 
-      - name: Delete files older than 21 days
-        run: |
-          find data/FS1/ -name "*.json" -mtime +21 -delete
-          find data/FSP/ -name "*.json" -mtime +21 -delete
-          echo "Old files cleaned up"
+      - name: Delete JSON files older than 21 days
+        run: node scripts/cleanup.js
 
-      - name: Update index.json
+      - name: Commit and push data
         run: |
-          python3 -c "
-          import os,json
-          from datetime import datetime
-          result={}
-          for ch in ['FS1','FSP']:
-              files=sorted([f.replace('.json','') for f in os.listdir(f'data/{ch}') if f.endswith('.json')],reverse=True)
-              result[ch]=files
-          import time
-          result['updatedAt']=int(time.time())*1000
-          json.dump(result,open('data/index.json','w'),indent=2)
-          print('index.json:',result)
-          "
-
-      - name: Commit and push
-        run: |
-          git config user.name "github-actions[bot]"
+          git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --cached --quiet && echo "Nothing to commit" || (git commit -m "📺 Schedule $(date -u +%Y-%m-%d)" && git push)
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Schedule update $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
