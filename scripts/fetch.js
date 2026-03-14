@@ -28,85 +28,67 @@ function getHeaders() {
   };
 }
 
-function originalUrl(imageUrl) {
-  try { return imageUrl.split('?')[0]; }
-  catch { return imageUrl; }
-}
-
-function todayIST() {
-  return new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
-}
-
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
+function originalUrl(u) { try { return u.split('?')[0]; } catch { return u; } }
+function todayIST() { return new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' }); }
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 function fetchJson(url) {
   return new Promise((resolve, reject) => {
     const req = https.get(url, { headers: getHeaders(), timeout: 30000 }, (res) => {
-      if (res.statusCode === 301 || res.statusCode === 302) {
+      if (res.statusCode === 301 || res.statusCode === 302)
         return fetchJson(res.headers.location).then(resolve).catch(reject);
-      }
-      if (res.statusCode !== 200) {
-        res.resume();
-        return reject(new Error(`HTTP ${res.statusCode}`));
-      }
+      if (res.statusCode !== 200) { res.resume(); return reject(new Error(`HTTP ${res.statusCode}`)); }
 
-      // Decompress based on Content-Encoding
-      const encoding = res.headers['content-encoding'];
+      const enc = res.headers['content-encoding'];
       let stream = res;
-
-      if (encoding === 'gzip') {
-        stream = res.pipe(zlib.createGunzip());
-      } else if (encoding === 'deflate') {
-        stream = res.pipe(zlib.createInflate());
-      } else if (encoding === 'br') {
-        stream = res.pipe(zlib.createBrotliDecompress());
-      }
+      if (enc === 'gzip')    stream = res.pipe(zlib.createGunzip());
+      else if (enc === 'deflate') stream = res.pipe(zlib.createInflate());
+      else if (enc === 'br') stream = res.pipe(zlib.createBrotliDecompress());
 
       const chunks = [];
-      stream.on('data', chunk => chunks.push(chunk));
+      stream.on('data', c => chunks.push(c));
       stream.on('end', () => {
-        try {
-          const body = Buffer.concat(chunks).toString('utf8');
-          resolve(JSON.parse(body));
-        } catch (e) {
-          reject(new Error(`JSON parse: ${e.message}`));
-        }
+        try { resolve(JSON.parse(Buffer.concat(chunks).toString('utf8'))); }
+        catch (e) { reject(new Error(`JSON parse: ${e.message}`)); }
       });
       stream.on('error', reject);
     });
-
     req.on('error', reject);
     req.on('timeout', () => { req.destroy(); reject(new Error('Timeout')); });
   });
 }
 
-async function fetchWithRetry(url, maxAttempts = 3) {
-  for (let i = 1; i <= maxAttempts; i++) {
-    try {
-      console.log(`  Attempt ${i}/${maxAttempts}...`);
-      return await fetchJson(url);
-    } catch (e) {
+async function fetchWithRetry(url, max = 3) {
+  for (let i = 1; i <= max; i++) {
+    try { console.log(`  Attempt ${i}/${max}...`); return await fetchJson(url); }
+    catch (e) {
       console.log(`  Attempt ${i} failed: ${e.message}`);
-      if (i < maxAttempts) {
-        await sleep(i * 4000);
-      } else {
-        throw e;
-      }
+      if (i < max) { await sleep(i * 4000); } else throw e;
     }
   }
+}
+
+// Build index.json listing all available dates per channel
+function updateIndex(tag, date) {
+  const indexPath = path.join('data', 'index.json');
+  let index = {};
+  try { index = JSON.parse(fs.readFileSync(indexPath, 'utf8')); } catch {}
+  if (!index[tag]) index[tag] = [];
+  if (!index[tag].includes(date)) {
+    index[tag].unshift(date); // newest first
+    index[tag] = index[tag].slice(0, 21); // keep max 21
+  }
+  fs.writeFileSync(indexPath, JSON.stringify(index, null, 2));
+  console.log(`[index] Updated data/index.json → ${tag}: ${index[tag].length} dates`);
 }
 
 async function fetchChannel(tag) {
   const url = `https://www.foxtel.com.au/webepg/ws/foxtel/channel/${tag}/events?movieHeight=110&tvShowHeight=90&regionId=${REGION_ID}`;
   console.log(`\n[${tag}] Fetching...`);
-
   const json   = await fetchWithRetry(url);
   const events = json.events.map(ev => ({ ...ev, imageUrl: originalUrl(ev.imageUrl) }));
   const date   = todayIST();
   const dir    = path.join('data', tag);
-
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 
   const payload = {
@@ -118,19 +100,18 @@ async function fetchChannel(tag) {
 
   fs.writeFileSync(path.join(dir, `${date}.json`), JSON.stringify(payload, null, 2));
   fs.writeFileSync(path.join(dir, 'latest.json'),  JSON.stringify(payload, null, 2));
-  console.log(`[${tag}] ✓ ${events.length} events saved → data/${tag}/${date}.json`);
+  updateIndex(tag, date);
+  console.log(`[${tag}] ✓ ${events.length} events → data/${tag}/${date}.json`);
 }
 
 (async () => {
+  // Ensure data dir exists
+  if (!fs.existsSync('data')) fs.mkdirSync('data');
+
   let failed = false;
   for (const tag of CHANNELS) {
-    try {
-      await fetchChannel(tag);
-      await sleep(2000);
-    } catch (e) {
-      console.error(`[${tag}] ✗ ${e.message}`);
-      failed = true;
-    }
+    try { await fetchChannel(tag); await sleep(2000); }
+    catch (e) { console.error(`[${tag}] ✗ ${e.message}`); failed = true; }
   }
   if (failed) { console.error('\n❌ Failed'); process.exit(1); }
   console.log('\n✅ Done');
