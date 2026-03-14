@@ -2,8 +2,8 @@
   "channel": "FSP",
   "date": "2026-03-16",
   "label": "day after tomorrow",
-  "fetchedAt": 1773504501292,
-  "fetchedAtIST": "14/3/2026, 9:38:21 pm",
+  "fetchedAt": 1773505717125,
+  "fetchedAtIST": "14/3/2026, 9:58:37 pm",
   "events": [
     {
       "eventId": 174493732,
@@ -20,8 +20,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8un0iu.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/8un0iu.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174551154,
@@ -38,8 +37,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/3y3pnh.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/3y3pnh.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174551155,
@@ -56,8 +54,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xknh6m.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/xknh6m.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174551156,
@@ -74,8 +71,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7ow9j2.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/7ow9j2.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174551157,
@@ -92,8 +88,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sloqbv.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/sloqbv.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174551158,
@@ -110,8 +105,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/viaf7t.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/viaf7t.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174551159,
@@ -128,8 +122,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/fynh6c.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/fynh6c.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174901967,
@@ -146,8 +139,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/em0tm6.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/em0tm6.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174901968,
@@ -164,8 +156,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/b8g57i.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/b8g57i.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174551161,
@@ -182,8 +173,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8hn2m.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/8hn2m.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174551162,
@@ -200,8 +190,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8ctdh.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/8ctdh.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174551163,
@@ -218,8 +207,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/trpw18.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/trpw18.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174901969,
@@ -236,8 +224,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/p53ir0.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/p53ir0.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174551165,
@@ -254,8 +241,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xknh6m.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/xknh6m.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174551166,
@@ -272,8 +258,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7ow9j2.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/7ow9j2.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174901970,
@@ -290,8 +275,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/viaf7t.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/viaf7t.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174901971,
@@ -308,8 +292,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/fynh6c.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/fynh6c.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174901972,
@@ -326,8 +309,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/em0tm6.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/em0tm6.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174551168,
@@ -344,8 +326,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8hn2m.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/8hn2m.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174551169,
@@ -362,8 +343,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7ej07.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/7ej07.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174551170,
@@ -380,8 +360,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xknh6m.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/xknh6m.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174551171,
@@ -398,8 +377,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7ow9j2.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/7ow9j2.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174631566,
@@ -416,8 +394,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/gcs2nr.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/gcs2nr.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174631567,
@@ -434,8 +411,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/trpw18.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/trpw18.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174631568,
@@ -452,8 +428,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8hn2m.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/8hn2m.png"
+      "adultsOnly": false
     },
     {
       "eventId": 174631569,
@@ -470,8 +445,7 @@
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
       "isMovie": false,
-      "adultsOnly": false,
-      "localImage": "data/images/placeholder-16x9-beam.png"
+      "adultsOnly": false
     }
   ]
 }
