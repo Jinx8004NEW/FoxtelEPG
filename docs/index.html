@@ -239,6 +239,7 @@
   <button class="fbtn" onclick="setFilter('past',this)">Past</button>
   <div class="tool-sep"></div>
   <button class="tbtn" onclick="exportText()" title="Copy schedule as text">📋 COPY</button>
+  <button class="tbtn" onclick="exportTextWithImages()" title="Copy schedule with thumbnail URLs">🖼 COPY+IMG</button>
   <button class="tbtn" onclick="exportSchedule()" title="Export as text file">📄 EXPORT</button>
 </div>
 
@@ -392,8 +393,8 @@
   }
 
   /* ── SHARE ── */
-  function shareEvent(title, time, ch) {
-    const text = `📺 ${title} — ${time} IST on ${CHANNELS[ch].name}`;
+  function shareEvent(title, time, ch, imgUrl) {
+    const text = `📺 ${title}\n🕐 ${time} IST on ${CHANNELS[ch].name}\n🖼 ${imgUrl}`;
     if (navigator.share) navigator.share({title, text, url: window.location.href}).catch(()=>{});
     else { navigator.clipboard?.writeText(text).then(() => showToast('✓ Copied to clipboard')); }
   }
@@ -407,20 +408,21 @@
   }
 
   /* ── EXPORT TEXT ── */
-  function buildScheduleText() {
+  function buildScheduleText(includeImages = false) {
     const key = currentChannel + '_' + currentDate;
     const data = loadedData[key];
     if (!data) return '';
     const ch = CHANNELS[currentChannel];
     const lines = [
       `📺 ${ch.name} (${ch.number}) — ${data.date}`,
-      '─'.repeat(40),
+      '─'.repeat(44),
       ...data.events.map(ev => {
         const start = toIST(ev.scheduledDate);
         const end   = toIST(ev.scheduledDate + ev.duration*60000);
-        return `${start}–${end}  ${ev.programTitle}`;
+        const line  = `${start}–${end}  ${ev.programTitle}`;
+        return includeImages ? `${line}\n   🖼 ${ev.imageUrl}` : line;
       }),
-      '─'.repeat(40),
+      '─'.repeat(44),
       `Fetched: ${data.fetchedAtIST}`,
       `Source: ${window.location.href}`,
     ];
@@ -428,13 +430,19 @@
   }
 
   function exportText() {
-    const text = buildScheduleText();
+    const text = buildScheduleText(false);
     if (!text) { showToast('No data loaded'); return; }
     navigator.clipboard?.writeText(text).then(() => showToast('✓ Schedule copied — paste into WhatsApp / Notes'));
   }
 
+  function exportTextWithImages() {
+    const text = buildScheduleText(true);
+    if (!text) { showToast('No data loaded'); return; }
+    navigator.clipboard?.writeText(text).then(() => showToast('✓ Schedule + thumbnails copied'));
+  }
+
   function exportSchedule() {
-    const text = buildScheduleText();
+    const text = buildScheduleText(true);
     if (!text) { showToast('No data loaded'); return; }
     const blob = new Blob([text], {type:'text/plain'});
     const url  = URL.createObjectURL(blob);
@@ -622,10 +630,8 @@
         etaHtml = `<div class="t-eta t-eta-upcoming" data-start="${ev.scheduledDate}" data-end="${endTs}" data-islive="0">in ${minsToStart < 60 ? minsToStart+'m' : Math.floor(minsToStart/60)+'h '+minsToStart%60+'m'}</div>`;
       }
 
-      // image src: prefer localImage (served from GitHub repo), fallback CDN
-      const imgSrc = ev.localImage
-        ? `${REPO_RAW}/${ev.localImage}`
-        : ev.imageUrl;
+      // image src: direct from Foxtel CDN
+      const imgSrc = ev.imageUrl;
 
       const evJson = JSON.stringify({scheduledDate:ev.scheduledDate,duration:ev.duration,programTitle:ev.programTitle,episodeTitle:ev.episodeTitle}).replace(/"/g,'&quot;');
 
@@ -656,7 +662,7 @@
         <div class="meta-col">
           <div class="status-dot ${dotClass}"></div>
           <span class="status-txt ${stClass}">${statusLabel}</span>
-          <button class="share-btn" onclick='shareEvent("${ev.programTitle.replace(/'/g,"\\'").replace(/"/g,'\\"')}","${toIST(ev.scheduledDate)}","${currentChannel}")' title="Share">↗</button>
+          <button class="share-btn" onclick='shareEvent("${ev.programTitle.replace(/'/g,"\\'").replace(/"/g,'\\"')}","${toIST(ev.scheduledDate)}","${currentChannel}","${ev.imageUrl}")' title="Share">↗</button>
           ${!isPast?`<button class="cal-btn" onclick='addToCalendar("${evJson}")' title="Add to Google Calendar">📅</button>`:''}
         </div>
       `;
