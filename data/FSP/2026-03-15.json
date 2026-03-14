@@ -1,10 +1,27 @@
 {
   "channel": "FSP",
   "date": "2026-03-15",
-  "label": "tomorrow",
-  "fetchedAt": 1773505855694,
-  "fetchedAtIST": "14/3/2026, 10:00:55 pm",
+  "label": "today",
+  "fetchedAt": 1773519933821,
+  "fetchedAtIST": "15/3/2026, 1:55:33 am",
   "events": [
+    {
+      "eventId": 174828883,
+      "programTitle": "Rivals",
+      "channelId": 93,
+      "scheduledDate": 1773491340000,
+      "duration": 46,
+      "episodeTitle": "Episode 2: On Target",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2574350,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kfvl2z.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 174493717,
       "programTitle": "Live: USPGA: THE PLAYERS Championship R3",
