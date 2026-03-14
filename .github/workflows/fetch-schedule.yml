@@ -11,7 +11,7 @@ env:
 jobs:
   fetch-schedule:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repo
@@ -22,10 +22,19 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Remove cached images folder (URL-only mode)
+        run: |
+          if [ -d "data/images" ]; then
+            rm -rf data/images
+            echo "Removed data/images folder"
+          else
+            echo "No images folder found"
+          fi
+
       - name: Wait before fetch
         run: sleep 3
 
-      - name: Fetch and save schedule
+      - name: Fetch schedules (today + 2 upcoming days)
         run: node scripts/fetch.js
         env:
           REGION_ID: 8336
@@ -33,10 +42,10 @@ jobs:
       - name: Delete JSON files older than 21 days
         run: node scripts/cleanup.js
 
-      - name: Commit and push data
+      - name: Commit and push
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Schedule update $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git diff --cached --quiet && echo "No changes" || git commit -m "Schedule update $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
