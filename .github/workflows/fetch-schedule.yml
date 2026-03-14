@@ -2,7 +2,7 @@ name: Fetch Foxtel Schedule
 
 on:
   schedule:
-    - cron: '30 18 * * *'
+    - cron: '0 */4 * * *'
   workflow_dispatch:
 
 env:
@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Wait before fetch (avoid rate limiting)
+      - name: Wait before fetch
         run: sleep 3
 
       - name: Fetch and save schedule
