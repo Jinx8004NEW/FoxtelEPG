@@ -53,7 +53,8 @@
   .date-pill.today::after{content:'·TODAY';font-size:8px;margin-left:4px;opacity:.8;}
 
   /* CHANNEL TABS */
-  .channel-tabs{display:flex;background:var(--surf);border-bottom:1px solid var(--bdr);padding:0 24px;}
+  .channel-tabs{display:flex;background:var(--surf);border-bottom:1px solid var(--bdr);padding:0 24px;overflow-x:auto;scrollbar-width:none;}
+  .channel-tabs::-webkit-scrollbar{display:none;}
   .ch-tab{display:flex;align-items:center;gap:8px;padding:11px 18px;cursor:pointer;border-bottom:3px solid transparent;transition:all .2s;font-family:'Bebas Neue',sans-serif;font-size:15px;letter-spacing:.08em;color:var(--muted);white-space:nowrap;position:relative;}
   .ch-tab:hover{color:var(--txt);}
   .ch-tab.active{color:var(--acc);border-bottom-color:var(--acc);}
@@ -207,14 +208,16 @@
 <div class="date-picker-bar" id="date-picker-bar"></div>
 
 <div class="channel-tabs">
-  <div class="ch-tab active" id="tab-FS1" onclick="switchChannel('FS1')">
-    <span class="ch-num">501</span> FOX CRICKET HD
-    <span class="live-badge" id="badge-FS1"></span>
-  </div>
-  <div class="ch-tab" id="tab-FSP" onclick="switchChannel('FSP')">
-    <span class="ch-num">505</span> FOX SPORTS 505
-    <span class="live-badge" id="badge-FSP"></span>
-  </div>
+  <div class="ch-tab active" id="tab-FSN" onclick="switchChannel('FSN')"><span class="ch-num">500</span> FOX SPORTS NEWS<span class="live-badge" id="badge-FSN"></span></div>
+  <div class="ch-tab" id="tab-FS1" onclick="switchChannel('FS1')"><span class="ch-num">501</span> FOX CRICKET HD<span class="live-badge" id="badge-FS1"></span></div>
+  <div class="ch-tab" id="tab-SP2" onclick="switchChannel('SP2')"><span class="ch-num">502</span> FOX LEAGUE HD<span class="live-badge" id="badge-SP2"></span></div>
+  <div class="ch-tab" id="tab-FS3" onclick="switchChannel('FS3')"><span class="ch-num">503</span> FOX SPORTS 503<span class="live-badge" id="badge-FS3"></span></div>
+  <div class="ch-tab" id="tab-FAF" onclick="switchChannel('FAF')"><span class="ch-num">504</span> FOX FOOTY HD<span class="live-badge" id="badge-FAF"></span></div>
+  <div class="ch-tab" id="tab-FSP" onclick="switchChannel('FSP')"><span class="ch-num">505</span> FOX SPORTS 505<span class="live-badge" id="badge-FSP"></span></div>
+  <div class="ch-tab" id="tab-SPS" onclick="switchChannel('SPS')"><span class="ch-num">506</span> FOX SPORTS 506<span class="live-badge" id="badge-SPS"></span></div>
+  <div class="ch-tab" id="tab-FSS" onclick="switchChannel('FSS')"><span class="ch-num">507</span> FOX SPORTS 507<span class="live-badge" id="badge-FSS"></span></div>
+  <div class="ch-tab" id="tab-ESP" onclick="switchChannel('ESP')"><span class="ch-num">ESPN</span> ESPN HD<span class="live-badge" id="badge-ESP"></span></div>
+  <div class="ch-tab" id="tab-ES2" onclick="switchChannel('ES2')"><span class="ch-num">ESPN2</span> ESPN2 HD<span class="live-badge" id="badge-ES2"></span></div>
 </div>
 
 <div class="date-bar">
@@ -259,9 +262,20 @@
 
 <script>
   const REPO_RAW = 'https://raw.githubusercontent.com/Jinx8004NEW/FoxtelEPG/main';
-  const CHANNELS = { FS1:{name:'FOX CRICKET HD',number:'501'}, FSP:{name:'FOX SPORTS 505',number:'505'} };
+  const CHANNELS = {
+    FSN: { name:'Fox Sports News HD', number:'500' },
+    FS1: { name:'Fox Cricket HD',     number:'501' },
+    SP2: { name:'Fox League HD',      number:'502' },
+    FS3: { name:'Fox Sports 503 HD',  number:'503' },
+    FAF: { name:'Fox Footy HD',       number:'504' },
+    FSP: { name:'Fox Sports 505 HD',  number:'505' },
+    SPS: { name:'Fox Sports 506 HD',  number:'506' },
+    FSS: { name:'Fox Sports 507 HD',  number:'507' },
+    ESP: { name:'ESPN HD',            number:'508' },
+    ES2: { name:'ESPN2 HD',           number:'509' },
+  };
 
-  let currentChannel = 'FS1';
+  let currentChannel = 'FSN';
   let currentFilter  = 'all';
   let currentDate    = '';
   let searchQuery    = '';
