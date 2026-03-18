@@ -1,11 +1,23 @@
-// scripts/fetch.js — URL only, no image downloading
+// scripts/fetch.js — 10 channels, URL-only, today + 2 upcoming days
 const https = require('https');
 const zlib  = require('zlib');
 const fs    = require('fs');
 const path  = require('path');
 
 const REGION_ID = process.env.REGION_ID || '8336';
-const CHANNELS  = ['FS1', 'FSP'];
+
+const CHANNELS = [
+  { tag: 'FSN', name: 'Fox Sports News HD', number: '500' },
+  { tag: 'FS1', name: 'Fox Cricket HD',     number: '501' },
+  { tag: 'SP2', name: 'Fox League HD',      number: '502' },
+  { tag: 'FS3', name: 'Fox Sports 503 HD',  number: '503' },
+  { tag: 'FAF', name: 'Fox Footy HD',       number: '504' },
+  { tag: 'FSP', name: 'Fox Sports 505 HD',  number: '505' },
+  { tag: 'SPS', name: 'Fox Sports 506 HD',  number: '506' },
+  { tag: 'FSS', name: 'Fox Sports 507 HD',  number: '507' },
+  { tag: 'ESP', name: 'ESPN HD',            number: '508' },
+  { tag: 'ES2', name: 'ESPN2 HD',           number: '509' },
+];
 
 const USER_AGENTS = [
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
@@ -66,9 +78,9 @@ function fetchJson(url) {
 
 async function fetchWithRetry(url, max = 3) {
   for (let i = 1; i <= max; i++) {
-    try { console.log(`  Attempt ${i}/${max}...`); return await fetchJson(url); }
+    try { return await fetchJson(url); }
     catch (e) {
-      console.log(`  Attempt ${i} failed: ${e.message}`);
+      console.log(`  Attempt ${i}/${max} failed: ${e.message}`);
       if (i < max) await sleep(i * 4000); else throw e;
     }
   }
@@ -87,52 +99,40 @@ function updateIndex(tag, date) {
   if (!index[tag]) index[tag] = [];
   if (!index[tag].includes(date)) {
     index[tag].push(date);
-    index[tag].sort((a, b) => b.localeCompare(a)); // newest first
+    index[tag].sort((a, b) => b.localeCompare(a));
     index[tag] = index[tag].slice(0, 24);
   }
   fs.writeFileSync(indexPath, JSON.stringify(index, null, 2));
-  console.log(`[index] ${tag}: ${index[tag].length} dates`);
 }
 
 async function fetchDayForChannel(tag, offset) {
   const { date, startMs, endMs } = getISTDay(offset);
-  const labels = ['today', 'tomorrow', 'day after tomorrow'];
+  const labels = ['today', 'tomorrow', 'day after'];
   const label  = labels[offset] || `+${offset}d`;
   const dir    = path.join('data', tag);
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-
-  console.log(`\n[${tag}] Fetching ${label} (${date})...`);
 
   let events = [];
   try {
     const url  = `https://www.foxtel.com.au/webepg/ws/foxtel/channel/${tag}/events?movieHeight=110&tvShowHeight=90&regionId=${REGION_ID}&startDate=${startMs}&endDate=${endMs}`;
     const json = await fetchWithRetry(url);
     events = json.events || [];
-    console.log(`[${tag}] ${label}: ${events.length} events`);
   } catch(e) {
-    console.log(`[${tag}] ${label}: fetch failed — ${e.message}`);
-    if (!events.length) throw e;
+    console.log(`  [${tag}] ${label} failed: ${e.message}`);
+    throw e;
   }
 
-  // For today: also merge default endpoint to catch any missing events
+  // For today: also merge default endpoint
   if (offset === 0) {
     try {
-      const defUrl  = `https://www.foxtel.com.au/webepg/ws/foxtel/channel/${tag}/events?movieHeight=110&tvShowHeight=90&regionId=${REGION_ID}`;
-      const defJson = await fetchWithRetry(defUrl);
+      const defJson = await fetchWithRetry(`https://www.foxtel.com.au/webepg/ws/foxtel/channel/${tag}/events?movieHeight=110&tvShowHeight=90&regionId=${REGION_ID}`);
       events = mergeEvents(events, defJson.events || []);
-      console.log(`[${tag}] today merged: ${events.length} events`);
-    } catch(e) {
-      console.log(`[${tag}] default fetch failed: ${e.message}`);
-    }
+    } catch(e) {}
   }
 
-  if (!events.length) { console.log(`[${tag}] ${label}: no events, skipping`); return; }
+  if (!events.length) { console.log(`  [${tag}] ${label}: no events`); return; }
 
-  // Store only the original image URL — no downloading
-  const processed = events.map(ev => ({
-    ...ev,
-    imageUrl: originalUrl(ev.imageUrl),
-  }));
+  const processed = events.map(ev => ({ ...ev, imageUrl: originalUrl(ev.imageUrl) }));
 
   const payload = {
     channel: tag, date, label,
@@ -144,21 +144,29 @@ async function fetchDayForChannel(tag, offset) {
   fs.writeFileSync(path.join(dir, `${date}.json`), JSON.stringify(payload, null, 2));
   if (offset === 0) fs.writeFileSync(path.join(dir, 'latest.json'), JSON.stringify(payload, null, 2));
   updateIndex(tag, date);
-  console.log(`[${tag}] ✓ ${label} saved → data/${tag}/${date}.json`);
+  console.log(`  [${tag}] ✓ ${label} (${date}): ${processed.length} events`);
 }
 
 (async () => {
   if (!fs.existsSync('data')) fs.mkdirSync('data');
 
-  let failed = false;
-  for (const tag of CHANNELS) {
-    for (const offset of [0, 1, 2]) {
-      try { await fetchDayForChannel(tag, offset); await sleep(1500); }
-      catch(e) { console.error(`[${tag}] +${offset}d ✗ ${e.message}`); failed = true; }
-    }
-    await sleep(2000);
+  // Remove old images folder if exists
+  const imagesDir = path.join('data', 'images');
+  if (fs.existsSync(imagesDir)) {
+    fs.rmSync(imagesDir, { recursive: true, force: true });
+    console.log('Removed old data/images folder');
   }
 
-  if (failed) { console.error('\n❌ Some fetches failed'); process.exit(1); }
-  console.log('\n✅ Done — today + 2 upcoming days, URLs only');
+  let failed = 0;
+  for (const ch of CHANNELS) {
+    console.log(`\n── ${ch.name} (${ch.tag}) ──`);
+    for (const offset of [0, 1, 2]) {
+      try { await fetchDayForChannel(ch.tag, offset); await sleep(1000); }
+      catch(e) { console.error(`  [${ch.tag}] +${offset}d failed: ${e.message}`); failed++; }
+    }
+    await sleep(1500);
+  }
+
+  console.log(`\n✅ Done — ${CHANNELS.length} channels × 3 days. ${failed} failures.`);
+  if (failed > 0) process.exit(1);
 })();
