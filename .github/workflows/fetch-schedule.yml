@@ -11,7 +11,7 @@ env:
 jobs:
   fetch-schedule:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repo
@@ -22,24 +22,15 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Remove cached images folder (URL-only mode)
-        run: |
-          if [ -d "data/images" ]; then
-            rm -rf data/images
-            echo "Removed data/images folder"
-          else
-            echo "No images folder found"
-          fi
-
       - name: Wait before fetch
         run: sleep 3
 
-      - name: Fetch schedules (today + 2 upcoming days)
+      - name: Fetch all channels (today + 2 days)
         run: node scripts/fetch.js
         env:
           REGION_ID: 8336
 
-      - name: Delete JSON files older than 21 days
+      - name: Cleanup old files
         run: node scripts/cleanup.js
 
       - name: Commit and push
