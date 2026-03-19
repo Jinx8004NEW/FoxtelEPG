@@ -2,8 +2,8 @@
   "channel": "FSS",
   "date": "2026-03-20",
   "label": "tomorrow",
-  "fetchedAt": 1773866073763,
-  "fetchedAtIST": "19/3/2026, 2:04:33 am",
+  "fetchedAt": 1773885710878,
+  "fetchedAtIST": "19/3/2026, 7:31:50 am",
   "events": [
     {
       "eventId": 174501474,
@@ -239,7 +239,7 @@
       "pashTag": "NEW EPISODE",
       "displaySepNum": false,
       "versionNum": 2576081,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kn9ro1.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/vz9fu9.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -256,7 +256,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2576081,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/t1yst6.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xfdp51.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -290,7 +290,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2576081,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/qd9rq7.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8nx4rm.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -307,7 +307,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2576081,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/aaoc4e.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7vqzo9.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -341,7 +341,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2576081,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/t1yst6.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xfdp51.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -392,7 +392,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2576081,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kn9ro1.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/vz9fu9.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
