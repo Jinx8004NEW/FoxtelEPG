@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-03-21",
   "label": "day after",
-  "fetchedAt": 1773925238519,
-  "fetchedAtIST": "19/3/2026, 6:30:38 pm",
+  "fetchedAt": 1773939380475,
+  "fetchedAtIST": "19/3/2026, 10:26:20 pm",
   "events": [
     {
       "eventId": 174718425,
@@ -264,7 +264,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2572718,
+      "versionNum": 2576680,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/rw4jjn.jpg",
       "placeholder": false,
       "isMovie": false,
@@ -281,7 +281,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2572718,
+      "versionNum": 2576680,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/n7b36.jpg",
       "placeholder": false,
       "isMovie": false,
