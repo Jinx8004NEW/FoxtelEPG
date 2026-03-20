@@ -1,0 +1,58 @@
+{
+  "channel": "ES2",
+  "date": "2026-03-17",
+  "fetchedAt": 1774010709324,
+  "fetchedAtIST": "20/3/2026, 6:15:09 pm",
+  "events": [
+    {
+      "eventId": 174718594,
+      "programTitle": "Live: First Take",
+      "channelId": 321,
+      "scheduledDate": 1773756000000,
+      "duration": 120,
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2571662,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/9cyo6.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 174718595,
+      "programTitle": "Live: The Pat McAfee Show",
+      "channelId": 321,
+      "scheduledDate": 1773763200000,
+      "duration": 120,
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2571662,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/5xgtu4.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 174718596,
+      "programTitle": "30 for 30",
+      "channelId": 321,
+      "scheduledDate": 1773770400000,
+      "duration": 60,
+      "episodeTitle": "Four Days in October",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "1",
+      "episodeNumber": "24",
+      "displaySepNum": false,
+      "versionNum": 2571662,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/9196i.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}
