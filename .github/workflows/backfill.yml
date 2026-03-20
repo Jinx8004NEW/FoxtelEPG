@@ -1,0 +1,40 @@
+name: Backfill Historical Data
+
+on:
+  workflow_dispatch:
+    inputs:
+      days_back:
+        description: 'How many past days to fetch (default 14)'
+        required: false
+        default: '14'
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run backfill
+        run: node scripts/backfill.js
+        env:
+          REGION_ID: 8336
+          DAYS_BACK: ${{ github.event.inputs.days_back || '14' }}
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && echo "No changes" || git commit -m "Backfill: last ${{ github.event.inputs.days_back || '14' }} days all channels"
+          git push
