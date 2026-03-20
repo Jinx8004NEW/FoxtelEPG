@@ -1,10 +1,27 @@
 {
   "channel": "FSS",
   "date": "2026-03-21",
-  "label": "tomorrow",
-  "fetchedAt": 1774024863986,
-  "fetchedAtIST": "20/3/2026, 10:11:03 pm",
+  "label": "today",
+  "fetchedAt": 1774038598584,
+  "fetchedAtIST": "21/3/2026, 1:59:58 am",
   "events": [
+    {
+      "eventId": 174501496,
+      "programTitle": "Golf: USLPGA: Founder's Cup R1",
+      "channelId": 664,
+      "scheduledDate": 1774006200000,
+      "duration": 90,
+      "episodeTitle": "Founder's Cup R1",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2577038,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/jc9c2j.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 175259868,
       "programTitle": "MotorRacing 360",
