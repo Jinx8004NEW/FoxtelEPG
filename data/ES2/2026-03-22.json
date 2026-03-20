@@ -1,8 +1,9 @@
 {
   "channel": "ES2",
   "date": "2026-03-22",
-  "fetchedAt": 1774010713632,
-  "fetchedAtIST": "20/3/2026, 6:15:13 pm",
+  "label": "day after",
+  "fetchedAt": 1774010845167,
+  "fetchedAtIST": "20/3/2026, 6:17:25 pm",
   "events": [
     {
       "eventId": 174718657,
