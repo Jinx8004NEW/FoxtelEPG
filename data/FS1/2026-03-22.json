@@ -2,8 +2,8 @@
   "channel": "FS1",
   "date": "2026-03-22",
   "label": "day after",
-  "fetchedAt": 1773952493942,
-  "fetchedAtIST": "20/3/2026, 2:04:53 am",
+  "fetchedAt": 1773971732473,
+  "fetchedAtIST": "20/3/2026, 7:25:32 am",
   "events": [
     {
       "eventId": 175169328,
@@ -222,7 +222,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2576137,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xaq7ke.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/fcyrxy.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
