@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-03-21",
   "label": "today",
-  "fetchedAt": 1774038610168,
-  "fetchedAtIST": "21/3/2026, 2:00:10 am",
+  "fetchedAt": 1774057813944,
+  "fetchedAtIST": "21/3/2026, 7:20:13 am",
   "events": [
     {
       "eventId": 174718642,
@@ -217,7 +217,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2571662,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6gau1u.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/s8lith.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
