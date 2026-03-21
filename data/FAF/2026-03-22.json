@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-03-22",
   "label": "tomorrow",
-  "fetchedAt": 1774096998777,
-  "fetchedAtIST": "21/3/2026, 6:13:18 pm",
+  "fetchedAt": 1774110421745,
+  "fetchedAtIST": "21/3/2026, 9:57:01 pm",
   "events": [
     {
       "eventId": 174551593,
@@ -33,7 +33,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2577140,
+      "versionNum": 2577626,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/u70t8d.png",
       "placeholder": false,
       "isMovie": false,
