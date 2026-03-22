@@ -1,10 +1,27 @@
 {
   "channel": "FS3",
   "date": "2026-03-23",
-  "label": "tomorrow",
-  "fetchedAt": 1774196871366,
-  "fetchedAtIST": "22/3/2026, 9:57:51 pm",
+  "label": "today",
+  "fetchedAt": 1774211109230,
+  "fetchedAtIST": "23/3/2026, 1:55:09 am",
   "events": [
+    {
+      "eventId": 174738882,
+      "programTitle": "Live: USPGA: Valspar Championship FR",
+      "channelId": 133,
+      "scheduledDate": 1774179000000,
+      "duration": 330,
+      "episodeTitle": "Valspar Championship FR",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2577621,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7zc67c.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 174738883,
       "programTitle": "Live: USPGA: Valspar Championship FR",
