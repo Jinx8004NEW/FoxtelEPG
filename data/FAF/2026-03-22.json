@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-03-22",
   "label": "today",
-  "fetchedAt": 1774124647070,
-  "fetchedAtIST": "22/3/2026, 1:54:07 am",
+  "fetchedAt": 1774144896089,
+  "fetchedAtIST": "22/3/2026, 7:31:36 am",
   "events": [
     {
       "eventId": 175161108,
@@ -288,7 +288,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2577140,
+      "versionNum": 2576892,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xmqtkg.png",
       "placeholder": false,
       "isMovie": false,
@@ -526,7 +526,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2577140,
+      "versionNum": 2576892,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o120xl.png",
       "placeholder": false,
       "isMovie": false,

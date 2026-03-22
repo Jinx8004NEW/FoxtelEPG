@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-03-22",
   "label": "today",
-  "fetchedAt": 1774124635720,
-  "fetchedAtIST": "22/3/2026, 1:53:55 am",
+  "fetchedAt": 1774144885115,
+  "fetchedAtIST": "22/3/2026, 7:31:25 am",
   "events": [
     {
       "eventId": 174244812,
@@ -342,7 +342,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2576505,
+      "versionNum": 2577572,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xwaaya.png",
       "placeholder": false,
       "isMovie": false,
