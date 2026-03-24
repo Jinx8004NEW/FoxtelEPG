@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-03-26",
   "label": "day after",
-  "fetchedAt": 1774298176586,
-  "fetchedAtIST": "24/3/2026, 2:06:16 am",
+  "fetchedAt": 1774317271080,
+  "fetchedAtIST": "24/3/2026, 7:24:31 am",
   "events": [
     {
       "eventId": 174662067,
@@ -445,7 +445,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2578349,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/l31nz2.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
