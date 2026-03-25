@@ -280,7 +280,7 @@
   let currentDate    = '';
   let searchQuery    = '';
   let isCompact      = false;
-  let availableDates = { FS1:[], FSP:[] };
+  let availableDates = { FSN:[],FS1:[],SP2:[],FS3:[],FAF:[],FSP:[],SPS:[],FSS:[],ESP:[],ES2:[] };
   let loadedData     = {};
 
   /* ── THEME ── */
@@ -492,8 +492,9 @@
   async function fetchIndex() {
     const res  = await fetch(`${REPO_RAW}/data/index.json?_=${Date.now()}`);
     const data = await res.json();
-    availableDates.FS1 = data.FS1 || [];
-    availableDates.FSP = data.FSP || [];
+    Object.keys(CHANNELS).forEach(tag => {
+      availableDates[tag] = data[tag] || [];
+    });
     renderDatePicker();
     const today = todayIST();
     const dates = availableDates[currentChannel];
@@ -610,7 +611,7 @@
       <div class="stat"><div class="stat-num">${isToday?upcoming.length:'—'}</div><div class="stat-label">Upcoming</div></div>
     `;
     document.getElementById('footer-info').textContent =
-      `FS1: ${availableDates.FS1.length} days · FSP: ${availableDates.FSP.length} days · 21-day retention`;
+      Object.keys(CHANNELS).map(t => `${t}: ${availableDates[t]?.length||0}d`).join(' · ');
 
     updateNowPlaying(events);
 
