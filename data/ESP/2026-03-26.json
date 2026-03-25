@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-03-26",
   "label": "tomorrow",
-  "fetchedAt": 1774384776174,
-  "fetchedAtIST": "25/3/2026, 2:09:36 am",
+  "fetchedAt": 1774404043937,
+  "fetchedAtIST": "25/3/2026, 7:30:43 am",
   "events": [
     {
       "eventId": 174718516,
@@ -16,7 +16,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2578992,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/6hrbr.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -32,7 +32,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2578992,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ax902.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -65,7 +65,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2578992,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/a7nku.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -81,7 +81,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2578992,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/9u1ey.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -97,7 +97,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2578992,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/i9ubpv.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -147,7 +147,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2578992,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/6hrbr.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -163,7 +163,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2578992,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/a7nku.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -215,7 +215,7 @@
       "pashTag": "NEW EPISODE",
       "displaySepNum": false,
       "versionNum": 2578992,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/agtuk.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -231,7 +231,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2578992,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/bdx9n.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -281,7 +281,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2578992,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/9aii8.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -313,7 +313,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2578992,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/6hrbr.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
