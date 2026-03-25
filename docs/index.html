@@ -194,7 +194,7 @@
     <div class="ist-clock" id="ist-clock">--:--:-- IST</div>
   </div>
   <div class="header-right">
-    <button class="hbtn compact-btn" id="compact-btn" onclick="toggleCompact()" title="Compact view (C)">⊟ COMPACT</button>
+    <button class="hbtn compact-btn" id="compact-btn" onclick="toggleCompact()" title="Compact view (V)">⊟ COMPACT</button>
     <button class="hbtn" onclick="toggleTheme()"><span id="theme-icon">☀️</span> <span id="theme-lbl">LIGHT</span></button>
     <button class="hbtn bebas" id="refresh-btn" onclick="refreshCurrent()"><span class="si">↻</span> REFRESH</button>
   </div>
@@ -482,10 +482,15 @@
   /* ── KEYBOARD SHORTCUTS ── */
   document.addEventListener('keydown', e => {
     if (e.target.tagName === 'INPUT') return;
+    // L = jump to live
     if (e.key === 'l' || e.key === 'L') { jumpToLive(); showKbd('<kbd>L</kbd> Jump to live'); }
+    // / = focus search
     if (e.key === '/') { e.preventDefault(); document.getElementById('search-input').focus(); }
-    if (e.key === 'c' || e.key === 'C') { toggleCompact(); showKbd('<kbd>C</kbd> Compact view'); }
+    // V = toggle compact view (V for View)
+    if (e.key === 'v' || e.key === 'V') { toggleCompact(); showKbd('<kbd>V</kbd> Compact view'); }
+    // Escape = clear search
     if (e.key === 'Escape') { clearSearch(); document.getElementById('search-input').blur(); }
+    // Ctrl+C is left entirely to browser default (copy)
   });
 
   /* ── FETCH INDEX ── */
@@ -548,7 +553,8 @@
     else if (currentFilter === 'upcoming') evs = events.filter(e => e.scheduledDate > now);
     else if (currentFilter === 'past')     evs = events.filter(e => now >= e.scheduledDate + e.duration*60000);
     if (searchQuery) evs = evs.filter(e =>
-      e.programTitle.toLowerCase().includes(searchQuery) || e.episodeTitle.toLowerCase().includes(searchQuery)
+      (e.programTitle || '').toLowerCase().includes(searchQuery) ||
+      (e.episodeTitle || '').toLowerCase().includes(searchQuery)
     );
     return evs;
   }
@@ -667,8 +673,8 @@
           <a class="dl-btn" href="${imgSrc}" download="${ev.programTitle.replace(/[^a-z0-9]/gi,'_')}.png" target="_blank">⬇</a>
         </div>
         <div class="info-col">
-          <div class="show-title">${highlight(ev.programTitle, searchQuery)}</div>
-          <div class="show-ep">${highlight(ev.episodeTitle, searchQuery)}</div>
+          <div class="show-title">${highlight(ev.programTitle || '', searchQuery)}</div>
+          <div class="show-ep">${highlight(ev.episodeTitle || '', searchQuery)}</div>
           <div class="tags">
             ${isLive?'<span class="tag tag-live">● LIVE</span>':''}
             ${ev.premiereInd?'<span class="tag tag-premiere">PREMIERE</span>':''}
