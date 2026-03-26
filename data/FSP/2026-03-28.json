@@ -2,8 +2,8 @@
   "channel": "FSP",
   "date": "2026-03-28",
   "label": "day after",
-  "fetchedAt": 1774503641175,
-  "fetchedAtIST": "26/3/2026, 11:10:41 am",
+  "fetchedAt": 1774515187510,
+  "fetchedAtIST": "26/3/2026, 2:23:07 pm",
   "events": [
     {
       "eventId": 174902010,
@@ -84,7 +84,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2579231,
+      "versionNum": 2579751,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/njn7ce.png",
       "placeholder": false,
       "isMovie": false,

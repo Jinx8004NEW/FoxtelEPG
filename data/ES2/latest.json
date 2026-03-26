@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-03-26",
   "label": "today",
-  "fetchedAt": 1774503660683,
-  "fetchedAtIST": "26/3/2026, 11:11:00 am",
+  "fetchedAt": 1774515208513,
+  "fetchedAtIST": "26/3/2026, 2:23:28 pm",
   "events": [
     {
       "eventId": 175360452,
@@ -335,7 +335,7 @@
       "premiereInd": false,
       "seriesNumber": "2025",
       "displaySepNum": false,
-      "versionNum": 2579150,
+      "versionNum": 2579632,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hmoznj.jpg",
       "placeholder": false,
       "isMovie": false,
