@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-03-28",
   "label": "tomorrow",
-  "fetchedAt": 1774557269366,
-  "fetchedAtIST": "27/3/2026, 2:04:29 am",
+  "fetchedAt": 1774577254046,
+  "fetchedAtIST": "27/3/2026, 7:37:34 am",
   "events": [
     {
       "eventId": 175168560,
@@ -118,7 +118,7 @@
       "pashTag": "NEW EPISODE",
       "displaySepNum": false,
       "versionNum": 2579632,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
