@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-03-28",
   "label": "today",
-  "fetchedAt": 1774687029247,
-  "fetchedAtIST": "28/3/2026, 2:07:09 pm",
+  "fetchedAt": 1774702304556,
+  "fetchedAtIST": "28/3/2026, 6:21:44 pm",
   "events": [
     {
       "eventId": 175362609,
@@ -301,7 +301,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2580534,
+      "versionNum": 2580703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/rim8gz.png",
       "placeholder": false,
       "isMovie": false,
