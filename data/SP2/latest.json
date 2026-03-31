@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-03-31",
   "label": "today",
-  "fetchedAt": 1774935830103,
-  "fetchedAtIST": "31/3/2026, 11:13:50 am",
+  "fetchedAt": 1774947380809,
+  "fetchedAtIST": "31/3/2026, 2:26:20 pm",
   "events": [
     {
       "eventId": 174715583,
@@ -447,7 +447,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2581504,
+      "versionNum": 2581857,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/366rlp.jpg",
       "placeholder": false,
       "isMovie": false,
@@ -464,7 +464,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2581504,
+      "versionNum": 2581857,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/aqozar.png",
       "placeholder": false,
       "isMovie": false,
