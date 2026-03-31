@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-04-02",
   "label": "day after",
-  "fetchedAt": 1774903339608,
-  "fetchedAtIST": "31/3/2026, 2:12:19 am",
+  "fetchedAt": 1774922860862,
+  "fetchedAtIST": "31/3/2026, 7:37:40 am",
   "events": [
     {
       "eventId": 175056791,
@@ -377,7 +377,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2581504,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/jrf2l0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

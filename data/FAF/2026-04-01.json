@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-04-01",
   "label": "tomorrow",
-  "fetchedAt": 1774903349676,
-  "fetchedAtIST": "31/3/2026, 2:12:29 am",
+  "fetchedAt": 1774922871641,
+  "fetchedAtIST": "31/3/2026, 7:37:51 am",
   "events": [
     {
       "eventId": 174826038,
@@ -562,7 +562,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2581545,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/b2jor.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
