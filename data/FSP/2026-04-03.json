@@ -1,0 +1,60 @@
+{
+  "channel": "FSP",
+  "date": "2026-04-03",
+  "label": "day after",
+  "fetchedAt": 1774989643519,
+  "fetchedAtIST": "1/4/2026, 2:10:43 am",
+  "events": [
+    {
+      "eventId": 175387826,
+      "programTitle": "MotoGP: United States Race",
+      "channelId": 93,
+      "scheduledDate": 1775224800000,
+      "duration": 60,
+      "episodeTitle": "United States Race",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2581991,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/nfs2pr.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 175120663,
+      "programTitle": "SailGP: Sydney Day 2",
+      "channelId": 93,
+      "scheduledDate": 1775235600000,
+      "duration": 90,
+      "episodeTitle": "Sydney Day 2",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2581991,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ovzf4g.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 175387827,
+      "programTitle": "F1 Mini: Japan",
+      "channelId": 93,
+      "scheduledDate": 1775241000000,
+      "duration": 30,
+      "episodeTitle": "Japan",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2581991,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/io0ry0.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}
