@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-04-01",
   "label": "tomorrow",
-  "fetchedAt": 1774962833204,
-  "fetchedAtIST": "31/3/2026, 6:43:53 pm",
+  "fetchedAt": 1774976169835,
+  "fetchedAtIST": "31/3/2026, 10:26:09 pm",
   "events": [
     {
       "eventId": 174774123,
@@ -407,7 +407,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2580272,
+      "versionNum": 2581991,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8iy2w.png",
       "placeholder": false,
       "isMovie": false,
