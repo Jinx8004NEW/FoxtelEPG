@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-04-02",
   "label": "tomorrow",
-  "fetchedAt": 1775034111428,
-  "fetchedAtIST": "1/4/2026, 2:31:51 pm",
+  "fetchedAt": 1775049444252,
+  "fetchedAtIST": "1/4/2026, 6:47:24 pm",
   "events": [
     {
       "eventId": 175362425,
@@ -279,7 +279,7 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": false,
-      "versionNum": 2582338,
+      "versionNum": 2582606,
       "imageUrl": "",
       "placeholder": false,
       "isMovie": false,
@@ -296,7 +296,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2582338,
+      "versionNum": 2582606,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ng4b7c.png",
       "placeholder": false,
       "isMovie": false,
