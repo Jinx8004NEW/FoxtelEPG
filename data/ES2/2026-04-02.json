@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-04-02",
   "label": "tomorrow",
-  "fetchedAt": 1774989664888,
-  "fetchedAtIST": "1/4/2026, 2:11:04 am",
+  "fetchedAt": 1775010297039,
+  "fetchedAtIST": "1/4/2026, 7:54:57 am",
   "events": [
     {
       "eventId": 175385838,
@@ -64,7 +64,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2582035,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/9aii8.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -198,7 +198,7 @@
       "seriesNumber": "2025",
       "displaySepNum": false,
       "versionNum": 2582035,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kvpk7v.jpg",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/vdyhna.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -215,7 +215,7 @@
       "seriesNumber": "2025",
       "displaySepNum": false,
       "versionNum": 2582035,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ar8nv1.jpg",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/u68nn0.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

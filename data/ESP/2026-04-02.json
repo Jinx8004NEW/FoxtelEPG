@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-04-02",
   "label": "tomorrow",
-  "fetchedAt": 1774989659256,
-  "fetchedAtIST": "1/4/2026, 2:10:59 am",
+  "fetchedAt": 1775010291351,
+  "fetchedAtIST": "1/4/2026, 7:54:51 am",
   "events": [
     {
       "eventId": 175362425,
@@ -145,7 +145,7 @@
       "seriesNumber": "2025",
       "displaySepNum": false,
       "versionNum": 2581768,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kvpk7v.jpg",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/vdyhna.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -162,7 +162,7 @@
       "seriesNumber": "2025",
       "displaySepNum": false,
       "versionNum": 2581768,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ar8nv1.jpg",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/u68nn0.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -178,7 +178,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2581768,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/6hrbr.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -330,7 +330,7 @@
       "pashTag": "NEW EPISODE",
       "displaySepNum": false,
       "versionNum": 2581768,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

@@ -2,8 +2,8 @@
   "channel": "FSS",
   "date": "2026-04-01",
   "label": "today",
-  "fetchedAt": 1774989652318,
-  "fetchedAtIST": "1/4/2026, 2:10:52 am",
+  "fetchedAt": 1775010284377,
+  "fetchedAtIST": "1/4/2026, 7:54:44 am",
   "events": [
     {
       "eventId": 174773201,
@@ -35,7 +35,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2582039,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/as4av.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1i1aet.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -157,7 +157,7 @@
       "pashTag": "NEW EPISODE",
       "displaySepNum": false,
       "versionNum": 2582039,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/81tia.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ryfviy.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -175,7 +175,7 @@
       "pashTag": "NEW EPISODE",
       "displaySepNum": false,
       "versionNum": 2582039,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/81tia.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8nowf.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -227,7 +227,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2582039,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/as4av.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1i1aet.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -244,7 +244,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2582039,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6xldo.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/w1w3gb.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

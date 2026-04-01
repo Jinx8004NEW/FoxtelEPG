@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-04-03",
   "label": "day after",
-  "fetchedAt": 1774989666165,
-  "fetchedAtIST": "1/4/2026, 2:11:06 am",
+  "fetchedAt": 1775010298320,
+  "fetchedAtIST": "1/4/2026, 7:54:58 am",
   "events": [
     {
       "eventId": 175362675,
@@ -118,7 +118,7 @@
       "pashTag": "NEW EPISODE",
       "displaySepNum": false,
       "versionNum": 2582035,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/bbugz.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
