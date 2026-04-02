@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-04-04",
   "label": "day after",
-  "fetchedAt": 1775135317364,
-  "fetchedAtIST": "2/4/2026, 6:38:37 pm",
+  "fetchedAt": 1775148918065,
+  "fetchedAtIST": "2/4/2026, 10:25:18 pm",
   "events": [
     {
       "eventId": 175385843,
@@ -212,7 +212,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2582825,
+      "versionNum": 2583045,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/9crg5.jpg",
       "placeholder": false,
       "isMovie": false,
