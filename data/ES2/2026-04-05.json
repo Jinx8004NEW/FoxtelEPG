@@ -1,0 +1,73 @@
+{
+  "channel": "ES2",
+  "date": "2026-04-05",
+  "label": "day after",
+  "fetchedAt": 1775162011461,
+  "fetchedAtIST": "3/4/2026, 2:03:31 am",
+  "events": [
+    {
+      "eventId": 175563786,
+      "programTitle": "Quick Pitch",
+      "channelId": 321,
+      "scheduledDate": 1775401200000,
+      "duration": 60,
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2583045,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/bbugz.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 175642037,
+      "programTitle": "Quick Pitch",
+      "channelId": 321,
+      "scheduledDate": 1775404800000,
+      "duration": 60,
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2583045,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/bbugz.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 175642038,
+      "programTitle": "30 for 30",
+      "channelId": 321,
+      "scheduledDate": 1775408400000,
+      "duration": 90,
+      "episodeTitle": "Breakaway",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": false,
+      "versionNum": 2583045,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/9b2ql.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 175642039,
+      "programTitle": "SC: NFL Blitz",
+      "channelId": 321,
+      "scheduledDate": 1775413800000,
+      "duration": 30,
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2583045,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/92dnc.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}
