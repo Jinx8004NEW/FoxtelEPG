@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-04-04",
   "label": "day after",
-  "fetchedAt": 1775076083932,
-  "fetchedAtIST": "2/4/2026, 2:11:23 am",
+  "fetchedAt": 1775095522784,
+  "fetchedAtIST": "2/4/2026, 7:35:22 am",
   "events": [
     {
       "eventId": 175539777,
@@ -155,7 +155,7 @@
       "pashTag": "NEW SEASON",
       "displaySepNum": false,
       "versionNum": 2582593,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7spt93.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/wkfr42.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

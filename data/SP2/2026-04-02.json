@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-04-02",
   "label": "today",
-  "fetchedAt": 1775076058543,
-  "fetchedAtIST": "2/4/2026, 2:10:58 am",
+  "fetchedAt": 1775095440737,
+  "fetchedAtIST": "2/4/2026, 7:34:00 am",
   "events": [
     {
       "eventId": 175056784,
@@ -466,7 +466,7 @@
       "pashTag": "ROUND 5",
       "displaySepNum": false,
       "versionNum": 2581504,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v4nc6i.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sx008m.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -569,7 +569,7 @@
       "pashTag": "ROUND 5",
       "displaySepNum": false,
       "versionNum": 2581504,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v4nc6i.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sx008m.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -621,7 +621,7 @@
       "pashTag": "ROUND 5",
       "displaySepNum": false,
       "versionNum": 2581504,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v4nc6i.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sx008m.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
