@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-04-03",
   "label": "today",
-  "fetchedAt": 1775194903024,
-  "fetchedAtIST": "3/4/2026, 11:11:43 am",
+  "fetchedAt": 1775206298756,
+  "fetchedAtIST": "3/4/2026, 2:21:38 pm",
   "events": [
     {
       "eventId": 175362671,
@@ -163,7 +163,7 @@
       "premiereInd": false,
       "seriesNumber": "2025",
       "displaySepNum": false,
-      "versionNum": 2582859,
+      "versionNum": 2583283,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v9d8gb.jpg",
       "placeholder": false,
       "isMovie": false,

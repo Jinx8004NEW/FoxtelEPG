@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-04-03",
   "label": "today",
-  "fetchedAt": 1775194886577,
-  "fetchedAtIST": "3/4/2026, 11:11:26 am",
+  "fetchedAt": 1775206281799,
+  "fetchedAtIST": "3/4/2026, 2:21:21 pm",
   "events": [
     {
       "eventId": 174908874,
@@ -288,7 +288,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2583041,
+      "versionNum": 2583283,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/nfs2pr.png",
       "placeholder": false,
       "isMovie": false,

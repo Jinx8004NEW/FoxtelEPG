@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-04-03",
   "label": "today",
-  "fetchedAt": 1775194864594,
-  "fetchedAtIST": "3/4/2026, 11:11:04 am",
+  "fetchedAt": 1775206259223,
+  "fetchedAtIST": "3/4/2026, 2:20:59 pm",
   "events": [
     {
       "eventId": 175056813,
@@ -446,7 +446,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2582819,
+      "versionNum": 2583284,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xuc6ah.png",
       "placeholder": false,
       "isMovie": false,
