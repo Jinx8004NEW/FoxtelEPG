@@ -2,8 +2,8 @@
   "channel": "FSP",
   "date": "2026-04-05",
   "label": "day after",
-  "fetchedAt": 1775161989418,
-  "fetchedAtIST": "3/4/2026, 2:03:09 am",
+  "fetchedAt": 1775181967093,
+  "fetchedAtIST": "3/4/2026, 7:36:07 am",
   "events": [
     {
       "eventId": 175587930,
@@ -357,7 +357,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2582819,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/aztots.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
