@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-04-04",
   "label": "today",
-  "fetchedAt": 1775291948830,
-  "fetchedAtIST": "4/4/2026, 2:09:08 pm",
+  "fetchedAt": 1775307089394,
+  "fetchedAtIST": "4/4/2026, 6:21:29 pm",
   "events": [
     {
       "eventId": 175563783,
@@ -280,7 +280,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2583675,
+      "versionNum": 2583818,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/92dnc.jpg",
       "placeholder": false,
       "isMovie": false,
