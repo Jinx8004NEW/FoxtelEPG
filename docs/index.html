@@ -218,6 +218,8 @@
   <div class="ch-tab" id="tab-FSS" onclick="switchChannel('FSS')"><span class="ch-num">507</span> FOX SPORTS 507<span class="live-badge" id="badge-FSS"></span></div>
   <div class="ch-tab" id="tab-ESP" onclick="switchChannel('ESP')"><span class="ch-num">ESPN</span> ESPN HD<span class="live-badge" id="badge-ESP"></span></div>
   <div class="ch-tab" id="tab-ES2" onclick="switchChannel('ES2')"><span class="ch-num">ESPN2</span> ESPN2 HD<span class="live-badge" id="badge-ES2"></span></div>
+  <div class="ch-tab" id="tab-RTV" onclick="switchChannel('RTV')"><span class="ch-num">529</span> RACING.COM HD<span class="live-badge" id="badge-RTV"></span></div>
+  <div class="ch-tab" id="tab-UFC" onclick="switchChannel('UFC')"><span class="ch-num">523</span> MAIN EVENT UFC<span class="live-badge" id="badge-UFC"></span></div>
 </div>
 
 <div class="date-bar">
@@ -273,6 +275,8 @@
     FSS: { name:'Fox Sports 507 HD',  number:'507' },
     ESP: { name:'ESPN HD',            number:'508' },
     ES2: { name:'ESPN2 HD',           number:'509' },
+    RTV: { name:'Racing.com HD',      number:'529' },
+    UFC: { name:'Main Event UFC',     number:'523' },
   };
 
   let currentChannel = 'FSN';
@@ -280,7 +284,7 @@
   let currentDate    = '';
   let searchQuery    = '';
   let isCompact      = false;
-  let availableDates = { FSN:[],FS1:[],SP2:[],FS3:[],FAF:[],FSP:[],SPS:[],FSS:[],ESP:[],ES2:[] };
+  let availableDates = { FSN:[],FS1:[],SP2:[],FS3:[],FAF:[],FSP:[],SPS:[],FSS:[],ESP:[],ES2:[],RTV:[],UFC:[] };
   let loadedData     = {};
 
   /* ── THEME ── */
