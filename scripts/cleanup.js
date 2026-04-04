@@ -2,7 +2,7 @@
 const fs   = require('fs');
 const path = require('path');
 
-const CHANNELS = ['FSN','FS1','SP2','FS3','FAF','FSP','SPS','FSS','ESP','ES2'];
+const CHANNELS = ['FSN','FS1','SP2','FS3','FAF','FSP','SPS','FSS','ESP','ES2','RTV','UFC'];
 const MAX_DAYS = 21;
 
 function getISTDay(offset = 0) {
