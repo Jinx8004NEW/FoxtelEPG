@@ -1,4 +1,4 @@
-// scripts/fetch.js — 10 channels, URL-only, today + 2 upcoming days
+// scripts/fetch.js — 12 channels, URL-only, today + 2 upcoming days
 const https = require('https');
 const zlib  = require('zlib');
 const fs    = require('fs');
@@ -17,6 +17,8 @@ const CHANNELS = [
   { tag: 'FSS', name: 'Fox Sports 507 HD',  number: '507' },
   { tag: 'ESP', name: 'ESPN HD',            number: '508' },
   { tag: 'ES2', name: 'ESPN2 HD',           number: '509' },
+  { tag: 'RTV', name: 'Racing.com HD',      number: '529' },
+  { tag: 'UFC', name: 'Main Event UFC',     number: '523' },
 ];
 
 const USER_AGENTS = [
@@ -168,5 +170,30 @@ async function fetchDayForChannel(tag, offset) {
   }
 
   console.log(`\n✅ Done — ${CHANNELS.length} channels × 3 days. ${failed} failures.`);
+  rebuildSearchIndex();
   if (failed > 0) process.exit(1);
 })();
+
+function rebuildSearchIndex() {
+  const entries = [];
+  for (const ch of CHANNELS) {
+    const dir = path.join('data', ch.tag);
+    if (!fs.existsSync(dir)) continue;
+    const files = fs.readdirSync(dir).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f));
+    for (const file of files) {
+      try {
+        const data = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
+        for (const ev of (data.events || [])) {
+          entries.push({
+            c: ch.tag, d: data.date, id: ev.eventId,
+            t: ev.programTitle || '', e: ev.episodeTitle || '',
+            s: ev.scheduledDate, dur: ev.duration, img: ev.imageUrl || '',
+          });
+        }
+      } catch {}
+    }
+  }
+  entries.sort((a, b) => b.d.localeCompare(a.d) || a.s - b.s);
+  fs.writeFileSync(path.join('data', 'search-index.json'), JSON.stringify(entries));
+  console.log(`[search-index] Built ${entries.length} entries`);
+}
