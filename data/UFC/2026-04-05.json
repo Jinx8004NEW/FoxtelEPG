@@ -1,10 +1,25 @@
 {
   "channel": "UFC",
   "date": "2026-04-05",
-  "label": "tomorrow",
-  "fetchedAt": 1775320409541,
-  "fetchedAtIST": "4/4/2026, 10:03:29 pm",
+  "label": "today",
+  "fetchedAt": 1775334534898,
+  "fetchedAtIST": "5/4/2026, 1:58:54 am",
   "events": [
+    {
+      "eventId": 175133237,
+      "programTitle": "UFC 92 Evans v Griffin (2008)",
+      "channelId": 817,
+      "scheduledDate": 1775307300000,
+      "duration": 35,
+      "parentalRating": "M",
+      "premiereInd": false,
+      "displaySepNum": false,
+      "versionNum": 2583283,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 175133264,
       "programTitle": "UFC 179 Aldo v Mendes 2 (2014)",

@@ -1,10 +1,25 @@
 {
   "channel": "RTV",
   "date": "2026-04-05",
-  "label": "tomorrow",
-  "fetchedAt": 1775320403879,
-  "fetchedAtIST": "4/4/2026, 10:03:23 pm",
+  "label": "today",
+  "fetchedAt": 1775334529036,
+  "fetchedAtIST": "5/4/2026, 1:58:49 am",
   "events": [
+    {
+      "eventId": 175361643,
+      "programTitle": "Racenight Live: UK Racing",
+      "channelId": 571,
+      "scheduledDate": 1775304900000,
+      "duration": 360,
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": false,
+      "versionNum": 2582481,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7j38t.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 175361644,
       "programTitle": "Raceday Review - Caulfield",

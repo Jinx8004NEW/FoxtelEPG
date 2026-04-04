@@ -1,10 +1,27 @@
 {
   "channel": "ES2",
   "date": "2026-04-05",
-  "label": "tomorrow",
-  "fetchedAt": 1775320398266,
-  "fetchedAtIST": "4/4/2026, 10:03:18 pm",
+  "label": "today",
+  "fetchedAt": 1775334523099,
+  "fetchedAtIST": "5/4/2026, 1:58:43 am",
   "events": [
+    {
+      "eventId": 175385858,
+      "programTitle": "Quick Pitch",
+      "channelId": 321,
+      "scheduledDate": 1775304000000,
+      "duration": 60,
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "NEW EPISODE",
+      "displaySepNum": false,
+      "versionNum": 2583818,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/bbugz.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 175563786,
       "programTitle": "Quick Pitch",

@@ -1,10 +1,27 @@
 {
   "channel": "FSS",
   "date": "2026-04-05",
-  "label": "tomorrow",
-  "fetchedAt": 1775320387061,
-  "fetchedAtIST": "4/4/2026, 10:03:07 pm",
+  "label": "today",
+  "fetchedAt": 1775334511220,
+  "fetchedAtIST": "5/4/2026, 1:58:31 am",
   "events": [
+    {
+      "eventId": 174901844,
+      "programTitle": "F1 Mini: Japan",
+      "channelId": 664,
+      "scheduledDate": 1775305800000,
+      "duration": 30,
+      "episodeTitle": "Japan",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2583024,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/io0ry0.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 174929577,
       "programTitle": "SailGP: Sydney Day 1",
