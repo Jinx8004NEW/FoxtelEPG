@@ -21,6 +21,8 @@ const CHANNELS = [
   { tag: 'FSS', name: 'Fox Sports 507 HD'  },
   { tag: 'ESP', name: 'ESPN HD'            },
   { tag: 'ES2', name: 'ESPN2 HD'           },
+  { tag: 'RTV', name: 'Racing.com HD'      },
+  { tag: 'UFC', name: 'Main Event UFC'     },
 ];
 
 // Build date list: DAYS_BACK past days + today + 2 upcoming
@@ -177,4 +179,29 @@ async function fetchOne(tag, date, today) {
   console.log(`\n${'─'.repeat(50)}`);
   console.log(`✅ Backfill complete`);
   console.log(`   ✓ Saved: ${stats.ok} | ✗ Failed: ${stats.failed} | ⟳ Skipped: ${stats.skipped} | ∅ Empty: ${stats.empty}`);
+  rebuildSearchIndex();
 })();
+
+function rebuildSearchIndex() {
+  const entries = [];
+  for (const ch of CHANNELS) {
+    const dir = path.join('data', ch.tag);
+    if (!fs.existsSync(dir)) continue;
+    const files = fs.readdirSync(dir).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f));
+    for (const file of files) {
+      try {
+        const data = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
+        for (const ev of (data.events || [])) {
+          entries.push({
+            c: ch.tag, d: data.date, id: ev.eventId,
+            t: ev.programTitle || '', e: ev.episodeTitle || '',
+            s: ev.scheduledDate, dur: ev.duration, img: ev.imageUrl || '',
+          });
+        }
+      } catch {}
+    }
+  }
+  entries.sort((a, b) => b.d.localeCompare(a.d) || a.s - b.s);
+  fs.writeFileSync(path.join('data', 'search-index.json'), JSON.stringify(entries));
+  console.log(`[search-index] Rebuilt — ${entries.length} entries`);
+}
