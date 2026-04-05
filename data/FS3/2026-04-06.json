@@ -1,10 +1,27 @@
 {
   "channel": "FS3",
   "date": "2026-04-06",
-  "label": "tomorrow",
-  "fetchedAt": 1775406864622,
-  "fetchedAtIST": "5/4/2026, 10:04:24 pm",
+  "label": "today",
+  "fetchedAt": 1775421015115,
+  "fetchedAtIST": "6/4/2026, 2:00:15 am",
   "events": [
+    {
+      "eventId": 174939213,
+      "programTitle": "Live: USPGA: Texas Open Round 3",
+      "channelId": 133,
+      "scheduledDate": 1775393100000,
+      "duration": 255,
+      "episodeTitle": "Texas Open Round 3",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2584050,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ycf664.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 174939214,
       "programTitle": "Live: USPGA: Texas Open Final Round",

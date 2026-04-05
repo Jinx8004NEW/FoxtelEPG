@@ -1,0 +1,57 @@
+{
+  "channel": "FS1",
+  "date": "2026-04-08",
+  "label": "day after",
+  "fetchedAt": 1775421005911,
+  "fetchedAtIST": "6/4/2026, 2:00:05 am",
+  "events": [
+    {
+      "eventId": 175341387,
+      "programTitle": "IPL Mini",
+      "channelId": 9,
+      "scheduledDate": 1775670600000,
+      "duration": 20,
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2582585,
+      "imageUrl": "",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 175341388,
+      "programTitle": "IPL Mini",
+      "channelId": 9,
+      "scheduledDate": 1775671800000,
+      "duration": 20,
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2582585,
+      "imageUrl": "",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 175341389,
+      "programTitle": "IPL",
+      "channelId": 9,
+      "scheduledDate": 1775673000000,
+      "duration": 60,
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2582585,
+      "imageUrl": "",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}
