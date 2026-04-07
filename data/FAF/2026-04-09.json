@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-04-09",
   "label": "day after",
-  "fetchedAt": 1775540756892,
-  "fetchedAtIST": "7/4/2026, 11:15:56 am",
+  "fetchedAt": 1775552368564,
+  "fetchedAtIST": "7/4/2026, 2:29:28 pm",
   "events": [
     {
       "eventId": 175120447,
@@ -400,8 +400,8 @@
       "eventId": 175387919,
       "programTitle": "AFL: Round 5 Adelaide v Carlton",
       "channelId": 330,
-      "scheduledDate": 1775750100000,
-      "duration": 150,
+      "scheduledDate": 1775750400000,
+      "duration": 145,
       "episodeTitle": "Round 5 Adelaide v Carlton",
       "parentalRating": "NC",
       "premiereInd": false,
