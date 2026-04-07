@@ -2,8 +2,8 @@
   "channel": "UFC",
   "date": "2026-04-07",
   "label": "today",
-  "fetchedAt": 1775507779809,
-  "fetchedAtIST": "7/4/2026, 2:06:19 am",
+  "fetchedAt": 1775527749142,
+  "fetchedAtIST": "7/4/2026, 7:39:09 am",
   "events": [
     {
       "eventId": 175374625,
@@ -241,7 +241,7 @@
       "pashTag": "FIRST ON",
       "displaySepNum": false,
       "versionNum": 2584746,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
