@@ -2,8 +2,8 @@
   "channel": "RTV",
   "date": "2026-04-09",
   "label": "tomorrow",
-  "fetchedAt": 1775594664544,
-  "fetchedAtIST": "8/4/2026, 2:14:24 am",
+  "fetchedAt": 1775614195571,
+  "fetchedAtIST": "8/4/2026, 7:39:55 am",
   "events": [
     {
       "eventId": 175587076,
@@ -270,7 +270,7 @@
       "premiereInd": false,
       "displaySepNum": false,
       "versionNum": 2585020,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7j38t.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -285,7 +285,7 @@
       "premiereInd": false,
       "displaySepNum": false,
       "versionNum": 2585020,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7j38t.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -330,7 +330,7 @@
       "premiereInd": false,
       "displaySepNum": false,
       "versionNum": 2585020,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7j38t.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
