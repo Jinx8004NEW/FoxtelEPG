@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-04-08",
   "label": "today",
-  "fetchedAt": 1775627181631,
-  "fetchedAtIST": "8/4/2026, 11:16:21 am",
+  "fetchedAt": 1775638755634,
+  "fetchedAtIST": "8/4/2026, 2:29:15 pm",
   "events": [
     {
       "eventId": 175385909,
@@ -178,7 +178,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2583449,
+      "versionNum": 2585379,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/6hrbr.jpg",
       "placeholder": false,
       "isMovie": false,
