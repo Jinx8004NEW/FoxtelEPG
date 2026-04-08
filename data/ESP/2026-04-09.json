@@ -1,10 +1,27 @@
 {
   "channel": "ESP",
   "date": "2026-04-09",
-  "label": "tomorrow",
-  "fetchedAt": 1775667600871,
-  "fetchedAtIST": "8/4/2026, 10:30:00 pm",
+  "label": "today",
+  "fetchedAt": 1775680846727,
+  "fetchedAtIST": "9/4/2026, 2:10:46 am",
   "events": [
+    {
+      "eventId": 175385338,
+      "programTitle": "Live: Pakistan Super League",
+      "channelId": 13,
+      "scheduledDate": 1775656200000,
+      "duration": 220,
+      "episodeTitle": "Peshawar Zalmi v Hyderabad Kingsmen",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2585379,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/nc5rj1.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 175385339,
       "programTitle": "Quick Pitch",
