@@ -2,8 +2,8 @@
   "channel": "UFC",
   "date": "2026-04-09",
   "label": "tomorrow",
-  "fetchedAt": 1775614201358,
-  "fetchedAtIST": "8/4/2026, 7:40:01 am",
+  "fetchedAt": 1775627194495,
+  "fetchedAtIST": "8/4/2026, 11:16:34 am",
   "events": [
     {
       "eventId": 175374686,
@@ -610,7 +610,7 @@
       "programTitle": "Countdown: UFC 327",
       "channelId": 817,
       "scheduledDate": 1775754000000,
-      "duration": 60,
+      "duration": 30,
       "episodeTitle": "UFC 327",
       "parentalRating": "MA",
       "premiereInd": false,
@@ -619,6 +619,21 @@
       "displaySepNum": false,
       "versionNum": 2585324,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7dcmf.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 175741411,
+      "programTitle": "UFC 217 Dillashaw v Garbrandt (2017)",
+      "channelId": 817,
+      "scheduledDate": 1775755800000,
+      "duration": 30,
+      "parentalRating": "M",
+      "premiereInd": false,
+      "displaySepNum": false,
+      "versionNum": 2585324,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
