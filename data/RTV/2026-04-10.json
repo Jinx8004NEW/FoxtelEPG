@@ -2,12 +2,12 @@
   "channel": "RTV",
   "date": "2026-04-10",
   "label": "tomorrow",
-  "fetchedAt": 1775725518532,
-  "fetchedAtIST": "9/4/2026, 2:35:18 pm",
+  "fetchedAt": 1775741022220,
+  "fetchedAtIST": "9/4/2026, 6:53:42 pm",
   "events": [
     {
-      "eventId": 175748933,
-      "programTitle": "Raceday Review - Kyneton",
+      "eventId": 175811067,
+      "programTitle": "Raceday Review - Sale",
       "channelId": 571,
       "scheduledDate": 1775757600000,
       "duration": 30,

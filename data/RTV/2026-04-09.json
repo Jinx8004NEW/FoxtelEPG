@@ -2,8 +2,8 @@
   "channel": "RTV",
   "date": "2026-04-09",
   "label": "today",
-  "fetchedAt": 1775725517298,
-  "fetchedAtIST": "9/4/2026, 2:35:17 pm",
+  "fetchedAt": 1775741020934,
+  "fetchedAtIST": "9/4/2026, 6:53:40 pm",
   "events": [
     {
       "eventId": 175387331,
@@ -314,7 +314,7 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": false,
-      "versionNum": 2585020,
+      "versionNum": 2585994,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7j38t.jpg",
       "placeholder": false,
       "isMovie": false,
@@ -351,8 +351,8 @@
       "adultsOnly": false
     },
     {
-      "eventId": 175748931,
-      "programTitle": "Raceday Review - Kyneton",
+      "eventId": 175811065,
+      "programTitle": "Raceday Review - Sale",
       "channelId": 571,
       "scheduledDate": 1775750400000,
       "duration": 30,
@@ -381,8 +381,8 @@
       "adultsOnly": false
     },
     {
-      "eventId": 175421117,
-      "programTitle": "Raceday Review - Kyneton",
+      "eventId": 175811066,
+      "programTitle": "Raceday Review - Sale",
       "channelId": 571,
       "scheduledDate": 1775754000000,
       "duration": 30,
@@ -411,8 +411,8 @@
       "adultsOnly": false
     },
     {
-      "eventId": 175748933,
-      "programTitle": "Raceday Review - Kyneton",
+      "eventId": 175811067,
+      "programTitle": "Raceday Review - Sale",
       "channelId": 571,
       "scheduledDate": 1775757600000,
       "duration": 30,
