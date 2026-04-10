@@ -1,10 +1,27 @@
 {
   "channel": "ES2",
   "date": "2026-04-11",
-  "label": "tomorrow",
-  "fetchedAt": 1775839740128,
-  "fetchedAtIST": "10/4/2026, 10:19:00 pm",
+  "label": "today",
+  "fetchedAt": 1775853255610,
+  "fetchedAtIST": "11/4/2026, 2:04:15 am",
   "events": [
+    {
+      "eventId": 175385961,
+      "programTitle": "Live: ONE Friday Fights",
+      "channelId": 321,
+      "scheduledDate": 1775827800000,
+      "duration": 180,
+      "episodeTitle": "150",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2586360,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 175795718,
       "programTitle": "Live: The Rich Eisen Show",

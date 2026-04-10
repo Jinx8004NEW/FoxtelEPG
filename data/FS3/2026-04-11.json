@@ -1,10 +1,27 @@
 {
   "channel": "FS3",
   "date": "2026-04-11",
-  "label": "tomorrow",
-  "fetchedAt": 1775839704583,
-  "fetchedAtIST": "10/4/2026, 10:18:24 pm",
+  "label": "today",
+  "fetchedAt": 1775853220629,
+  "fetchedAtIST": "11/4/2026, 2:03:40 am",
   "events": [
+    {
+      "eventId": 175120754,
+      "programTitle": "Live: Golf: The Masters Featured Groups",
+      "channelId": 133,
+      "scheduledDate": 1775829000000,
+      "duration": 190,
+      "episodeTitle": "Round 2",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2586511,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o4nlqh.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 175120755,
       "programTitle": "Live: The Masters: Round 2",

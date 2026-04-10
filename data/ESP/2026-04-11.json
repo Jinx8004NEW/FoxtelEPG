@@ -1,10 +1,27 @@
 {
   "channel": "ESP",
   "date": "2026-04-11",
-  "label": "tomorrow",
-  "fetchedAt": 1775839734351,
-  "fetchedAtIST": "10/4/2026, 10:18:54 pm",
+  "label": "today",
+  "fetchedAt": 1775853249515,
+  "fetchedAtIST": "11/4/2026, 2:04:09 am",
   "events": [
+    {
+      "eventId": 175385378,
+      "programTitle": "Live: Pakistan Super League",
+      "channelId": 13,
+      "scheduledDate": 1775829000000,
+      "duration": 220,
+      "episodeTitle": "Rawalpindi Pindiz v Quetta Gladiators",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2586360,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/iemxoy.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 175385379,
       "programTitle": "Quick Pitch",
