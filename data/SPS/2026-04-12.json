@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-04-12",
   "label": "tomorrow",
-  "fetchedAt": 1775912014443,
-  "fetchedAtIST": "11/4/2026, 6:23:34 pm",
+  "fetchedAt": 1775925302152,
+  "fetchedAtIST": "11/4/2026, 10:05:02 pm",
   "events": [
     {
       "eventId": 175469016,
@@ -67,7 +67,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2586610,
+      "versionNum": 2586511,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ie4l64.png",
       "placeholder": false,
       "isMovie": false,
