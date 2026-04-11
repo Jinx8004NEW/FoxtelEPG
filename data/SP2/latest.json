@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-04-11",
   "label": "today",
-  "fetchedAt": 1775896805785,
-  "fetchedAtIST": "11/4/2026, 2:10:05 pm",
+  "fetchedAt": 1775911989974,
+  "fetchedAtIST": "11/4/2026, 6:23:09 pm",
   "events": [
     {
       "eventId": 175057068,
@@ -498,7 +498,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2585921,
+      "versionNum": 2586511,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/3zas07.png",
       "placeholder": false,
       "isMovie": false,
