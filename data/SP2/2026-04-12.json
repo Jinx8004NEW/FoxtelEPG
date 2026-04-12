@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-04-12",
   "label": "today",
-  "fetchedAt": 1775983450043,
-  "fetchedAtIST": "12/4/2026, 2:14:10 pm",
+  "fetchedAt": 1775998627604,
+  "fetchedAtIST": "12/4/2026, 6:27:07 pm",
   "events": [
     {
       "eventId": 175057102,
@@ -616,7 +616,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2585921,
+      "versionNum": 2587439,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4hqaba.png",
       "placeholder": false,
       "isMovie": false,

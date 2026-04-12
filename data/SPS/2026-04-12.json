@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-04-12",
   "label": "today",
-  "fetchedAt": 1775983472945,
-  "fetchedAtIST": "12/4/2026, 2:14:32 pm",
+  "fetchedAt": 1775998650435,
+  "fetchedAtIST": "12/4/2026, 6:27:30 pm",
   "events": [
     {
       "eventId": 175739742,
@@ -424,7 +424,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2587284,
+      "versionNum": 2587439,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ipxkgl.png",
       "placeholder": false,
       "isMovie": false,
