@@ -1,0 +1,60 @@
+{
+  "channel": "FS1",
+  "date": "2026-04-16",
+  "label": "day after",
+  "fetchedAt": 1776113547954,
+  "fetchedAtIST": "14/4/2026, 2:22:27 am",
+  "events": [
+    {
+      "eventId": 175355033,
+      "programTitle": "IPL Mini: CSK v DC",
+      "channelId": 9,
+      "scheduledDate": 1776361800000,
+      "duration": 20,
+      "episodeTitle": "CSK v DC",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2587859,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/px509.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 175355034,
+      "programTitle": "IPL Mini: LSG v GT",
+      "channelId": 9,
+      "scheduledDate": 1776363000000,
+      "duration": 20,
+      "episodeTitle": "LSG v GT",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2587859,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hwd5sj.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 175355035,
+      "programTitle": "IPL: Mumbai v Challengers",
+      "channelId": 9,
+      "scheduledDate": 1776364200000,
+      "duration": 60,
+      "episodeTitle": "Mumbai v Challengers",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2587859,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/t6xlh4.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}
