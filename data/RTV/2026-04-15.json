@@ -2,8 +2,8 @@
   "channel": "RTV",
   "date": "2026-04-15",
   "label": "today",
-  "fetchedAt": 1776199905715,
-  "fetchedAtIST": "15/4/2026, 2:21:45 am",
+  "fetchedAt": 1776219172910,
+  "fetchedAtIST": "15/4/2026, 7:42:52 am",
   "events": [
     {
       "eventId": 175587163,
@@ -196,7 +196,7 @@
       "premiereInd": false,
       "displaySepNum": false,
       "versionNum": 2588281,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7j38t.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -287,7 +287,7 @@
       "premiereInd": false,
       "displaySepNum": false,
       "versionNum": 2588281,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7j38t.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -303,7 +303,7 @@
       "premiereInd": false,
       "displaySepNum": false,
       "versionNum": 2588281,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7j38t.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -470,7 +470,7 @@
       "premiereInd": false,
       "displaySepNum": false,
       "versionNum": 2588281,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7j38t.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
