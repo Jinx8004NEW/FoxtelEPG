@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-04-17",
   "label": "day after",
-  "fetchedAt": 1776259224251,
-  "fetchedAtIST": "15/4/2026, 6:50:24 pm",
+  "fetchedAt": 1776272463656,
+  "fetchedAtIST": "15/4/2026, 10:31:03 pm",
   "events": [
     {
       "eventId": 175320200,
@@ -45,10 +45,11 @@
       "channelId": 330,
       "scheduledDate": 1776373500000,
       "duration": 30,
-      "episodeTitle": "Episode 7: Elimination Final",
+      "episodeTitle": "Elimination Final",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
+      "episodeNumber": "7",
       "displaySepNum": false,
       "versionNum": 2588824,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/dxee0x.png",
