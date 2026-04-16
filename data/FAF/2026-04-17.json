@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-04-17",
   "label": "tomorrow",
-  "fetchedAt": 1776285828723,
-  "fetchedAtIST": "16/4/2026, 2:13:48 am",
+  "fetchedAt": 1776306501615,
+  "fetchedAtIST": "16/4/2026, 7:58:21 am",
   "events": [
     {
       "eventId": 175320200,
@@ -105,7 +105,7 @@
       "pashTag": "AFL Classic Matches",
       "displaySepNum": false,
       "versionNum": 2588824,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7g9bx.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/97c5c9.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -211,7 +211,7 @@
       "pashTag": "AFL Classic Matches",
       "displaySepNum": false,
       "versionNum": 2588824,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7g9bx.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/97c5c9.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
