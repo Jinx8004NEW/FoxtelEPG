@@ -1,10 +1,27 @@
 {
   "channel": "FS3",
   "date": "2026-04-17",
-  "label": "tomorrow",
-  "fetchedAt": 1776359510967,
-  "fetchedAtIST": "16/4/2026, 10:41:50 pm",
+  "label": "today",
+  "fetchedAt": 1776372258724,
+  "fetchedAtIST": "17/4/2026, 2:14:18 am",
   "events": [
+    {
+      "eventId": 175273909,
+      "programTitle": "Live: USPGA: RBC Heritage Round 1",
+      "channelId": 133,
+      "scheduledDate": 1776337200000,
+      "duration": 420,
+      "episodeTitle": "RBC Heritage Round 1",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2588891,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/yjedil.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 175319500,
       "programTitle": "Live: USPGA: RBC Heritage Round 1",
