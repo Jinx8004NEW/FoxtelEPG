@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-04-17",
   "label": "today",
-  "fetchedAt": 1776372264542,
-  "fetchedAtIST": "17/4/2026, 2:14:24 am",
+  "fetchedAt": 1776392668056,
+  "fetchedAtIST": "17/4/2026, 7:54:28 am",
   "events": [
     {
       "eventId": 175320194,
@@ -296,7 +296,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2589375,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1od1rm.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

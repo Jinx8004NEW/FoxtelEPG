@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-04-17",
   "label": "today",
-  "fetchedAt": 1776372287628,
-  "fetchedAtIST": "17/4/2026, 2:14:47 am",
+  "fetchedAt": 1776392690883,
+  "fetchedAtIST": "17/4/2026, 7:54:50 am",
   "events": [
     {
       "eventId": 175563024,
@@ -309,7 +309,7 @@
       "pashTag": "NEW EPISODE",
       "displaySepNum": false,
       "versionNum": 2589311,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
