@@ -1,9 +1,9 @@
 {
   "channel": "UFC",
   "date": "2026-04-19",
-  "label": "day after",
-  "fetchedAt": 1776444857437,
-  "fetchedAtIST": "17/4/2026, 10:24:17 pm",
+  "label": "tomorrow",
+  "fetchedAt": 1776458519610,
+  "fetchedAtIST": "18/4/2026, 2:11:59 am",
   "events": [
     {
       "eventId": 175901957,
