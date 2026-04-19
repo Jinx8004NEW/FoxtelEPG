@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-04-20",
   "label": "tomorrow",
-  "fetchedAt": 1776544491422,
-  "fetchedAtIST": "19/4/2026, 2:04:51 am",
+  "fetchedAt": 1776565742209,
+  "fetchedAtIST": "19/4/2026, 7:59:02 am",
   "events": [
     {
       "eventId": 175563863,
@@ -49,7 +49,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2589661,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/brl7n.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

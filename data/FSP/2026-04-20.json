@@ -2,8 +2,8 @@
   "channel": "FSP",
   "date": "2026-04-20",
   "label": "tomorrow",
-  "fetchedAt": 1776544468382,
-  "fetchedAtIST": "19/4/2026, 2:04:28 am",
+  "fetchedAt": 1776565719125,
+  "fetchedAtIST": "19/4/2026, 7:58:39 am",
   "events": [
     {
       "eventId": 175808031,
@@ -303,7 +303,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2589813,
+      "versionNum": 2587776,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ws87ir.png",
       "placeholder": false,
       "isMovie": false,
