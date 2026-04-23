@@ -2,8 +2,8 @@
   "channel": "FSS",
   "date": "2026-04-25",
   "label": "day after",
-  "fetchedAt": 1776891215617,
-  "fetchedAtIST": "23/4/2026, 2:23:35 am",
+  "fetchedAt": 1776911220414,
+  "fetchedAtIST": "23/4/2026, 7:57:00 am",
   "events": [
     {
       "eventId": 175554630,
@@ -118,7 +118,7 @@
       "seriesNumber": "2024",
       "pashTag": "NEW EPISODE",
       "displaySepNum": false,
-      "versionNum": 2591952,
+      "versionNum": 2589832,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/9kbpe.png",
       "placeholder": false,
       "isMovie": false,
