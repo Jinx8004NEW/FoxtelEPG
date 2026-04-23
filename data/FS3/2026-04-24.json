@@ -2,8 +2,8 @@
   "channel": "FS3",
   "date": "2026-04-24",
   "label": "tomorrow",
-  "fetchedAt": 1776911195907,
-  "fetchedAtIST": "23/4/2026, 7:56:35 am",
+  "fetchedAt": 1776924273581,
+  "fetchedAtIST": "23/4/2026, 11:34:33 am",
   "events": [
     {
       "eventId": 175465261,
@@ -152,7 +152,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2591557,
+      "versionNum": 2592442,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/jc9c2j.png",
       "placeholder": false,
       "isMovie": false,
@@ -171,6 +171,23 @@
       "displaySepNum": false,
       "versionNum": 2591557,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/t1yst6.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 176249740,
+      "programTitle": "My Game: Tiger Woods",
+      "channelId": 133,
+      "scheduledDate": 1777033800000,
+      "duration": 15,
+      "episodeTitle": "Driver Control",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2022",
+      "displaySepNum": false,
+      "versionNum": 2592442,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/668wr.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
