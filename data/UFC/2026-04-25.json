@@ -1,10 +1,25 @@
 {
   "channel": "UFC",
   "date": "2026-04-25",
-  "label": "tomorrow",
-  "fetchedAt": 1777049646002,
-  "fetchedAtIST": "24/4/2026, 10:24:06 pm",
+  "label": "today",
+  "fetchedAt": 1777063437389,
+  "fetchedAtIST": "25/4/2026, 2:13:57 am",
   "events": [
+    {
+      "eventId": 175958341,
+      "programTitle": "UFC 171 Hendricks v Lawler (2014)",
+      "channelId": 817,
+      "scheduledDate": 1777037100000,
+      "duration": 50,
+      "parentalRating": "M",
+      "premiereInd": false,
+      "displaySepNum": false,
+      "versionNum": 2590972,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 175958377,
       "programTitle": "UFC 81 Lesnar v Mir (2008)",
