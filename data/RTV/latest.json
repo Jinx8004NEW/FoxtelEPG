@@ -2,8 +2,8 @@
   "channel": "RTV",
   "date": "2026-04-25",
   "label": "today",
-  "fetchedAt": 1777107046298,
-  "fetchedAtIST": "25/4/2026, 2:20:46 pm",
+  "fetchedAt": 1777121990814,
+  "fetchedAtIST": "25/4/2026, 6:29:50 pm",
   "events": [
     {
       "eventId": 175863453,
@@ -301,7 +301,7 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": false,
-      "versionNum": 2593020,
+      "versionNum": 2591526,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7j38t.jpg",
       "placeholder": false,
       "isMovie": false,
@@ -316,7 +316,7 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": false,
-      "versionNum": 2593020,
+      "versionNum": 2591526,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7j38t.jpg",
       "placeholder": false,
       "isMovie": false,
