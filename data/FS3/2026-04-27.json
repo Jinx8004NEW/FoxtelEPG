@@ -2,8 +2,8 @@
   "channel": "FS3",
   "date": "2026-04-27",
   "label": "tomorrow",
-  "fetchedAt": 1777183525563,
-  "fetchedAtIST": "26/4/2026, 11:35:25 am",
+  "fetchedAt": 1777193870814,
+  "fetchedAtIST": "26/4/2026, 2:27:50 pm",
   "events": [
     {
       "eventId": 175585685,
@@ -16,7 +16,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2593759,
+      "versionNum": 2593875,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/2gltbs.png",
       "placeholder": false,
       "isMovie": false,
@@ -33,7 +33,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2593759,
+      "versionNum": 2593875,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/c1aozj.png",
       "placeholder": false,
       "isMovie": false,
