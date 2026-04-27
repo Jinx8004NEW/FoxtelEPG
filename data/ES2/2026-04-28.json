@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-04-28",
   "label": "tomorrow",
-  "fetchedAt": 1777284773655,
-  "fetchedAtIST": "27/4/2026, 3:42:53 pm",
+  "fetchedAt": 1777297669291,
+  "fetchedAtIST": "27/4/2026, 7:17:49 pm",
   "events": [
     {
       "eventId": 175563980,
@@ -15,7 +15,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2594139,
+      "versionNum": 2594331,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/9aii8.jpg",
       "placeholder": false,
       "isMovie": false,
