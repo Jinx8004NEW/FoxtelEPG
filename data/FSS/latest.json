@@ -2,8 +2,8 @@
   "channel": "FSS",
   "date": "2026-04-30",
   "label": "today",
-  "fetchedAt": 1777530358836,
-  "fetchedAtIST": "30/4/2026, 11:55:58 am",
+  "fetchedAt": 1777543497762,
+  "fetchedAtIST": "30/4/2026, 3:34:57 pm",
   "events": [
     {
       "eventId": 175662515,
@@ -407,7 +407,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2595276,
+      "versionNum": 2595609,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kmofcd.png",
       "placeholder": false,
       "isMovie": false,
