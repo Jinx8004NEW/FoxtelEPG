@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-05-02",
   "label": "day after",
-  "fetchedAt": 1777543483774,
-  "fetchedAtIST": "30/4/2026, 3:34:43 pm",
+  "fetchedAt": 1777556953496,
+  "fetchedAtIST": "30/4/2026, 7:19:13 pm",
   "events": [
     {
       "eventId": 175741496,
@@ -101,7 +101,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2595381,
+      "versionNum": 2595695,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/qlh5mb.jpg",
       "placeholder": false,
       "isMovie": false,
