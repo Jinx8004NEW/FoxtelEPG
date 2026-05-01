@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-05-03",
   "label": "day after",
-  "fetchedAt": 1777582702451,
-  "fetchedAtIST": "1/5/2026, 2:28:22 am",
+  "fetchedAt": 1777603762390,
+  "fetchedAtIST": "1/5/2026, 8:19:22 am",
   "events": [
     {
       "eventId": 175925397,
@@ -426,7 +426,7 @@
       "pashTag": "F1",
       "displaySepNum": false,
       "versionNum": 2595759,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/q1dnbw.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
