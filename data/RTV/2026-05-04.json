@@ -1,9 +1,9 @@
 {
   "channel": "RTV",
   "date": "2026-05-04",
-  "label": "day after",
-  "fetchedAt": 1777740218745,
-  "fetchedAtIST": "2/5/2026, 10:13:38 pm",
+  "label": "tomorrow",
+  "fetchedAt": 1777754381039,
+  "fetchedAtIST": "3/5/2026, 2:09:41 am",
   "events": [
     {
       "eventId": 176209664,

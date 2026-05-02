@@ -1,10 +1,27 @@
 {
   "channel": "FS3",
   "date": "2026-05-03",
-  "label": "tomorrow",
-  "fetchedAt": 1777740179184,
-  "fetchedAtIST": "2/5/2026, 10:12:59 pm",
+  "label": "today",
+  "fetchedAt": 1777754340113,
+  "fetchedAtIST": "3/5/2026, 2:09:00 am",
   "events": [
+    {
+      "eventId": 175758390,
+      "programTitle": "Live: USPGA: Cadillac Championship R3",
+      "channelId": 133,
+      "scheduledDate": 1777726800000,
+      "duration": 180,
+      "episodeTitle": "Cadillac Championship R3",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2592819,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ewgrce.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 175758391,
       "programTitle": "Live: USPGA: Cadillac Championship R3",

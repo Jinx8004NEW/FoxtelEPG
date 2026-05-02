@@ -1,0 +1,60 @@
+{
+  "channel": "FS1",
+  "date": "2026-05-05",
+  "label": "day after",
+  "fetchedAt": 1777754331332,
+  "fetchedAtIST": "3/5/2026, 2:08:51 am",
+  "events": [
+    {
+      "eventId": 176112950,
+      "programTitle": "IPL Mini: GT v RCB",
+      "channelId": 9,
+      "scheduledDate": 1778003400000,
+      "duration": 20,
+      "episodeTitle": "GT v RCB",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2595276,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/jesnwc.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 176112951,
+      "programTitle": "IPL Mini: RR v DC",
+      "channelId": 9,
+      "scheduledDate": 1778004600000,
+      "duration": 20,
+      "episodeTitle": "RR v DC",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2595276,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hb603l.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 176112952,
+      "programTitle": "IPL: Super Kings v Mumbai",
+      "channelId": 9,
+      "scheduledDate": 1778005800000,
+      "duration": 60,
+      "episodeTitle": "Super Kings v Mumbai",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2595276,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kswf8g.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}
