@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-05-03",
   "label": "today",
-  "fetchedAt": 1777754334435,
-  "fetchedAtIST": "3/5/2026, 2:08:54 am",
+  "fetchedAt": 1777776017095,
+  "fetchedAtIST": "3/5/2026, 8:10:17 am",
   "events": [
     {
       "eventId": 175977703,
@@ -428,7 +428,7 @@
       "pashTag": "ROUND 9",
       "displaySepNum": false,
       "versionNum": 2595670,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/f9axwj.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/wpwj4h.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
