@@ -1,10 +1,27 @@
 {
   "channel": "FSS",
   "date": "2026-05-05",
-  "label": "tomorrow",
-  "fetchedAt": 1777915699479,
-  "fetchedAtIST": "4/5/2026, 10:58:19 pm",
+  "label": "today",
+  "fetchedAt": 1777928816431,
+  "fetchedAtIST": "5/5/2026, 2:36:56 am",
   "events": [
+    {
+      "eventId": 175741065,
+      "programTitle": "Rodeo: Pro Bull Riding Series",
+      "channelId": 664,
+      "scheduledDate": 1777899600000,
+      "duration": 60,
+      "episodeTitle": "Billings",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2597594,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6guxx.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 176527506,
       "programTitle": "Motorsport: NASCAR Cup Highlights",
