@@ -1,0 +1,57 @@
+{
+  "channel": "ES2",
+  "date": "2026-05-08",
+  "label": "day after",
+  "fetchedAt": 1778014820752,
+  "fetchedAtIST": "6/5/2026, 2:30:20 am",
+  "events": [
+    {
+      "eventId": 175931258,
+      "programTitle": "Live: First Take",
+      "channelId": 321,
+      "scheduledDate": 1778248800000,
+      "duration": 120,
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2597817,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/9cyo6.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 175931259,
+      "programTitle": "Live: The Pat McAfee Show",
+      "channelId": 321,
+      "scheduledDate": 1778256000000,
+      "duration": 120,
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2597817,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/5xgtu4.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 175931260,
+      "programTitle": "First Take",
+      "channelId": 321,
+      "scheduledDate": 1778263200000,
+      "duration": 120,
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2597817,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/9cyo6.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}
