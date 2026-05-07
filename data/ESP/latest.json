@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-05-07",
   "label": "today",
-  "fetchedAt": 1778101776359,
-  "fetchedAtIST": "7/5/2026, 2:39:36 am",
+  "fetchedAt": 1778121554385,
+  "fetchedAtIST": "7/5/2026, 8:09:14 am",
   "events": [
     {
       "eventId": 175929433,
@@ -292,7 +292,7 @@
       "pashTag": "NEW EPISODE",
       "displaySepNum": false,
       "versionNum": 2598327,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/al6mc.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/fentzz.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -310,7 +310,7 @@
       "pashTag": "NEW EPISODE",
       "displaySepNum": false,
       "versionNum": 2598327,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/al6mc.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ecqrq6.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

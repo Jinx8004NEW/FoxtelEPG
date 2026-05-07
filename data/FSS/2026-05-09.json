@@ -2,8 +2,8 @@
   "channel": "FSS",
   "date": "2026-05-09",
   "label": "day after",
-  "fetchedAt": 1778101773385,
-  "fetchedAtIST": "7/5/2026, 2:39:33 am",
+  "fetchedAt": 1778121551259,
+  "fetchedAtIST": "7/5/2026, 8:09:11 am",
   "events": [
     {
       "eventId": 175980265,
@@ -240,7 +240,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2598368,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/t1yst6.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7k4dx9.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

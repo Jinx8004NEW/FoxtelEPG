@@ -2,8 +2,8 @@
   "channel": "FSS",
   "date": "2026-05-07",
   "label": "today",
-  "fetchedAt": 1778101770876,
-  "fetchedAtIST": "7/5/2026, 2:39:30 am",
+  "fetchedAt": 1778121548645,
+  "fetchedAtIST": "7/5/2026, 8:09:08 am",
   "events": [
     {
       "eventId": 175865657,
@@ -479,7 +479,7 @@
       "pashTag": "NEW EPISODE",
       "displaySepNum": false,
       "versionNum": 2598368,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/t1yst6.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/antm8l.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
