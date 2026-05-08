@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-05-10",
   "label": "day after",
-  "fetchedAt": 1778187768541,
-  "fetchedAtIST": "8/5/2026, 2:32:48 am",
+  "fetchedAt": 1778208261444,
+  "fetchedAtIST": "8/5/2026, 8:14:21 am",
   "events": [
     {
       "eventId": 176568768,
@@ -272,7 +272,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2598835,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/61q3w.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/mnfyu2.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

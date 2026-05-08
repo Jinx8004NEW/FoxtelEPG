@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-05-10",
   "label": "day after",
-  "fetchedAt": 1778187746503,
-  "fetchedAtIST": "8/5/2026, 2:32:26 am",
+  "fetchedAt": 1778208239154,
+  "fetchedAtIST": "8/5/2026, 8:13:59 am",
   "events": [
     {
       "eventId": 175977939,
@@ -18,7 +18,7 @@
       "pashTag": "ROUND 10",
       "displaySepNum": false,
       "versionNum": 2599047,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/l8tixx.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/gms1m6.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
