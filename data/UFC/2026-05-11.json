@@ -1,10 +1,25 @@
 {
   "channel": "UFC",
   "date": "2026-05-11",
-  "label": "tomorrow",
-  "fetchedAt": 1778431998215,
-  "fetchedAtIST": "10/5/2026, 10:23:18 pm",
+  "label": "today",
+  "fetchedAt": 1778445823931,
+  "fetchedAtIST": "11/5/2026, 2:13:43 am",
   "events": [
+    {
+      "eventId": 176543772,
+      "programTitle": "UFC 116 Lesnar v Carwin (2010)",
+      "channelId": 817,
+      "scheduledDate": 1778420100000,
+      "duration": 25,
+      "parentalRating": "M",
+      "premiereInd": false,
+      "displaySepNum": false,
+      "versionNum": 2599198,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 176615083,
       "programTitle": "UFC 158 St-Pierre v Diaz (2013)",

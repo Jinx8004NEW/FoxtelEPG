@@ -1,10 +1,27 @@
 {
   "channel": "FSP",
   "date": "2026-05-11",
-  "label": "tomorrow",
-  "fetchedAt": 1778431964179,
-  "fetchedAtIST": "10/5/2026, 10:22:44 pm",
+  "label": "today",
+  "fetchedAt": 1778445790120,
+  "fetchedAtIST": "11/5/2026, 2:13:10 am",
   "events": [
+    {
+      "eventId": 176209359,
+      "programTitle": "Live: Golf: Catalunya Championship FR",
+      "channelId": 93,
+      "scheduledDate": 1778410800000,
+      "duration": 300,
+      "episodeTitle": "Catalunya Championship FR",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2599347,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/nd122l.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 176209360,
       "programTitle": "Live: Golf: USLPGA: Americas Open FR",
