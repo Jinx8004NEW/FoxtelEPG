@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-05-12",
   "label": "day after",
-  "fetchedAt": 1778359289508,
-  "fetchedAtIST": "10/5/2026, 2:11:29 am",
+  "fetchedAt": 1778381025064,
+  "fetchedAtIST": "10/5/2026, 8:13:45 am",
   "events": [
     {
       "eventId": 175931307,
@@ -132,7 +132,7 @@
       "pashTag": "NEW SEASON",
       "displaySepNum": false,
       "versionNum": 2599469,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -150,7 +150,7 @@
       "pashTag": "NEW EPISODE",
       "displaySepNum": false,
       "versionNum": 2599469,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -268,7 +268,7 @@
       "episodeNumber": "1",
       "displaySepNum": false,
       "versionNum": 2599469,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
