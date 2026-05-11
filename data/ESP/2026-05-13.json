@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-05-13",
   "label": "day after",
-  "fetchedAt": 1778445809688,
-  "fetchedAtIST": "11/5/2026, 2:13:29 am",
+  "fetchedAt": 1778467997529,
+  "fetchedAtIST": "11/5/2026, 8:23:17 am",
   "events": [
     {
       "eventId": 175929560,
@@ -147,7 +147,7 @@
       "episodeNumber": "1",
       "displaySepNum": false,
       "versionNum": 2600169,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -164,7 +164,7 @@
       "episodeNumber": "2",
       "displaySepNum": false,
       "versionNum": 2600169,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -296,7 +296,7 @@
       "episodeNumber": "2",
       "displaySepNum": false,
       "versionNum": 2600169,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
