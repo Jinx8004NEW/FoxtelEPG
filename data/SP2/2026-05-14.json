@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-05-14",
   "label": "day after",
-  "fetchedAt": 1778534066812,
-  "fetchedAtIST": "12/5/2026, 2:44:26 am",
+  "fetchedAt": 1778553880707,
+  "fetchedAtIST": "12/5/2026, 8:14:40 am",
   "events": [
     {
       "eventId": 176573761,
@@ -34,7 +34,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2600573,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7ygiuk.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/l48lbj.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -68,7 +68,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2600573,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7ygiuk.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/l48lbj.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
