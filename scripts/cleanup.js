@@ -2,7 +2,11 @@
 const fs   = require('fs');
 const path = require('path');
 
-const CHANNELS = ['FSN','FS1','SP2','FS3','FAF','FSP','SPS','FSS','ESP','ES2','RTV','UFC'];
+// HD channels + 4K channels — all cleaned up after MAX_DAYS
+const CHANNELS = [
+  'FSN', 'FS1', 'SP2', 'FS3', 'FAF', 'FSP', 'SPS', 'FSS', 'ESP', 'ES2', 'RTV', 'UFC',
+  '4KL', '4KF1', '4KF', '4KF2', '4KN',
+];
 const MAX_DAYS = 21;
 
 function getISTDay(offset = 0) {
@@ -33,7 +37,7 @@ for (const tag of CHANNELS) {
   }
 }
 
-// Sync index.json
+// Sync index.json — remove dates whose files no longer exist
 const indexPath = path.join('data', 'index.json');
 try {
   const index = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
@@ -42,6 +46,6 @@ try {
     index[tag] = index[tag].filter(d => fs.existsSync(path.join('data', tag, `${d}.json`)));
   }
   fs.writeFileSync(indexPath, JSON.stringify(index, null, 2));
-} catch(e) {}
+} catch (e) {}
 
 console.log(removed ? `✅ Removed ${removed} old files` : '✅ Nothing to clean');
