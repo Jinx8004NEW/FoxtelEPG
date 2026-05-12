@@ -2,8 +2,8 @@
   "channel": "RTV",
   "date": "2026-05-14",
   "label": "day after",
-  "fetchedAt": 1778567760612,
-  "fetchedAtIST": "12/5/2026, 12:06:00 pm",
+  "fetchedAt": 1778581807492,
+  "fetchedAtIST": "12/5/2026, 4:00:07 pm",
   "events": [
     {
       "eventId": 176491749,
@@ -291,8 +291,8 @@
       "adultsOnly": false
     },
     {
-      "eventId": 176491768,
-      "programTitle": "Champions - Testa Rossa",
+      "eventId": 176661077,
+      "programTitle": "Three Days in May",
       "channelId": 571,
       "scheduledDate": 1778766300000,
       "duration": 15,
@@ -336,25 +336,10 @@
       "adultsOnly": false
     },
     {
-      "eventId": 176642833,
-      "programTitle": "Raceday Review - Werribee",
+      "eventId": 176661078,
+      "programTitle": "Raceday Review - Gawler",
       "channelId": 571,
       "scheduledDate": 1778770800000,
-      "duration": 30,
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": false,
-      "versionNum": 2598813,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7j38t.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 176642834,
-      "programTitle": "Raceday Review - Bendigo",
-      "channelId": 571,
-      "scheduledDate": 1778772600000,
       "duration": 30,
       "parentalRating": "NC",
       "premiereInd": false,
@@ -369,6 +354,21 @@
       "eventId": 176642835,
       "programTitle": "Raceday Review - Werribee",
       "channelId": 571,
+      "scheduledDate": 1778772600000,
+      "duration": 30,
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": false,
+      "versionNum": 2598813,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7j38t.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 176642834,
+      "programTitle": "Raceday Review - Bendigo",
+      "channelId": 571,
       "scheduledDate": 1778774400000,
       "duration": 30,
       "parentalRating": "NC",
@@ -381,8 +381,8 @@
       "adultsOnly": false
     },
     {
-      "eventId": 176642836,
-      "programTitle": "Raceday Review - Bendigo",
+      "eventId": 176661079,
+      "programTitle": "Raceday Review - Gawler",
       "channelId": 571,
       "scheduledDate": 1778776200000,
       "duration": 30,

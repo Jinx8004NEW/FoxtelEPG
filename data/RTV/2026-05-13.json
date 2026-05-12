@@ -2,8 +2,8 @@
   "channel": "RTV",
   "date": "2026-05-13",
   "label": "tomorrow",
-  "fetchedAt": 1778567759289,
-  "fetchedAtIST": "12/5/2026, 12:05:59 pm",
+  "fetchedAt": 1778581806252,
+  "fetchedAtIST": "12/5/2026, 4:00:06 pm",
   "events": [
     {
       "eventId": 176491728,
@@ -231,8 +231,8 @@
       "adultsOnly": false
     },
     {
-      "eventId": 176491743,
-      "programTitle": "Champions - So You Think",
+      "eventId": 176661076,
+      "programTitle": "Three Days in May",
       "channelId": 571,
       "scheduledDate": 1778685300000,
       "duration": 15,

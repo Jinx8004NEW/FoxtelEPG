@@ -1,0 +1,18 @@
+{
+  "channel": "4KF2",
+  "date": "2026-05-15",
+  "label": "upcoming",
+  "fetchedAt": 1778581824776,
+  "fetchedAtIST": "12/5/2026, 4:00:24 pm",
+  "events": [
+    {
+      "eventId": "ijtdirh5t4y70uu6bk1okam150",
+      "programTitle": "Gold Coast v Port Adelaide",
+      "scheduledDate": 1778839800000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/92c4g7o050k67am99no7wpiec_image-header_pRow_1778547984000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    }
+  ]
+}
