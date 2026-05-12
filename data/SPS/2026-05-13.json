@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-05-13",
   "label": "tomorrow",
-  "fetchedAt": 1778595456389,
-  "fetchedAtIST": "12/5/2026, 7:47:36 pm",
+  "fetchedAt": 1778608662526,
+  "fetchedAtIST": "12/5/2026, 11:27:42 pm",
   "events": [
     {
       "eventId": 176296521,
@@ -33,7 +33,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2600960,
+      "versionNum": 2601132,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/dgfquq.png",
       "placeholder": false,
       "isMovie": false,
