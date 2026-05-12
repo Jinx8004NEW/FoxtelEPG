@@ -35,14 +35,18 @@ const CHANNELS_4K = [
 
 // linearProvider → 4K EPG code
 const PROVIDER_TO_4K = {
-  'fsa502': '4KL',
-  'fsa506': '4KF1',
-  'fsa504': '4KF',
-  'fsa503': '4KF2',
-  'fsa505': '4KN',
+  'fsa501': '4KL',    // Fox Cricket HD  → Fox League 4K (cricket season)
+  'fsa502': '4KL',    // Fox League HD   → Fox League 4K (NRL season)
+  'fsa506': '4KF1',   // Fox Sports 506  → Fox F1 4K
+  'fsa504': '4KF',    // Fox Footy HD    → Fox Footy 4K
+  'fsa503': '4KF2',   // Fox Sports 503  → Fox Footy 2 4K
+  'fsa505': '4KN',    // Fox Sports 505  → Fox Netball 4K
 };
 
-const GUARANTEED_4K_COMPS = new Set(['AFL', 'Formula 1', 'Suncorp Super Netball']);
+// Checked against BOTH competitionTitle and sportTitle —
+// AFL/F1/Netball match by competition name, Cricket matches by sport name
+// (cricket competition names vary: Ashes, BBL, Test Series etc.)
+const GUARANTEED_4K_COMPS = new Set(['AFL', 'Formula 1', 'Suncorp Super Netball', 'Cricket']);
 
 const DURATION_FALLBACK = {
   'Australian Rules Football': 130,
@@ -281,7 +285,9 @@ function process4KEvents(rawEvents) {
     const explicit4k = he.is4k === true || he.is4kUpscaled === true;
     const comp       = ev.Competition || {};
     const compTitle  = (typeof comp === 'object' ? comp.Title : '') || '';
-    const guaranteed = GUARANTEED_4K_COMPS.has(compTitle);
+    const sport      = ev.Sport || {};
+    const sportTitle = (typeof sport === 'object' ? sport.Title : '') || '';
+    const guaranteed = GUARANTEED_4K_COMPS.has(compTitle) || GUARANTEED_4K_COMPS.has(sportTitle);
     if (!explicit4k && !guaranteed) continue;
 
     const startMs = parseUtcMs(ev.EventStartTime || ev.Start || '');
@@ -294,10 +300,6 @@ function process4KEvents(rawEvents) {
     const dedupKey = `${epgCode}:${eid}`;
     if (seen.has(dedupKey)) continue;
     seen.add(dedupKey);
-
-    // Duration: real end time first → sport fallback
-    const sport      = ev.Sport || {};
-    const sportTitle = (typeof sport === 'object' ? sport.Title : '') || '';
     const duration   = durById.get(eid) || DURATION_FALLBACK[sportTitle] || DEFAULT_DURATION;
 
     // Image
