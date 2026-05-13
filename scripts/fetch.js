@@ -34,20 +34,17 @@ const CHANNELS_4K = [
 ];
 
 // linearProvider → 4K EPG code
+// fsa501 included — cricket explicitly flagged 4K by API goes to Fox League 4K
 const PROVIDER_TO_4K = {
-  'fsa501': '4KL',    // Fox Cricket HD  → Fox League 4K (cricket season)
-  'fsa502': '4KL',    // Fox League HD   → Fox League 4K (NRL season)
-  'fsa506': '4KF1',   // Fox Sports 506  → Fox F1 4K
-  'fsa504': '4KF',    // Fox Footy HD    → Fox Footy 4K
-  'fsa503': '4KF2',   // Fox Sports 503  → Fox Footy 2 4K
-  'fsa505': '4KN',    // Fox Sports 505  → Fox Netball 4K
+  'fsa501': '4KL',
+  'fsa502': '4KL',
+  'fsa506': '4KF1',
+  'fsa504': '4KF',
+  'fsa503': '4KF2',
+  'fsa505': '4KN',
 };
 
-// Checked against BOTH competitionTitle and sportTitle —
-// AFL/F1/Netball match by competition name, Cricket matches by sport name
-// (cricket competition names vary: Ashes, BBL, Test Series etc.)
-const GUARANTEED_4K_COMPS = new Set(['AFL', 'Formula 1', 'Suncorp Super Netball', 'Cricket']);
-
+// Duration fallbacks (minutes) — only used when API provides no end time
 const DURATION_FALLBACK = {
   'Australian Rules Football': 130,
   'Netball':                    90,
@@ -221,6 +218,7 @@ async function fetchDayForChannel(tag, offset) {
 
 // ═════════════════════════════════════════════════════════════════════════════
 //  SECTION 2 — 4K CHANNELS (DAZN API)
+//  Only events explicitly flagged is4k:true or is4kUpscaled:true by the API
 // ═════════════════════════════════════════════════════════════════════════════
 
 function buildImageUrl4K(imageField) {
@@ -280,15 +278,10 @@ function process4KEvents(rawEvents) {
     const epgCode  = PROVIDER_TO_4K[provider];
     if (!epgCode) continue;
 
-    // 4K check
+    // Only include events explicitly flagged as 4K by the API
     const he         = ev.HeEventTypeConfig || {};
     const explicit4k = he.is4k === true || he.is4kUpscaled === true;
-    const comp       = ev.Competition || {};
-    const compTitle  = (typeof comp === 'object' ? comp.Title : '') || '';
-    const sport      = ev.Sport || {};
-    const sportTitle = (typeof sport === 'object' ? sport.Title : '') || '';
-    const guaranteed = GUARANTEED_4K_COMPS.has(compTitle) || GUARANTEED_4K_COMPS.has(sportTitle);
-    if (!explicit4k && !guaranteed) continue;
+    if (!explicit4k) continue;
 
     const startMs = parseUtcMs(ev.EventStartTime || ev.Start || '');
     if (!startMs) continue;
@@ -300,11 +293,19 @@ function process4KEvents(rawEvents) {
     const dedupKey = `${epgCode}:${eid}`;
     if (seen.has(dedupKey)) continue;
     seen.add(dedupKey);
+
+    // Duration: real end time → sport fallback
+    const sport      = ev.Sport || {};
+    const sportTitle = (typeof sport === 'object' ? sport.Title : '') || '';
     const duration   = durById.get(eid) || DURATION_FALLBACK[sportTitle] || DEFAULT_DURATION;
 
     // Image
     const imageRaw = ev.ImageUrl || ev.ImageURL || ev.Image || ev.Thumbnail || {};
     const imageUrl = buildImageUrl4K(imageRaw);
+
+    // Competition / sport info
+    const comp       = ev.Competition || {};
+    const compTitle  = (typeof comp === 'object' ? comp.Title : '') || '';
 
     // IST date — same bucketing as HD channels
     const istDate = msToISTDate(startMs);
@@ -371,9 +372,7 @@ function write4KFiles(processed, todayIST) {
 }
 
 async function fetch4KSection(todayIST) {
-  // Two calls — same as back.py:
-  // Call 1: 6 days back → today  (aired events — have real duration from end time)
-  // Call 2: today → +6 days      (upcoming events — duration from sport fallback)
+  // Two calls — past 6 days (aired events have real duration) + next 6 days
   const pastStr   = getISTDay(-6).date;
   const futureStr = getISTDay(6).date;
 
@@ -461,7 +460,6 @@ function rebuildSearchIndex() {
     console.log('Removed old data/images folder');
   }
 
-  // Ensure 4K folders + .gitkeep exist on first run
   ensureGitkeep();
 
   const todayIST = getISTDay(0).date;
