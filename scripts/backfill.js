@@ -81,8 +81,17 @@ function getFoxtelHeaders() {
 
 function getDaznHeaders() {
   return {
-    'User-Agent': USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)],
-    'Accept':     'application/json',
+    'User-Agent':      USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)],
+    'Accept':          'application/json, text/plain, */*',
+    'Accept-Language': 'en-AU,en;q=0.9',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Origin':          'https://kayosports.com.au',
+    'Referer':         'https://kayosports.com.au/',
+    'Sec-Fetch-Dest':  'empty',
+    'Sec-Fetch-Mode':  'cors',
+    'Sec-Fetch-Site':  'cross-site',
+    'Cache-Control':   'no-cache',
+    'Pragma':          'no-cache',
   };
 }
 
