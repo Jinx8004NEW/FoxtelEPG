@@ -1,6 +1,7 @@
 // scripts/backfill.js
 // HD channels: Foxtel API — full historical backfill (DAYS_BACK past days)
-// 4K channels: DAZN API  — two calls (6 days back + 6 days forward), same as fetch.js
+// 4K channels: DAZN API  — two calls (6 days back + 6 days forward)
+// Only events explicitly flagged is4k:true or is4kUpscaled:true by the API
 // Date bucketing: IST (Asia/Kolkata) throughout
 
 const https = require('https');
@@ -36,19 +37,15 @@ const CHANNELS_4K = [
   { tag: '4KN',  name: 'Fox Netball 4K' },
 ];
 
+// fsa501 included — cricket explicitly flagged 4K by API goes to Fox League 4K
 const PROVIDER_TO_4K = {
-  'fsa501': '4KL',    // Fox Cricket HD  → Fox League 4K (cricket season)
-  'fsa502': '4KL',    // Fox League HD   → Fox League 4K (NRL season)
-  'fsa506': '4KF1',   // Fox Sports 506  → Fox F1 4K
-  'fsa504': '4KF',    // Fox Footy HD    → Fox Footy 4K
-  'fsa503': '4KF2',   // Fox Sports 503  → Fox Footy 2 4K
-  'fsa505': '4KN',    // Fox Sports 505  → Fox Netball 4K
+  'fsa501': '4KL',
+  'fsa502': '4KL',
+  'fsa506': '4KF1',
+  'fsa504': '4KF',
+  'fsa503': '4KF2',
+  'fsa505': '4KN',
 };
-
-// Checked against BOTH competitionTitle and sportTitle —
-// AFL/F1/Netball match by competition name, Cricket matches by sport name
-// (cricket competition names vary: Ashes, BBL, Test Series etc.)
-const GUARANTEED_4K_COMPS = new Set(['AFL', 'Formula 1', 'Suncorp Super Netball', 'Cricket']);
 
 const DURATION_FALLBACK = {
   'Australian Rules Football': 130,
@@ -92,7 +89,6 @@ function getDaznHeaders() {
 function originalUrl(u) { try { return u.split('?')[0]; } catch { return u; } }
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
-// IST date string — same logic as fetch.js
 function getISTDay(offset = 0) {
   const base = new Date(new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' }) + 'T00:00:00+05:30');
   base.setDate(base.getDate() + offset);
@@ -175,27 +171,18 @@ function getRange(date) {
 
 async function fetchOneHD(tag, date, today) {
   const filePath = path.join('data', tag, `${date}.json`);
-
   if (fs.existsSync(filePath) && date < today) {
     console.log(`  [${tag}] ${date} — already exists, skip`);
     return 'skipped';
   }
-
   const { startMs, endMs } = getRange(date);
   const url = `https://www.foxtel.com.au/webepg/ws/foxtel/channel/${tag}/events?movieHeight=110&tvShowHeight=90&regionId=${REGION_ID}&startDate=${startMs}&endDate=${endMs}`;
-
   try {
     const json   = await fetchWithRetry(url);
     const events = (json.events || []).map(ev => ({ ...ev, imageUrl: originalUrl(ev.imageUrl) }));
-
-    if (!events.length) {
-      console.log(`  [${tag}] ${date} — no events`);
-      return 'empty';
-    }
-
+    if (!events.length) { console.log(`  [${tag}] ${date} — no events`); return 'empty'; }
     const dir = path.join('data', tag);
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-
     fs.writeFileSync(filePath, JSON.stringify({
       channel:      tag,
       date,
@@ -203,7 +190,6 @@ async function fetchOneHD(tag, date, today) {
       fetchedAtIST: new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }),
       events,
     }, null, 2));
-
     updateIndex(tag, date);
     console.log(`  [${tag}] ${date} ✓ ${events.length} events`);
     return 'ok';
@@ -215,8 +201,7 @@ async function fetchOneHD(tag, date, today) {
 
 // ═════════════════════════════════════════════════════════════════════════════
 //  SECTION 2 — 4K CHANNELS backfill (DAZN API)
-//  Two calls: 6 days back → today, today → +6 days forward
-//  Same approach as fetch.js fetch4KSection()
+//  Only events explicitly flagged is4k:true or is4kUpscaled:true by the API
 // ═════════════════════════════════════════════════════════════════════════════
 
 function buildImageUrl4K(imageField) {
@@ -275,14 +260,10 @@ function process4KEvents(rawEvents) {
     const epgCode  = PROVIDER_TO_4K[provider];
     if (!epgCode) continue;
 
+    // Only include events explicitly flagged as 4K by the API
     const he         = ev.HeEventTypeConfig || {};
     const explicit4k = he.is4k === true || he.is4kUpscaled === true;
-    const comp       = ev.Competition || {};
-    const compTitle  = (typeof comp === 'object' ? comp.Title : '') || '';
-    const sport      = ev.Sport || {};
-    const sportTitle = (typeof sport === 'object' ? sport.Title : '') || '';
-    const guaranteed = GUARANTEED_4K_COMPS.has(compTitle) || GUARANTEED_4K_COMPS.has(sportTitle);
-    if (!explicit4k && !guaranteed) continue;
+    if (!explicit4k) continue;
 
     const startMs = parseUtcMs(ev.EventStartTime || ev.Start || '');
     if (!startMs) continue;
@@ -294,10 +275,15 @@ function process4KEvents(rawEvents) {
     if (seen.has(dedupKey)) continue;
     seen.add(dedupKey);
 
+    const sport      = ev.Sport || {};
+    const sportTitle = (typeof sport === 'object' ? sport.Title : '') || '';
     const duration   = durById.get(eid) || DURATION_FALLBACK[sportTitle] || DEFAULT_DURATION;
 
     const imageRaw = ev.ImageUrl || ev.ImageURL || ev.Image || ev.Thumbnail || {};
     const imageUrl = buildImageUrl4K(imageRaw);
+
+    const comp      = ev.Competition || {};
+    const compTitle = (typeof comp === 'object' ? comp.Title : '') || '';
 
     const istDate = msToISTDate(startMs);
 
@@ -331,7 +317,7 @@ function write4KFiles(processed, todayIST) {
   for (const [key, events] of groups) {
     const [tag, date] = key.split('::');
 
-    // Skip if past file already exists — same logic as HD backfill
+    // Skip past files that already exist
     const filePath = path.join('data', tag, `${date}.json`);
     if (fs.existsSync(filePath) && date < todayIST) {
       console.log(`  [${tag}] ${date} — already exists, skip`);
@@ -415,7 +401,6 @@ async function backfill4K(todayIST) {
 function rebuildSearchIndex() {
   const allChannels = [...CHANNELS, ...CHANNELS_4K];
   const entries = [];
-
   for (const ch of allChannels) {
     const dir = path.join('data', ch.tag);
     if (!fs.existsSync(dir)) continue;
@@ -438,7 +423,6 @@ function rebuildSearchIndex() {
       } catch {}
     }
   }
-
   entries.sort((a, b) => b.d.localeCompare(a.d) || a.s - b.s);
   fs.writeFileSync(path.join('data', 'search-index.json'), JSON.stringify(entries));
   console.log(`[search-index] Rebuilt — ${entries.length} entries (HD + 4K)`);
