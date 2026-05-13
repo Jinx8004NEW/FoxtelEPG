@@ -44,6 +44,10 @@ const PROVIDER_TO_4K = {
   'fsa505': '4KN',
 };
 
+// Competitions guaranteed to always broadcast in 4K
+// Cricket is NOT here — only included when API explicitly flags is4k:true
+const GUARANTEED_4K_COMPS = new Set(['AFL', 'Formula 1', 'Suncorp Super Netball']);
+
 // Duration fallbacks (minutes) — only used when API provides no end time
 const DURATION_FALLBACK = {
   'Australian Rules Football': 130,
@@ -96,7 +100,6 @@ function getDaznHeaders() {
 function originalUrl(u) { try { return u.split('?')[0]; } catch { return u; } }
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
-// IST date string — same logic as existing repo
 function getISTDay(offset = 0) {
   const base = new Date(new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' }) + 'T00:00:00+05:30');
   base.setDate(base.getDate() + offset);
@@ -106,7 +109,6 @@ function getISTDay(offset = 0) {
   return { date, startMs, endMs };
 }
 
-// Convert UTC ms timestamp → IST date string (for bucketing 4K events)
 function msToISTDate(ms) {
   return new Date(ms).toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
 }
@@ -165,7 +167,6 @@ function updateIndex(tag, date) {
   fs.writeFileSync(indexPath, JSON.stringify(index, null, 2));
 }
 
-// Create data/4Kxx/.gitkeep on first run so folders exist in repo
 function ensureGitkeep() {
   for (const ch of CHANNELS_4K) {
     const dir     = path.join('data', ch.tag);
@@ -179,7 +180,7 @@ function ensureGitkeep() {
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
-//  SECTION 1 — HD CHANNELS (Foxtel API) — unchanged logic
+//  SECTION 1 — HD CHANNELS (Foxtel API)
 // ═════════════════════════════════════════════════════════════════════════════
 
 async function fetchDayForChannel(tag, offset) {
@@ -227,7 +228,9 @@ async function fetchDayForChannel(tag, offset) {
 
 // ═════════════════════════════════════════════════════════════════════════════
 //  SECTION 2 — 4K CHANNELS (DAZN API)
-//  Only events explicitly flagged is4k:true or is4kUpscaled:true by the API
+//  4K events = explicitly flagged by API (is4k:true) OR guaranteed competition
+//  Guaranteed: AFL, Formula 1, Suncorp Super Netball
+//  Cricket: only when API explicitly flags is4k:true
 // ═════════════════════════════════════════════════════════════════════════════
 
 function buildImageUrl4K(imageField) {
@@ -267,7 +270,6 @@ async function fetchDaznRaw(startDate, endDate) {
 }
 
 function process4KEvents(rawEvents) {
-  // Build duration map from events that have both start + end time
   const durById = new Map();
   for (const ev of rawEvents) {
     const eid     = String(ev.EventId || ev.Id || '');
@@ -287,10 +289,14 @@ function process4KEvents(rawEvents) {
     const epgCode  = PROVIDER_TO_4K[provider];
     if (!epgCode) continue;
 
-    // Only include events explicitly flagged as 4K by the API
     const he         = ev.HeEventTypeConfig || {};
     const explicit4k = he.is4k === true || he.is4kUpscaled === true;
-    if (!explicit4k) continue;
+    const comp       = ev.Competition || {};
+    const compTitle  = (typeof comp === 'object' ? comp.Title : '') || '';
+    const guaranteed = GUARANTEED_4K_COMPS.has(compTitle);
+
+    // Include if explicitly flagged OR guaranteed competition
+    if (!explicit4k && !guaranteed) continue;
 
     const startMs = parseUtcMs(ev.EventStartTime || ev.Start || '');
     if (!startMs) continue;
@@ -298,26 +304,17 @@ function process4KEvents(rawEvents) {
     const eid = String(ev.EventId || ev.Id || '');
     if (!eid) continue;
 
-    // Deduplicate per (epgCode, eventId)
     const dedupKey = `${epgCode}:${eid}`;
     if (seen.has(dedupKey)) continue;
     seen.add(dedupKey);
 
-    // Duration: real end time → sport fallback
     const sport      = ev.Sport || {};
     const sportTitle = (typeof sport === 'object' ? sport.Title : '') || '';
     const duration   = durById.get(eid) || DURATION_FALLBACK[sportTitle] || DEFAULT_DURATION;
 
-    // Image
     const imageRaw = ev.ImageUrl || ev.ImageURL || ev.Image || ev.Thumbnail || {};
     const imageUrl = buildImageUrl4K(imageRaw);
-
-    // Competition / sport info
-    const comp       = ev.Competition || {};
-    const compTitle  = (typeof comp === 'object' ? comp.Title : '') || '';
-
-    // IST date — same bucketing as HD channels
-    const istDate = msToISTDate(startMs);
+    const istDate  = msToISTDate(startMs);
 
     processed.push({
       epgCode,
@@ -352,6 +349,7 @@ function write4KFiles(processed, todayIST) {
 
     const label = date === todayIST    ? 'today'
                 : date === tomorrowIST ? 'tomorrow'
+                : date < todayIST      ? 'aired'
                 : 'upcoming';
 
     const cleanEvents = events.map(({ epgCode, istDate, ...rest }) => rest);
@@ -381,7 +379,6 @@ function write4KFiles(processed, todayIST) {
 }
 
 async function fetch4KSection(todayIST) {
-  // Two calls — past 6 days (aired events have real duration) + next 6 days
   const pastStr   = getISTDay(-6).date;
   const futureStr = getISTDay(6).date;
 
@@ -473,7 +470,7 @@ function rebuildSearchIndex() {
 
   const todayIST = getISTDay(0).date;
 
-  // ── HD channels ────────────────────────────────────────────────────────────
+  // ── HD channels ──────────────────────────────────────────────────────────
   console.log('\n══ HD CHANNELS (Foxtel API) ══════════════════════════════');
   let hdFailed = 0;
   for (const ch of CHANNELS) {
@@ -486,7 +483,7 @@ function rebuildSearchIndex() {
   }
   console.log(`\n✅ HD done — ${CHANNELS.length} channels × 3 days. ${hdFailed} failures.`);
 
-  // ── 4K channels ────────────────────────────────────────────────────────────
+  // ── 4K channels ──────────────────────────────────────────────────────────
   console.log('\n══ 4K CHANNELS (DAZN API) ════════════════════════════════');
   let fourKFailed = 0;
   try {
@@ -496,7 +493,7 @@ function rebuildSearchIndex() {
     fourKFailed = 1;
   }
 
-  // ── Search index ───────────────────────────────────────────────────────────
+  // ── Search index ──────────────────────────────────────────────────────────
   console.log('\n══ SEARCH INDEX ══════════════════════════════════════════');
   rebuildSearchIndex();
 
