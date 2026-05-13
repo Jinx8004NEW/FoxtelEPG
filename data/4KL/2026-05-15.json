@@ -1,0 +1,18 @@
+{
+  "channel": "4KL",
+  "date": "2026-05-15",
+  "label": "upcoming",
+  "fetchedAt": 1778640690867,
+  "fetchedAtIST": "13/5/2026, 8:21:30 am",
+  "events": [
+    {
+      "eventId": "1mm34bjxb00me7dwdt7dt68740",
+      "programTitle": "Super Giants v Super Kings",
+      "scheduledDate": 1778853600000,
+      "duration": 480,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/4wggvaqo2hj87703hlodw6rg5_image-header_pRow_1777436136000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "IPL",
+      "sport": "Cricket"
+    }
+  ]
+}

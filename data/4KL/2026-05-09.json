@@ -2,8 +2,8 @@
   "channel": "4KL",
   "date": "2026-05-09",
   "label": "upcoming",
-  "fetchedAt": 1778581824774,
-  "fetchedAtIST": "12/5/2026, 4:00:24 pm",
+  "fetchedAt": 1778640690860,
+  "fetchedAtIST": "13/5/2026, 8:21:30 am",
   "events": [
     {
       "eventId": "fetv872888g701b5nhxupbf6ec",
@@ -13,6 +13,15 @@
       "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/di458asyc23sdsy3es7uuoh1v_image-header_pRow_1778040550000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "NSW Cup",
       "sport": "Rugby League"
+    },
+    {
+      "eventId": "ej9sngjrunbf1ove658yd06sn",
+      "programTitle": "Bangladesh v Pakistan 1st Test Day 2",
+      "scheduledDate": 1778299200000,
+      "duration": 459,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/cojclx8oy9pzs2p5g6oxho7j4_image-header_pRow_1777610233000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "ICC Test Championship",
+      "sport": "Cricket"
     },
     {
       "eventId": "f4qz6n4v1rvb0ma4zjpksmo8j0",
@@ -40,6 +49,15 @@
       "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/45nyjcfpkdyrj53tzhsqb03j1_image-header_pRow_1778034088000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "NRL",
       "sport": "Rugby League"
+    },
+    {
+      "eventId": "10o8ptva7nwkfxcuz79uydn800",
+      "programTitle": "Royals v Titans",
+      "scheduledDate": 1778335200000,
+      "duration": 248,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/elp1qhp44mzgjv6flgxpmfk94_image-header_pRow_1777435519000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "IPL",
+      "sport": "Cricket"
     }
   ]
 }

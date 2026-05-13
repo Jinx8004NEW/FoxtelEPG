@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-05-15",
   "label": "day after",
-  "fetchedAt": 1778620670172,
-  "fetchedAtIST": "13/5/2026, 2:47:50 am",
+  "fetchedAt": 1778640667198,
+  "fetchedAtIST": "13/5/2026, 8:21:07 am",
   "events": [
     {
       "eventId": 175931356,
@@ -35,7 +35,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2600815,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/abdndl.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -67,7 +67,7 @@
       "premiereInd": false,
       "displaySepNum": false,
       "versionNum": 2600815,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/6hrbr.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -100,7 +100,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2600815,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/abdndl.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -165,7 +165,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2600815,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/abdndl.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -231,7 +231,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2600815,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6c8r5.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/oogqq9.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

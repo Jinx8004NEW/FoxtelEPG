@@ -1,0 +1,27 @@
+{
+  "channel": "4KL",
+  "date": "2026-05-11",
+  "label": "upcoming",
+  "fetchedAt": 1778640690861,
+  "fetchedAtIST": "13/5/2026, 8:21:30 am",
+  "events": [
+    {
+      "eventId": "1v25j5kkku4z1bcfqvtc4odyn",
+      "programTitle": "Bangladesh v Pakistan 1st Test Day 4",
+      "scheduledDate": 1778471100000,
+      "duration": 461,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/etwn0bcp5d4llww8b931elvp5_image-header_pRow_1777610233000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "ICC Test Championship",
+      "sport": "Cricket"
+    },
+    {
+      "eventId": "1t2r2o9f0ex40e8o7tapf49nd0",
+      "programTitle": "Punjab Kings v Capitals",
+      "scheduledDate": 1778508000000,
+      "duration": 256,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/dg72tpvnxyjmg6r5cac78cfz3_image-header_pRow_1777435772000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "IPL",
+      "sport": "Cricket"
+    }
+  ]
+}

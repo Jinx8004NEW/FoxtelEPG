@@ -2,8 +2,8 @@
   "channel": "4KL",
   "date": "2026-05-10",
   "label": "upcoming",
-  "fetchedAt": 1778581824775,
-  "fetchedAtIST": "12/5/2026, 4:00:24 pm",
+  "fetchedAt": 1778640690859,
+  "fetchedAtIST": "13/5/2026, 8:21:30 am",
   "events": [
     {
       "eventId": "oacdysnz0lqn01errm7shvuvro",
@@ -22,6 +22,42 @@
       "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/cvheb9solwrgronvmc0pdf9h8_image-header_pRow_1778034156000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "NRL",
       "sport": "Rugby League"
+    },
+    {
+      "eventId": "934zvecepjqs1e8zcvdcnlco5",
+      "programTitle": "Bangladesh v Pakistan 1st Test Day 3",
+      "scheduledDate": 1778385600000,
+      "duration": 463,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/39silpkbdlm2adwlyg1cbglr8_image-header_pRow_1777610233000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "ICC Test Championship",
+      "sport": "Cricket"
+    },
+    {
+      "eventId": "1b8v3nc00nyjpkcw1zvmgoutz0",
+      "programTitle": "Super Kings v Super Giants",
+      "scheduledDate": 1778407200000,
+      "duration": 252,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/115o0ufs3w3yjhpjifsrra9mj_image-header_pRow_1777435577000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "IPL",
+      "sport": "Cricket"
+    },
+    {
+      "eventId": "im1s6ecfi58a0wt2hrx4dpbnb0",
+      "programTitle": "England v New Zealand G1",
+      "scheduledDate": 1778407200000,
+      "duration": 459,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/ewu1k6ltyywf9os95n6gmztv5_image-header_pRow_1777523457000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "Women's One-Day Internationals",
+      "sport": "Cricket"
+    },
+    {
+      "eventId": "1biw82pa3wwapxmee3kqo6mru0",
+      "programTitle": "Challengers v Mumbai",
+      "scheduledDate": 1778421600000,
+      "duration": 279,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/1n2p7t4q5uehrok0m69mq9bpf_image-header_pRow_1777435631000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "IPL",
+      "sport": "Cricket"
     }
   ]
 }
