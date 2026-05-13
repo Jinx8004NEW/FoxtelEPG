@@ -2,8 +2,8 @@
   "channel": "FS3",
   "date": "2026-05-14",
   "label": "tomorrow",
-  "fetchedAt": 1778670959308,
-  "fetchedAtIST": "13/5/2026, 4:45:59 pm",
+  "fetchedAt": 1778682465457,
+  "fetchedAtIST": "13/5/2026, 7:57:45 pm",
   "events": [
     {
       "eventId": 176120095,
@@ -244,12 +244,12 @@
       "adultsOnly": false
     },
     {
-      "eventId": 176818799,
-      "programTitle": "Live: Golf: Live from the PGA C'ship: R1",
+      "eventId": 176836587,
+      "programTitle": "Live: Golf: USPGA Championship: Round 1",
       "channelId": 133,
       "scheduledDate": 1778774400000,
       "duration": 60,
-      "episodeTitle": "R1",
+      "episodeTitle": "Round 1",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
@@ -261,7 +261,7 @@
       "adultsOnly": false
     },
     {
-      "eventId": 176173115,
+      "eventId": 176836588,
       "programTitle": "Live: Golf: USPGA Championship: Round 1",
       "channelId": 133,
       "scheduledDate": 1778778000000,
