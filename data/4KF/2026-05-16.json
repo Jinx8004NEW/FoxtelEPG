@@ -1,0 +1,27 @@
+{
+  "channel": "4KF",
+  "date": "2026-05-16",
+  "label": "upcoming",
+  "fetchedAt": 1778671018284,
+  "fetchedAtIST": "13/5/2026, 4:46:58 pm",
+  "events": [
+    {
+      "eventId": "1h96oh4wdefxwqpoit5ti6e8q0",
+      "programTitle": "Adelaide v North Melbourne",
+      "scheduledDate": 1778901300000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/7te4nazkd6n3pyyn7od4zd362_image-header_pRow_1775005475000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    },
+    {
+      "eventId": "17c1kf5u9m0u0qo06q21r6hq60",
+      "programTitle": "Melbourne v Hawthorn",
+      "scheduledDate": 1778912100000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/111r6gug3784cevvskg2lzy2b_image-header_pRow_1775005411000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    }
+  ]
+}

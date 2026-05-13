@@ -1,16 +1,25 @@
 {
   "channel": "4KF",
   "date": "2026-05-08",
-  "label": "upcoming",
-  "fetchedAt": 1778667806381,
-  "fetchedAtIST": "13/5/2026, 3:53:26 pm",
+  "label": "aired",
+  "fetchedAt": 1778671018265,
+  "fetchedAtIST": "13/5/2026, 4:46:58 pm",
   "events": [
     {
       "eventId": "rrxsggrr2cwo0dvu45vov2muq0",
       "programTitle": "Brisbane v Carlton",
       "scheduledDate": 1778232600000,
       "duration": 243,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/32h7pmxm2kn1363ari8pgsz0c_image-header_pRow_1774501591000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/i0p1zsifsu25utud969xujki_image-header_pRow_1777955417000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    },
+    {
+      "eventId": "qv9gofyleppl01j8ilmtf4kdnr",
+      "programTitle": "Port Adelaide v Western Bulldogs",
+      "scheduledDate": 1778235000000,
+      "duration": 182,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/6zatfbs6b1dycjgmc3hwiuz1s_image-header_pRow_1778116427000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

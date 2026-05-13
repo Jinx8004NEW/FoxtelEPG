@@ -1,0 +1,18 @@
+{
+  "channel": "4KF",
+  "date": "2026-05-14",
+  "label": "tomorrow",
+  "fetchedAt": 1778671018283,
+  "fetchedAtIST": "13/5/2026, 4:46:58 pm",
+  "events": [
+    {
+      "eventId": "1zuqtu54cjw00ba8g8j28f7t60",
+      "programTitle": "Brisbane v Geelong",
+      "scheduledDate": 1778751000000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/dgfagjd8m9ak8kjn1z2q61cqk_image-header_pRow_1778547105000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    }
+  ]
+}
