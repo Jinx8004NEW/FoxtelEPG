@@ -1,7 +1,8 @@
 // scripts/backfill.js
 // HD channels: Foxtel API — full historical backfill (DAYS_BACK past days)
 // 4K channels: DAZN API  — two calls (6 days back + 6 days forward)
-// Only events explicitly flagged is4k:true or is4kUpscaled:true by the API
+// 4K events = explicitly flagged by API OR guaranteed competition (AFL/F1/Netball)
+// Cricket: only when API explicitly flags is4k:true
 // Date bucketing: IST (Asia/Kolkata) throughout
 
 const https = require('https');
@@ -46,6 +47,10 @@ const PROVIDER_TO_4K = {
   'fsa503': '4KF2',
   'fsa505': '4KN',
 };
+
+// Competitions guaranteed to always broadcast in 4K
+// Cricket is NOT here — only included when API explicitly flags is4k:true
+const GUARANTEED_4K_COMPS = new Set(['AFL', 'Formula 1', 'Suncorp Super Netball']);
 
 const DURATION_FALLBACK = {
   'Australian Rules Football': 130,
@@ -210,7 +215,7 @@ async function fetchOneHD(tag, date, today) {
 
 // ═════════════════════════════════════════════════════════════════════════════
 //  SECTION 2 — 4K CHANNELS backfill (DAZN API)
-//  Only events explicitly flagged is4k:true or is4kUpscaled:true by the API
+//  4K events = explicitly flagged by API OR guaranteed competition
 // ═════════════════════════════════════════════════════════════════════════════
 
 function buildImageUrl4K(imageField) {
@@ -269,10 +274,14 @@ function process4KEvents(rawEvents) {
     const epgCode  = PROVIDER_TO_4K[provider];
     if (!epgCode) continue;
 
-    // Only include events explicitly flagged as 4K by the API
     const he         = ev.HeEventTypeConfig || {};
     const explicit4k = he.is4k === true || he.is4kUpscaled === true;
-    if (!explicit4k) continue;
+    const comp       = ev.Competition || {};
+    const compTitle  = (typeof comp === 'object' ? comp.Title : '') || '';
+    const guaranteed = GUARANTEED_4K_COMPS.has(compTitle);
+
+    // Include if explicitly flagged OR guaranteed competition
+    if (!explicit4k && !guaranteed) continue;
 
     const startMs = parseUtcMs(ev.EventStartTime || ev.Start || '');
     if (!startMs) continue;
@@ -290,11 +299,7 @@ function process4KEvents(rawEvents) {
 
     const imageRaw = ev.ImageUrl || ev.ImageURL || ev.Image || ev.Thumbnail || {};
     const imageUrl = buildImageUrl4K(imageRaw);
-
-    const comp      = ev.Competition || {};
-    const compTitle = (typeof comp === 'object' ? comp.Title : '') || '';
-
-    const istDate = msToISTDate(startMs);
+    const istDate  = msToISTDate(startMs);
 
     processed.push({
       epgCode,
@@ -326,7 +331,6 @@ function write4KFiles(processed, todayIST) {
   for (const [key, events] of groups) {
     const [tag, date] = key.split('::');
 
-    // Skip past files that already exist
     const filePath = path.join('data', tag, `${date}.json`);
     if (fs.existsSync(filePath) && date < todayIST) {
       console.log(`  [${tag}] ${date} — already exists, skip`);
@@ -337,6 +341,7 @@ function write4KFiles(processed, todayIST) {
 
     const label = date === todayIST    ? 'today'
                 : date === tomorrowIST ? 'tomorrow'
+                : date < todayIST      ? 'aired'
                 : 'upcoming';
 
     const cleanEvents = events.map(({ epgCode, istDate, ...rest }) => rest);
@@ -453,7 +458,7 @@ function rebuildSearchIndex() {
   console.log(`   4K range:    ${getISTDay(-6).date} → ${getISTDay(6).date} (DAZN API limit)`);
   console.log(`   HD channels: ${CHANNELS.length} | 4K channels: ${CHANNELS_4K.length}\n`);
 
-  // ── HD backfill ────────────────────────────────────────────────────────────
+  // ── HD backfill ──────────────────────────────────────────────────────────
   console.log('══ HD CHANNELS (Foxtel API) ══════════════════════════════');
   const stats = { ok: 0, failed: 0, skipped: 0, empty: 0 };
 
@@ -470,7 +475,7 @@ function rebuildSearchIndex() {
   console.log(`\n✅ HD backfill complete`);
   console.log(`   ✓ Saved: ${stats.ok} | ✗ Failed: ${stats.failed} | ⟳ Skipped: ${stats.skipped} | ∅ Empty: ${stats.empty}`);
 
-  // ── 4K backfill ────────────────────────────────────────────────────────────
+  // ── 4K backfill ──────────────────────────────────────────────────────────
   console.log('\n══ 4K CHANNELS (DAZN API) ════════════════════════════════');
   try {
     await backfill4K(todayIST);
@@ -478,7 +483,7 @@ function rebuildSearchIndex() {
     console.error(`❌ 4K backfill failed: ${e.message}`);
   }
 
-  // ── Search index ───────────────────────────────────────────────────────────
+  // ── Search index ──────────────────────────────────────────────────────────
   console.log('\n══ SEARCH INDEX ══════════════════════════════════════════');
   rebuildSearchIndex();
 })();
