@@ -1,10 +1,27 @@
 {
   "channel": "FS1",
   "date": "2026-05-14",
-  "label": "tomorrow",
-  "fetchedAt": 1778695160110,
-  "fetchedAtIST": "13/5/2026, 11:29:20 pm",
+  "label": "today",
+  "fetchedAt": 1778707444417,
+  "fetchedAtIST": "14/5/2026, 2:54:04 am",
   "events": [
+    {
+      "eventId": 176179253,
+      "programTitle": "Live: IPL: Challengers v Knight Riders",
+      "channelId": 9,
+      "scheduledDate": 1778680200000,
+      "duration": 240,
+      "episodeTitle": "Challengers v Knight Riders",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2599154,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/vjoozh.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 176179293,
       "programTitle": "IPL Mini: RR v GT",

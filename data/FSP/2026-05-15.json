@@ -1,9 +1,9 @@
 {
   "channel": "FSP",
   "date": "2026-05-15",
-  "label": "day after",
-  "fetchedAt": 1778695184278,
-  "fetchedAtIST": "13/5/2026, 11:29:44 pm",
+  "label": "tomorrow",
+  "fetchedAt": 1778707468367,
+  "fetchedAtIST": "14/5/2026, 2:54:28 am",
   "events": [
     {
       "eventId": 176393775,
@@ -284,7 +284,6 @@
       "duration": 70,
       "parentalRating": "M",
       "premiereInd": false,
-      "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2601509,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/m1wq10.jpg",
