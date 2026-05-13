@@ -1,8 +1,9 @@
 {
   "channel": "FSS",
   "date": "2026-05-15",
-  "fetchedAt": 1778665939247,
-  "fetchedAtIST": "13/5/2026, 3:22:19 pm",
+  "label": "day after",
+  "fetchedAt": 1778666415087,
+  "fetchedAtIST": "13/5/2026, 3:30:15 pm",
   "events": [
     {
       "eventId": 176795526,

@@ -1,0 +1,18 @@
+{
+  "channel": "4KF2",
+  "date": "2026-05-08",
+  "label": "upcoming",
+  "fetchedAt": 1778666451260,
+  "fetchedAtIST": "13/5/2026, 3:30:51 pm",
+  "events": [
+    {
+      "eventId": "qv9gofyleppl01j8ilmtf4kdnr",
+      "programTitle": "Port Adelaide v Western Bulldogs",
+      "scheduledDate": 1778235000000,
+      "duration": 182,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/1j8ts0vvkpy845gbhkpr2g3i6_image-header_pRow_1774501314000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    }
+  ]
+}

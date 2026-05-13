@@ -1,0 +1,18 @@
+{
+  "channel": "4KF2",
+  "date": "2026-05-09",
+  "label": "upcoming",
+  "fetchedAt": 1778666451260,
+  "fetchedAtIST": "13/5/2026, 3:30:51 pm",
+  "events": [
+    {
+      "eventId": "9key1bpgdpsb02y02rnbbtylj0",
+      "programTitle": "Gold Coast v St Kilda",
+      "scheduledDate": 1778317800000,
+      "duration": 176,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/594eoj9h1yk43ph3nbag3esc4_image-header_pRow_1774501614000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    }
+  ]
+}

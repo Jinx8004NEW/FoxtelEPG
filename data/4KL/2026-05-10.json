@@ -1,0 +1,27 @@
+{
+  "channel": "4KL",
+  "date": "2026-05-10",
+  "label": "upcoming",
+  "fetchedAt": 1778666451262,
+  "fetchedAtIST": "13/5/2026, 3:30:51 pm",
+  "events": [
+    {
+      "eventId": "oacdysnz0lqn01errm7shvuvro",
+      "programTitle": "Storm v Magpies",
+      "scheduledDate": 1778376600000,
+      "duration": 115,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/bvz1arryub8fo8kf55mt2tncm_image-header_pRow_1778040459000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "NSW Cup",
+      "sport": "Rugby League"
+    },
+    {
+      "eventId": "yb8taaqhjasm0lon4rf7p3ei80",
+      "programTitle": "Storm v Wests Tigers",
+      "scheduledDate": 1778385600000,
+      "duration": 122,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/cvheb9solwrgronvmc0pdf9h8_image-header_pRow_1778034156000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "NRL",
+      "sport": "Rugby League"
+    }
+  ]
+}

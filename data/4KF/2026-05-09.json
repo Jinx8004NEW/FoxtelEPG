@@ -1,0 +1,36 @@
+{
+  "channel": "4KF",
+  "date": "2026-05-09",
+  "label": "upcoming",
+  "fetchedAt": 1778666451260,
+  "fetchedAtIST": "13/5/2026, 3:30:51 pm",
+  "events": [
+    {
+      "eventId": "1xx8z3ygys4fw1qkg848d1kw77",
+      "programTitle": "North Melbourne v Sydney",
+      "scheduledDate": 1778296500000,
+      "duration": 173,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/cznniftfhpmcrlt6siorilta4_image-header_pRow_1777955543000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    },
+    {
+      "eventId": "bsor6ltudegt010bo38re1dpb3",
+      "programTitle": "GWS v Essendon",
+      "scheduledDate": 1778307300000,
+      "duration": 181,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/6x2jwyzc16lgd8n9wbwqjsk4x_image-header_pRow_1777955598000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    },
+    {
+      "eventId": "v0u4grn41vxu0n4homxdyrwp10",
+      "programTitle": "Geelong v Collingwood",
+      "scheduledDate": 1778319300000,
+      "duration": 248,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/3hmmobjszlzt4py887uod7n6t_image-header_pRow_1777955714000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    }
+  ]
+}

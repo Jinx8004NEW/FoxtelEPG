@@ -1,0 +1,18 @@
+{
+  "channel": "4KF",
+  "date": "2026-05-10",
+  "label": "upcoming",
+  "fetchedAt": 1778666451261,
+  "fetchedAtIST": "13/5/2026, 3:30:51 pm",
+  "events": [
+    {
+      "eventId": "sal8m4lm06ll0vko7m5t8nu8x0",
+      "programTitle": "Melbourne v West Coast",
+      "scheduledDate": 1778382600000,
+      "duration": 177,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/2wn997tcfp1zeumcnwif92bj4_image-header_pRow_1777955783000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    }
+  ]
+}

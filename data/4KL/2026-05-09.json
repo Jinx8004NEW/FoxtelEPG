@@ -1,0 +1,45 @@
+{
+  "channel": "4KL",
+  "date": "2026-05-09",
+  "label": "upcoming",
+  "fetchedAt": 1778666451262,
+  "fetchedAtIST": "13/5/2026, 3:30:51 pm",
+  "events": [
+    {
+      "eventId": "fetv872888g701b5nhxupbf6ec",
+      "programTitle": "Dragons v Knights",
+      "scheduledDate": 1778294400000,
+      "duration": 113,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/di458asyc23sdsy3es7uuoh1v_image-header_pRow_1778040550000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "NSW Cup",
+      "sport": "Rugby League"
+    },
+    {
+      "eventId": "f4qz6n4v1rvb0ma4zjpksmo8j0",
+      "programTitle": "Dragons v Knights",
+      "scheduledDate": 1778302800000,
+      "duration": 133,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/defe89qc1de7pjnmfw5k1v6hu_image-header_pRow_1778033372000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "NRL",
+      "sport": "Rugby League"
+    },
+    {
+      "eventId": "150rdt9sff1mb1v8v1q4mlet1b",
+      "programTitle": "Rabbitohs v Sharks",
+      "scheduledDate": 1778311800000,
+      "duration": 126,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/drrvtws9i7w7ynfm5tvb3d3w1_image-header_pRow_1778131846000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "NRL",
+      "sport": "Rugby League"
+    },
+    {
+      "eventId": "vw52hqubmalc0is1yq0ab22090",
+      "programTitle": "Sea Eagles v Broncos",
+      "scheduledDate": 1778319300000,
+      "duration": 172,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/45nyjcfpkdyrj53tzhsqb03j1_image-header_pRow_1778034088000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "NRL",
+      "sport": "Rugby League"
+    }
+  ]
+}
