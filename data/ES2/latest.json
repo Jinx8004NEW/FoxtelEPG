@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-05-14",
   "label": "today",
-  "fetchedAt": 1778707489711,
-  "fetchedAtIST": "14/5/2026, 2:54:49 am",
+  "fetchedAt": 1778727167126,
+  "fetchedAtIST": "14/5/2026, 8:22:47 am",
   "events": [
     {
       "eventId": 175931337,
@@ -372,7 +372,7 @@
       "premiereInd": false,
       "displaySepNum": false,
       "versionNum": 2601290,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/bgsqk.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
