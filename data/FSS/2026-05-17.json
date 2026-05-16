@@ -2,8 +2,8 @@
   "channel": "FSS",
   "date": "2026-05-17",
   "label": "tomorrow",
-  "fetchedAt": 1778912391259,
-  "fetchedAtIST": "16/5/2026, 11:49:51 am",
+  "fetchedAt": 1778923688811,
+  "fetchedAtIST": "16/5/2026, 2:58:08 pm",
   "events": [
     {
       "eventId": 176170795,
@@ -244,7 +244,7 @@
       "seriesNumber": "2026",
       "pashTag": "NEW EPISODE",
       "displaySepNum": false,
-      "versionNum": 2602451,
+      "versionNum": 2602580,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kg1538.png",
       "placeholder": false,
       "isMovie": false,

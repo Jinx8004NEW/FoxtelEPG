@@ -2,8 +2,8 @@
   "channel": "UFC",
   "date": "2026-05-17",
   "label": "tomorrow",
-  "fetchedAt": 1778912413425,
-  "fetchedAtIST": "16/5/2026, 11:50:13 am",
+  "fetchedAt": 1778923710893,
+  "fetchedAtIST": "16/5/2026, 2:58:30 pm",
   "events": [
     {
       "eventId": 176615244,
@@ -14,7 +14,7 @@
       "parentalRating": "M",
       "premiereInd": false,
       "displaySepNum": false,
-      "versionNum": 2601808,
+      "versionNum": 2602593,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
       "isMovie": false,
@@ -29,7 +29,7 @@
       "parentalRating": "M",
       "premiereInd": false,
       "displaySepNum": false,
-      "versionNum": 2601808,
+      "versionNum": 2602593,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
       "isMovie": false,
