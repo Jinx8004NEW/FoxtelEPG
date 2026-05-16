@@ -1,18 +1,1 @@
-{
-  "channel": "4KF2",
-  "date": "2026-05-16",
-  "label": "today",
-  "fetchedAt": 1778912426029,
-  "fetchedAtIST": "16/5/2026, 11:50:26 am",
-  "events": [
-    {
-      "eventId": "pahfkbcm4wks0jokaec2ciyig0",
-      "programTitle": "Carlton v Western Bulldogs",
-      "scheduledDate": 1778924100000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/1r62yjs2f966dau7na3f7hgmt_image-header_pRow_1778548194000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
-      "competitionTitle": "AFL",
-      "sport": "Australian Rules Football"
-    }
-  ]
-}
+
