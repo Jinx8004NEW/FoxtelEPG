@@ -15,6 +15,16 @@
       "sport": "Australian Rules Football"
     },
     {
+      "eventId": "pahfkbcm4wks0jokaec2ciyig0",
+      "programTitle": "Carlton v Western Bulldogs",
+      "scheduledDate": 1778924100000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/1r62yjs2f966dau7na3f7hgmt_image-header_pRow_1778548194000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    },
+
+    {
       "eventId": "17c1kf5u9m0u0qo06q21r6hq60",
       "programTitle": "Melbourne v Hawthorn",
       "scheduledDate": 1778912100000,
@@ -23,5 +33,6 @@
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
+    
   ]
 }
