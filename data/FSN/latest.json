@@ -2,8 +2,8 @@
   "channel": "FSN",
   "date": "2026-05-16",
   "label": "today",
-  "fetchedAt": 1778899257561,
-  "fetchedAtIST": "16/5/2026, 8:10:57 am",
+  "fetchedAt": 1778912351260,
+  "fetchedAtIST": "16/5/2026, 11:49:11 am",
   "events": [
     {
       "eventId": 175797139,
@@ -16,7 +16,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2601849,
+      "versionNum": 2602580,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
       "isMovie": false,

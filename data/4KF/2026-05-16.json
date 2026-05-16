@@ -1,16 +1,16 @@
 {
   "channel": "4KF",
   "date": "2026-05-16",
-  "label": "tomorrow",
-  "fetchedAt": 1778865978766,
-  "fetchedAtIST": "15/5/2026, 10:56:18 pm",
+  "label": "today",
+  "fetchedAt": 1778912426028,
+  "fetchedAtIST": "16/5/2026, 11:50:26 am",
   "events": [
     {
       "eventId": "1h96oh4wdefxwqpoit5ti6e8q0",
       "programTitle": "Adelaide v North Melbourne",
       "scheduledDate": 1778901300000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/7te4nazkd6n3pyyn7od4zd362_image-header_pRow_1778548081000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 225,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/f1wahncuptyx05iyny0zisy6_image-header_pRow_1778548081000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     },
@@ -18,8 +18,8 @@
       "eventId": "17c1kf5u9m0u0qo06q21r6hq60",
       "programTitle": "Melbourne v Hawthorn",
       "scheduledDate": 1778912100000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/111r6gug3784cevvskg2lzy2b_image-header_pRow_1778548268000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 240,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/67hlprmbn63xiix7qpocvyx45_image-header_pRow_1778548268000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

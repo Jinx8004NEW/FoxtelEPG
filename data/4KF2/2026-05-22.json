@@ -1,0 +1,18 @@
+{
+  "channel": "4KF2",
+  "date": "2026-05-22",
+  "label": "upcoming",
+  "fetchedAt": 1778912426042,
+  "fetchedAtIST": "16/5/2026, 11:50:26 am",
+  "events": [
+    {
+      "eventId": "826ez6cogo3n015u6zagxoo657",
+      "programTitle": "Fremantle v St Kilda",
+      "scheduledDate": 1779445800000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/exn2uifgpzv4vb03d52f34jlw_image-header_pRow_1775006933000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    }
+  ]
+}
