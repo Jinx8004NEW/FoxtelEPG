@@ -1,16 +1,25 @@
 {
   "channel": "4KL",
   "date": "2026-05-16",
-  "label": "today",
-  "fetchedAt": 1778912426030,
-  "fetchedAtIST": "16/5/2026, 11:50:26 am",
+  "label": "aired",
+  "fetchedAt": 1779011142420,
+  "fetchedAtIST": "17/5/2026, 3:15:42 pm",
   "events": [
     {
       "eventId": "1axgn7x7erkmb5a6y2qdi6hu90",
       "programTitle": "Wests Tigers v Sea Eagles",
       "scheduledDate": 1778907600000,
-      "duration": 175,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/bs6b7hzmeilym4bd7f1nnuszp_image-header_pRow_1778643496000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/5u4x2w38ef0tk1utktpr5ldi0_image-header_pRow_1778643496000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "NRL",
+      "sport": "Rugby League"
+    },
+    {
+      "eventId": "108ndkjn7kg71157aupsxu638t",
+      "programTitle": "Roosters v Cowboys",
+      "scheduledDate": 1778916600000,
+      "duration": 128,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/64qceii1gslmem8xjd7xdhq6i_image-header_pRow_1778643564000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "NRL",
       "sport": "Rugby League"
     }

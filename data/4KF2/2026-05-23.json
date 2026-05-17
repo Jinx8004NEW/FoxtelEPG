@@ -1,0 +1,18 @@
+{
+  "channel": "4KF2",
+  "date": "2026-05-23",
+  "label": "upcoming",
+  "fetchedAt": 1779011142430,
+  "fetchedAtIST": "17/5/2026, 3:15:42 pm",
+  "events": [
+    {
+      "eventId": "1g436uzeuzvk515tmok5r6rrkq",
+      "programTitle": "Collingwood v West Coast",
+      "scheduledDate": 1779518100000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/9yc39nittp6wq36fj0ao4wtpr_image-header_pRow_1775006570000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    }
+  ]
+}

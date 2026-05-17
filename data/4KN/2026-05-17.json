@@ -1,16 +1,16 @@
 {
   "channel": "4KN",
   "date": "2026-05-17",
-  "label": "tomorrow",
-  "fetchedAt": 1778912426042,
-  "fetchedAtIST": "16/5/2026, 11:50:26 am",
+  "label": "today",
+  "fetchedAt": 1779011142417,
+  "fetchedAtIST": "17/5/2026, 3:15:42 pm",
   "events": [
     {
       "eventId": "dx3t5kh0dwhy01ocyv894newcg",
       "programTitle": "Fever v Swifts",
       "scheduledDate": 1778990400000,
-      "duration": 90,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/bw2ssjk2n41bm55717wb4qp33_image-header_pRow_1778020972000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 114,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/7mqngim24winx3elokxhs8j1n_image-header_pRow_1778020972000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Suncorp Super Netball",
       "sport": "Netball"
     },
@@ -18,8 +18,8 @@
       "eventId": "1av2x6z7uob33zihzapubwmjx0",
       "programTitle": "Thunderbirds v Mavericks",
       "scheduledDate": 1778997600000,
-      "duration": 90,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/80tcw7cq8mvy3nbdatva6hxdw_image-header_pRow_1778021013000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 101,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/26rtvv3cb8k6lkee6f84cnfuq_image-header_pRow_1778021013000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Suncorp Super Netball",
       "sport": "Netball"
     }
