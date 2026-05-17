@@ -1,9 +1,9 @@
 {
   "channel": "4KL",
   "date": "2026-05-17",
-  "label": "today",
-  "fetchedAt": 1779011142420,
-  "fetchedAtIST": "17/5/2026, 3:15:42 pm",
+  "label": "aired",
+  "fetchedAt": 1779050890158,
+  "fetchedAtIST": "18/5/2026, 2:18:10 am",
   "events": [
     {
       "eventId": "1ognkegw7roin1hfolexqatc6g",
@@ -18,8 +18,8 @@
       "eventId": "p92s34gfeoke0fm1pe33tkh5m0",
       "programTitle": "Panthers v Dragons",
       "scheduledDate": 1779006300000,
-      "duration": 190,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/65ydhd3up17mo9yplttojso7r_image-header_pRow_1778643852000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 120,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/6y3g4wgswnlf8vmc6h7lm9f1g_image-header_pRow_1778643852000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "NRL",
       "sport": "Rugby League"
     }

@@ -1,0 +1,27 @@
+{
+  "channel": "4KF",
+  "date": "2026-05-24",
+  "label": "upcoming",
+  "fetchedAt": 1779050890162,
+  "fetchedAtIST": "18/5/2026, 2:18:10 am",
+  "events": [
+    {
+      "eventId": "1xhxekcgwzs3q1c84schmqzh6j",
+      "programTitle": "GWS v Brisbane",
+      "scheduledDate": 1779589800000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/bcfipzk1hh3wn8hvxedyr0oz2_image-header_pRow_1775006678000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    },
+    {
+      "eventId": "16riqknpwx02j1auizv1uvucc8",
+      "programTitle": "Western Bulldogs v Melbourne",
+      "scheduledDate": 1779599700000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/379h4pgqmkfyvljyqqoy2bpkb_image-header_pRow_1775009381000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    }
+  ]
+}
