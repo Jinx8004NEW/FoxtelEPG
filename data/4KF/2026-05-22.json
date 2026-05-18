@@ -2,13 +2,13 @@
   "channel": "4KF",
   "date": "2026-05-22",
   "label": "upcoming",
-  "fetchedAt": 1779074888071,
-  "fetchedAtIST": "18/5/2026, 8:58:08 am",
+  "fetchedAt": 1779118046956,
+  "fetchedAtIST": "18/5/2026, 8:57:26 pm",
   "events": [
     {
       "eventId": "11uzidaqxjsoew9k4n40s2mvl0",
       "programTitle": "Richmond v Essendon",
-      "scheduledDate": 1779442800000,
+      "scheduledDate": 1779443100000,
       "duration": 130,
       "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/5nh28w7drrpt23mxdnirny396_image-header_pRow_1775006526000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
