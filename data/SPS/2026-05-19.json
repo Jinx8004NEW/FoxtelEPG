@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-05-19",
   "label": "today",
-  "fetchedAt": 1779138593789,
-  "fetchedAtIST": "19/5/2026, 2:39:53 am",
+  "fetchedAt": 1779159393450,
+  "fetchedAtIST": "19/5/2026, 8:26:33 am",
   "events": [
     {
       "eventId": 176393455,
@@ -340,7 +340,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2603686,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/m0il2x.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -391,7 +391,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2603686,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8gi6c.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

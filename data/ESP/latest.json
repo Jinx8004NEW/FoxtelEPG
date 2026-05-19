@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-05-19",
   "label": "today",
-  "fetchedAt": 1779138605498,
-  "fetchedAtIST": "19/5/2026, 2:40:05 am",
+  "fetchedAt": 1779159404748,
+  "fetchedAtIST": "19/5/2026, 8:26:44 am",
   "events": [
     {
       "eventId": 176929134,
@@ -17,7 +17,7 @@
       "seriesNumber": "2025",
       "displaySepNum": false,
       "versionNum": 2603850,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -194,7 +194,7 @@
       "premiereInd": false,
       "displaySepNum": false,
       "versionNum": 2603850,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -241,7 +241,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2603850,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/jst2n3.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -274,7 +274,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2603850,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/brl7n.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -338,7 +338,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2603850,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/jst2n3.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -368,7 +368,7 @@
       "premiereInd": false,
       "displaySepNum": false,
       "versionNum": 2603850,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
