@@ -2,8 +2,8 @@
   "channel": "4KF1",
   "date": "2026-05-23",
   "label": "upcoming",
-  "fetchedAt": 1779159435633,
-  "fetchedAtIST": "19/5/2026, 8:27:15 am",
+  "fetchedAt": 1779245857826,
+  "fetchedAtIST": "20/5/2026, 8:27:37 am",
   "events": [
     {
       "eventId": "5vto37ugk0xj1h0bz2bbow330",
@@ -11,6 +11,15 @@
       "scheduledDate": 1779481800000,
       "duration": 120,
       "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/2yfg57st3fou714sd2if0vgwl_image-header_pRow_1778717038000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "Formula 1",
+      "sport": "Motorsport"
+    },
+    {
+      "eventId": "7j9uiefu2lh81bnpx2r377c5p",
+      "programTitle": "Canada Sprint Race",
+      "scheduledDate": 1779552000000,
+      "duration": 120,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/7rx4ggh9jav3qp3hax04mkf4a_image-header_pRow_1778717108000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Formula 1",
       "sport": "Motorsport"
     }
