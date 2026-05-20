@@ -1,0 +1,60 @@
+{
+  "channel": "FS1",
+  "date": "2026-05-23",
+  "label": "day after",
+  "fetchedAt": 1779313803619,
+  "fetchedAtIST": "21/5/2026, 3:20:03 am",
+  "events": [
+    {
+      "eventId": 176212695,
+      "programTitle": "IPL Mini: DC v RR",
+      "channelId": 9,
+      "scheduledDate": 1779558600000,
+      "duration": 20,
+      "episodeTitle": "DC v RR",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2604330,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/mon7zj.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 176212696,
+      "programTitle": "IPL Mini: CSK v SRH",
+      "channelId": 9,
+      "scheduledDate": 1779559800000,
+      "duration": 20,
+      "episodeTitle": "CSK v SRH",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2604330,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kazp8b.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 176212697,
+      "programTitle": "IPL: Royals v Super Giants",
+      "channelId": 9,
+      "scheduledDate": 1779561000000,
+      "duration": 60,
+      "episodeTitle": "Royals v Super Giants",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2604330,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/gmpzar.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}
