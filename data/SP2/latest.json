@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-05-21",
   "label": "today",
-  "fetchedAt": 1779313806743,
-  "fetchedAtIST": "21/5/2026, 3:20:06 am",
+  "fetchedAt": 1779333931099,
+  "fetchedAtIST": "21/5/2026, 8:55:31 am",
   "events": [
     {
       "eventId": 175978289,
@@ -465,7 +465,7 @@
       "pashTag": "ROUND 12",
       "displaySepNum": false,
       "versionNum": 2604617,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v4nc6i.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/2ck6rv.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -568,7 +568,7 @@
       "pashTag": "ROUND 12",
       "displaySepNum": false,
       "versionNum": 2604617,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v4nc6i.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/2ck6rv.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
