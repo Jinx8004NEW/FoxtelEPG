@@ -1,16 +1,16 @@
 {
   "channel": "4KF2",
   "date": "2026-05-22",
-  "label": "tomorrow",
-  "fetchedAt": 1779376758529,
-  "fetchedAtIST": "21/5/2026, 8:49:18 pm",
+  "label": "aired",
+  "fetchedAt": 1779484096064,
+  "fetchedAtIST": "23/5/2026, 2:38:16 am",
   "events": [
     {
       "eventId": "826ez6cogo3n015u6zagxoo657",
       "programTitle": "Walyalup v Euro-Yroke",
       "scheduledDate": 1779445800000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/exn2uifgpzv4vb03d52f34jlw_image-header_pRow_1779152003000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 185,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/f3bk3x566wo6przccxk84gt4r_image-header_pRow_1779152003000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

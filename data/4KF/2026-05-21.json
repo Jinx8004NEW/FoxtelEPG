@@ -1,16 +1,16 @@
 {
   "channel": "4KF",
   "date": "2026-05-21",
-  "label": "today",
-  "fetchedAt": 1779376758524,
-  "fetchedAtIST": "21/5/2026, 8:49:18 pm",
+  "label": "aired",
+  "fetchedAt": 1779484096063,
+  "fetchedAtIST": "23/5/2026, 2:38:16 am",
   "events": [
     {
       "eventId": "md4otjl0q50v0zgrllz1dpie60",
       "programTitle": "Hawthorn v Kuwarna",
       "scheduledDate": 1779355800000,
       "duration": 244,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/5ir1wlc6jlgojztzte69zt6me_image-header_pRow_1779151844000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/5ir1wlc6jlgojztzte69zt6me_image-header_pRow_1779415843000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

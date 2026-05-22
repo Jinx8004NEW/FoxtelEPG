@@ -1,16 +1,25 @@
 {
   "channel": "4KF1",
   "date": "2026-05-22",
-  "label": "tomorrow",
-  "fetchedAt": 1779376758533,
-  "fetchedAtIST": "21/5/2026, 8:49:18 pm",
+  "label": "aired",
+  "fetchedAt": 1779484096068,
+  "fetchedAtIST": "23/5/2026, 2:38:16 am",
   "events": [
+    {
+      "eventId": "r69g3p7zpynp174v7fsw5rvmz",
+      "programTitle": "Supercars Tasmania Practice",
+      "scheduledDate": 1779418800000,
+      "duration": 175,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/8h0dc15qrlh0c3zrezp3hnyop_image-header_pRow_1778725198000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "V8 Supercars",
+      "sport": "Motorsport"
+    },
     {
       "eventId": "zw2j97211j531lvr9vccfjbtu",
       "programTitle": "Canada Practice 1",
       "scheduledDate": 1779467400000,
-      "duration": 120,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/bmqc87bg5cjpxx411thy19nml_image-header_pRow_1778716986000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 109,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/cqoeefty9pq7jmw7soq8zs22t_image-header_pRow_1778716986000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Formula 1",
       "sport": "Motorsport"
     }

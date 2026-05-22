@@ -1,16 +1,16 @@
 {
   "channel": "4KF2",
-  "date": "2026-05-17",
+  "date": "2026-05-23",
   "label": "today",
-  "fetchedAt": 1779011142419,
-  "fetchedAtIST": "17/5/2026, 3:15:42 pm",
+  "fetchedAt": 1779484096066,
+  "fetchedAtIST": "23/5/2026, 2:38:16 am",
   "events": [
     {
-      "eventId": "1a9jwcupp5bue1xe3wmmrdjpba",
-      "programTitle": "St Kilda v Richmond",
-      "scheduledDate": 1778994900000,
-      "duration": 173,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/26nhphpji4il6hh0s6iezut10_image-header_pRow_1778548424000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "eventId": "1g436uzeuzvk515tmok5r6rrkq",
+      "programTitle": "Collingwood v Waalitj Marawar",
+      "scheduledDate": 1779518100000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/9yc39nittp6wq36fj0ao4wtpr_image-header_pRow_1779152186000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

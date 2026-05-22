@@ -1,16 +1,34 @@
 {
   "channel": "4KF",
-  "date": "2026-05-21",
+  "date": "2026-05-23",
   "label": "today",
-  "fetchedAt": 1779376758524,
-  "fetchedAtIST": "21/5/2026, 8:49:18 pm",
+  "fetchedAt": 1779484096065,
+  "fetchedAtIST": "23/5/2026, 2:38:16 am",
   "events": [
     {
-      "eventId": "md4otjl0q50v0zgrllz1dpie60",
-      "programTitle": "Hawthorn v Kuwarna",
-      "scheduledDate": 1779355800000,
-      "duration": 244,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/5ir1wlc6jlgojztzte69zt6me_image-header_pRow_1779151844000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "eventId": "dmc9pspn5lti01xed0i4xss8ke",
+      "programTitle": "North Melbourne v Gold Coast",
+      "scheduledDate": 1779506100000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/5e64g0iwenxoxcybbbkfstewt_image-header_pRow_1779152071000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    },
+    {
+      "eventId": "18alpyizpb4rsn4w7lz5x98fk0",
+      "programTitle": "Geelong v Sydney",
+      "scheduledDate": 1779516900000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/edkuqv4j9spbpmibib2i1n97i_image-header_pRow_1779152122000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    },
+    {
+      "eventId": "l38owe1s7fw80b1g0a6uep2sw0",
+      "programTitle": "Yartapuulti v Carlton",
+      "scheduledDate": 1779528900000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/c3lftsp5vbtdea4s3n0ept9or_image-header_pRow_1779152258000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
