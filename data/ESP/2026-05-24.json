@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-05-24",
   "label": "tomorrow",
-  "fetchedAt": 1779542410604,
-  "fetchedAtIST": "23/5/2026, 6:50:10 pm",
+  "fetchedAt": 1779555446477,
+  "fetchedAtIST": "23/5/2026, 10:27:26 pm",
   "events": [
     {
       "eventId": 175929793,
@@ -116,7 +116,7 @@
       "premiereInd": false,
       "seriesNumber": "2025",
       "displaySepNum": false,
-      "versionNum": 2605413,
+      "versionNum": 2605887,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/k81rb5.jpg",
       "placeholder": false,
       "isMovie": false,
