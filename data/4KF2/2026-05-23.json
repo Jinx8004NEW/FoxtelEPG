@@ -2,15 +2,15 @@
   "channel": "4KF2",
   "date": "2026-05-23",
   "label": "today",
-  "fetchedAt": 1779504382632,
-  "fetchedAtIST": "23/5/2026, 8:16:22 am",
+  "fetchedAt": 1779542441569,
+  "fetchedAtIST": "23/5/2026, 6:50:41 pm",
   "events": [
     {
       "eventId": "1g436uzeuzvk515tmok5r6rrkq",
       "programTitle": "Collingwood v Waalitj Marawar",
       "scheduledDate": 1779518100000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/9yc39nittp6wq36fj0ao4wtpr_image-header_pRow_1779152186000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 202,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/9wnj8exeofli9lwtag8n7km3i_image-header_pRow_1779152186000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
