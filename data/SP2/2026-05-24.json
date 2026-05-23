@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-05-24",
   "label": "tomorrow",
-  "fetchedAt": 1779484031237,
-  "fetchedAtIST": "23/5/2026, 2:37:11 am",
+  "fetchedAt": 1779504317625,
+  "fetchedAtIST": "23/5/2026, 8:15:17 am",
   "events": [
     {
       "eventId": 175978384,
@@ -34,7 +34,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2605539,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xks5mz.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

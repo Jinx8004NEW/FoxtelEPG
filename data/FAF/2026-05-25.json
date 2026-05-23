@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-05-25",
   "label": "day after",
-  "fetchedAt": 1779484044355,
-  "fetchedAtIST": "23/5/2026, 2:37:24 am",
+  "fetchedAt": 1779504330239,
+  "fetchedAtIST": "23/5/2026, 8:15:30 am",
   "events": [
     {
       "eventId": 176084749,
@@ -340,7 +340,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2605557,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
