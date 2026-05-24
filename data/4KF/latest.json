@@ -1,43 +1,25 @@
 {
   "channel": "4KF",
-  "date": "2026-05-23",
+  "date": "2026-05-24",
   "label": "today",
-  "fetchedAt": 1779542441566,
-  "fetchedAtIST": "23/5/2026, 6:50:41 pm",
+  "fetchedAt": 1779641917875,
+  "fetchedAtIST": "24/5/2026, 10:28:37 pm",
   "events": [
     {
-      "eventId": "dmc9pspn5lti01xed0i4xss8ke",
-      "programTitle": "North Melbourne v Gold Coast",
-      "scheduledDate": 1779506100000,
-      "duration": 172,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/7r12y188wjp9dvw4lo21nckvp_image-header_pRow_1779152071000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "eventId": "1xhxekcgwzs3q1c84schmqzh6j",
+      "programTitle": "GWS v Brisbane",
+      "scheduledDate": 1779589800000,
+      "duration": 188,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/6qnyijm4lqpj9k20aen7o2b8y_image-header_pRow_1779152334000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     },
     {
-      "eventId": "18alpyizpb4rsn4w7lz5x98fk0",
-      "programTitle": "Geelong v Sydney",
-      "scheduledDate": 1779516900000,
-      "duration": 184,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/c4l1vleozw1idfhupb4e5mae2_image-header_pRow_1779152122000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
-      "competitionTitle": "AFL",
-      "sport": "Australian Rules Football"
-    },
-    {
-      "eventId": "1g436uzeuzvk515tmok5r6rrkq",
-      "programTitle": "Collingwood v Waalitj Marawar",
-      "scheduledDate": 1779518100000,
-      "duration": 202,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/86ucd4q7hso5fauthxf1l4pyb_image-header_pRow_1779418041000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
-      "competitionTitle": "AFL",
-      "sport": "Australian Rules Football"
-    },
-    {
-      "eventId": "l38owe1s7fw80b1g0a6uep2sw0",
-      "programTitle": "Yartapuulti v Carlton",
-      "scheduledDate": 1779528900000,
-      "duration": 295,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/8wo29azqmld9c46e5qtk5u6fn_image-header_pRow_1779152258000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "eventId": "16riqknpwx02j1auizv1uvucc8",
+      "programTitle": "Western Bulldogs v Narrm",
+      "scheduledDate": 1779599700000,
+      "duration": 197,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/copmm0jsjhn5uwkzmi056ba91_image-header_pRow_1779418041000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

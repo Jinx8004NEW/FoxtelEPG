@@ -1,16 +1,16 @@
 {
   "channel": "4KF",
   "date": "2026-05-24",
-  "label": "tomorrow",
-  "fetchedAt": 1779542441573,
-  "fetchedAtIST": "23/5/2026, 6:50:41 pm",
+  "label": "today",
+  "fetchedAt": 1779641917875,
+  "fetchedAtIST": "24/5/2026, 10:28:37 pm",
   "events": [
     {
       "eventId": "1xhxekcgwzs3q1c84schmqzh6j",
       "programTitle": "GWS v Brisbane",
       "scheduledDate": 1779589800000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/bcfipzk1hh3wn8hvxedyr0oz2_image-header_pRow_1779152334000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 188,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/6qnyijm4lqpj9k20aen7o2b8y_image-header_pRow_1779152334000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     },
@@ -18,8 +18,8 @@
       "eventId": "16riqknpwx02j1auizv1uvucc8",
       "programTitle": "Western Bulldogs v Narrm",
       "scheduledDate": 1779599700000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/379h4pgqmkfyvljyqqoy2bpkb_image-header_pRow_1779152392000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 197,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/copmm0jsjhn5uwkzmi056ba91_image-header_pRow_1779418041000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

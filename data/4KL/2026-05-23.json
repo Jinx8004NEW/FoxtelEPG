@@ -1,9 +1,9 @@
 {
   "channel": "4KL",
   "date": "2026-05-23",
-  "label": "today",
-  "fetchedAt": 1779542441571,
-  "fetchedAtIST": "23/5/2026, 6:50:41 pm",
+  "label": "aired",
+  "fetchedAt": 1779641917878,
+  "fetchedAtIST": "24/5/2026, 10:28:37 pm",
   "events": [
     {
       "eventId": "39n7i6ozvvbj07p8q61zut1400",
@@ -27,8 +27,8 @@
       "eventId": "4ju8u4oagvlh016htyq0x3n95y",
       "programTitle": "Sea Eagles v Titans",
       "scheduledDate": 1779528900000,
-      "duration": 245,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/ac4gg4x63f2escyamxngn0h25_image-header_pRow_1779168314000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 228,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/4dwo06drrr7k0bwzelmpy812i_image-header_pRow_1779168314000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "NRL",
       "sport": "Rugby League"
     }

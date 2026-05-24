@@ -1,9 +1,9 @@
 {
   "channel": "4KF",
   "date": "2026-05-23",
-  "label": "today",
-  "fetchedAt": 1779542441566,
-  "fetchedAtIST": "23/5/2026, 6:50:41 pm",
+  "label": "aired",
+  "fetchedAt": 1779641917874,
+  "fetchedAtIST": "24/5/2026, 10:28:37 pm",
   "events": [
     {
       "eventId": "dmc9pspn5lti01xed0i4xss8ke",
@@ -36,8 +36,8 @@
       "eventId": "l38owe1s7fw80b1g0a6uep2sw0",
       "programTitle": "Yartapuulti v Carlton",
       "scheduledDate": 1779528900000,
-      "duration": 295,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/8wo29azqmld9c46e5qtk5u6fn_image-header_pRow_1779152258000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 241,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/r1hhgtzchmi1v5nqlawcjl5_image-header_pRow_1779418041000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

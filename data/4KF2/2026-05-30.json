@@ -1,0 +1,18 @@
+{
+  "channel": "4KF2",
+  "date": "2026-05-30",
+  "label": "upcoming",
+  "fetchedAt": 1779641917882,
+  "fetchedAtIST": "24/5/2026, 10:28:37 pm",
+  "events": [
+    {
+      "eventId": "1exgmxdqq16d4153vh5u08luza",
+      "programTitle": "Bulldogs v Collingwood",
+      "scheduledDate": 1780133700000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/9vrrfn5scs27z6oagvp87morc_image-header_pRow_1775007469000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    }
+  ]
+}

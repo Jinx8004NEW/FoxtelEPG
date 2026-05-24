@@ -1,25 +1,25 @@
 {
   "channel": "4KN",
-  "date": "2026-05-23",
+  "date": "2026-05-24",
   "label": "today",
-  "fetchedAt": 1779542441568,
-  "fetchedAtIST": "23/5/2026, 6:50:41 pm",
+  "fetchedAt": 1779641917876,
+  "fetchedAtIST": "24/5/2026, 10:28:37 pm",
   "events": [
     {
-      "eventId": "hz40pwld0pyt01p1rn6cm5fzf5",
-      "programTitle": "Giants v Thunderbirds",
-      "scheduledDate": 1779519600000,
-      "duration": 107,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/d3nfkz03lz9qbp8v60oi0s04d_image-header_pRow_1778041014000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "eventId": "1q80t1yuo55441ptx5skj9rcf3",
+      "programTitle": "Firebirds v Fever",
+      "scheduledDate": 1779595200000,
+      "duration": 118,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/c4frj441c197qls4ulzjhjba1_image-header_pRow_1778041109000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Suncorp Super Netball",
       "sport": "Netball"
     },
     {
-      "eventId": "18m9a2j0y6rnaqh6wuvp7s8a20",
-      "programTitle": "Mavericks v Lightning",
-      "scheduledDate": 1779526800000,
-      "duration": 134,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/bc4dp2julvwleb6qeo8sruggg_image-header_pRow_1778041066000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "eventId": "12czn9mwskob4zqpkrrgbcg8z0",
+      "programTitle": "Vixens v Swifts",
+      "scheduledDate": 1779602400000,
+      "duration": 103,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/2atodgbrnvm7rd43a2ur597p7_image-header_pRow_1778041241000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Suncorp Super Netball",
       "sport": "Netball"
     }

@@ -1,0 +1,18 @@
+{
+  "channel": "4KN",
+  "date": "2026-05-25",
+  "label": "tomorrow",
+  "fetchedAt": 1779641917880,
+  "fetchedAtIST": "24/5/2026, 10:28:37 pm",
+  "events": [
+    {
+      "eventId": "1qtb654fwzt3y16xplftx2olbp",
+      "programTitle": "Canada Race (F1 TV Commentary)",
+      "scheduledDate": 1779652800000,
+      "duration": 120,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/bgefcnj87azd3edkhfdavp075_image-header_pRow_1778810772000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "Formula 1",
+      "sport": "Motorsport"
+    }
+  ]
+}

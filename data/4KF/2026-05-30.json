@@ -1,0 +1,27 @@
+{
+  "channel": "4KF",
+  "date": "2026-05-30",
+  "label": "upcoming",
+  "fetchedAt": 1779641917881,
+  "fetchedAtIST": "24/5/2026, 10:28:37 pm",
+  "events": [
+    {
+      "eventId": "o2misrj7joq008gt5uarm00jl0",
+      "programTitle": "Sydney v Richmond",
+      "scheduledDate": 1780110900000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/77g8y9l2ard8jubmcxmhyv2r9_image-header_pRow_1775007429000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    },
+    {
+      "eventId": "kg6alwepypzw01huo78tyarq0h",
+      "programTitle": "Brisbane v Fremantle",
+      "scheduledDate": 1780121700000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/akhhwnrk08bslrpj38jgkhqat_image-header_pRow_1775007559000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    }
+  ]
+}
