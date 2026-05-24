@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-05-25",
   "label": "tomorrow",
-  "fetchedAt": 1779569250074,
-  "fetchedAtIST": "24/5/2026, 2:17:30 am",
+  "fetchedAt": 1779591486672,
+  "fetchedAtIST": "24/5/2026, 8:28:06 am",
   "events": [
     {
       "eventId": 176084749,
@@ -509,7 +509,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2605557,
+      "versionNum": 2605350,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/c4e43r.png",
       "placeholder": false,
       "isMovie": false,
