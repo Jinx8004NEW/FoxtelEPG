@@ -1,10 +1,27 @@
 {
   "channel": "FS3",
   "date": "2026-05-25",
-  "label": "tomorrow",
-  "fetchedAt": 1779641857729,
-  "fetchedAtIST": "24/5/2026, 10:27:37 pm",
+  "label": "today",
+  "fetchedAt": 1779655964538,
+  "fetchedAtIST": "25/5/2026, 2:22:44 am",
   "events": [
+    {
+      "eventId": 176375340,
+      "programTitle": "Live: USPGA: CJ Cup Final Round",
+      "channelId": 133,
+      "scheduledDate": 1779623100000,
+      "duration": 315,
+      "episodeTitle": "CJ Cup Final Round",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2606253,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/je5043.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 176375341,
       "programTitle": "Live: USPGA: The CJ Cup Final Round",
