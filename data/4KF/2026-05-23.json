@@ -2,8 +2,8 @@
   "channel": "4KF",
   "date": "2026-05-23",
   "label": "aired",
-  "fetchedAt": 1779641917874,
-  "fetchedAtIST": "24/5/2026, 10:28:37 pm",
+  "fetchedAt": 1779720623318,
+  "fetchedAtIST": "25/5/2026, 8:20:23 pm",
   "events": [
     {
       "eventId": "dmc9pspn5lti01xed0i4xss8ke",
@@ -25,10 +25,10 @@
     },
     {
       "eventId": "1g436uzeuzvk515tmok5r6rrkq",
-      "programTitle": "Collingwood v Waalitj Marawar",
+      "programTitle": "Pendlebury 433",
       "scheduledDate": 1779518100000,
       "duration": 202,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/86ucd4q7hso5fauthxf1l4pyb_image-header_pRow_1779418041000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/86ucd4q7hso5fauthxf1l4pyb_image-header_pRow_1779686416000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     },

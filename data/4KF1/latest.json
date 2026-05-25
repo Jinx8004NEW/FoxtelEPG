@@ -1,44 +1,17 @@
 {
   "channel": "4KF1",
-  "date": "2026-05-24",
+  "date": "2026-05-25",
   "label": "today",
-  "fetchedAt": 1779641917873,
-  "fetchedAtIST": "24/5/2026, 10:28:37 pm",
+  "fetchedAt": 1779720623325,
+  "fetchedAtIST": "25/5/2026, 8:20:23 pm",
   "events": [
     {
-      "eventId": "13tdsp0b93ama102pxm086efx5",
-      "programTitle": "Canada Qualifying",
-      "scheduledDate": 1779566400000,
-      "duration": 120,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/4lm39a9qrqwvrcori37h6y7lg_image-header_pRow_1778717320000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "eventId": "1joil71crpkyn1hkqeaqjrarsp",
+      "programTitle": "Canada Race",
+      "scheduledDate": 1779652800000,
+      "duration": 221,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/exjjxxtvq09mav7k6kyisp8mb_image-header_pRow_1778717477000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Formula 1",
-      "sport": "Motorsport"
-    },
-    {
-      "eventId": "1opqi204l8ff419j17jadwk5bh",
-      "programTitle": "Supercars Tasmania Qualifying",
-      "scheduledDate": 1779573600000,
-      "duration": 273,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/3zvxdvrxdi2l9c6t2h7jsb0uc_image-header_pRow_1778725596000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
-      "competitionTitle": "V8 Supercars",
-      "sport": "Motorsport"
-    },
-    {
-      "eventId": "t0jjhceox8at1cpll5nd1isfz",
-      "programTitle": "Supercars Tasmania Top 10 Shootout",
-      "scheduledDate": 1779589140000,
-      "duration": 81,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/j3hw5dkuil3nyjvscn0rpc1b_image-header_pRow_1778725669000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
-      "competitionTitle": "V8 Supercars",
-      "sport": "Motorsport"
-    },
-    {
-      "eventId": "1kmlrekbe9ztu1j0422bwu5cve",
-      "programTitle": "Supercars Tasmania Race 16",
-      "scheduledDate": 1779593640000,
-      "duration": 218,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/wfq5pb97deh668ds48t881ci_image-header_pRow_1778725773000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
-      "competitionTitle": "V8 Supercars",
       "sport": "Motorsport"
     }
   ]
