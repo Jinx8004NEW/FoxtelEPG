@@ -1,10 +1,27 @@
 {
   "channel": "FS3",
   "date": "2026-05-27",
-  "label": "tomorrow",
-  "fetchedAt": 1779819809656,
-  "fetchedAtIST": "26/5/2026, 11:53:29 pm",
+  "label": "today",
+  "fetchedAt": 1779831733225,
+  "fetchedAtIST": "27/5/2026, 3:12:13 am",
   "events": [
+    {
+      "eventId": 176393326,
+      "programTitle": "Live: T20 Blast: Hampshire W v Essex W",
+      "channelId": 133,
+      "scheduledDate": 1779803700000,
+      "duration": 210,
+      "episodeTitle": "Hampshire W v Essex W",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2607225,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/2uihje.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 176393325,
       "programTitle": "Live: T20 Blast: Hampshire v Essex",
