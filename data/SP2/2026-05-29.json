@@ -1,9 +1,9 @@
 {
   "channel": "SP2",
   "date": "2026-05-29",
-  "label": "day after",
-  "fetchedAt": 1779906283646,
-  "fetchedAtIST": "27/5/2026, 11:54:43 pm",
+  "label": "tomorrow",
+  "fetchedAt": 1779918714581,
+  "fetchedAtIST": "28/5/2026, 3:21:54 am",
   "events": [
     {
       "eventId": 176170820,
