@@ -1,812 +1,1062 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Foxtel TV Guide</title>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;600&family=Barlow+Condensed:wght@400;600&display=swap" rel="stylesheet">
+<title>Foxtel Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  [data-theme="dark"]{
-    --bg:#080e0a;--surf:#0f1a12;--surf2:#142018;--bdr:#1e3325;
-    --acc:#4dff6e;--acc2:#ff4d5e;--acc3:#ffd740;--acc4:#40e0c8;
-    --txt:#d6eed9;--muted:#4a7055;--grid:rgba(77,255,110,0.035);
-    --shadow:rgba(0,0,0,0.55);--glow:rgba(77,255,110,0.18);
-    --4k-bg:rgba(64,224,200,0.08);--4k-bdr:rgba(64,224,200,0.3);
-  }
-  [data-theme="light"]{
-    --bg:#f0f5f1;--surf:#ffffff;--surf2:#e6f0e8;--bdr:#bdd4c2;
-    --acc:#1a8c35;--acc2:#d42b2b;--acc3:#c47a00;--acc4:#0e7a63;
-    --txt:#172a1c;--muted:#537a5c;--grid:rgba(26,140,53,0.05);
-    --shadow:rgba(0,0,0,0.07);--glow:rgba(26,140,53,0.12);
-    --4k-bg:rgba(14,122,99,0.06);--4k-bdr:rgba(14,122,99,0.25);
-  }
+:root {
+  --font: 'DM Sans', sans-serif;
+  --mono: 'DM Mono', monospace;
+}
+[data-theme="dark"] {
+  --bg: #0c0e10;
+  --surface: #131619;
+  --surface2: #1a1e22;
+  --surface3: #20262c;
+  --border: rgba(255,255,255,0.07);
+  --border2: rgba(255,255,255,0.12);
+  --text: #e8eaed;
+  --text2: #8b9099;
+  --text3: #555c65;
+  --live: #f87171;
+  --live-bg: rgba(248,113,113,0.1);
+  --live-border: rgba(248,113,113,0.25);
+  --accent: #60a5fa;
+  --accent-bg: rgba(96,165,250,0.1);
+  --active: #34d399;
+  --active-bg: rgba(52,211,153,0.1);
+  --active-border: rgba(52,211,153,0.25);
+  --warn: #fbbf24;
+  --warn-bg: rgba(251,191,36,0.1);
+  --4k: #a78bfa;
+  --4k-bg: rgba(167,139,250,0.08);
+  --4k-border: rgba(167,139,250,0.2);
+  --shadow: 0 1px 3px rgba(0,0,0,0.4);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.5);
+}
+[data-theme="light"] {
+  --bg: #f5f6f8;
+  --surface: #ffffff;
+  --surface2: #f0f2f5;
+  --surface3: #e8ebef;
+  --border: rgba(0,0,0,0.07);
+  --border2: rgba(0,0,0,0.12);
+  --text: #111318;
+  --text2: #6b7280;
+  --text3: #9ca3af;
+  --live: #dc2626;
+  --live-bg: rgba(220,38,38,0.08);
+  --live-border: rgba(220,38,38,0.2);
+  --accent: #2563eb;
+  --accent-bg: rgba(37,99,235,0.08);
+  --active: #059669;
+  --active-bg: rgba(5,150,105,0.08);
+  --active-border: rgba(5,150,105,0.2);
+  --warn: #d97706;
+  --warn-bg: rgba(217,119,6,0.08);
+  --4k: #7c3aed;
+  --4k-bg: rgba(124,58,237,0.06);
+  --4k-border: rgba(124,58,237,0.18);
+  --shadow: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.1);
+}
 
-  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-  body{background:var(--bg);color:var(--txt);font-family:'Barlow',sans-serif;font-weight:300;min-height:100vh;overflow-x:hidden;transition:background .3s,color .3s;-webkit-font-smoothing:antialiased;}
-  body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:36px 36px;}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-  /* ── NOW PLAYING BANNER ── */
-  .now-playing{background:var(--acc2);color:#fff;padding:0 24px;display:none;align-items:center;gap:12px;min-height:44px;position:relative;z-index:99;}
-  .now-playing.show{display:flex;}
-  .np-pulse{width:8px;height:8px;border-radius:50%;background:#fff;animation:pulse 1.5s infinite;flex-shrink:0;}
-  .np-label{font-family:'Bebas Neue',sans-serif;font-size:11px;letter-spacing:.15em;opacity:.8;flex-shrink:0;}
-  .np-title{font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:600;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-  .np-countdown{font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:.1em;opacity:.9;flex-shrink:0;background:rgba(0,0,0,0.2);padding:3px 10px;border-radius:20px;}
-  .np-next{font-size:11px;opacity:.7;flex-shrink:0;display:none;}
-  @media(min-width:600px){.np-next{display:block;}}
-  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.5;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  transition: background .25s, color .25s;
+}
 
-  /* ── HEADER ── */
-  header{position:sticky;top:0;z-index:100;background:var(--surf);border-bottom:1px solid var(--bdr);padding:0 24px;display:flex;align-items:center;justify-content:space-between;gap:8px;height:58px;box-shadow:0 2px 12px var(--shadow);}
-  .header-left{display:flex;align-items:center;gap:12px;}
-  .site-title{font-family:'Bebas Neue',sans-serif;font-size:24px;letter-spacing:.08em;color:var(--txt);line-height:1;}
-  .site-title span{color:var(--acc);}
-  .ist-clock{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:600;letter-spacing:.1em;color:var(--acc3);background:var(--surf2);border:1px solid var(--bdr);padding:4px 10px;border-radius:4px;}
-  .header-right{display:flex;align-items:center;gap:8px;}
-  .hbtn{background:var(--surf);border:1px solid var(--bdr);border-radius:50px;padding:5px 13px;cursor:pointer;display:flex;align-items:center;gap:5px;font-family:'Barlow',sans-serif;font-size:11px;letter-spacing:.08em;color:var(--muted);transition:all .2s;}
-  .hbtn:hover{border-color:var(--acc);color:var(--acc);}
-  .hbtn.bebas{font-family:'Bebas Neue',sans-serif;font-size:13px;}
-  .hbtn.spinning .si{display:inline-block;animation:spin .8s linear infinite;}
-  .compact-btn.on{background:var(--surf2);border-color:var(--acc);color:var(--acc);}
-  @keyframes spin{to{transform:rotate(360deg);}}
-  @keyframes fadeUp{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}
+/* ── TOPBAR ── */
+.topbar {
+  position: sticky; top: 0; z-index: 200;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  height: 52px;
+  display: flex; align-items: center;
+  padding: 0 20px;
+  gap: 16px;
+}
+.brand {
+  font-size: 15px; font-weight: 600; letter-spacing: -0.01em;
+  white-space: nowrap; flex-shrink: 0;
+  display: flex; align-items: center; gap: 8px;
+}
+.brand-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--active); }
+.ist-clock {
+  font-family: var(--mono); font-size: 11px; font-weight: 500;
+  color: var(--text2);
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  padding: 3px 10px; border-radius: 6px;
+  letter-spacing: 0.03em; flex-shrink: 0;
+}
+.topbar-spacer { flex: 1; }
+.search-wrap { flex: 1; max-width: 340px; position: relative; }
+.search-ico {
+  position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+  color: var(--text3); font-size: 13px; pointer-events: none;
+}
+.search-input {
+  width: 100%; background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 8px; padding: 6px 32px 6px 30px;
+  font-family: var(--font); font-size: 13px; color: var(--text);
+  outline: none; transition: border-color .15s;
+}
+.search-input::placeholder { color: var(--text3); }
+.search-input:focus { border-color: var(--border2); }
+.search-clear {
+  position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+  background: none; border: none; cursor: pointer; color: var(--text3);
+  font-size: 14px; padding: 2px; display: none; line-height: 1;
+}
+.tb-btn {
+  background: none; border: 1px solid var(--border); border-radius: 7px;
+  padding: 5px 12px; font-family: var(--font); font-size: 12px; font-weight: 500;
+  color: var(--text2); cursor: pointer; transition: all .15s;
+  display: flex; align-items: center; gap: 5px; white-space: nowrap; flex-shrink: 0;
+}
+.tb-btn:hover { border-color: var(--border2); color: var(--text); }
+.tb-btn.on { border-color: var(--active-border); color: var(--active); background: var(--active-bg); }
+.tb-btn .spin { display: inline-block; }
+.tb-btn.spinning .spin { animation: spin .7s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
 
-  /* ── SEARCH ── */
-  .search-bar{background:var(--surf);border-bottom:1px solid var(--bdr);padding:8px 24px;display:flex;align-items:center;gap:8px;}
-  .search-input{flex:1;background:var(--surf2);border:1px solid var(--bdr);border-radius:6px;padding:8px 14px;font-family:'Barlow',sans-serif;font-size:13px;color:var(--txt);outline:none;transition:border-color .2s;}
-  .search-input:focus{border-color:var(--acc);}
-  .search-input::placeholder{color:var(--muted);}
-  .search-clear{background:none;border:none;cursor:pointer;color:var(--muted);font-size:16px;padding:0 4px;display:none;}
+/* ── ON AIR BAR ── */
+.onair-bar {
+  background: var(--live-bg); border-bottom: 1px solid var(--live-border);
+  padding: 8px 20px; display: none; align-items: center; gap: 10px;
+  position: relative; z-index: 100;
+}
+.onair-bar.show { display: flex; }
+.onair-pip {
+  width: 6px; height: 6px; border-radius: 50%; background: var(--live);
+  animation: blink 1.4s infinite; flex-shrink: 0;
+}
+@keyframes blink { 0%,100%{opacity:1}50%{opacity:.25} }
+.onair-tag {
+  font-family: var(--mono); font-size: 10px; font-weight: 500; letter-spacing: .08em;
+  color: var(--live); flex-shrink: 0;
+}
+.onair-title { font-size: 13px; font-weight: 500; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.onair-next { font-size: 11px; color: var(--text2); flex-shrink: 0; display: none; }
+@media(min-width:640px){ .onair-next { display: block; } }
+.onair-timer {
+  font-family: var(--mono); font-size: 11px; font-weight: 500;
+  color: var(--live); flex-shrink: 0;
+  background: var(--live-bg); border: 1px solid var(--live-border);
+  padding: 2px 9px; border-radius: 20px;
+}
 
-  /* ── DATE PICKER ── */
-  .date-picker-bar{background:var(--surf);border-bottom:1px solid var(--bdr);padding:7px 24px;display:flex;align-items:center;gap:7px;overflow-x:auto;scrollbar-width:none;}
-  .date-picker-bar::-webkit-scrollbar{display:none;}
-  .date-pill{font-family:'Bebas Neue',sans-serif;font-size:12px;letter-spacing:.08em;padding:5px 13px;border-radius:20px;border:1px solid var(--bdr);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;white-space:nowrap;flex-shrink:0;}
-  .date-pill:hover{border-color:var(--acc);color:var(--acc);}
-  .date-pill.active{background:var(--acc);border-color:var(--acc);color:#fff;}
-  .date-pill.today::after{content:'·TODAY';font-size:8px;margin-left:4px;opacity:.8;}
+/* ── LAYOUT ── */
+.layout { display: flex; min-height: calc(100vh - 52px); }
 
-  /* ── CHANNEL TABS ── */
-  .channel-tabs-wrap{background:var(--surf);border-bottom:1px solid var(--bdr);}
-  .channel-group-label{font-family:'Bebas Neue',sans-serif;font-size:9px;letter-spacing:.28em;color:var(--muted);padding:5px 24px 0;display:flex;align-items:center;gap:8px;}
-  .channel-group-label::after{content:'';flex:1;height:1px;background:var(--bdr);}
-  .channel-group-label.label-4k{color:var(--acc4);}
-  .channel-group-label.label-4k::after{background:var(--4k-bdr);}
-  .channel-tabs{display:flex;padding:0 24px;overflow-x:auto;scrollbar-width:none;gap:0;}
-  .channel-tabs::-webkit-scrollbar{display:none;}
-  .ch-tab{display:flex;align-items:center;gap:6px;padding:10px 16px;cursor:pointer;border-bottom:3px solid transparent;transition:all .2s;font-family:'Bebas Neue',sans-serif;font-size:14px;letter-spacing:.06em;color:var(--muted);white-space:nowrap;position:relative;flex-shrink:0;}
-  .ch-tab:hover{color:var(--txt);}
-  .ch-tab.active{color:var(--acc);border-bottom-color:var(--acc);}
-  .ch-tab.tab-4k{color:var(--muted);}
-  .ch-tab.tab-4k:hover{color:var(--acc4);}
-  .ch-tab.tab-4k.active{color:var(--acc4);border-bottom-color:var(--acc4);}
-  .ch-num{font-size:9px;font-family:'Barlow Condensed',sans-serif;font-weight:600;letter-spacing:.1em;background:var(--surf2);border:1px solid var(--bdr);padding:2px 6px;border-radius:3px;color:var(--muted);}
-  .ch-tab.active .ch-num{background:var(--acc);border-color:var(--acc);color:#fff;}
-  .ch-tab.tab-4k.active .ch-num{background:var(--acc4);border-color:var(--acc4);color:#fff;}
-  .badge-4k{font-family:'Bebas Neue',sans-serif;font-size:8px;letter-spacing:.06em;background:var(--4k-bg);border:1px solid var(--4k-bdr);color:var(--acc4);padding:1px 5px;border-radius:3px;}
-  .live-badge{position:absolute;top:7px;right:3px;width:6px;height:6px;background:var(--acc2);border-radius:50%;animation:pulse 2s infinite;display:none;}
-  .live-badge.show{display:block;}
+/* ── SIDEBAR ── */
+.sidebar {
+  width: 220px; flex-shrink: 0;
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+  position: sticky; top: 52px; height: calc(100vh - 52px);
+  overflow-y: auto; overflow-x: hidden;
+  scrollbar-width: thin; scrollbar-color: var(--border2) transparent;
+}
+.sidebar::-webkit-scrollbar { width: 4px; }
+.sidebar::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }
+.ch-group-label {
+  font-family: var(--mono); font-size: 9px; font-weight: 500; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--text3);
+  padding: 16px 16px 6px;
+}
+.ch-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 9px 16px; cursor: pointer;
+  border-left: 2px solid transparent;
+  transition: all .15s; position: relative;
+}
+.ch-item:hover { background: var(--surface2); }
+.ch-item.active { background: var(--active-bg); border-left-color: var(--active); }
+.ch-item.active-4k { background: var(--4k-bg); border-left-color: var(--4k); }
+.ch-num-badge {
+  font-family: var(--mono); font-size: 10px; font-weight: 500;
+  background: var(--surface2); border: 1px solid var(--border);
+  color: var(--text3); padding: 1px 6px; border-radius: 4px;
+  flex-shrink: 0;
+}
+.ch-item.active .ch-num-badge { background: var(--active-bg); border-color: var(--active-border); color: var(--active); }
+.ch-item.active-4k .ch-num-badge { background: var(--4k-bg); border-color: var(--4k-border); color: var(--4k); }
+.ch-name { font-size: 12px; font-weight: 500; color: var(--text2); flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ch-item.active .ch-name { color: var(--text); }
+.ch-item.active-4k .ch-name { color: var(--text); }
+.ch-live-dot {
+  width: 5px; height: 5px; border-radius: 50%; background: var(--live);
+  animation: blink 1.4s infinite; display: none; flex-shrink: 0;
+}
+.ch-live-dot.show { display: block; }
+.badge-4k-tag {
+  font-family: var(--mono); font-size: 8px; font-weight: 500; letter-spacing: .04em;
+  background: var(--4k-bg); border: 1px solid var(--4k-border); color: var(--4k);
+  padding: 1px 5px; border-radius: 3px; flex-shrink: 0;
+}
+.sidebar-sep { height: 1px; background: var(--border); margin: 8px 0; }
 
-  /* ── DATE BAR ── */
-  .date-bar{background:var(--acc);color:#fff;padding:9px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px;}
-  .date-bar.bar-4k{background:var(--acc4);}
-  .date-display{font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:.1em;}
-  .date-bar-right{display:flex;align-items:center;gap:8px;}
-  .cache-pill{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:600;letter-spacing:.1em;background:rgba(0,0,0,0.18);padding:4px 11px;border-radius:20px;display:flex;align-items:center;gap:5px;}
-  .c-dot{width:6px;height:6px;border-radius:50%;background:#fff;animation:pulse 2s infinite;}
-  .channel-badge-bar{font-family:'Bebas Neue',sans-serif;font-size:11px;letter-spacing:.1em;background:rgba(0,0,0,0.18);padding:4px 11px;border-radius:20px;}
+/* ── MAIN CONTENT ── */
+.main { flex: 1; min-width: 0; }
 
-  /* ── STATS ── */
-  .stats-row{display:grid;grid-template-columns:repeat(4,1fr);background:var(--surf);border-bottom:1px solid var(--bdr);}
-  .stat{padding:11px 16px;border-right:1px solid var(--bdr);text-align:center;}
-  .stat:last-child{border-right:none;}
-  .stat-num{font-family:'Bebas Neue',sans-serif;font-size:26px;color:var(--acc3);line-height:1;}
-  .stat-label{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.2em;margin-top:2px;}
+/* ── DATE ROW ── */
+.date-row {
+  background: var(--surface); border-bottom: 1px solid var(--border);
+  padding: 0 20px; display: flex; align-items: center; gap: 8px;
+  overflow-x: auto; scrollbar-width: none; height: 44px;
+}
+.date-row::-webkit-scrollbar { display: none; }
+.date-pill {
+  font-family: var(--mono); font-size: 11px; font-weight: 500;
+  padding: 4px 12px; border-radius: 20px; border: 1px solid var(--border);
+  background: transparent; color: var(--text3); cursor: pointer;
+  transition: all .15s; white-space: nowrap; flex-shrink: 0;
+}
+.date-pill:hover { border-color: var(--border2); color: var(--text2); }
+.date-pill.active { background: var(--active); border-color: var(--active); color: #fff; }
+[data-theme="dark"] .date-pill.active { color: #0c0e10; }
+.date-pill.today { border-color: var(--active-border); color: var(--active); }
+.date-pill.today.active { background: var(--active); color: #fff; }
+[data-theme="dark"] .date-pill.today.active { color: #0c0e10; }
 
-  /* ── FILTER BAR ── */
-  .filter-bar{padding:8px 24px;display:flex;gap:7px;align-items:center;background:var(--surf);border-bottom:1px solid var(--bdr);flex-wrap:wrap;}
-  .filter-lbl{font-size:9px;letter-spacing:.25em;text-transform:uppercase;color:var(--muted);margin-right:4px;}
-  .fbtn{font-family:'Bebas Neue',sans-serif;font-size:12px;letter-spacing:.08em;padding:4px 13px;border-radius:50px;border:1px solid var(--bdr);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;}
-  .fbtn:hover{border-color:var(--acc);color:var(--acc);}
-  .fbtn.active{background:var(--acc);border-color:var(--acc);color:#fff;}
-  .is-4k-channel .fbtn.active{background:var(--acc4);border-color:var(--acc4);}
-  .tool-sep{width:1px;height:20px;background:var(--bdr);margin:0 4px;}
-  .tbtn{font-family:'Bebas Neue',sans-serif;font-size:12px;letter-spacing:.08em;padding:4px 13px;border-radius:50px;border:1px solid var(--bdr);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;display:flex;align-items:center;gap:5px;}
-  .tbtn:hover{border-color:var(--acc3);color:var(--acc3);}
+/* ── CONTENT HEADER ── */
+.content-header {
+  padding: 14px 20px 10px;
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+  background: var(--surface);
+}
+.ch-heading {
+  display: flex; flex-direction: column; gap: 2px;
+}
+.ch-heading-date { font-size: 11px; color: var(--text3); font-weight: 400; }
+.ch-heading-name { font-size: 16px; font-weight: 600; letter-spacing: -0.01em; }
+.ch-heading-name .badge-4k-inline {
+  display: inline-flex; align-items: center;
+  font-family: var(--mono); font-size: 9px; font-weight: 500; letter-spacing: .04em;
+  background: var(--4k-bg); border: 1px solid var(--4k-border); color: var(--4k);
+  padding: 1px 6px; border-radius: 3px; margin-left: 7px; vertical-align: middle;
+}
+.header-meta { display: flex; align-items: center; gap: 6px; }
+.cache-label {
+  font-family: var(--mono); font-size: 10px; font-weight: 500;
+  color: var(--text3); background: var(--surface2);
+  border: 1px solid var(--border); padding: 3px 9px; border-radius: 6px;
+  display: flex; align-items: center; gap: 5px;
+}
+.cache-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--active); animation: blink 2s infinite; }
 
-  /* ── 4K NOTICE BANNER ── */
-  .fouk-notice{display:none;background:var(--4k-bg);border-bottom:1px solid var(--4k-bdr);padding:8px 24px;align-items:center;gap:10px;}
-  .fouk-notice.show{display:flex;}
-  .fouk-notice-icon{font-size:14px;}
-  .fouk-notice-txt{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:600;letter-spacing:.06em;color:var(--acc4);}
-  .fouk-notice-sub{font-size:11px;color:var(--muted);margin-left:4px;}
+/* ── STATS ── */
+.stats {
+  display: grid; grid-template-columns: repeat(4,1fr);
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+.stat { padding: 12px 16px; border-right: 1px solid var(--border); text-align: center; }
+.stat:last-child { border-right: none; }
+.stat-n { font-size: 22px; font-weight: 600; letter-spacing: -0.02em; color: var(--warn); line-height: 1; }
+.stat-l { font-size: 10px; color: var(--text3); text-transform: uppercase; letter-spacing: .1em; margin-top: 3px; }
 
-  /* ── GUIDE ── */
-  .guide-wrap{padding:10px 24px 48px;position:relative;z-index:1;}
+/* ── FILTER BAR ── */
+.filter-bar {
+  padding: 10px 20px; display: flex; gap: 6px; align-items: center;
+  background: var(--surface); border-bottom: 1px solid var(--border); flex-wrap: wrap;
+}
+.filter-label { font-family: var(--mono); font-size: 10px; font-weight: 500; letter-spacing: .08em; color: var(--text3); margin-right: 2px; text-transform: uppercase; }
+.fbtn {
+  background: none; border: 1px solid var(--border); border-radius: 20px;
+  padding: 4px 12px; font-family: var(--font); font-size: 12px; font-weight: 500;
+  color: var(--text3); cursor: pointer; transition: all .15s;
+}
+.fbtn:hover { border-color: var(--border2); color: var(--text2); }
+.fbtn.active { background: var(--active-bg); border-color: var(--active-border); color: var(--active); }
+.is4k-channel .fbtn.active { background: var(--4k-bg); border-color: var(--4k-border); color: var(--4k); }
+.filter-sep { width: 1px; height: 18px; background: var(--border); margin: 0 4px; }
+.tool-btn {
+  background: none; border: 1px solid var(--border); border-radius: 7px;
+  padding: 4px 11px; font-family: var(--font); font-size: 11px; font-weight: 500;
+  color: var(--text3); cursor: pointer; transition: all .15s;
+  display: flex; align-items: center; gap: 4px;
+}
+.tool-btn:hover { border-color: var(--border2); color: var(--text2); }
 
-  /* ── EVENT CARD ── */
-  .event-card{display:grid;grid-template-columns:72px 120px 1fr 60px;background:var(--surf);border:1px solid var(--bdr);border-radius:9px;margin-top:7px;overflow:hidden;transition:box-shadow .2s,border-color .2s;animation:fadeUp .18s ease;position:relative;}
-  .event-card.compact{grid-template-columns:72px 1fr 60px;}
-  .event-card:hover{border-color:var(--acc);box-shadow:0 3px 14px var(--glow);}
-  .event-card.is-live{border-color:var(--acc2);}
-  .event-card.card-4k{border-color:var(--4k-bdr);}
-  .event-card.card-4k:hover{border-color:var(--acc4);box-shadow:0 3px 14px rgba(14,122,99,0.15);}
-  .event-card.card-4k.is-live{border-color:var(--acc2);}
+/* ── 4K NOTICE ── */
+.fouk-notice {
+  display: none; padding: 8px 20px;
+  background: var(--4k-bg); border-bottom: 1px solid var(--4k-border);
+  align-items: center; gap: 8px;
+}
+.fouk-notice.show { display: flex; }
+.fouk-label { font-family: var(--mono); font-size: 10px; font-weight: 500; letter-spacing: .08em; color: var(--4k); }
+.fouk-sub { font-size: 12px; color: var(--text3); }
 
-  /* time col */
-  .time-col{padding:11px 10px;display:flex;flex-direction:column;justify-content:center;background:var(--surf2);border-right:1px solid var(--bdr);gap:2px;}
-  .t-start{font-family:'Bebas Neue',sans-serif;font-size:16px;letter-spacing:.06em;line-height:1;}
-  .t-dur{font-size:10px;color:var(--muted);margin-top:1px;}
-  .t-eta{font-size:9px;margin-top:3px;font-weight:600;letter-spacing:.04em;}
-  .event-card.is-past .t-start{color:var(--muted);}
-  .event-card.is-live .t-start{color:var(--acc2);}
-  .event-card.is-upcoming .t-start{color:var(--acc);}
-  .t-eta-upcoming{color:var(--acc);}
-  .t-eta-live{color:var(--acc2);}
+/* ── GUIDE ── */
+.guide { padding: 16px 20px 60px; display: flex; flex-direction: column; gap: 6px; }
 
-  /* img col */
-  .img-col{padding:7px 8px;display:flex;align-items:center;border-right:1px solid var(--bdr);background:var(--surf2);position:relative;}
-  .event-card.compact .img-col{display:none;}
-  .thumb{width:104px;height:58px;object-fit:cover;border-radius:4px;display:block;background:var(--surf2);}
-  .thumb-ph{width:104px;height:58px;border-radius:4px;background:var(--surf2);border:1px solid var(--bdr);display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--muted);}
-  .dl-btn{position:absolute;bottom:7px;right:9px;width:24px;height:24px;border-radius:4px;background:var(--surf);border:1px solid var(--bdr);display:flex;align-items:center;justify-content:center;font-size:12px;transition:all .15s;opacity:0;text-decoration:none;color:var(--txt);}
-  .img-col:hover .dl-btn{opacity:1;}
-  .dl-btn:hover{background:var(--acc4);border-color:var(--acc4);color:#fff;}
-  .progress-bar{position:absolute;bottom:0;left:0;right:0;height:3px;background:rgba(212,43,43,.15);}
-  .progress-fill{height:100%;background:var(--acc2);transition:width 10s linear;}
+/* ── EVENT CARD ── */
+@keyframes cardIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
 
-  /* info col */
-  .info-col{padding:10px 13px;display:flex;flex-direction:column;justify-content:center;gap:3px;min-width:0;}
-  .show-title{font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:600;letter-spacing:.02em;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-  .event-card.is-past .show-title{color:var(--muted);}
-  .show-ep{font-size:11px;color:var(--muted);font-weight:300;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-  .tags{display:flex;gap:4px;flex-wrap:wrap;margin-top:2px;}
-  .tag{font-family:'Bebas Neue',sans-serif;font-size:9px;letter-spacing:.08em;padding:2px 7px;border-radius:10px;border:1px solid var(--bdr);background:var(--surf2);color:var(--muted);}
-  .tag-live{background:rgba(212,43,43,.1);border-color:var(--acc2);color:var(--acc2);animation:pulse 2s infinite;}
-  .tag-4k{background:var(--4k-bg);border-color:var(--4k-bdr);color:var(--acc4);}
-  .tag-premiere{background:rgba(196,122,0,.1);border-color:var(--acc3);color:var(--acc3);}
+.event-card {
+  display: grid;
+  grid-template-columns: 72px 1fr auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: border-color .15s, box-shadow .15s;
+  animation: cardIn .16s ease both;
+  position: relative;
+}
+.event-card:hover { border-color: var(--border2); box-shadow: var(--shadow-md); }
+.event-card.is-live {
+  border-color: var(--live-border);
+  box-shadow: 0 0 0 1px var(--live-border);
+}
+.event-card.is-past { opacity: .55; }
+.event-card.is-4k { border-color: var(--4k-border); }
+.event-card.is-4k:hover { border-color: var(--4k); }
 
-  /* meta col */
-  .meta-col{padding:9px 8px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:4px;min-width:60px;border-left:1px solid var(--bdr);}
-  .status-dot{width:7px;height:7px;border-radius:50%;}
-  .dot-past{background:var(--bdr);}
-  .dot-live{background:var(--acc2);animation:pulse 1.5s infinite;}
-  .dot-upcoming{background:var(--acc);}
-  .dot-upcoming-4k{background:var(--acc4);}
-  .status-txt{font-size:8px;text-transform:uppercase;letter-spacing:.08em;font-weight:600;font-family:'Barlow Condensed',sans-serif;}
-  .st-past{color:var(--muted);}
-  .st-live{color:var(--acc2);}
-  .st-up{color:var(--acc);}
-  .st-up-4k{color:var(--acc4);}
-  .share-btn{background:none;border:none;cursor:pointer;font-size:13px;color:var(--muted);padding:1px;transition:color .15s;}
-  .share-btn:hover{color:var(--acc);}
-  .cal-btn{background:none;border:none;cursor:pointer;font-size:11px;color:var(--muted);padding:1px;transition:color .15s;}
-  .cal-btn:hover{color:var(--acc3);}
+/* live left bar */
+.event-card.is-live::before {
+  content: ''; position: absolute; left: 0; top: 0; bottom: 0;
+  width: 3px; background: var(--live);
+}
 
-  /* ── STATES ── */
-  .loading{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:5rem 2rem;gap:14px;}
-  .loader{width:30px;height:30px;border:2px solid var(--bdr);border-top-color:var(--acc);border-radius:50%;animation:spin .8s linear infinite;}
-  .loader-4k{border-top-color:var(--acc4);}
-  .loading-text{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);}
-  .empty-box{text-align:center;padding:4rem 2rem;}
-  .empty-box h3{font-family:'Bebas Neue',sans-serif;font-size:24px;letter-spacing:.1em;color:var(--acc2);margin-bottom:10px;}
-  .empty-box p{font-size:13px;color:var(--muted);line-height:1.7;}
+/* time column */
+.ev-time {
+  padding: 14px 10px;
+  display: flex; flex-direction: column; justify-content: center; align-items: flex-end;
+  gap: 3px; border-right: 1px solid var(--border);
+  background: var(--surface2);
+}
+.ev-time-start {
+  font-family: var(--mono); font-size: 14px; font-weight: 500; letter-spacing: -.01em;
+  line-height: 1;
+}
+.event-card.is-live .ev-time-start { color: var(--live); }
+.event-card.is-upcoming .ev-time-start { color: var(--active); }
+.event-card.is-past .ev-time-start { color: var(--text3); }
+.ev-dur { font-size: 10px; color: var(--text3); }
+.ev-eta {
+  font-size: 9px; font-weight: 600; letter-spacing: .03em;
+  margin-top: 2px; display: none;
+}
+.event-card.is-live .ev-eta, .event-card.is-upcoming .ev-eta { display: block; }
+.event-card.is-live .ev-eta { color: var(--live); }
+.event-card.is-upcoming .ev-eta { color: var(--active); }
 
-  /* ── NO 4K EVENTS STATE ── */
-  .no-4k-events{text-align:center;padding:3rem 2rem;}
-  .no-4k-icon{font-size:36px;margin-bottom:12px;}
-  .no-4k-title{font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:.1em;color:var(--acc4);margin-bottom:8px;}
-  .no-4k-sub{font-size:13px;color:var(--muted);line-height:1.7;max-width:380px;margin:0 auto;}
-  .no-4k-next{margin-top:16px;display:inline-flex;align-items:center;gap:8px;background:var(--4k-bg);border:1px solid var(--4k-bdr);border-radius:8px;padding:10px 18px;}
-  .no-4k-next-lbl{font-family:'Bebas Neue',sans-serif;font-size:10px;letter-spacing:.2em;color:var(--acc4);}
-  .no-4k-next-title{font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:600;color:var(--txt);}
-  .no-4k-next-time{font-size:11px;color:var(--muted);}
+/* progress */
+.ev-progress {
+  position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
+  background: var(--live-bg);
+}
+.ev-progress-fill { height: 100%; background: var(--live); transition: width 10s linear; }
 
-  footer{background:var(--surf);border-top:1px solid var(--bdr);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;font-size:11px;color:var(--muted);flex-wrap:wrap;gap:8px;}
-  .eyebrow{font-size:9px;letter-spacing:.3em;color:var(--acc);text-transform:uppercase;}
+/* info column */
+.ev-info {
+  padding: 12px 14px; display: flex; flex-direction: column; justify-content: center;
+  gap: 4px; min-width: 0;
+}
+.ev-title {
+  font-size: 14px; font-weight: 600; letter-spacing: -.01em;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.3;
+}
+.event-card.is-past .ev-title { color: var(--text2); }
+.ev-ep {
+  font-size: 12px; color: var(--text3); font-weight: 400;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.ev-tags { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 1px; }
+.tag {
+  font-family: var(--mono); font-size: 9px; font-weight: 500; letter-spacing: .05em;
+  padding: 2px 7px; border-radius: 4px; border: 1px solid var(--border);
+  color: var(--text3); background: var(--surface2);
+}
+.tag-live { border-color: var(--live-border); color: var(--live); background: var(--live-bg); animation: blink 2s infinite; }
+.tag-4k { border-color: var(--4k-border); color: var(--4k); background: var(--4k-bg); }
+.tag-premiere { border-color: rgba(251,191,36,.3); color: var(--warn); background: var(--warn-bg); }
 
-  .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--txt);color:var(--bg);padding:10px 20px;border-radius:6px;font-size:13px;font-weight:600;letter-spacing:.05em;opacity:0;transition:all .3s;pointer-events:none;z-index:999;white-space:nowrap;}
-  .toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
-  .highlight{background:#ffd74055;border-radius:2px;padding:0 1px;}
-  .kbd-hint{display:none;position:fixed;bottom:70px;right:20px;background:var(--surf);border:1px solid var(--bdr);border-radius:6px;padding:6px 12px;font-size:11px;color:var(--muted);z-index:990;animation:fadeUp .3s ease;}
-  .kbd-hint.show{display:block;}
-  kbd{background:var(--surf2);border:1px solid var(--bdr);border-radius:3px;padding:1px 5px;font-size:10px;font-family:monospace;}
+/* action column */
+.ev-actions {
+  padding: 10px 10px;
+  display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 6px;
+  border-left: 1px solid var(--border); min-width: 48px;
+}
+.status-dot { width: 6px; height: 6px; border-radius: 50%; }
+.dot-past { background: var(--surface3); }
+.dot-live { background: var(--live); animation: blink 1.4s infinite; }
+.dot-up { background: var(--active); }
+.dot-4k { background: var(--4k); }
+.status-txt { font-family: var(--mono); font-size: 8px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; }
+.st-past { color: var(--text3); }
+.st-live { color: var(--live); }
+.st-up { color: var(--active); }
+.st-4k { color: var(--4k); }
+.act-btn {
+  background: none; border: none; cursor: pointer;
+  color: var(--text3); font-size: 13px; padding: 2px; transition: color .15s; line-height: 1;
+}
+.act-btn:hover { color: var(--accent); }
+.cal-btn { font-size: 10px; }
+.cal-btn:hover { color: var(--warn); }
 
-  @media(max-width:680px){
-    .event-card{grid-template-columns:64px 1fr 52px;}
-    .event-card.compact{grid-template-columns:64px 1fr 52px;}
-    .img-col{display:none;}
-    .stats-row{grid-template-columns:repeat(2,1fr);}
-    header,.filter-bar,.guide-wrap,.date-picker-bar,.search-bar,.date-bar,.fouk-notice,.channel-group-label{padding-left:14px;padding-right:14px;}
-    .channel-tabs{padding:0 14px;}
-    .ch-tab{padding:10px 10px;font-size:13px;}
-    .now-playing{padding:0 14px;}
-  }
+/* ── STATES ── */
+.loading { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 5rem 2rem; gap: 14px; }
+.loader { width: 24px; height: 24px; border: 2px solid var(--border); border-top-color: var(--active); border-radius: 50%; animation: spin .7s linear infinite; }
+.loader-4k { border-top-color: var(--4k); }
+.loading-text { font-family: var(--mono); font-size: 11px; color: var(--text3); letter-spacing: .1em; }
+.empty-state { text-align: center; padding: 4rem 2rem; }
+.empty-title { font-size: 18px; font-weight: 600; color: var(--text2); margin-bottom: 8px; }
+.empty-sub { font-size: 13px; color: var(--text3); line-height: 1.7; }
+.no-4k-state { text-align: center; padding: 3rem 2rem; }
+.no-4k-icon { font-size: 32px; margin-bottom: 12px; }
+.no-4k-title { font-size: 16px; font-weight: 600; color: var(--4k); margin-bottom: 8px; }
+.no-4k-sub { font-size: 13px; color: var(--text3); line-height: 1.7; max-width: 380px; margin: 0 auto; }
+
+/* ── TOAST ── */
+.toast {
+  position: fixed; bottom: 24px; left: 50%;
+  transform: translateX(-50%) translateY(12px);
+  background: var(--text); color: var(--bg);
+  padding: 8px 18px; border-radius: 8px;
+  font-size: 12px; font-weight: 600; font-family: var(--mono);
+  opacity: 0; transition: all .25s; pointer-events: none; z-index: 999;
+  white-space: nowrap; letter-spacing: .03em;
+}
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* ── FOOTER ── */
+footer {
+  background: var(--surface); border-top: 1px solid var(--border);
+  padding: 10px 20px; font-family: var(--mono); font-size: 10px;
+  color: var(--text3); display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 8px;
+}
+
+/* ── HIGHLIGHT ── */
+mark.hl { background: rgba(251,191,36,.25); border-radius: 2px; padding: 0 1px; color: inherit; }
+
+/* ── RESPONSIVE ── */
+@media(max-width: 800px) {
+  .sidebar { display: none; }
+  .event-card { grid-template-columns: 64px 1fr auto; }
+}
+@media(max-width: 520px) {
+  .stats { grid-template-columns: repeat(2,1fr); }
+  .topbar { padding: 0 14px; gap: 10px; }
+  .ist-clock { display: none; }
+}
 </style>
 </head>
 <body>
 
-<!-- NOW PLAYING BANNER -->
-<div class="now-playing" id="now-playing-bar">
-  <div class="np-pulse"></div>
-  <span class="np-label">ON AIR</span>
-  <span class="np-title" id="np-title">—</span>
-  <span class="np-next" id="np-next"></span>
-  <span class="np-countdown" id="np-countdown">—</span>
-</div>
-
-<header>
-  <div class="header-left">
-    <div class="site-title">FOXTEL <span>GUIDE</span></div>
-    <div class="ist-clock" id="ist-clock">--:--:-- IST</div>
+<!-- TOPBAR -->
+<header class="topbar">
+  <div class="brand"><div class="brand-dot"></div>Foxtel Guide</div>
+  <div class="ist-clock" id="ist-clock">--:--:-- IST</div>
+  <div class="search-wrap">
+    <span class="search-ico">⌕</span>
+    <input class="search-input" id="search-input" type="text" placeholder="Search shows… ( / to focus)" oninput="onSearch(this.value)">
+    <button class="search-clear" id="search-clear" onclick="clearSearch()">×</button>
   </div>
-  <div class="header-right">
-    <button class="hbtn compact-btn" id="compact-btn" onclick="toggleCompact()" title="Compact view (V)">⊟ COMPACT</button>
-    <button class="hbtn" onclick="toggleTheme()"><span id="theme-icon">☀️</span> <span id="theme-lbl">LIGHT</span></button>
-    <button class="hbtn bebas" id="refresh-btn" onclick="refreshCurrent()"><span class="si">↻</span> REFRESH</button>
-  </div>
+  <div class="topbar-spacer"></div>
+  <button class="tb-btn" id="compact-btn" onclick="toggleCompact()">⊟ Compact</button>
+  <button class="tb-btn" onclick="toggleTheme()"><span id="theme-ico">☀</span> <span id="theme-lbl">Light</span></button>
+  <button class="tb-btn" id="refresh-btn" onclick="refreshCurrent()"><span class="spin">↻</span> Refresh</button>
 </header>
 
-<div class="search-bar">
-  <input class="search-input" id="search-input" type="text" placeholder="Search shows... (press / to focus)" oninput="onSearch(this.value)">
-  <button class="search-clear" id="search-clear" onclick="clearSearch()">✕</button>
+<!-- ON AIR -->
+<div class="onair-bar" id="onair-bar">
+  <div class="onair-pip"></div>
+  <span class="onair-tag">ON AIR</span>
+  <span class="onair-title" id="onair-title">—</span>
+  <span class="onair-next" id="onair-next"></span>
+  <span class="onair-timer" id="onair-timer">—</span>
 </div>
 
-<div class="date-picker-bar" id="date-picker-bar"></div>
+<div class="layout">
 
-<!-- CHANNEL TABS -->
-<div class="channel-tabs-wrap">
-  <div class="channel-group-label">HD Channels</div>
-  <div class="channel-tabs" id="tabs-hd">
-    <div class="ch-tab active" id="tab-FSN" onclick="switchChannel('FSN')"><span class="ch-num">500</span> FOX SPORTS NEWS<span class="live-badge" id="badge-FSN"></span></div>
-    <div class="ch-tab" id="tab-FS1" onclick="switchChannel('FS1')"><span class="ch-num">501</span> FOX CRICKET<span class="live-badge" id="badge-FS1"></span></div>
-    <div class="ch-tab" id="tab-SP2" onclick="switchChannel('SP2')"><span class="ch-num">502</span> FOX LEAGUE<span class="live-badge" id="badge-SP2"></span></div>
-    <div class="ch-tab" id="tab-FS3" onclick="switchChannel('FS3')"><span class="ch-num">503</span> FOX SPORTS 503<span class="live-badge" id="badge-FS3"></span></div>
-    <div class="ch-tab" id="tab-FAF" onclick="switchChannel('FAF')"><span class="ch-num">504</span> FOX FOOTY<span class="live-badge" id="badge-FAF"></span></div>
-    <div class="ch-tab" id="tab-FSP" onclick="switchChannel('FSP')"><span class="ch-num">505</span> FOX SPORTS 505<span class="live-badge" id="badge-FSP"></span></div>
-    <div class="ch-tab" id="tab-SPS" onclick="switchChannel('SPS')"><span class="ch-num">506</span> FOX SPORTS 506<span class="live-badge" id="badge-SPS"></span></div>
-    <div class="ch-tab" id="tab-FSS" onclick="switchChannel('FSS')"><span class="ch-num">507</span> FOX SPORTS 507<span class="live-badge" id="badge-FSS"></span></div>
-    <div class="ch-tab" id="tab-ESP" onclick="switchChannel('ESP')"><span class="ch-num">ESPN</span> ESPN<span class="live-badge" id="badge-ESP"></span></div>
-    <div class="ch-tab" id="tab-ES2" onclick="switchChannel('ES2')"><span class="ch-num">ESPN2</span> ESPN2<span class="live-badge" id="badge-ES2"></span></div>
-    <div class="ch-tab" id="tab-RTV" onclick="switchChannel('RTV')"><span class="ch-num">529</span> RACING.COM<span class="live-badge" id="badge-RTV"></span></div>
-    <div class="ch-tab" id="tab-UFC" onclick="switchChannel('UFC')"><span class="ch-num">523</span> UFC<span class="live-badge" id="badge-UFC"></span></div>
-  </div>
-  <div class="channel-group-label label-4k">4K Channels</div>
-  <div class="channel-tabs" id="tabs-4k">
-    <div class="ch-tab tab-4k" id="tab-4KL" onclick="switchChannel('4KL')"><span class="ch-num">13</span> FOX LEAGUE <span class="badge-4k">4K</span><span class="live-badge" id="badge-4KL"></span></div>
-    <div class="ch-tab tab-4k" id="tab-4KF1" onclick="switchChannel('4KF1')"><span class="ch-num">14</span> FOX F1 <span class="badge-4k">4K</span><span class="live-badge" id="badge-4KF1"></span></div>
-    <div class="ch-tab tab-4k" id="tab-4KF" onclick="switchChannel('4KF')"><span class="ch-num">15</span> FOX FOOTY <span class="badge-4k">4K</span><span class="live-badge" id="badge-4KF"></span></div>
-    <div class="ch-tab tab-4k" id="tab-4KF2" onclick="switchChannel('4KF2')"><span class="ch-num">16</span> FOX FOOTY 2 <span class="badge-4k">4K</span><span class="live-badge" id="badge-4KF2"></span></div>
-    <div class="ch-tab tab-4k" id="tab-4KN" onclick="switchChannel('4KN')"><span class="ch-num">17</span> FOX NETBALL <span class="badge-4k">4K</span><span class="live-badge" id="badge-4KN"></span></div>
-  </div>
-</div>
+  <!-- SIDEBAR -->
+  <nav class="sidebar" id="sidebar">
+    <div class="ch-group-label">HD Channels</div>
+    <div class="ch-item active" id="tab-FSN" onclick="switchChannel('FSN')">
+      <span class="ch-num-badge">500</span>
+      <span class="ch-name">Fox Sports News</span>
+      <span class="ch-live-dot" id="badge-FSN"></span>
+    </div>
+    <div class="ch-item" id="tab-FS1" onclick="switchChannel('FS1')">
+      <span class="ch-num-badge">501</span>
+      <span class="ch-name">Fox Cricket</span>
+      <span class="ch-live-dot" id="badge-FS1"></span>
+    </div>
+    <div class="ch-item" id="tab-SP2" onclick="switchChannel('SP2')">
+      <span class="ch-num-badge">502</span>
+      <span class="ch-name">Fox League</span>
+      <span class="ch-live-dot" id="badge-SP2"></span>
+    </div>
+    <div class="ch-item" id="tab-FS3" onclick="switchChannel('FS3')">
+      <span class="ch-num-badge">503</span>
+      <span class="ch-name">Fox Sports 503</span>
+      <span class="ch-live-dot" id="badge-FS3"></span>
+    </div>
+    <div class="ch-item" id="tab-FAF" onclick="switchChannel('FAF')">
+      <span class="ch-num-badge">504</span>
+      <span class="ch-name">Fox Footy</span>
+      <span class="ch-live-dot" id="badge-FAF"></span>
+    </div>
+    <div class="ch-item" id="tab-FSP" onclick="switchChannel('FSP')">
+      <span class="ch-num-badge">505</span>
+      <span class="ch-name">Fox Sports 505</span>
+      <span class="ch-live-dot" id="badge-FSP"></span>
+    </div>
+    <div class="ch-item" id="tab-SPS" onclick="switchChannel('SPS')">
+      <span class="ch-num-badge">506</span>
+      <span class="ch-name">Fox Sports 506</span>
+      <span class="ch-live-dot" id="badge-SPS"></span>
+    </div>
+    <div class="ch-item" id="tab-FSS" onclick="switchChannel('FSS')">
+      <span class="ch-num-badge">507</span>
+      <span class="ch-name">Fox Sports 507</span>
+      <span class="ch-live-dot" id="badge-FSS"></span>
+    </div>
+    <div class="ch-item" id="tab-ESP" onclick="switchChannel('ESP')">
+      <span class="ch-num-badge">ESPN</span>
+      <span class="ch-name">ESPN</span>
+      <span class="ch-live-dot" id="badge-ESP"></span>
+    </div>
+    <div class="ch-item" id="tab-ES2" onclick="switchChannel('ES2')">
+      <span class="ch-num-badge">ESPN2</span>
+      <span class="ch-name">ESPN2</span>
+      <span class="ch-live-dot" id="badge-ES2"></span>
+    </div>
+    <div class="ch-item" id="tab-RTV" onclick="switchChannel('RTV')">
+      <span class="ch-num-badge">529</span>
+      <span class="ch-name">Racing.com</span>
+      <span class="ch-live-dot" id="badge-RTV"></span>
+    </div>
+    <div class="ch-item" id="tab-UFC" onclick="switchChannel('UFC')">
+      <span class="ch-num-badge">523</span>
+      <span class="ch-name">UFC</span>
+      <span class="ch-live-dot" id="badge-UFC"></span>
+    </div>
 
-<!-- 4K NOTICE -->
-<div class="fouk-notice" id="fouk-notice">
-  <span class="fouk-notice-icon">✨</span>
-  <span class="fouk-notice-txt">4K CHANNEL</span>
-  <span class="fouk-notice-sub">— Only selected 4K events are shown. Gaps between events are normal.</span>
-</div>
+    <div class="sidebar-sep"></div>
+    <div class="ch-group-label">4K Channels</div>
 
-<div class="date-bar" id="date-bar">
-  <div class="date-display" id="date-display">—</div>
-  <div class="date-bar-right">
-    <div class="channel-badge-bar" id="channel-badge-bar"></div>
-    <div class="cache-pill"><div class="c-dot"></div><span id="cache-info">Loading...</span></div>
-  </div>
-</div>
+    <div class="ch-item" id="tab-4KL" onclick="switchChannel('4KL')">
+      <span class="ch-num-badge">13</span>
+      <span class="ch-name">Fox League</span>
+      <span class="badge-4k-tag">4K</span>
+      <span class="ch-live-dot" id="badge-4KL"></span>
+    </div>
+    <div class="ch-item" id="tab-4KF1" onclick="switchChannel('4KF1')">
+      <span class="ch-num-badge">14</span>
+      <span class="ch-name">Fox F1</span>
+      <span class="badge-4k-tag">4K</span>
+      <span class="ch-live-dot" id="badge-4KF1"></span>
+    </div>
+    <div class="ch-item" id="tab-4KF" onclick="switchChannel('4KF')">
+      <span class="ch-num-badge">15</span>
+      <span class="ch-name">Fox Footy</span>
+      <span class="badge-4k-tag">4K</span>
+      <span class="ch-live-dot" id="badge-4KF"></span>
+    </div>
+    <div class="ch-item" id="tab-4KF2" onclick="switchChannel('4KF2')">
+      <span class="ch-num-badge">16</span>
+      <span class="ch-name">Fox Footy 2</span>
+      <span class="badge-4k-tag">4K</span>
+      <span class="ch-live-dot" id="badge-4KF2"></span>
+    </div>
+    <div class="ch-item" id="tab-4KN" onclick="switchChannel('4KN')">
+      <span class="ch-num-badge">17</span>
+      <span class="ch-name">Fox Netball</span>
+      <span class="badge-4k-tag">4K</span>
+      <span class="ch-live-dot" id="badge-4KN"></span>
+    </div>
+  </nav>
 
-<div class="stats-row" id="stats-row">
-  <div class="stat"><div class="stat-num">—</div><div class="stat-label">Total Shows</div></div>
-  <div class="stat"><div class="stat-num">—</div><div class="stat-label">Hours</div></div>
-  <div class="stat"><div class="stat-num">—</div><div class="stat-label">Live Now</div></div>
-  <div class="stat"><div class="stat-num">—</div><div class="stat-label">Upcoming</div></div>
-</div>
+  <!-- MAIN -->
+  <main class="main">
 
-<div class="filter-bar" id="filter-bar">
-  <span class="filter-lbl">Show:</span>
-  <button class="fbtn active" onclick="setFilter('all',this)">All</button>
-  <button class="fbtn" onclick="setFilter('live',this)">Live Now</button>
-  <button class="fbtn" onclick="setFilter('upcoming',this)">Upcoming</button>
-  <button class="fbtn" onclick="setFilter('past',this)">Past</button>
-  <div class="tool-sep"></div>
-  <button class="tbtn" onclick="exportText()" title="Copy schedule as text">📋 COPY</button>
-  <button class="tbtn" onclick="exportTextWithImages()" title="Copy schedule with thumbnail URLs">🖼 COPY+IMG</button>
-  <button class="tbtn" onclick="exportSchedule()" title="Export as text file">📄 EXPORT</button>
-</div>
+    <!-- DATE PILLS -->
+    <div class="date-row" id="date-row"></div>
 
-<div class="guide-wrap">
-  <div id="guide-container">
-    <div class="loading"><div class="loader"></div><div class="loading-text">Loading Schedule...</div></div>
-  </div>
+    <!-- CONTENT HEADER -->
+    <div class="content-header">
+      <div class="ch-heading">
+        <div class="ch-heading-date" id="ch-heading-date">—</div>
+        <div class="ch-heading-name" id="ch-heading-name">—</div>
+      </div>
+      <div class="header-meta">
+        <div class="cache-label"><div class="cache-dot"></div><span id="cache-info">Loading…</span></div>
+      </div>
+    </div>
+
+    <!-- STATS -->
+    <div class="stats" id="stats">
+      <div class="stat"><div class="stat-n">—</div><div class="stat-l">Shows</div></div>
+      <div class="stat"><div class="stat-n">—</div><div class="stat-l">Hours</div></div>
+      <div class="stat"><div class="stat-n">—</div><div class="stat-l">Live Now</div></div>
+      <div class="stat"><div class="stat-n">—</div><div class="stat-l">Upcoming</div></div>
+    </div>
+
+    <!-- 4K NOTICE -->
+    <div class="fouk-notice" id="fouk-notice">
+      <span class="fouk-label">✦ 4K Channel</span>
+      <span class="fouk-sub">— Only scheduled 4K events are shown. Gaps between events are normal.</span>
+    </div>
+
+    <!-- FILTER -->
+    <div class="filter-bar" id="filter-bar">
+      <span class="filter-label">Show</span>
+      <button class="fbtn active" onclick="setFilter('all',this)">All</button>
+      <button class="fbtn" onclick="setFilter('live',this)">Live</button>
+      <button class="fbtn" onclick="setFilter('upcoming',this)">Upcoming</button>
+      <button class="fbtn" onclick="setFilter('past',this)">Past</button>
+      <div class="filter-sep"></div>
+      <button class="tool-btn" onclick="exportText()">📋 Copy</button>
+      <button class="tool-btn" onclick="exportTextWithImages()">🖼 Copy+Img</button>
+      <button class="tool-btn" onclick="exportSchedule()">📄 Export</button>
+    </div>
+
+    <!-- GUIDE -->
+    <div class="guide" id="guide-container">
+      <div class="loading"><div class="loader"></div><div class="loading-text">Loading schedule…</div></div>
+    </div>
+
+  </main>
 </div>
 
 <footer>
-  <span class="eyebrow">Foxtel TV Guide · HD + 4K · 4h auto-update · 21 days history</span>
-  <span id="footer-info" style="font-size:10px;font-family:monospace">—</span>
+  <span>Foxtel TV Guide · HD + 4K · 4h auto-update · 21 days history</span>
+  <span id="footer-info" style="font-family:var(--mono);font-size:10px">—</span>
 </footer>
 
 <div class="toast" id="toast"></div>
-<div class="kbd-hint" id="kbd-hint"></div>
 
 <script>
-  const REPO_RAW = 'https://raw.githubusercontent.com/Jinx8004NEW/FoxtelEPG/main';
+const REPO_RAW = 'https://raw.githubusercontent.com/Jinx8004NEW/FoxtelEPG/main';
 
-  const CHANNELS = {
-    // HD
-    FSN:  { name:'Fox Sports News HD',  number:'500',  is4k:false },
-    FS1:  { name:'Fox Cricket HD',      number:'501',  is4k:false },
-    SP2:  { name:'Fox League HD',       number:'502',  is4k:false },
-    FS3:  { name:'Fox Sports 503 HD',   number:'503',  is4k:false },
-    FAF:  { name:'Fox Footy HD',        number:'504',  is4k:false },
-    FSP:  { name:'Fox Sports 505 HD',   number:'505',  is4k:false },
-    SPS:  { name:'Fox Sports 506 HD',   number:'506',  is4k:false },
-    FSS:  { name:'Fox Sports 507 HD',   number:'507',  is4k:false },
-    ESP:  { name:'ESPN HD',             number:'508',  is4k:false },
-    ES2:  { name:'ESPN2 HD',            number:'509',  is4k:false },
-    RTV:  { name:'Racing.com HD',       number:'529',  is4k:false },
-    UFC:  { name:'Main Event UFC',      number:'523',  is4k:false },
-    // 4K
-    '4KL':  { name:'Fox League 4K',    number:'CH 13', is4k:true, sport:'NRL Rugby League'    },
-    '4KF1': { name:'Fox F1 4K',        number:'CH 14', is4k:true, sport:'Formula 1'           },
-    '4KF':  { name:'Fox Footy 4K',     number:'CH 15', is4k:true, sport:'AFL'                 },
-    '4KF2': { name:'Fox Footy 2 4K',   number:'CH 16', is4k:true, sport:'AFL overflow'        },
-    '4KN':  { name:'Fox Netball 4K',   number:'CH 17', is4k:true, sport:'Suncorp Super Netball'},
-  };
+const CHANNELS = {
+  FSN:  { name:'Fox Sports News HD',  number:'500',  is4k:false },
+  FS1:  { name:'Fox Cricket HD',      number:'501',  is4k:false },
+  SP2:  { name:'Fox League HD',       number:'502',  is4k:false },
+  FS3:  { name:'Fox Sports 503 HD',   number:'503',  is4k:false },
+  FAF:  { name:'Fox Footy HD',        number:'504',  is4k:false },
+  FSP:  { name:'Fox Sports 505 HD',   number:'505',  is4k:false },
+  SPS:  { name:'Fox Sports 506 HD',   number:'506',  is4k:false },
+  FSS:  { name:'Fox Sports 507 HD',   number:'507',  is4k:false },
+  ESP:  { name:'ESPN HD',             number:'508',  is4k:false },
+  ES2:  { name:'ESPN2 HD',            number:'509',  is4k:false },
+  RTV:  { name:'Racing.com HD',       number:'529',  is4k:false },
+  UFC:  { name:'Main Event UFC',      number:'523',  is4k:false },
+  '4KL':  { name:'Fox League 4K',    number:'CH 13', is4k:true, sport:'NRL Rugby League' },
+  '4KF1': { name:'Fox F1 4K',        number:'CH 14', is4k:true, sport:'Formula 1' },
+  '4KF':  { name:'Fox Footy 4K',     number:'CH 15', is4k:true, sport:'AFL' },
+  '4KF2': { name:'Fox Footy 2 4K',   number:'CH 16', is4k:true, sport:'AFL overflow' },
+  '4KN':  { name:'Fox Netball 4K',   number:'CH 17', is4k:true, sport:'Suncorp Super Netball' },
+};
+const ALL_TAGS = Object.keys(CHANNELS);
 
-  const ALL_TAGS = Object.keys(CHANNELS);
+let currentChannel = 'FSN', currentFilter = 'all', currentDate = '';
+let searchQuery = '', isCompact = false;
+let availableDates = {}, loadedData = {};
+ALL_TAGS.forEach(t => { availableDates[t] = []; });
 
-  let currentChannel = 'FSN';
-  let currentFilter  = 'all';
-  let currentDate    = '';
-  let searchQuery    = '';
-  let isCompact      = false;
-  let availableDates = {};
-  let loadedData     = {};
+/* ── THEME ── */
+function toggleTheme() {
+  const d = document.documentElement;
+  const next = d.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+  d.setAttribute('data-theme', next);
+  localStorage.setItem('theme', next);
+  document.getElementById('theme-ico').textContent = next === 'dark' ? '🌙' : '☀';
+  document.getElementById('theme-lbl').textContent = next === 'dark' ? 'Dark' : 'Light';
+}
+(function initTheme() {
+  const s = localStorage.getItem('theme') || 'dark';
+  document.documentElement.setAttribute('data-theme', s);
+  document.getElementById('theme-ico').textContent = s === 'dark' ? '🌙' : '☀';
+  document.getElementById('theme-lbl').textContent = s === 'dark' ? 'Dark' : 'Light';
+})();
 
-  ALL_TAGS.forEach(t => { availableDates[t] = []; });
+/* ── COMPACT ── */
+function toggleCompact() {
+  isCompact = !isCompact;
+  document.getElementById('compact-btn').classList.toggle('on', isCompact);
+  const k = currentChannel+'_'+currentDate;
+  if (loadedData[k]) render(loadedData[k]);
+}
 
-  /* ── THEME ── */
-  function toggleTheme() {
-    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-    const next = isDark ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', next);
-    localStorage.setItem('theme', next);
-    document.getElementById('theme-icon').textContent = isDark ? '☀️' : '🌙';
-    document.getElementById('theme-lbl').textContent  = isDark ? 'LIGHT' : 'DARK';
-  }
-  (function initTheme() {
-    const saved = localStorage.getItem('theme') || 'light';
-    document.documentElement.setAttribute('data-theme', saved);
-    document.getElementById('theme-icon').textContent = saved === 'dark' ? '🌙' : '☀️';
-    document.getElementById('theme-lbl').textContent  = saved === 'dark' ? 'DARK' : 'LIGHT';
-  })();
+/* ── CLOCK ── */
+function updateClock() {
+  document.getElementById('ist-clock').textContent =
+    new Date().toLocaleString('en-IN',{timeZone:'Asia/Kolkata',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false})+' IST';
+}
+setInterval(updateClock,1000); updateClock();
 
-  /* ── COMPACT ── */
-  function toggleCompact() {
-    isCompact = !isCompact;
-    document.getElementById('compact-btn').classList.toggle('on', isCompact);
-    const key = currentChannel + '_' + currentDate;
-    if (loadedData[key]) render(loadedData[key]);
-  }
+/* ── TIME HELPERS ── */
+function toIST(ms) {
+  return new Date(ms).toLocaleString('en-IN',{timeZone:'Asia/Kolkata',hour:'2-digit',minute:'2-digit',hour12:false});
+}
+function toISTDate(ms) {
+  return new Date(ms).toLocaleDateString('en-IN',{timeZone:'Asia/Kolkata',weekday:'long',day:'numeric',month:'long',year:'numeric'});
+}
+function todayIST() { return new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Kolkata'}); }
+function formatDateLabel(d) {
+  const dt = new Date(d+'T12:00:00+05:30');
+  const day = dt.toLocaleDateString('en-IN',{timeZone:'Asia/Kolkata',day:'numeric',month:'short'}).toUpperCase();
+  return day;
+}
+function minsUntil(ms) { return Math.max(0,Math.round((ms-Date.now())/60000)); }
+function minsLeft(s,d) { return Math.max(0,Math.round((s+d*60000-Date.now())/60000)); }
+function fmtCountdown(m) {
+  if (m<=0) return 'ending';
+  if (m<60) return m+'m left';
+  return Math.floor(m/60)+'h '+m%60+'m left';
+}
 
-  /* ── CLOCK ── */
-  function updateClock() {
-    document.getElementById('ist-clock').textContent =
-      new Date().toLocaleString('en-IN',{timeZone:'Asia/Kolkata',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}) + ' IST';
-  }
-  setInterval(updateClock, 1000); updateClock();
+/* ── TOAST ── */
+function showToast(msg) {
+  const el=document.getElementById('toast');
+  el.textContent=msg; el.classList.add('show');
+  setTimeout(()=>el.classList.remove('show'),2500);
+}
 
-  /* ── TIME HELPERS ── */
-  function toIST(ms) {
-    return new Date(ms).toLocaleString('en-IN',{timeZone:'Asia/Kolkata',hour:'2-digit',minute:'2-digit',hour12:false});
-  }
-  function toISTDate(ms) {
-    return new Date(ms).toLocaleDateString('en-IN',{timeZone:'Asia/Kolkata',weekday:'long',day:'numeric',month:'long',year:'numeric'}).toUpperCase();
-  }
-  function todayIST() { return new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Kolkata'}); }
-  function formatDateLabel(d) {
-    return new Date(d+'T12:00:00+05:30').toLocaleDateString('en-IN',{timeZone:'Asia/Kolkata',day:'numeric',month:'short'}).toUpperCase();
-  }
-  function minsUntil(ms) { return Math.max(0, Math.round((ms - Date.now()) / 60000)); }
-  function minsLeft(start, dur) { return Math.max(0, Math.round((start + dur*60000 - Date.now()) / 60000)); }
-  function fmtCountdown(mins) {
-    if (mins <= 0) return 'ending now';
-    if (mins < 60) return `${mins}m left`;
-    return `${Math.floor(mins/60)}h ${mins%60}m left`;
-  }
+/* ── 4K ── */
+function is4K(tag) { return CHANNELS[tag]?.is4k===true; }
 
-  /* ── TOAST ── */
-  function showToast(msg) {
-    const el = document.getElementById('toast');
-    el.textContent = msg; el.classList.add('show');
-    setTimeout(() => el.classList.remove('show'), 2800);
-  }
+/* ── UPDATE CHANNEL UI ── */
+function updateChannelUI(tag) {
+  const ch = CHANNELS[tag];
+  const i4k = is4K(tag);
+  document.getElementById('fouk-notice').classList.toggle('show', i4k);
+  document.getElementById('filter-bar').classList.toggle('is4k-channel', i4k);
+  const hname = document.getElementById('ch-heading-name');
+  hname.innerHTML = (ch.number+' · '+ch.name) + (i4k?'<span class="badge-4k-inline">4K</span>':'');
+}
 
-  /* ── KBD HINT ── */
-  function showKbd(msg, dur = 2000) {
-    const el = document.getElementById('kbd-hint');
-    el.innerHTML = msg; el.classList.add('show');
-    setTimeout(() => el.classList.remove('show'), dur);
-  }
+/* ── ON AIR ── */
+function updateOnAir(events) {
+  const now = Date.now(), isToday = currentDate===todayIST();
+  const bar = document.getElementById('onair-bar');
+  if (!isToday) { bar.classList.remove('show'); return; }
+  const live = events.find(e=>now>=e.scheduledDate&&now<e.scheduledDate+e.duration*60000);
+  if (!live) { bar.classList.remove('show'); return; }
+  bar.classList.add('show');
+  document.getElementById('onair-title').textContent = live.programTitle;
+  document.getElementById('onair-timer').textContent = fmtCountdown(minsLeft(live.scheduledDate,live.duration));
+  const nx = events[events.indexOf(live)+1];
+  if (nx) document.getElementById('onair-next').textContent = 'Next: '+nx.programTitle+' at '+toIST(nx.scheduledDate);
+}
 
-  /* ── IS 4K ── */
-  function is4KChannel(tag) { return CHANNELS[tag]?.is4k === true; }
+/* ── PROGRESS ── */
+function updateProgressBars() {
+  const now=Date.now();
+  document.querySelectorAll('.ev-progress-fill').forEach(el=>{
+    const s=+el.dataset.start,e=+el.dataset.end;
+    el.style.width=Math.min(100,Math.max(0,((now-s)/(e-s))*100))+'%';
+  });
+  document.querySelectorAll('.ev-eta[data-end]').forEach(el=>{
+    const end=+el.dataset.end,start=+el.dataset.start;
+    if (el.dataset.islive==='1') el.textContent=fmtCountdown(Math.round((end-now)/60000));
+    else {
+      const m=minsUntil(start);
+      el.textContent=m<=0?'starting now':'in '+(m<60?m+'m':Math.floor(m/60)+'h '+m%60+'m');
+    }
+  });
+}
+setInterval(updateProgressBars,10000);
 
-  /* ── UPDATE UI FOR CHANNEL TYPE ── */
-  function updateChannelUI(tag) {
-    const is4k = is4KChannel(tag);
-    const ch = CHANNELS[tag];
-    const bar = document.getElementById('date-bar');
-    const notice = document.getElementById('fouk-notice');
-    const filterBar = document.getElementById('filter-bar');
-    const badge = document.getElementById('channel-badge-bar');
+/* ── LIVE BADGES ── */
+function updateLiveBadges(tag,events) {
+  const now=Date.now();
+  const has=events.some(e=>now>=e.scheduledDate&&now<e.scheduledDate+e.duration*60000);
+  const b=document.getElementById('badge-'+tag);
+  if (b) b.classList.toggle('show',has);
+}
 
-    bar.classList.toggle('bar-4k', is4k);
-    notice.classList.toggle('show', is4k);
-    filterBar.classList.toggle('is-4k-channel', is4k);
-    badge.textContent = ch ? ch.number + ' · ' + ch.name : '';
-  }
+/* ── SHARE / CALENDAR ── */
+function shareEvent(title,time,ch,imgUrl) {
+  const text=`📺 ${title}\n🕐 ${time} IST on ${CHANNELS[ch].name}\n🖼 ${imgUrl}`;
+  if (navigator.share) navigator.share({title,text,url:window.location.href}).catch(()=>{});
+  else { navigator.clipboard?.writeText(text).then(()=>showToast('✓ Copied')); }
+}
+function addToCalendar(evJson) {
+  const ev=JSON.parse(evJson);
+  const s=new Date(ev.scheduledDate),e=new Date(ev.scheduledDate+ev.duration*60000);
+  const f=d=>d.toISOString().replace(/[-:]/g,'').split('.')[0]+'Z';
+  window.open(`https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(ev.programTitle)}&dates=${f(s)}/${f(e)}&details=${encodeURIComponent((ev.episodeTitle||'')+' on '+CHANNELS[currentChannel].name)}`,'_blank');
+}
 
-  /* ── NOW PLAYING BANNER ── */
-  function updateNowPlaying(events) {
-    const now = Date.now();
-    const isToday = currentDate === todayIST();
-    const bar = document.getElementById('now-playing-bar');
-    if (!isToday) { bar.classList.remove('show'); return; }
-    const live = events.find(e => now >= e.scheduledDate && now < e.scheduledDate + e.duration*60000);
-    if (!live) { bar.classList.remove('show'); return; }
-    bar.classList.add('show');
-    document.getElementById('np-title').textContent = live.programTitle;
-    document.getElementById('np-countdown').textContent = fmtCountdown(minsLeft(live.scheduledDate, live.duration));
-    const idx = events.indexOf(live);
-    const next = events[idx + 1];
-    if (next) document.getElementById('np-next').textContent = `Next: ${next.programTitle} at ${toIST(next.scheduledDate)}`;
-  }
+/* ── EXPORT ── */
+function buildText(imgs=false) {
+  const k=currentChannel+'_'+currentDate, d=loadedData[k]; if(!d) return '';
+  const ch=CHANNELS[currentChannel];
+  return [`📺 ${ch.name} (${ch.number})${ch.is4k?' ✦ 4K':''}  —  ${d.date}`,
+    '─'.repeat(44),
+    ...d.events.map(ev=>{
+      const s=toIST(ev.scheduledDate),e=toIST(ev.scheduledDate+ev.duration*60000);
+      const l=`${s}–${e}  ${ev.programTitle}`;
+      return imgs?`${l}\n   🖼 ${ev.imageUrl}`:l;
+    }),
+    '─'.repeat(44),`Fetched: ${d.fetchedAtIST}`].join('\n');
+}
+function exportText() { const t=buildText(false); if(!t){showToast('No data');return;} navigator.clipboard?.writeText(t).then(()=>showToast('✓ Copied')); }
+function exportTextWithImages() { const t=buildText(true); if(!t){showToast('No data');return;} navigator.clipboard?.writeText(t).then(()=>showToast('✓ Copied with images')); }
+function exportSchedule() {
+  const t=buildText(true); if(!t){showToast('No data');return;}
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob([t],{type:'text/plain'}));
+  a.download=`${currentChannel}_${currentDate}.txt`; a.click();
+  showToast('✓ Exported');
+}
 
-  /* ── PROGRESS BARS ── */
-  function updateProgressBars() {
-    const now = Date.now();
-    document.querySelectorAll('.progress-fill').forEach(el => {
-      const s = +el.dataset.start, e = +el.dataset.end;
-      el.style.width = Math.min(100, Math.max(0, ((now-s)/(e-s))*100)) + '%';
-    });
-    document.querySelectorAll('.t-eta[data-end]').forEach(el => {
-      const end = +el.dataset.end, start = +el.dataset.start;
-      if (el.dataset.islive === '1') {
-        el.textContent = fmtCountdown(Math.round((end - now)/60000));
-      } else {
-        const m = minsUntil(start);
-        el.textContent = m <= 0 ? 'starting now' : `in ${m < 60 ? m+'m' : Math.floor(m/60)+'h '+m%60+'m'}`;
-      }
-    });
-  }
-  setInterval(updateProgressBars, 10000);
+/* ── SEARCH ── */
+function onSearch(v) {
+  searchQuery=v.trim().toLowerCase();
+  document.getElementById('search-clear').style.display=searchQuery?'block':'none';
+  const k=currentChannel+'_'+currentDate;
+  if (loadedData[k]) render(loadedData[k]);
+}
+function clearSearch() { document.getElementById('search-input').value=''; onSearch(''); }
+function highlight(text,q) {
+  if (!q) return text;
+  return text.replace(new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})`, 'gi'), '<mark class="hl">$1</mark>');
+}
 
-  /* ── LIVE BADGES ── */
-  function updateLiveBadges(tag, events) {
-    const now = Date.now();
-    const has = events.some(e => now >= e.scheduledDate && now < e.scheduledDate + e.duration*60000);
-    const b = document.getElementById('badge-' + tag);
-    if (b) b.classList.toggle('show', has);
-  }
-
-  /* ── JUMP TO LIVE ── */
-  function jumpToLive() {
-    const el = document.querySelector('.event-card.is-live');
-    if (el) el.scrollIntoView({behavior:'smooth', block:'center'});
+/* ── KEYBOARD ── */
+document.addEventListener('keydown',e=>{
+  if (e.target.tagName==='INPUT') return;
+  if (e.key==='/') { e.preventDefault(); document.getElementById('search-input').focus(); }
+  if (e.key==='v'||e.key==='V') toggleCompact();
+  if (e.key==='l'||e.key==='L') {
+    const el=document.querySelector('.event-card.is-live');
+    if (el) el.scrollIntoView({behavior:'smooth',block:'center'});
     else showToast('No live show right now');
   }
+  if (e.key==='Escape') { clearSearch(); document.getElementById('search-input').blur(); }
+});
 
-  /* ── SHARE ── */
-  function shareEvent(title, time, ch, imgUrl) {
-    const text = `📺 ${title}\n🕐 ${time} IST on ${CHANNELS[ch].name}\n🖼 ${imgUrl}`;
-    if (navigator.share) navigator.share({title, text, url: window.location.href}).catch(()=>{});
-    else { navigator.clipboard?.writeText(text).then(() => showToast('✓ Copied to clipboard')); }
-  }
+/* ── FETCH INDEX ── */
+async function fetchIndex() {
+  const res=await fetch(`${REPO_RAW}/data/index.json?_=${Date.now()}`);
+  const data=await res.json();
+  ALL_TAGS.forEach(t=>{ availableDates[t]=data[t]||[]; });
+  renderDatePicker();
+  const today=todayIST(), dates=availableDates[currentChannel];
+  currentDate=dates.includes(today)?today:(dates[0]||'');
+  updateChannelUI(currentChannel);
+  if (currentDate) await loadSchedule(currentChannel,currentDate);
+}
 
-  /* ── CALENDAR ── */
-  function addToCalendar(evJson) {
-    const ev = JSON.parse(evJson);
-    const s = new Date(ev.scheduledDate), e = new Date(ev.scheduledDate + ev.duration*60000);
-    const f = d => d.toISOString().replace(/[-:]/g,'').split('.')[0]+'Z';
-    window.open(`https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(ev.programTitle)}&dates=${f(s)}/${f(e)}&details=${encodeURIComponent((ev.episodeTitle||'')+' on '+CHANNELS[currentChannel].name)}`, '_blank');
-  }
+/* ── DATE PICKER ── */
+function renderDatePicker() {
+  const bar=document.getElementById('date-row');
+  const dates=availableDates[currentChannel], today=todayIST();
+  if (!dates.length) { bar.innerHTML='<span style="font-size:11px;color:var(--text3)">No data yet</span>'; return; }
+  bar.innerHTML=dates.map(d=>
+    `<button class="date-pill${d===currentDate?' active':''}${d===today?' today':''}" onclick="selectDate('${d}')">${formatDateLabel(d)}${d===today?' · Today':''}</button>`
+  ).join('');
+}
+async function selectDate(d) { currentDate=d; renderDatePicker(); await loadSchedule(currentChannel,d); }
 
-  /* ── EXPORT ── */
-  function buildScheduleText(includeImages = false) {
-    const key = currentChannel + '_' + currentDate;
-    const data = loadedData[key];
-    if (!data) return '';
-    const ch = CHANNELS[currentChannel];
-    const lines = [
-      `📺 ${ch.name} (${ch.number})${ch.is4k ? ' ✨ 4K' : ''} — ${data.date}`,
-      '─'.repeat(44),
-      ...data.events.map(ev => {
-        const start = toIST(ev.scheduledDate);
-        const end   = toIST(ev.scheduledDate + ev.duration*60000);
-        const line  = `${start}–${end}  ${ev.programTitle}`;
-        return includeImages ? `${line}\n   🖼 ${ev.imageUrl}` : line;
-      }),
-      '─'.repeat(44),
-      `Fetched: ${data.fetchedAtIST}`,
-    ];
-    return lines.join('\n');
-  }
-  function exportText() {
-    const text = buildScheduleText(false);
-    if (!text) { showToast('No data loaded'); return; }
-    navigator.clipboard?.writeText(text).then(() => showToast('✓ Schedule copied'));
-  }
-  function exportTextWithImages() {
-    const text = buildScheduleText(true);
-    if (!text) { showToast('No data loaded'); return; }
-    navigator.clipboard?.writeText(text).then(() => showToast('✓ Schedule + thumbnails copied'));
-  }
-  function exportSchedule() {
-    const text = buildScheduleText(true);
-    if (!text) { showToast('No data loaded'); return; }
-    const blob = new Blob([text], {type:'text/plain'});
-    const url  = URL.createObjectURL(blob);
-    const a    = document.createElement('a');
-    a.href = url; a.download = `${currentChannel}_${currentDate}.txt`;
-    a.click(); URL.revokeObjectURL(url);
-    showToast('✓ Exported as .txt');
-  }
-
-  /* ── SEARCH ── */
-  function onSearch(val) {
-    searchQuery = val.trim().toLowerCase();
-    document.getElementById('search-clear').style.display = searchQuery ? 'block' : 'none';
-    const key = currentChannel + '_' + currentDate;
-    if (loadedData[key]) render(loadedData[key]);
-  }
-  function clearSearch() { document.getElementById('search-input').value = ''; onSearch(''); }
-  function highlight(text, q) {
-    if (!q) return text;
-    return text.replace(new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})`, 'gi'), '<mark class="highlight">$1</mark>');
-  }
-
-  /* ── KEYBOARD ── */
-  document.addEventListener('keydown', e => {
-    if (e.target.tagName === 'INPUT') return;
-    if (e.key === 'l' || e.key === 'L') { jumpToLive(); showKbd('<kbd>L</kbd> Jump to live'); }
-    if (e.key === '/') { e.preventDefault(); document.getElementById('search-input').focus(); }
-    if (e.key === 'v' || e.key === 'V') { toggleCompact(); showKbd('<kbd>V</kbd> Compact view'); }
-    if (e.key === 'Escape') { clearSearch(); document.getElementById('search-input').blur(); }
+/* ── CHANNEL SWITCH ── */
+async function switchChannel(tag) {
+  currentChannel=tag;
+  document.querySelectorAll('.ch-item').forEach(el=>{
+    el.classList.remove('active','active-4k');
   });
+  const el=document.getElementById('tab-'+tag);
+  if (el) el.classList.add(is4K(tag)?'active-4k':'active');
+  updateChannelUI(tag);
+  renderDatePicker();
+  const today=todayIST(), dates=availableDates[tag];
+  if (!currentDate||!dates.includes(currentDate))
+    currentDate=dates.includes(today)?today:(dates[0]||'');
+  if (currentDate) await loadSchedule(tag,currentDate);
+  else {
+    document.getElementById('guide-container').innerHTML=is4K(tag)
+      ?`<div class="no-4k-state"><div class="no-4k-icon">✦</div><div class="no-4k-title">No 4K Events Yet</div><div class="no-4k-sub">This 4K channel only broadcasts selected events. Check back when ${CHANNELS[tag].sport} season is active.</div></div>`
+      :'<div class="empty-state"><div class="empty-title">No Data</div><div class="empty-sub">No schedule available yet.</div></div>';
+  }
+}
 
-  /* ── FETCH INDEX ── */
-  async function fetchIndex() {
-    const res  = await fetch(`${REPO_RAW}/data/index.json?_=${Date.now()}`);
-    const data = await res.json();
-    ALL_TAGS.forEach(tag => {
-      availableDates[tag] = data[tag] || [];
-    });
-    renderDatePicker();
-    const today = todayIST();
-    const dates = availableDates[currentChannel];
-    currentDate = dates.includes(today) ? today : (dates[0] || '');
-    updateChannelUI(currentChannel);
-    if (currentDate) await loadSchedule(currentChannel, currentDate);
+/* ── FILTER ── */
+function setFilter(f,btn) {
+  currentFilter=f;
+  document.querySelectorAll('.fbtn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  const k=currentChannel+'_'+currentDate;
+  if (loadedData[k]) render(loadedData[k]);
+}
+function applyFilter(events) {
+  const now=Date.now(); let evs=events;
+  if (currentFilter==='live') evs=events.filter(e=>now>=e.scheduledDate&&now<e.scheduledDate+e.duration*60000);
+  else if (currentFilter==='upcoming') evs=events.filter(e=>e.scheduledDate>now);
+  else if (currentFilter==='past') evs=events.filter(e=>now>=e.scheduledDate+e.duration*60000);
+  if (searchQuery) evs=evs.filter(e=>
+    (e.programTitle||'').toLowerCase().includes(searchQuery)||
+    (e.episodeTitle||'').toLowerCase().includes(searchQuery)||
+    (e.competitionTitle||'').toLowerCase().includes(searchQuery)
+  );
+  return evs;
+}
+
+/* ── LOAD SCHEDULE ── */
+async function loadSchedule(tag,date,force=false) {
+  const k=tag+'_'+date, i4k=is4K(tag);
+  if (!force&&loadedData[k]) { render(loadedData[k]); return; }
+  document.getElementById('guide-container').innerHTML=
+    `<div class="loading"><div class="loader${i4k?' loader-4k':''}"></div><div class="loading-text">Loading ${tag} ${date}…</div></div>`;
+  try {
+    const res=await fetch(`${REPO_RAW}/data/${tag}/${date}.json?_=${force?Date.now():date}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data=await res.json();
+    loadedData[k]=data;
+    updateLiveBadges(tag,data.events);
+    render(data);
+    if (date===todayIST()) setTimeout(()=>{
+      const lv=document.querySelector('.event-card.is-live');
+      if (lv) lv.scrollIntoView({behavior:'smooth',block:'center'});
+    },400);
+  } catch(e) {
+    document.getElementById('guide-container').innerHTML=i4k
+      ?`<div class="no-4k-state"><div class="no-4k-icon">📅</div><div class="no-4k-title">No Events on ${date}</div><div class="no-4k-sub">4K channels only broadcast selected events. No ${CHANNELS[tag].sport} matches scheduled. Try another date.</div></div>`
+      :`<div class="empty-state"><div class="empty-title">Not Available</div><div class="empty-sub">Schedule for ${date} not found.<br><span style="font-size:11px;color:var(--text3)">${e.message}</span></div></div>`;
+  }
+}
+
+async function refreshCurrent() {
+  const btn=document.getElementById('refresh-btn');
+  btn.classList.add('spinning'); btn.disabled=true;
+  loadedData={}; await fetchIndex();
+  btn.classList.remove('spinning'); btn.disabled=false;
+  showToast('✓ Refreshed');
+}
+
+/* ── RENDER ── */
+function render(data) {
+  const events=data.events||[], now=Date.now();
+  const isToday=data.date===todayIST(), i4k=is4K(currentChannel);
+  const ago=Math.round((Date.now()-data.fetchedAt)/60000);
+
+  document.getElementById('cache-info').textContent=isToday
+    ?`Today · fetched ${ago<60?ago+'m ago':Math.round(ago/60)+'h ago'}`
+    :`Archive · ${data.date}`;
+
+  if (events.length) {
+    document.getElementById('ch-heading-date').textContent=toISTDate(events[0].scheduledDate);
   }
 
-  /* ── DATE PICKER ── */
-  function renderDatePicker() {
-    const bar   = document.getElementById('date-picker-bar');
-    const dates = availableDates[currentChannel];
-    const today = todayIST();
-    if (!dates.length) {
-      bar.innerHTML = '<span style="font-size:12px;color:var(--muted)">No data yet for this channel</span>';
-      return;
-    }
-    bar.innerHTML = dates.map(d =>
-      `<button class="date-pill${d===currentDate?' active':''}${d===today?' today':''}" onclick="selectDate('${d}')">${formatDateLabel(d)}</button>`
-    ).join('');
+  const liveEvs=events.filter(e=>now>=e.scheduledDate&&now<e.scheduledDate+e.duration*60000);
+  const upcoming=events.filter(e=>e.scheduledDate>now);
+  const hours=Math.round(events.reduce((s,e)=>s+e.duration,0)/60);
+
+  document.getElementById('stats').innerHTML=`
+    <div class="stat"><div class="stat-n">${events.length}</div><div class="stat-l">${i4k?'4K Events':'Total Shows'}</div></div>
+    <div class="stat"><div class="stat-n">${hours}</div><div class="stat-l">Hours</div></div>
+    <div class="stat"><div class="stat-n">${isToday?liveEvs.length:'—'}</div><div class="stat-l">Live Now</div></div>
+    <div class="stat"><div class="stat-n">${isToday?upcoming.length:'—'}</div><div class="stat-l">Upcoming</div></div>
+  `;
+
+  document.getElementById('footer-info').textContent=
+    ALL_TAGS.map(t=>`${t}:${availableDates[t]?.length||0}d`).join(' · ');
+
+  updateOnAir(events);
+
+  const filtered=applyFilter(events);
+  const container=document.getElementById('guide-container');
+  container.innerHTML='';
+
+  if (!filtered.length) {
+    container.innerHTML=`<div class="empty-state"><div class="empty-title">No Results</div><div class="empty-sub">${searchQuery?'No events matching "'+searchQuery+'"':'No events match this filter.'}</div></div>`;
+    return;
   }
 
-  async function selectDate(d) {
-    currentDate = d; renderDatePicker();
-    await loadSchedule(currentChannel, d);
-  }
+  filtered.forEach((ev,idx)=>{
+    const endTs=ev.scheduledDate+ev.duration*60000;
+    const isLive=isToday&&now>=ev.scheduledDate&&now<endTs;
+    const isPast=isToday&&now>=endTs;
+    const isUpc=isToday&&ev.scheduledDate>now;
+    const pct=isLive?Math.min(100,((now-ev.scheduledDate)/(endTs-ev.scheduledDate))*100):0;
+    const minsToStart=minsUntil(ev.scheduledDate);
+    const minsRemain=minsLeft(ev.scheduledDate,ev.duration);
 
-  /* ── CHANNEL SWITCH ── */
-  async function switchChannel(tag) {
-    currentChannel = tag;
-    document.querySelectorAll('.ch-tab').forEach(t => t.classList.remove('active'));
-    document.getElementById('tab-' + tag).classList.add('active');
-    updateChannelUI(tag);
-    renderDatePicker();
-    const today = todayIST(), dates = availableDates[tag];
-    if (!currentDate || !dates.includes(currentDate))
-      currentDate = dates.includes(today) ? today : (dates[0] || '');
-    if (currentDate) await loadSchedule(tag, currentDate);
-    else {
-      document.getElementById('guide-container').innerHTML =
-        is4KChannel(tag)
-          ? `<div class="no-4k-events"><div class="no-4k-icon">✨</div><div class="no-4k-title">No 4K Events Yet</div><div class="no-4k-sub">This 4K channel only shows events during live broadcasts. Check back when ${CHANNELS[tag].sport} season is active.</div></div>`
-          : '<div class="empty-box"><h3>No Data</h3><p>No schedule available yet.</p></div>';
-    }
-  }
+    let stateClass=isLive?'is-live':isPast?'is-past':isUpc?'is-upcoming':'';
+    let dotClass=isPast?'dot-past':isLive?'dot-live':i4k?'dot-4k':'dot-up';
+    let stClass=isPast?'st-past':isLive?'st-live':i4k?'st-4k':'st-up';
+    let statusLabel=isPast?'Aired':isLive?'Live':i4k?'4K':'Next';
 
-  /* ── FILTER ── */
-  function setFilter(f, btn) {
-    currentFilter = f;
-    document.querySelectorAll('.fbtn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    const key = currentChannel + '_' + currentDate;
-    if (loadedData[key]) render(loadedData[key]);
-  }
+    let etaHtml='';
+    if (isLive&&isToday)
+      etaHtml=`<div class="ev-eta" data-end="${endTs}" data-start="${ev.scheduledDate}" data-islive="1">${fmtCountdown(minsRemain)}</div>`;
+    else if (isUpc&&isToday&&minsToStart<=120)
+      etaHtml=`<div class="ev-eta" data-start="${ev.scheduledDate}" data-end="${endTs}" data-islive="0">in ${minsToStart<60?minsToStart+'m':Math.floor(minsToStart/60)+'h '+minsToStart%60+'m'}</div>`;
 
-  function applyFilter(events) {
-    const now = Date.now();
-    let evs = events;
-    if (currentFilter === 'live')      evs = events.filter(e => now >= e.scheduledDate && now < e.scheduledDate + e.duration*60000);
-    else if (currentFilter === 'upcoming') evs = events.filter(e => e.scheduledDate > now);
-    else if (currentFilter === 'past')     evs = events.filter(e => now >= e.scheduledDate + e.duration*60000);
-    if (searchQuery) evs = evs.filter(e =>
-      (e.programTitle || '').toLowerCase().includes(searchQuery) ||
-      (e.episodeTitle || '').toLowerCase().includes(searchQuery) ||
-      (e.competitionTitle || '').toLowerCase().includes(searchQuery)
-    );
-    return evs;
-  }
+    const evJson=JSON.stringify({scheduledDate:ev.scheduledDate,duration:ev.duration,programTitle:ev.programTitle,episodeTitle:ev.episodeTitle||''}).replace(/"/g,'&quot;');
+    const competTag=ev.competitionTitle?`<span class="tag">${ev.competitionTitle}</span>`:'';
+    const sportTag=(ev.sport&&ev.sport!==ev.competitionTitle)?`<span class="tag">${ev.sport}</span>`:'';
 
-  /* ── LOAD SCHEDULE ── */
-  async function loadSchedule(tag, date, force = false) {
-    const key = tag + '_' + date;
-    const is4k = is4KChannel(tag);
-    if (!force && loadedData[key]) { render(loadedData[key]); return; }
-    document.getElementById('guide-container').innerHTML =
-      `<div class="loading"><div class="loader${is4k?' loader-4k':''}"></div><div class="loading-text">Loading ${tag} ${date}...</div></div>`;
-    try {
-      const res  = await fetch(`${REPO_RAW}/data/${tag}/${date}.json?_=${force?Date.now():date}`);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
-      loadedData[key] = data;
-      updateLiveBadges(tag, data.events);
-      render(data);
-      if (date === todayIST()) {
-        setTimeout(() => {
-          const liveEl = document.querySelector('.event-card.is-live');
-          if (liveEl) liveEl.scrollIntoView({behavior:'smooth', block:'center'});
-        }, 400);
-      }
-    } catch(e) {
-      const is4k = is4KChannel(tag);
-      document.getElementById('guide-container').innerHTML = is4k
-        ? `<div class="no-4k-events"><div class="no-4k-icon">📅</div><div class="no-4k-title">No Events on ${date}</div><div class="no-4k-sub">4K channels only broadcast selected events. There are no ${CHANNELS[tag].sport} matches scheduled for this date. Try a different date.</div></div>`
-        : `<div class="empty-box"><h3>Not Available</h3><p>Schedule for ${date} not found.</p><p style="margin-top:8px;font-size:12px;color:var(--muted)">${e.message}</p></div>`;
-    }
-  }
+    const card=document.createElement('div');
+    card.className=`event-card ${stateClass}${i4k?' is-4k':''}`;
+    card.style.animationDelay=(idx*0.025)+'s';
 
-  async function refreshCurrent() {
-    const btn = document.getElementById('refresh-btn');
-    btn.classList.add('spinning'); btn.disabled = true;
-    loadedData = {}; await fetchIndex();
-    btn.classList.remove('spinning'); btn.disabled = false;
-    showToast('✓ Refreshed');
-  }
-
-  /* ── RENDER ── */
-  function render(data) {
-    const events  = data.events || [];
-    const now     = Date.now();
-    const isToday = data.date === todayIST();
-    const is4k    = is4KChannel(currentChannel);
-    const ago     = Math.round((Date.now() - data.fetchedAt) / 60000);
-
-    document.getElementById('cache-info').textContent = isToday
-      ? `Today · fetched ${ago < 60 ? ago+'m ago' : Math.round(ago/60)+'h ago'}`
-      : `Archive · ${data.date}`;
-
-    if (events.length) document.getElementById('date-display').textContent = toISTDate(events[0].scheduledDate);
-
-    const liveEvs  = events.filter(e => now >= e.scheduledDate && now < e.scheduledDate + e.duration*60000);
-    const upcoming = events.filter(e => e.scheduledDate > now);
-    const hours    = Math.round(events.reduce((s,e)=>s+e.duration,0)/60);
-
-    document.getElementById('stats-row').innerHTML = `
-      <div class="stat"><div class="stat-num">${events.length}</div><div class="stat-label">${is4k?'4K Events':'Total Shows'}</div></div>
-      <div class="stat"><div class="stat-num">${hours}</div><div class="stat-label">Hours</div></div>
-      <div class="stat"><div class="stat-num">${isToday?liveEvs.length:'—'}</div><div class="stat-label">Live Now</div></div>
-      <div class="stat"><div class="stat-num">${isToday?upcoming.length:'—'}</div><div class="stat-label">Upcoming</div></div>
+    card.innerHTML=`
+      <div class="ev-time">
+        <div class="ev-time-start">${toIST(ev.scheduledDate)}</div>
+        <div class="ev-dur">${ev.duration} min</div>
+        ${etaHtml}
+      </div>
+      <div class="ev-info">
+        <div class="ev-title">${highlight(ev.programTitle||'',searchQuery)}</div>
+        ${ev.episodeTitle?`<div class="ev-ep">${highlight(ev.episodeTitle,searchQuery)}</div>`:''}
+        <div class="ev-tags">
+          ${isLive?'<span class="tag tag-live">● Live</span>':''}
+          ${i4k?'<span class="tag tag-4k">✦ 4K</span>':''}
+          ${ev.premiereInd?'<span class="tag tag-premiere">Premiere</span>':''}
+          ${competTag}${sportTag}
+        </div>
+      </div>
+      <div class="ev-actions">
+        <div class="status-dot ${dotClass}"></div>
+        <span class="status-txt ${stClass}">${statusLabel}</span>
+        <button class="act-btn" onclick='shareEvent("${(ev.programTitle||'').replace(/'/g,"\\'").replace(/"/g,'\\"')}","${toIST(ev.scheduledDate)}","${currentChannel}","${ev.imageUrl||''}")' title="Share">↗</button>
+        ${!isPast?`<button class="act-btn cal-btn" onclick='addToCalendar("${evJson}")' title="Add to Calendar">📅</button>`:''}
+      </div>
+      ${isLive?`<div class="ev-progress"><div class="ev-progress-fill" data-start="${ev.scheduledDate}" data-end="${endTs}" style="width:${pct}%"></div></div>`:''}
     `;
-
-    document.getElementById('footer-info').textContent =
-      ALL_TAGS.map(t => `${t}:${availableDates[t]?.length||0}d`).join(' · ');
-
-    updateNowPlaying(events);
-
-    const filtered  = applyFilter(events);
-    const container = document.getElementById('guide-container');
-    if (!filtered.length) {
-      container.innerHTML = is4k
-        ? `<div class="no-4k-events"><div class="no-4k-icon">🔍</div><div class="no-4k-title">No Results</div><div class="no-4k-sub">${searchQuery?'No 4K events matching "'+searchQuery+'"':'No events match this filter.'}</div></div>`
-        : `<div class="empty-box"><h3>No Events</h3><p>${searchQuery?'No results for "'+searchQuery+'"':'No shows match this filter.'}</p></div>`;
-      return;
-    }
-
-    container.innerHTML = '';
-    filtered.forEach(ev => {
-      const endTs   = ev.scheduledDate + ev.duration * 60000;
-      const isLive  = isToday && now >= ev.scheduledDate && now < endTs;
-      const isPast  = isToday && now >= endTs;
-      const isUpc   = isToday && ev.scheduledDate > now;
-      const pct     = isLive ? Math.min(100, ((now - ev.scheduledDate)/(endTs - ev.scheduledDate))*100) : 0;
-      const minsToStart = minsUntil(ev.scheduledDate);
-      const minsRemain  = minsLeft(ev.scheduledDate, ev.duration);
-
-      let statusClass = isLive ? 'is-live' : isPast ? 'is-past' : isUpc ? 'is-upcoming' : '';
-      let dotClass    = isPast ? 'dot-past' : isLive ? 'dot-live' : (is4k ? 'dot-upcoming-4k' : 'dot-upcoming');
-      let stClass     = isPast ? 'st-past'  : isLive ? 'st-live'  : (is4k ? 'st-up-4k' : 'st-up');
-      let statusLabel = isPast ? 'Aired'    : isLive ? 'Live'     : (is4k ? '4K' : 'Next');
-
-      let etaHtml = '';
-      if (isLive && isToday) {
-        etaHtml = `<div class="t-eta t-eta-live" data-end="${endTs}" data-start="${ev.scheduledDate}" data-islive="1">${fmtCountdown(minsRemain)}</div>`;
-      } else if (isUpc && isToday && minsToStart <= 120) {
-        etaHtml = `<div class="t-eta t-eta-upcoming" data-start="${ev.scheduledDate}" data-end="${endTs}" data-islive="0">in ${minsToStart < 60 ? minsToStart+'m' : Math.floor(minsToStart/60)+'h '+minsToStart%60+'m'}</div>`;
-      }
-
-      const imgSrc = ev.imageUrl || '';
-      const evJson = JSON.stringify({scheduledDate:ev.scheduledDate,duration:ev.duration,programTitle:ev.programTitle,episodeTitle:ev.episodeTitle||''}).replace(/"/g,'&quot;');
-      const competitionTag = ev.competitionTitle ? `<span class="tag">${ev.competitionTitle}</span>` : '';
-      const sportTag = (ev.sport && ev.sport !== ev.competitionTitle) ? `<span class="tag">${ev.sport}</span>` : '';
-
-      const card = document.createElement('div');
-      card.className = `event-card ${statusClass}${is4k?' card-4k':''}${isCompact?' compact':''}`;
-      if (isLive) card.id = 'live-card';
-
-      card.innerHTML = `
-        <div class="time-col">
-          <div class="t-start">${toIST(ev.scheduledDate)}</div>
-          <div class="t-dur">${ev.duration} MIN</div>
-          ${etaHtml}
-        </div>
-        <div class="img-col">
-          ${imgSrc
-            ? `<img class="thumb" src="${imgSrc}" alt="${ev.programTitle}" loading="lazy" onerror="this.outerHTML='<div class=thumb-ph>${is4k?'✨':'🏏'}</div>'">`
-            : `<div class="thumb-ph">${is4k?'✨':'🏏'}</div>`}
-          ${isLive?`<div class="progress-bar"><div class="progress-fill" data-start="${ev.scheduledDate}" data-end="${endTs}" style="width:${pct}%"></div></div>`:''}
-          ${imgSrc?`<a class="dl-btn" href="${imgSrc}" download="${ev.programTitle.replace(/[^a-z0-9]/gi,'_')}.jpg" target="_blank">⬇</a>`:''}
-        </div>
-        <div class="info-col">
-          <div class="show-title">${highlight(ev.programTitle || '', searchQuery)}</div>
-          <div class="show-ep">${highlight(ev.episodeTitle || '', searchQuery)}</div>
-          <div class="tags">
-            ${isLive?'<span class="tag tag-live">● LIVE</span>':''}
-            ${is4k?'<span class="tag tag-4k">✨ 4K</span>':''}
-            ${ev.premiereInd?'<span class="tag tag-premiere">PREMIERE</span>':''}
-            ${competitionTag}${sportTag}
-          </div>
-        </div>
-        <div class="meta-col">
-          <div class="status-dot ${dotClass}"></div>
-          <span class="status-txt ${stClass}">${statusLabel}</span>
-          <button class="share-btn" onclick='shareEvent("${(ev.programTitle||'').replace(/'/g,"\\'").replace(/"/g,'\\"')}","${toIST(ev.scheduledDate)}","${currentChannel}","${imgSrc}")' title="Share">↗</button>
-          ${!isPast?`<button class="cal-btn" onclick='addToCalendar("${evJson}")' title="Add to Google Calendar">📅</button>`:''}
-        </div>
-      `;
-      container.appendChild(card);
-    });
-
-    updateProgressBars();
-  }
-
-  /* ── AUTO REFRESH ── */
-  setInterval(() => {
-    const key = currentChannel + '_' + currentDate;
-    if (loadedData[key]) { render(loadedData[key]); updateLiveBadges(currentChannel, loadedData[key].events); }
-  }, 60000);
-
-  /* ── INIT ── */
-  fetchIndex().catch(() => {
-    document.getElementById('guide-container').innerHTML =
-      '<div class="empty-box"><h3>No Data Yet</h3><p>Go to GitHub repo → Actions → Run "Fetch Foxtel Schedule" manually.</p></div>';
-    document.getElementById('date-picker-bar').innerHTML =
-      '<span style="font-size:12px;color:var(--muted)">Run GitHub Action first</span>';
+    container.appendChild(card);
   });
+
+  updateProgressBars();
+}
+
+/* ── AUTO REFRESH 60s ── */
+setInterval(()=>{
+  const k=currentChannel+'_'+currentDate;
+  if (loadedData[k]) { render(loadedData[k]); updateLiveBadges(currentChannel,loadedData[k].events); }
+},60000);
+
+/* ── INIT ── */
+fetchIndex().catch(()=>{
+  document.getElementById('guide-container').innerHTML=
+    '<div class="empty-state"><div class="empty-title">No Data Yet</div><div class="empty-sub">Go to GitHub → Actions → Run "Fetch Foxtel Schedule" manually.</div></div>';
+  document.getElementById('date-row').innerHTML=
+    '<span style="font-size:11px;color:var(--text3)">Run GitHub Action first</span>';
+});
 </script>
 </body>
 </html>
