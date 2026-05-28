@@ -2,15 +2,15 @@
   "channel": "4KF2",
   "date": "2026-05-30",
   "label": "upcoming",
-  "fetchedAt": 1779831793563,
-  "fetchedAtIST": "27/5/2026, 3:13:13 am",
+  "fetchedAt": 1779936812619,
+  "fetchedAtIST": "28/5/2026, 8:23:32 am",
   "events": [
     {
       "eventId": "1exgmxdqq16d4153vh5u08luza",
-      "programTitle": "Bulldogs v Collingwood",
+      "programTitle": "Western Bulldogs v Collingwood",
       "scheduledDate": 1780133700000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/9vrrfn5scs27z6oagvp87morc_image-header_pRow_1775007469000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/9vrrfn5scs27z6oagvp87morc_image-header_pRow_1779758902000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

@@ -1,25 +1,16 @@
 {
   "channel": "4KF",
-  "date": "2026-05-24",
+  "date": "2026-05-28",
   "label": "today",
-  "fetchedAt": 1779641917875,
-  "fetchedAtIST": "24/5/2026, 10:28:37 pm",
+  "fetchedAt": 1779936812616,
+  "fetchedAtIST": "28/5/2026, 8:23:32 am",
   "events": [
     {
-      "eventId": "1xhxekcgwzs3q1c84schmqzh6j",
-      "programTitle": "GWS v Brisbane",
-      "scheduledDate": 1779589800000,
-      "duration": 188,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/6qnyijm4lqpj9k20aen7o2b8y_image-header_pRow_1779152334000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
-      "competitionTitle": "AFL",
-      "sport": "Australian Rules Football"
-    },
-    {
-      "eventId": "16riqknpwx02j1auizv1uvucc8",
-      "programTitle": "Western Bulldogs v Narrm",
-      "scheduledDate": 1779599700000,
-      "duration": 197,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/copmm0jsjhn5uwkzmi056ba91_image-header_pRow_1779418041000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "eventId": "1v8osd74l1o2lkd17sp3z1mwj0",
+      "programTitle": "St Kilda v Hawthorn",
+      "scheduledDate": 1779960600000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/q1ho9via2v7kqq1ubtxqkla6_image-header_pRow_1779757809000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

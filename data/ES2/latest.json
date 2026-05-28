@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-05-28",
   "label": "today",
-  "fetchedAt": 1779918753424,
-  "fetchedAtIST": "28/5/2026, 3:22:33 am",
+  "fetchedAt": 1779936786420,
+  "fetchedAtIST": "28/5/2026, 8:23:06 am",
   "events": [
     {
       "eventId": 175931568,
@@ -145,7 +145,7 @@
       "premiereInd": false,
       "displaySepNum": false,
       "versionNum": 2607527,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7bmky.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

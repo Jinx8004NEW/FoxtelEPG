@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-05-29",
   "label": "tomorrow",
-  "fetchedAt": 1779918748994,
-  "fetchedAtIST": "28/5/2026, 3:22:28 am",
+  "fetchedAt": 1779936782089,
+  "fetchedAtIST": "28/5/2026, 8:23:02 am",
   "events": [
     {
       "eventId": 177218041,
@@ -16,7 +16,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2607527,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/htwadt.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -247,7 +247,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2607527,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/79puh.jpg",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/jc0sw7.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -296,7 +296,7 @@
       "premiereInd": false,
       "displaySepNum": false,
       "versionNum": 2607527,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/5xgtu4.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
