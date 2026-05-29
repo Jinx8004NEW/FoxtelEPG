@@ -1,16 +1,16 @@
 {
   "channel": "4KF",
-  "date": "2026-05-28",
+  "date": "2026-05-29",
   "label": "today",
-  "fetchedAt": 1779983214997,
-  "fetchedAtIST": "28/5/2026, 9:16:54 pm",
+  "fetchedAt": 1780041221714,
+  "fetchedAtIST": "29/5/2026, 1:23:41 pm",
   "events": [
     {
-      "eventId": "1v8osd74l1o2lkd17sp3z1mwj0",
-      "programTitle": "St Kilda v Hawthorn",
-      "scheduledDate": 1779960600000,
-      "duration": 236,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/ex89br6l9xee3r2fqjt7ea5k1_image-header_pRow_1779934690000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "eventId": "ln42i57w8y7306ypwxvvq0b200",
+      "programTitle": "Carlton v Geelong",
+      "scheduledDate": 1780047600000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/e29zxpn3cx4kcm07jr1ciysah_image-header_pRow_1779757999000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

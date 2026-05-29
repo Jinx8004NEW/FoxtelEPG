@@ -2,15 +2,15 @@
   "channel": "4KF",
   "date": "2026-05-31",
   "label": "upcoming",
-  "fetchedAt": 1779983215005,
-  "fetchedAtIST": "28/5/2026, 9:16:55 pm",
+  "fetchedAt": 1780041221719,
+  "fetchedAtIST": "29/5/2026, 1:23:41 pm",
   "events": [
     {
       "eventId": "xvxqbxxk69ra0163t2j802gmab",
       "programTitle": "Melbourne v GWS",
       "scheduledDate": 1780204500000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/a661fdlleod8z02vg1d807ho6_image-header_pRow_1775007604000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/a661fdlleod8z02vg1d807ho6_image-header_pRow_1779759036000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     },
@@ -19,7 +19,7 @@
       "programTitle": "West Coast v Essendon",
       "scheduledDate": 1780219200000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/8h4ser4qtkuqyn5zug0kqjdpy_image-header_pRow_1775007582000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/8h4ser4qtkuqyn5zug0kqjdpy_image-header_pRow_1779759146000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
