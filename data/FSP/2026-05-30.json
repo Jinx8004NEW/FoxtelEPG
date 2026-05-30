@@ -2,8 +2,8 @@
   "channel": "FSP",
   "date": "2026-05-30",
   "label": "today",
-  "fetchedAt": 1780091453606,
-  "fetchedAtIST": "30/5/2026, 3:20:53 am",
+  "fetchedAt": 1780109395594,
+  "fetchedAtIST": "30/5/2026, 8:19:55 am",
   "events": [
     {
       "eventId": 176570126,
@@ -51,7 +51,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2608050,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/adn6z0.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/3rdk20.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
