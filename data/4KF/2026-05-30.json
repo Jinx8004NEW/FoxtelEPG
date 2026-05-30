@@ -1,9 +1,9 @@
 {
   "channel": "4KF",
   "date": "2026-05-30",
-  "label": "today",
-  "fetchedAt": 1780147494943,
-  "fetchedAtIST": "30/5/2026, 6:54:54 pm",
+  "label": "aired",
+  "fetchedAt": 1780174444767,
+  "fetchedAtIST": "31/5/2026, 2:24:04 am",
   "events": [
     {
       "eventId": "o2misrj7joq008gt5uarm00jl0",
@@ -20,6 +20,15 @@
       "scheduledDate": 1780121700000,
       "duration": 173,
       "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/amv5xg3x40l21q0eeg6zn4l7x_image-header_pRow_1779758725000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    },
+    {
+      "eventId": "1exgmxdqq16d4153vh5u08luza",
+      "programTitle": "Western Bulldogs v Collingwood",
+      "scheduledDate": 1780133700000,
+      "duration": 232,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/6stdrlwq3qgmy3sj2sarqebm5_image-header_pRow_1779758902000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
