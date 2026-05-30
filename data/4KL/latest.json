@@ -2,8 +2,8 @@
   "channel": "4KL",
   "date": "2026-05-30",
   "label": "today",
-  "fetchedAt": 1780135142970,
-  "fetchedAtIST": "30/5/2026, 3:29:02 pm",
+  "fetchedAt": 1780147494945,
+  "fetchedAtIST": "30/5/2026, 6:54:54 pm",
   "events": [
     {
       "eventId": "14k8a1sruor1616z1gcoo9h0mw",
@@ -36,8 +36,8 @@
       "eventId": "139k90mor8zs53rhbq3ofoxt60",
       "programTitle": "Storm v Roosters",
       "scheduledDate": 1780133700000,
-      "duration": 245,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/cfyr9fcmimu36rcuukdal8abi_image-header_pRow_1779843591000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 178,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/1klr2ose0jr8eyckj6q9vq34n_image-header_pRow_1779843591000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "NRL",
       "sport": "Rugby League"
     }
