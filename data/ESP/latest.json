@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-05-31",
   "label": "today",
-  "fetchedAt": 1780213413181,
-  "fetchedAtIST": "31/5/2026, 1:13:33 pm",
+  "fetchedAt": 1780222419166,
+  "fetchedAtIST": "31/5/2026, 3:43:39 pm",
   "events": [
     {
       "eventId": 175929934,
@@ -378,12 +378,13 @@
       "channelId": 13,
       "scheduledDate": 1780243200000,
       "duration": 180,
+      "episodeTitle": "West Virginia v Wake Forest",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2609258,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/bw6s5.jpg",
+      "imageUrl": "",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
