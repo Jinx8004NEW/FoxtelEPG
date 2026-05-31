@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-05-31",
   "label": "today",
-  "fetchedAt": 1780174392477,
-  "fetchedAtIST": "31/5/2026, 2:23:12 am",
+  "fetchedAt": 1780198412108,
+  "fetchedAtIST": "31/5/2026, 9:03:32 am",
   "events": [
     {
       "eventId": 176420550,
@@ -304,7 +304,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2607744,
+      "versionNum": 2607932,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/yblcj7.png",
       "placeholder": false,
       "isMovie": false,

@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-05-31",
   "label": "today",
-  "fetchedAt": 1780174403567,
-  "fetchedAtIST": "31/5/2026, 2:23:23 am",
+  "fetchedAt": 1780198423475,
+  "fetchedAtIST": "31/5/2026, 9:03:43 am",
   "events": [
     {
       "eventId": 177172021,
@@ -305,7 +305,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2608149,
+      "versionNum": 2608891,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7nlzmt.png",
       "placeholder": false,
       "isMovie": false,
