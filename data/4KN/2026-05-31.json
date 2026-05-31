@@ -2,15 +2,15 @@
   "channel": "4KN",
   "date": "2026-05-31",
   "label": "today",
-  "fetchedAt": 1780174444771,
-  "fetchedAtIST": "31/5/2026, 2:24:04 am",
+  "fetchedAt": 1780234864366,
+  "fetchedAtIST": "31/5/2026, 7:11:04 pm",
   "events": [
     {
       "eventId": "8cox6nzzkv340vmtlr1k8y3ft0",
       "programTitle": "Swifts v Firebirds",
       "scheduledDate": 1780200000000,
-      "duration": 90,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/46pce06qovzl8o6l52h4mvona_image-header_pRow_1778042602000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 105,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/8ne07d3u8igm85ws5xh4g289r_image-header_pRow_1778042602000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Suncorp Super Netball",
       "sport": "Netball"
     },
@@ -18,8 +18,8 @@
       "eventId": "ah50uuc8wc8t02fwght6x2u0g0",
       "programTitle": "Thunderbirds v Vixens",
       "scheduledDate": 1780207200000,
-      "duration": 90,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/9tbmm5fd8kjng0ub3kvts5wfa_image-header_pRow_1778042651000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 139,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/24w9oe0uqvkvkf07ceun0ic5r_image-header_pRow_1778042651000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Suncorp Super Netball",
       "sport": "Netball"
     }
