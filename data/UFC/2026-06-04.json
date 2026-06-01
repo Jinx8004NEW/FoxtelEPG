@@ -1,0 +1,39 @@
+{
+  "channel": "UFC",
+  "date": "2026-06-04",
+  "label": "day after",
+  "fetchedAt": 1780353178042,
+  "fetchedAtIST": "2/6/2026, 4:02:58 am",
+  "events": [
+    {
+      "eventId": 177254161,
+      "programTitle": "To Be Advised",
+      "channelId": 817,
+      "scheduledDate": 1780521900000,
+      "duration": 720,
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": false,
+      "versionNum": 2609862,
+      "imageUrl": "",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 177254162,
+      "programTitle": "To Be Advised",
+      "channelId": 817,
+      "scheduledDate": 1780565100000,
+      "duration": 875,
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": false,
+      "versionNum": 2609862,
+      "imageUrl": "",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}

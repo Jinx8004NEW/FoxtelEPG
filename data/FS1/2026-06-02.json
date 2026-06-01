@@ -1,10 +1,61 @@
 {
   "channel": "FS1",
   "date": "2026-06-02",
-  "label": "tomorrow",
-  "fetchedAt": 1780335188319,
-  "fetchedAtIST": "1/6/2026, 11:03:08 pm",
+  "label": "today",
+  "fetchedAt": 1780353117666,
+  "fetchedAtIST": "2/6/2026, 4:01:57 am",
   "events": [
+    {
+      "eventId": 176904897,
+      "programTitle": "ODI: PAK v AUS Game 1",
+      "channelId": 9,
+      "scheduledDate": 1780318800000,
+      "duration": 60,
+      "episodeTitle": "PAK v AUS Game 1",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2609831,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ukx8by.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 176904898,
+      "programTitle": "IPL: Final Challengers v Titans",
+      "channelId": 9,
+      "scheduledDate": 1780322400000,
+      "duration": 180,
+      "episodeTitle": "Final Challengers v Titans",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2609831,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/54ngx1.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 176904899,
+      "programTitle": "ODI: PAK v AUS Game 1",
+      "channelId": 9,
+      "scheduledDate": 1780333200000,
+      "duration": 60,
+      "episodeTitle": "PAK v AUS Game 1",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2609831,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ukx8by.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 176904900,
       "programTitle": "IPL: Final Challengers v Titans",
@@ -17,7 +68,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2609831,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/a74d3.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/54ngx1.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -51,7 +102,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2609831,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/a74d3.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/54ngx1.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -119,7 +170,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2609831,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kd00qd.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/qliep6.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -170,7 +221,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2609831,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kd00qd.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/qliep6.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -204,7 +255,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2609831,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/a74d3.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/54ngx1.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -238,7 +289,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2609831,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kd00qd.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/qliep6.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -272,7 +323,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2609831,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/a74d3.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/54ngx1.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -306,7 +357,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2609831,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/a74d3.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/54ngx1.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -340,7 +391,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2609831,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kd00qd.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/qliep6.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -391,7 +442,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2609831,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kd00qd.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/qliep6.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -425,7 +476,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2609831,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/a74d3.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/54ngx1.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
