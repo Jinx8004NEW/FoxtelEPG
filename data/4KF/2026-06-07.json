@@ -1,0 +1,27 @@
+{
+  "channel": "4KF",
+  "date": "2026-06-07",
+  "label": "upcoming",
+  "fetchedAt": 1780285563486,
+  "fetchedAtIST": "1/6/2026, 9:16:03 am",
+  "events": [
+    {
+      "eventId": "1mlrmgd7zb37i3oz4itdhdqii0",
+      "programTitle": "Sydney v St Kilda",
+      "scheduledDate": 1780809300000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/925te6hzqkgdwk7h9sdadvcbj_image-header_pRow_1775008045000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    },
+    {
+      "eventId": "clv14ms1pluq01tmo4pqj1t31q",
+      "programTitle": "Essendon v Carlton",
+      "scheduledDate": 1780824000000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/6wbqmkwpbzfc2kgvxtdtahe8h_image-header_pRow_1775008067000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    }
+  ]
+}
