@@ -1,0 +1,27 @@
+{
+  "channel": "4KN",
+  "date": "2026-06-07",
+  "label": "upcoming",
+  "fetchedAt": 1780438931587,
+  "fetchedAtIST": "3/6/2026, 3:52:11 am",
+  "events": [
+    {
+      "eventId": "1x41nb85zrest1bnrvecpvruq1",
+      "programTitle": "Vixens v Mavericks",
+      "scheduledDate": 1780804800000,
+      "duration": 90,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/5u9ro1qqldkdosy7i6wlrhz0c_image-header_pRow_1780276974000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "Suncorp Super Netball",
+      "sport": "Netball"
+    },
+    {
+      "eventId": "bnfsdvq72mg101g301nhcuwzwy",
+      "programTitle": "Giants v Fever",
+      "scheduledDate": 1780812000000,
+      "duration": 90,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/bsbm9nj1ixl5q6wwjmuh00sby_image-header_pRow_1780277030000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "Suncorp Super Netball",
+      "sport": "Netball"
+    }
+  ]
+}

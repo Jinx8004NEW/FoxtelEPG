@@ -2,8 +2,8 @@
   "channel": "4KF1",
   "date": "2026-06-05",
   "label": "upcoming",
-  "fetchedAt": 1780353186548,
-  "fetchedAtIST": "2/6/2026, 4:03:06 am",
+  "fetchedAt": 1780438931585,
+  "fetchedAtIST": "3/6/2026, 3:52:11 am",
   "events": [
     {
       "eventId": "18cozugmnuf4p1x30nlr5lg8cx",
@@ -11,6 +11,15 @@
       "scheduledDate": 1780659000000,
       "duration": 120,
       "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/afya1oc8kqlqw8udv4at0uujt_image-header_pRow_1778722537000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "Formula 1",
+      "sport": "Motorsport"
+    },
+    {
+      "eventId": "1scc6c65joyok1q5rt7dcrod8j",
+      "programTitle": "Monaco Practice 2",
+      "scheduledDate": 1780671600000,
+      "duration": 120,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/39a3rrkqc3kpuarun4600jz66_image-header_pRow_1778722622000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Formula 1",
       "sport": "Motorsport"
     }
