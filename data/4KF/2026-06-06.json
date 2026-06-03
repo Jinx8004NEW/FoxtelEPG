@@ -2,15 +2,15 @@
   "channel": "4KF",
   "date": "2026-06-06",
   "label": "upcoming",
-  "fetchedAt": 1780458703669,
-  "fetchedAtIST": "3/6/2026, 9:21:43 am",
+  "fetchedAt": 1780525693972,
+  "fetchedAtIST": "4/6/2026, 3:58:13 am",
   "events": [
     {
       "eventId": "1x7wpn7999yot1seo9cavfdwc4",
       "programTitle": "North Melbourne v Fremantle",
       "scheduledDate": 1780719300000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/10sbthilx1rhkho0cbqwqopjr_image-header_pRow_1775008022000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/10sbthilx1rhkho0cbqwqopjr_image-header_pRow_1780370943000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     },
@@ -19,7 +19,7 @@
       "programTitle": "Gold Coast v Brisbane",
       "scheduledDate": 1780730100000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/2vlmsp6a50k3kv8kc6vy4ofkj_image-header_pRow_1775007957000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/2vlmsp6a50k3kv8kc6vy4ofkj_image-header_pRow_1780371013000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     },
@@ -28,7 +28,7 @@
       "programTitle": "West Coast v Port Adelaide",
       "scheduledDate": 1780740900000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/9kq8rq791zgtatcvs2rssvkwp_image-header_pRow_1775007999000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/9kq8rq791zgtatcvs2rssvkwp_image-header_pRow_1780371251000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
