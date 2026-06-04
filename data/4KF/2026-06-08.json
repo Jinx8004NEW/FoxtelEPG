@@ -2,15 +2,15 @@
   "channel": "4KF",
   "date": "2026-06-08",
   "label": "upcoming",
-  "fetchedAt": 1780544666945,
-  "fetchedAtIST": "4/6/2026, 9:14:26 am",
+  "fetchedAt": 1780584897172,
+  "fetchedAtIST": "4/6/2026, 8:24:57 pm",
   "events": [
     {
       "eventId": "11dd7yf0a03in1o38cmntmm2ls",
       "programTitle": "Collingwood v Melbourne",
       "scheduledDate": 1780895700000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/c9128qvesqdaed7hamrkyk85k_image-header_pRow_1775008110000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/c9128qvesqdaed7hamrkyk85k_image-header_pRow_1780444963000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

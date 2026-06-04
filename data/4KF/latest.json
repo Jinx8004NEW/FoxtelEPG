@@ -2,15 +2,15 @@
   "channel": "4KF",
   "date": "2026-06-04",
   "label": "today",
-  "fetchedAt": 1780544666943,
-  "fetchedAtIST": "4/6/2026, 9:14:26 am",
+  "fetchedAt": 1780584897167,
+  "fetchedAtIST": "4/6/2026, 8:24:57 pm",
   "events": [
     {
       "eventId": "1wb6r2def7k4m1qw7540uzi8ga",
       "programTitle": "Adelaide v Geelong",
       "scheduledDate": 1780565400000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/7s7agvdcf7h2orgngj7hyyk3h_image-header_pRow_1780370516000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 243,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/54uie0mi0bix6kq2gpxecaheo_image-header_pRow_1780370516000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
