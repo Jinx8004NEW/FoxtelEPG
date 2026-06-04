@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-06-04",
   "label": "today",
-  "fetchedAt": 1780525639963,
-  "fetchedAtIST": "4/6/2026, 3:57:19 am",
+  "fetchedAt": 1780544614786,
+  "fetchedAtIST": "4/6/2026, 9:13:34 am",
   "events": [
     {
       "eventId": 176420654,
@@ -219,7 +219,7 @@
       "premiereInd": false,
       "displaySepNum": false,
       "versionNum": 2610782,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7muh30.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -285,7 +285,7 @@
       "premiereInd": false,
       "displaySepNum": false,
       "versionNum": 2610782,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7muh30.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -355,7 +355,7 @@
       "pashTag": "AFL Classic Matches",
       "displaySepNum": false,
       "versionNum": 2610782,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7g9bx.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/97c5c9.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -387,7 +387,7 @@
       "premiereInd": false,
       "displaySepNum": false,
       "versionNum": 2610782,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7muh30.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
