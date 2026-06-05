@@ -1,16 +1,25 @@
 {
   "channel": "4KF1",
-  "date": "2026-05-25",
+  "date": "2026-06-05",
   "label": "today",
-  "fetchedAt": 1779720623325,
-  "fetchedAtIST": "25/5/2026, 8:20:23 pm",
+  "fetchedAt": 1780646709336,
+  "fetchedAtIST": "5/6/2026, 1:35:09 pm",
   "events": [
     {
-      "eventId": "1joil71crpkyn1hkqeaqjrarsp",
-      "programTitle": "Canada Race",
-      "scheduledDate": 1779652800000,
-      "duration": 221,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/exjjxxtvq09mav7k6kyisp8mb_image-header_pRow_1778717477000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "eventId": "18cozugmnuf4p1x30nlr5lg8cx",
+      "programTitle": "Monaco Practice 1",
+      "scheduledDate": 1780659000000,
+      "duration": 120,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/afya1oc8kqlqw8udv4at0uujt_image-header_pRow_1778722537000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "Formula 1",
+      "sport": "Motorsport"
+    },
+    {
+      "eventId": "1scc6c65joyok1q5rt7dcrod8j",
+      "programTitle": "Monaco Practice 2",
+      "scheduledDate": 1780671600000,
+      "duration": 120,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/39a3rrkqc3kpuarun4600jz66_image-header_pRow_1778722622000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Formula 1",
       "sport": "Motorsport"
     }

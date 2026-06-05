@@ -2,8 +2,8 @@
   "channel": "FS1",
   "date": "2026-06-07",
   "label": "day after",
-  "fetchedAt": 1780630265507,
-  "fetchedAtIST": "5/6/2026, 9:01:05 am",
+  "fetchedAt": 1780646640826,
+  "fetchedAtIST": "5/6/2026, 1:34:00 pm",
   "events": [
     {
       "eventId": 176805042,
@@ -41,7 +41,7 @@
     },
     {
       "eventId": 176805044,
-      "programTitle": "Test Mini IND v AFG",
+      "programTitle": "Test Mini IND v AFG: Day 1",
       "channelId": 9,
       "scheduledDate": 1780785000000,
       "duration": 20,
@@ -58,7 +58,7 @@
     },
     {
       "eventId": 176805045,
-      "programTitle": "Test Mini ENG v NZL",
+      "programTitle": "Test Mini ENG v NZL: 1st Test Day 2",
       "channelId": 9,
       "scheduledDate": 1780786200000,
       "duration": 20,
@@ -75,7 +75,7 @@
     },
     {
       "eventId": 176805046,
-      "programTitle": "Test Mini IND v AFG",
+      "programTitle": "Test Mini IND v AFG: Day 1",
       "channelId": 9,
       "scheduledDate": 1780787400000,
       "duration": 20,
@@ -109,7 +109,7 @@
     },
     {
       "eventId": 176805048,
-      "programTitle": "Test Mini IND v AFG",
+      "programTitle": "Test Mini IND v AFG: Day 1",
       "channelId": 9,
       "scheduledDate": 1780792200000,
       "duration": 20,
@@ -126,7 +126,7 @@
     },
     {
       "eventId": 176805049,
-      "programTitle": "Test Mini ENG v NZL",
+      "programTitle": "Test Mini ENG v NZL: 1st Test Day 3",
       "channelId": 9,
       "scheduledDate": 1780793400000,
       "duration": 20,
@@ -143,7 +143,7 @@
     },
     {
       "eventId": 176805050,
-      "programTitle": "Test Mini IND v AFG",
+      "programTitle": "Test Mini IND v AFG: Day 1",
       "channelId": 9,
       "scheduledDate": 1780794600000,
       "duration": 20,
@@ -177,7 +177,7 @@
     },
     {
       "eventId": 176805052,
-      "programTitle": "Test Mini IND v AFG",
+      "programTitle": "Test Mini IND v AFG: Day 1",
       "channelId": 9,
       "scheduledDate": 1780799400000,
       "duration": 20,
@@ -211,7 +211,7 @@
     },
     {
       "eventId": 176805054,
-      "programTitle": "Test Mini ENG v NZL",
+      "programTitle": "Test Mini ENG v NZL: 1st Test Day 3",
       "channelId": 9,
       "scheduledDate": 1780801800000,
       "duration": 20,
@@ -228,7 +228,7 @@
     },
     {
       "eventId": 176805055,
-      "programTitle": "Test Mini IND v AFG",
+      "programTitle": "Test Mini IND v AFG: Day 1",
       "channelId": 9,
       "scheduledDate": 1780803000000,
       "duration": 20,
@@ -313,7 +313,7 @@
     },
     {
       "eventId": 176805060,
-      "programTitle": "Test Mini ENG v NZL",
+      "programTitle": "Test Mini ENG v NZL: 1st Test Day 3",
       "channelId": 9,
       "scheduledDate": 1780822500000,
       "duration": 20,

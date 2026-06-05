@@ -2,8 +2,8 @@
   "channel": "FS1",
   "date": "2026-06-06",
   "label": "tomorrow",
-  "fetchedAt": 1780630264187,
-  "fetchedAtIST": "5/6/2026, 9:01:04 am",
+  "fetchedAt": 1780646639496,
+  "fetchedAtIST": "5/6/2026, 1:33:59 pm",
   "events": [
     {
       "eventId": 176805019,
@@ -58,7 +58,7 @@
     },
     {
       "eventId": 176805022,
-      "programTitle": "Test Mini ENG v NZL",
+      "programTitle": "Test Mini ENG v NZL: 1st Test Day 1",
       "channelId": 9,
       "scheduledDate": 1780699800000,
       "duration": 20,
@@ -126,7 +126,7 @@
     },
     {
       "eventId": 176805026,
-      "programTitle": "Test Mini ENG v NZL",
+      "programTitle": "Test Mini ENG v NZL: 1st Test Day 2",
       "channelId": 9,
       "scheduledDate": 1780707000000,
       "duration": 20,
@@ -194,7 +194,7 @@
     },
     {
       "eventId": 177142343,
-      "programTitle": "Test Mini ENG v NZL",
+      "programTitle": "Test Mini ENG v NZL: 1st Test Day 2",
       "channelId": 9,
       "scheduledDate": 1780714200000,
       "duration": 20,
@@ -228,7 +228,7 @@
     },
     {
       "eventId": 176805030,
-      "programTitle": "Test Mini ENG v NZL",
+      "programTitle": "Test Mini ENG v NZL: 1st Test Day 2",
       "channelId": 9,
       "scheduledDate": 1780716600000,
       "duration": 20,
@@ -313,7 +313,7 @@
     },
     {
       "eventId": 176805035,
-      "programTitle": "Test Mini ENG v NZL",
+      "programTitle": "Test Mini ENG v NZL: 1st Test Day 2",
       "channelId": 9,
       "scheduledDate": 1780736100000,
       "duration": 20,
