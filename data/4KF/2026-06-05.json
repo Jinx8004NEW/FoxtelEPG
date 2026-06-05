@@ -2,15 +2,15 @@
   "channel": "4KF",
   "date": "2026-06-05",
   "label": "today",
-  "fetchedAt": 1780646709334,
-  "fetchedAtIST": "5/6/2026, 1:35:09 pm",
+  "fetchedAt": 1780670745945,
+  "fetchedAtIST": "5/6/2026, 8:15:45 pm",
   "events": [
     {
       "eventId": "wysgukmltr090m6cr28gd5wy50",
       "programTitle": "Hawthorn v Western Bulldogs",
       "scheduledDate": 1780652400000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/1gpo9y4t9ip035dfxukihjbik_image-header_pRow_1780370600000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 228,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/2x5ooj0siswuc9fax32s8m7rf_image-header_pRow_1780370600000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

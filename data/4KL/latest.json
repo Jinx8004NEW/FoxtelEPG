@@ -2,15 +2,15 @@
   "channel": "4KL",
   "date": "2026-06-05",
   "label": "today",
-  "fetchedAt": 1780646709333,
-  "fetchedAtIST": "5/6/2026, 1:35:09 pm",
+  "fetchedAt": 1780670745948,
+  "fetchedAtIST": "5/6/2026, 8:15:45 pm",
   "events": [
     {
       "eventId": "1vmvi1n4cxi0877mtp36veb480",
       "programTitle": "Storm v Knights",
       "scheduledDate": 1780646400000,
-      "duration": 175,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/4oy8mzp1i1p5zc7eww8aie095_image-header_pRow_1780380111000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 135,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/a3kze80k2za46s0h2gevgckyo_image-header_pRow_1780380111000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "NRL",
       "sport": "Rugby League"
     }
