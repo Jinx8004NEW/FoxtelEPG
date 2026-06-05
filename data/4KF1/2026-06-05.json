@@ -1,9 +1,9 @@
 {
   "channel": "4KF1",
   "date": "2026-06-05",
-  "label": "today",
-  "fetchedAt": 1780670745950,
-  "fetchedAtIST": "5/6/2026, 8:15:45 pm",
+  "label": "aired",
+  "fetchedAt": 1780694657452,
+  "fetchedAtIST": "6/6/2026, 2:54:17 am",
   "events": [
     {
       "eventId": "18cozugmnuf4p1x30nlr5lg8cx",
@@ -18,8 +18,8 @@
       "eventId": "1scc6c65joyok1q5rt7dcrod8j",
       "programTitle": "Monaco Practice 2",
       "scheduledDate": 1780671600000,
-      "duration": 135,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/4feneaef3ns073328h3euebd_image-header_pRow_1778722622000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 78,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/acjo6xt3yobovdu50u9ofza9s_image-header_pRow_1778722622000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Formula 1",
       "sport": "Motorsport"
     }
