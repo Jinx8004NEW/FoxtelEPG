@@ -1,9 +1,9 @@
 {
   "channel": "SPS",
   "date": "2026-06-08",
-  "label": "day after",
-  "fetchedAt": 1780765826595,
-  "fetchedAtIST": "6/6/2026, 10:40:26 pm",
+  "label": "tomorrow",
+  "fetchedAt": 1780779720433,
+  "fetchedAtIST": "7/6/2026, 2:32:00 am",
   "events": [
     {
       "eventId": 176929962,
