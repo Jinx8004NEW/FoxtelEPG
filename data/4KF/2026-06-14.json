@@ -1,0 +1,27 @@
+{
+  "channel": "4KF",
+  "date": "2026-06-14",
+  "label": "upcoming",
+  "fetchedAt": 1780866662248,
+  "fetchedAtIST": "8/6/2026, 2:41:02 am",
+  "events": [
+    {
+      "eventId": "18fnhyslonoia1w3p2lbiwgfdu",
+      "programTitle": "Richmond v Brisbane",
+      "scheduledDate": 1781406600000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/d8imdzohg16me7r87kl51wwha_image-header_pRow_1775008594000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    },
+    {
+      "eventId": "1vfxmsq10rst11cc1uywga4o5d",
+      "programTitle": "St Kilda v GWS",
+      "scheduledDate": 1781414100000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/ab0ava5kwsf59z54ejkok408e_image-header_pRow_1775008575000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    }
+  ]
+}

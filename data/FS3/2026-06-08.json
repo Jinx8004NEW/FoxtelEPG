@@ -1,10 +1,27 @@
 {
   "channel": "FS3",
   "date": "2026-06-08",
-  "label": "tomorrow",
-  "fetchedAt": 1780852411783,
-  "fetchedAtIST": "7/6/2026, 10:43:31 pm",
+  "label": "today",
+  "fetchedAt": 1780866603406,
+  "fetchedAtIST": "8/6/2026, 2:40:03 am",
   "events": [
+    {
+      "eventId": 176764033,
+      "programTitle": "Live: USPGA: The Memorial Final Round",
+      "channelId": 133,
+      "scheduledDate": 1780837200000,
+      "duration": 210,
+      "episodeTitle": "The Memorial Final Round",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2611944,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7653ey.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 176795200,
       "programTitle": "Live: USPGA: The Memorial Tournament FR",

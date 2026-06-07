@@ -1,9 +1,9 @@
 {
   "channel": "4KF",
   "date": "2026-06-07",
-  "label": "today",
-  "fetchedAt": 1780828060569,
-  "fetchedAtIST": "7/6/2026, 3:57:40 pm",
+  "label": "aired",
+  "fetchedAt": 1780866662240,
+  "fetchedAtIST": "8/6/2026, 2:41:02 am",
   "events": [
     {
       "eventId": "1mlrmgd7zb37i3oz4itdhdqii0",
@@ -18,8 +18,8 @@
       "eventId": "clv14ms1pluq01tmo4pqj1t31q",
       "programTitle": "Essendon v Carlton",
       "scheduledDate": 1780824000000,
-      "duration": 250,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/6zticjux837wof16ohww2zj36_image-header_pRow_1780371357000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 207,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/88gg6rob0vovjmgextfw1zcji_image-header_pRow_1780371357000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
