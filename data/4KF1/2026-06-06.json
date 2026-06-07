@@ -1,16 +1,16 @@
 {
   "channel": "4KF1",
   "date": "2026-06-06",
-  "label": "today",
-  "fetchedAt": 1780740140021,
-  "fetchedAtIST": "6/6/2026, 3:32:20 pm",
+  "label": "aired",
+  "fetchedAt": 1780828060575,
+  "fetchedAtIST": "7/6/2026, 3:57:40 pm",
   "events": [
     {
       "eventId": "18r7eamkh8xd81x9fflzqo2voj",
       "programTitle": "Monaco Practice 3",
       "scheduledDate": 1780741800000,
-      "duration": 120,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/642rmpb7gi2qqb7vyeykc3228_image-header_pRow_1778722683000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 102,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/1smh1le8e5eypjpoodrb4sbjq_image-header_pRow_1778722683000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Formula 1",
       "sport": "Motorsport"
     },
@@ -18,8 +18,8 @@
       "eventId": "f3cf9wgoatw31ju7hnlt6an8f",
       "programTitle": "Monaco Qualifying",
       "scheduledDate": 1780754400000,
-      "duration": 120,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/7qc0k0larxe044qgy5z4eycwg_image-header_pRow_1778722734000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 137,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/43t64f7j0n3x9a11k5xv5xxyf_image-header_pRow_1778722734000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Formula 1",
       "sport": "Motorsport"
     }
