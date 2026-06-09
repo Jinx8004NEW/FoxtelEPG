@@ -1,0 +1,27 @@
+{
+  "channel": "4KL",
+  "date": "2026-06-08",
+  "label": "aired",
+  "fetchedAt": 1781016327387,
+  "fetchedAtIST": "9/6/2026, 8:15:27 pm",
+  "events": [
+    {
+      "eventId": "748by0apsflu0gz9y1q0fa1ie0",
+      "programTitle": "Bulldogs v Eels",
+      "scheduledDate": 1780890000000,
+      "duration": 116,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/chm5d1ld1cmz4013t3zzgf7p3_image-header_pRow_1779243041000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "NSW Cup",
+      "sport": "Rugby League"
+    },
+    {
+      "eventId": "higgnw4n8z2o01j5jm9rjxxedy",
+      "programTitle": "Bulldogs v Eels",
+      "scheduledDate": 1780898700000,
+      "duration": 187,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/d3btejs4vriagh5skq4jo071j_image-header_pRow_1780380554000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "NRL",
+      "sport": "Rugby League"
+    }
+  ]
+}
