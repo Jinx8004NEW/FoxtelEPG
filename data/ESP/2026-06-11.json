@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-06-11",
   "label": "tomorrow",
-  "fetchedAt": 1781041588736,
-  "fetchedAtIST": "10/6/2026, 3:16:28 am",
+  "fetchedAt": 1781062145314,
+  "fetchedAtIST": "10/6/2026, 8:59:05 am",
   "events": [
     {
       "eventId": 176627573,
@@ -199,7 +199,7 @@
       "pashTag": "NEW EPISODE",
       "displaySepNum": false,
       "versionNum": 2612616,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/pxnwkl.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/l2llkf.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -301,7 +301,7 @@
       "seriesNumber": "2025",
       "displaySepNum": false,
       "versionNum": 2612616,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/pxnwkl.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/l2llkf.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

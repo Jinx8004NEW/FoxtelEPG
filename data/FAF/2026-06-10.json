@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-06-10",
   "label": "today",
-  "fetchedAt": 1781041565473,
-  "fetchedAtIST": "10/6/2026, 3:16:05 am",
+  "fetchedAt": 1781062121965,
+  "fetchedAtIST": "10/6/2026, 8:58:41 am",
   "events": [
     {
       "eventId": 177520133,
@@ -173,7 +173,7 @@
       "premiereInd": false,
       "displaySepNum": false,
       "versionNum": 2612778,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/l5manx.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
