@@ -2,15 +2,15 @@
   "channel": "4KF",
   "date": "2026-06-13",
   "label": "upcoming",
-  "fetchedAt": 1781062174457,
-  "fetchedAtIST": "10/6/2026, 8:59:34 am",
+  "fetchedAt": 1781078760388,
+  "fetchedAtIST": "10/6/2026, 1:36:00 pm",
   "events": [
     {
       "eventId": "1obv4cimpc0nu1fkirwhxfnmp8",
       "programTitle": "Melbourne v Essendon",
       "scheduledDate": 1781320500000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/jnm7epb0jl267zxhiiegchya_image-header_pRow_1775008371000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/jnm7epb0jl267zxhiiegchya_image-header_pRow_1780976647000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     },
@@ -19,7 +19,7 @@
       "programTitle": "North Melbourne v West Coast",
       "scheduledDate": 1781331300000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/aut5saucza81xxlxnnxr8yo0m_image-header_pRow_1775008510000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/aut5saucza81xxlxnnxr8yo0m_image-header_pRow_1780976702000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     },
@@ -28,7 +28,7 @@
       "programTitle": "Port Adelaide v Sydney",
       "scheduledDate": 1781343300000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/3ktyy19h80e6dy4nkednncpon_image-header_pRow_1775008615000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/3ktyy19h80e6dy4nkednncpon_image-header_pRow_1780976748000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
