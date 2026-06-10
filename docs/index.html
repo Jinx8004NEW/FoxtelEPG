@@ -450,7 +450,12 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:10px
 <div class="toast" id="toast"></div>
 
 <script>
-const REPO_RAW = 'https://raw.githubusercontent.com/Jinx8004NEW/FoxtelEPG/main';
+// Smart URL: if served from GitHub Pages, use same-origin path; otherwise use raw.githubusercontent
+const _onGHPages = location.hostname.endsWith('github.io');
+const REPO_RAW = _onGHPages
+  ? (location.origin + location.pathname.replace(/\/[^/]*$/, ''))  // same-origin relative
+  : 'https://raw.githubusercontent.com/Jinx8004NEW/FoxtelEPG/main';
+const REPO_RAW_FALLBACK = 'https://raw.githubusercontent.com/Jinx8004NEW/FoxtelEPG/main';
 
 const CHANNELS = {
   FSN:  { name:'Fox Sports News HD',  number:'500',  is4k:false },
@@ -788,9 +793,7 @@ async function loadSchedule(tag, date, force=false) {
   document.getElementById('guide-container').innerHTML =
     '<div class="loading"><div class="loader'+(i4k?' loader-4k':'')+'"></div><div class="loading-text">Loading '+tag+' '+date+'…</div></div>';
   try {
-    const res = await fetch(REPO_RAW+'/data/'+tag+'/'+date+'.json?_='+(force ? Date.now() : date));
-    if (!res.ok) throw new Error('HTTP '+res.status);
-    const data = await res.json();
+    const data = await fetchJSON('/data/'+tag+'/'+date+'.json');
     loadedData[k] = data;
     updateLiveBadges(tag, data.events);
     render(data);
@@ -799,9 +802,14 @@ async function loadSchedule(tag, date, force=false) {
       if (lv) lv.scrollIntoView({behavior:'smooth',block:'center'});
     }, 400);
   } catch(e) {
+    const errMsg = e.message || 'Network error';
+    const isCors = errMsg.toLowerCase().includes('cors') || errMsg.toLowerCase().includes('failed to fetch') || errMsg.toLowerCase().includes('networkerror');
+    const hint = isCors
+      ? '<br><span style="font-size:11px;color:var(--warn)">⚠ CORS / network block — try opening the page from its GitHub Pages URL.</span>'
+      : '<br><span style="font-size:11px;color:var(--text3)">'+errMsg+'</span>';
     document.getElementById('guide-container').innerHTML = i4k
       ? '<div class="no-4k-state"><div class="no-4k-icon">📅</div><div class="no-4k-title">No Events on '+date+'</div><div class="no-4k-sub">4K channels only broadcast selected events. No '+CHANNELS[tag].sport+' matches scheduled. Try another date.</div></div>'
-      : '<div class="empty-state"><div class="empty-title">Not Available</div><div class="empty-sub">Schedule for '+date+' not found.<br><span style="font-size:11px;color:var(--text3)">'+e.message+'</span></div></div>';
+      : '<div class="empty-state"><div class="empty-title">Could Not Load Schedule</div><div class="empty-sub">Schedule for <b>'+tag+' / '+date+'</b> failed to load.'+hint+'</div></div>';
   }
 }
 
@@ -968,14 +976,34 @@ async function switchChannel(tag) {
   }
 }
 
+// ── FETCH WITH FALLBACK ──
+async function fetchJSON(dataPath) {
+  const urls = [REPO_RAW + dataPath, REPO_RAW_FALLBACK + dataPath]
+    .filter((v,i,a) => a.indexOf(v) === i); // dedupe if same origin
+  let lastErr;
+  for (const url of urls) {
+    try {
+      const res = await fetch(url + (url.includes('?') ? '&' : '?') + '_=' + Date.now(), {
+        cache: 'no-store',
+        headers: { 'Accept': 'application/json' }
+      });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return await res.json();
+    } catch(e) {
+      lastErr = e;
+      console.warn('Fetch failed:', url, e.message);
+    }
+  }
+  throw lastErr;
+}
+
 // ── FETCH INDEX ──
 async function fetchIndex() {
-  const res = await fetch(REPO_RAW+'/data/index.json?_='+Date.now());
-  const data = await res.json();
+  const data = await fetchJSON('/data/index.json');
   ALL_TAGS.forEach(t => { availableDates[t] = data[t] || []; });
   renderDatePicker();
   const today = todayIST(), dates = availableDates[currentChannel];
-  currentDate = dates.includes(today) ? today : (dates[0]||''  );
+  currentDate = dates.includes(today) ? today : (dates[0]||'');
   updateChannelUI(currentChannel);
   if (currentDate) await loadSchedule(currentChannel, currentDate);
 }
@@ -996,11 +1024,24 @@ async function selectDate(d) { currentDate = d; renderDatePicker(); await loadSc
 document.querySelectorAll('.tz-opt').forEach(el => el.classList.remove('selected'));
 document.getElementById('tz-opt-'+currentTzKey)?.classList.add('selected');
 
-fetchIndex().catch(() => {
-  document.getElementById('guide-container').innerHTML =
-    '<div class="empty-state"><div class="empty-title">No Data Yet</div><div class="empty-sub">Go to GitHub → Actions → Run "Fetch Foxtel Schedule" manually.</div></div>';
+fetchIndex().catch(err => {
+  const msg = err?.message || 'Unknown error';
+  const isCors = msg.toLowerCase().includes('failed to fetch') || msg.toLowerCase().includes('networkerror') || msg.toLowerCase().includes('cors');
+  document.getElementById('guide-container').innerHTML = `
+    <div class="empty-state">
+      <div class="empty-title" style="color:var(--live)">⚠ Failed to Load Data</div>
+      <div class="empty-sub">
+        <b>Error:</b> <code style="font-family:var(--mono);font-size:11px;background:var(--surface2);padding:2px 6px;border-radius:4px">${msg}</code><br><br>
+        ${isCors ? `<b>Likely cause:</b> Fetching from <code style="font-family:var(--mono);font-size:11px">raw.githubusercontent.com</code> is being blocked.<br>
+        <b>Fix:</b> Open the page from its GitHub Pages URL:<br>
+        <code style="font-family:var(--mono);font-size:11px;background:var(--surface2);padding:4px 8px;border-radius:4px;display:inline-block;margin-top:6px">https://jinx8004new.github.io/FoxtelEPG/</code><br><br>` : ''}
+        Or go to <b>GitHub → Actions → Run "Fetch Foxtel Schedule"</b> to populate data first, then refresh.
+      </div>
+      <button onclick="refreshCurrent()" style="margin-top:18px;padding:8px 20px;background:var(--active-bg);border:1px solid var(--active-border);color:var(--active);border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;font-family:var(--font)">↻ Try Again</button>
+    </div>`;
   document.getElementById('date-row').innerHTML =
-    '<span style="font-size:11px;color:var(--text3)">Run GitHub Action first</span>';
+    '<span style="font-size:11px;color:var(--live)">⚠ Data load failed — see main panel</span>';
+  console.error('FoxtelEPG fetchIndex failed:', err);
 });
 </script>
 </body>
