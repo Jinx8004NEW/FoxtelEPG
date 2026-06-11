@@ -2,15 +2,15 @@
   "channel": "4KF",
   "date": "2026-06-11",
   "label": "today",
-  "fetchedAt": 1781128784073,
-  "fetchedAtIST": "11/6/2026, 3:29:44 am",
+  "fetchedAt": 1781167506507,
+  "fetchedAtIST": "11/6/2026, 2:15:06 pm",
   "events": [
     {
       "eventId": "1qgb2amflbcqy1pkidpo6pcdwl",
       "programTitle": "Western Bulldogs v Adelaide",
       "scheduledDate": 1781170200000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/2ec7k2ghulfgpdh9hgm52eu1w_image-header_pRow_1780976532000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 270,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/6byl0eeserqmrq8bne6tpcj3k_image-header_pRow_1780976532000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
