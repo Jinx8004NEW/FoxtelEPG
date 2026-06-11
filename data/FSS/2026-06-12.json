@@ -1,10 +1,28 @@
 {
   "channel": "FSS",
   "date": "2026-06-12",
-  "label": "tomorrow",
-  "fetchedAt": 1781193320022,
-  "fetchedAtIST": "11/6/2026, 9:25:20 pm",
+  "label": "today",
+  "fetchedAt": 1781203543197,
+  "fetchedAtIST": "12/6/2026, 12:15:43 am",
   "events": [
+    {
+      "eventId": 176911202,
+      "programTitle": "Live: Surfing: WSL: El Salvador Day 7",
+      "channelId": 664,
+      "scheduledDate": 1781181000000,
+      "duration": 300,
+      "episodeTitle": "El Salvador Day 7",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "NEW EPISODE",
+      "displaySepNum": false,
+      "versionNum": 2613221,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/bwpuz2.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 177633126,
       "programTitle": "Live: Surfing: WSL: El Salvador Day 7",
