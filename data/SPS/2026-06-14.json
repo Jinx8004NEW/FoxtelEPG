@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-06-14",
   "label": "day after",
-  "fetchedAt": 1781252634955,
-  "fetchedAtIST": "12/6/2026, 1:53:54 pm",
+  "fetchedAt": 1781275991955,
+  "fetchedAtIST": "12/6/2026, 8:23:11 pm",
   "events": [
     {
       "eventId": 177010995,
@@ -284,12 +284,13 @@
       "channelId": 307,
       "scheduledDate": 1781452800000,
       "duration": 30,
+      "episodeTitle": "Barcelona",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2613221,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/3rjrci.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
