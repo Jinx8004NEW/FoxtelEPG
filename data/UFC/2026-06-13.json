@@ -2,8 +2,8 @@
   "channel": "UFC",
   "date": "2026-06-13",
   "label": "tomorrow",
-  "fetchedAt": 1781215276536,
-  "fetchedAtIST": "12/6/2026, 3:31:16 am",
+  "fetchedAt": 1781235673400,
+  "fetchedAtIST": "12/6/2026, 9:11:13 am",
   "events": [
     {
       "eventId": 180838165,
@@ -230,7 +230,7 @@
       "pashTag": "FIRST ON",
       "displaySepNum": true,
       "versionNum": 9040289,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/88unr0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -313,7 +313,7 @@
       "episodeNumber": "1",
       "displaySepNum": true,
       "versionNum": 9040289,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/88unr0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -363,7 +363,7 @@
       "episodeNumber": "1",
       "displaySepNum": true,
       "versionNum": 9040289,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/88unr0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -395,7 +395,7 @@
       "episodeNumber": "1",
       "displaySepNum": true,
       "versionNum": 9040289,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/88unr0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -479,7 +479,7 @@
       "episodeNumber": "1",
       "displaySepNum": true,
       "versionNum": 9040289,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/88unr0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

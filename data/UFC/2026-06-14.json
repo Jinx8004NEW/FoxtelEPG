@@ -2,8 +2,8 @@
   "channel": "UFC",
   "date": "2026-06-14",
   "label": "day after",
-  "fetchedAt": 1781215277881,
-  "fetchedAtIST": "12/6/2026, 3:31:17 am",
+  "fetchedAt": 1781235674713,
+  "fetchedAtIST": "12/6/2026, 9:11:14 am",
   "events": [
     {
       "eventId": 180838199,
@@ -114,7 +114,7 @@
       "episodeNumber": "1",
       "displaySepNum": true,
       "versionNum": 9040289,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/88unr0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -182,7 +182,7 @@
       "pashTag": "FIRST ON",
       "displaySepNum": true,
       "versionNum": 9040289,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/88unr0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -265,7 +265,7 @@
       "episodeNumber": "2",
       "displaySepNum": true,
       "versionNum": 9040289,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/88unr0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -361,7 +361,7 @@
       "episodeNumber": "2",
       "displaySepNum": true,
       "versionNum": 9040289,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/88unr0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -394,7 +394,7 @@
       "episodeNumber": "2",
       "displaySepNum": true,
       "versionNum": 9040289,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/88unr0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -444,7 +444,7 @@
       "episodeNumber": "2",
       "displaySepNum": true,
       "versionNum": 9040289,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/88unr0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -540,7 +540,7 @@
       "episodeNumber": "2",
       "displaySepNum": true,
       "versionNum": 9040289,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/88unr0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

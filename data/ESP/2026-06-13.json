@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-06-13",
   "label": "tomorrow",
-  "fetchedAt": 1781215259094,
-  "fetchedAtIST": "12/6/2026, 3:30:59 am",
+  "fetchedAt": 1781235656077,
+  "fetchedAtIST": "12/6/2026, 9:10:56 am",
   "events": [
     {
       "eventId": 176627614,
@@ -244,7 +244,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2613348,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -294,7 +294,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2613348,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -364,7 +364,7 @@
       "pashTag": "NEW EPISODE",
       "displaySepNum": false,
       "versionNum": 2613348,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
