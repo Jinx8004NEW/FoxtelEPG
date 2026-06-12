@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-06-13",
   "label": "tomorrow",
-  "fetchedAt": 1781275979029,
-  "fetchedAtIST": "12/6/2026, 8:22:59 pm",
+  "fetchedAt": 1781287468623,
+  "fetchedAtIST": "12/6/2026, 11:34:28 pm",
   "events": [
     {
       "eventId": 176760108,
@@ -372,7 +372,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2613464,
+      "versionNum": 2613181,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/janie8.png",
       "placeholder": false,
       "isMovie": false,
@@ -406,7 +406,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2613464,
+      "versionNum": 2613181,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/qqx228.png",
       "placeholder": false,
       "isMovie": false,
