@@ -1,0 +1,18 @@
+{
+  "channel": "4KF2",
+  "date": "2026-06-14",
+  "label": "tomorrow",
+  "fetchedAt": 1781321365281,
+  "fetchedAtIST": "13/6/2026, 8:59:25 am",
+  "events": [
+    {
+      "eventId": "1w34u7e4f567rzzlcmqzbmj2t",
+      "programTitle": "Barcelona Race (F1 TV Commentary)",
+      "scheduledDate": 1781442000000,
+      "duration": 120,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/cyr27i05643t106xtl6hs57ka_image-header_pRow_1781064775000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "Formula 1",
+      "sport": "Motorsport"
+    }
+  ]
+}

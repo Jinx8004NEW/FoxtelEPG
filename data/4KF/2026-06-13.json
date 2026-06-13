@@ -1,16 +1,16 @@
 {
   "channel": "4KF",
   "date": "2026-06-13",
-  "label": "upcoming",
-  "fetchedAt": 1781167506508,
-  "fetchedAtIST": "11/6/2026, 2:15:06 pm",
+  "label": "today",
+  "fetchedAt": 1781321365275,
+  "fetchedAtIST": "13/6/2026, 8:59:25 am",
   "events": [
     {
       "eventId": "1obv4cimpc0nu1fkirwhxfnmp8",
       "programTitle": "Melbourne v Essendon",
       "scheduledDate": 1781320500000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/jnm7epb0jl267zxhiiegchya_image-header_pRow_1780976647000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 225,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/bqk5dw3qr7t3ikxs5mzt18h32_image-header_pRow_1780976647000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     },

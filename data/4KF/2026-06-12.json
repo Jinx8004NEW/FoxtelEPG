@@ -1,16 +1,16 @@
 {
   "channel": "4KF",
   "date": "2026-06-12",
-  "label": "tomorrow",
-  "fetchedAt": 1781167506509,
-  "fetchedAtIST": "11/6/2026, 2:15:06 pm",
+  "label": "aired",
+  "fetchedAt": 1781321365271,
+  "fetchedAtIST": "13/6/2026, 8:59:25 am",
   "events": [
     {
       "eventId": "1l7iavjcixj201t8bi0g3lpp76",
       "programTitle": "Geelong v Gold Coast",
       "scheduledDate": 1781257200000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/bc5pact9p5vsx1le7214aqmw_image-header_pRow_1780976586000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 244,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/dt5bf9g16dy1cnwdeyfld5ns6_image-header_pRow_1780976586000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
