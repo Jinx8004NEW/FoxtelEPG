@@ -1,10 +1,27 @@
 {
   "channel": "FS3",
   "date": "2026-06-14",
-  "label": "tomorrow",
-  "fetchedAt": 1781371179740,
-  "fetchedAtIST": "13/6/2026, 10:49:39 pm",
+  "label": "today",
+  "fetchedAt": 1781385159334,
+  "fetchedAtIST": "14/6/2026, 2:42:39 am",
   "events": [
+    {
+      "eventId": 176959103,
+      "programTitle": "Live: USPGA: RBC Canadian Open Round 3",
+      "channelId": 133,
+      "scheduledDate": 1781350200000,
+      "duration": 330,
+      "episodeTitle": "RBC Canadian Open Round 3",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": false,
+      "versionNum": 2613597,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/a3wbq5.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 176959104,
       "programTitle": "Live: USPGA: RBC Canadian Open Round 3",
