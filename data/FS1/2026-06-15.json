@@ -2,8 +2,8 @@
   "channel": "FS1",
   "date": "2026-06-15",
   "label": "day after",
-  "fetchedAt": 1781336653123,
-  "fetchedAtIST": "13/6/2026, 1:14:13 pm",
+  "fetchedAt": 1781346381776,
+  "fetchedAtIST": "13/6/2026, 3:56:21 pm",
   "events": [
     {
       "eventId": 177142366,
@@ -550,18 +550,18 @@
       "adultsOnly": false
     },
     {
-      "eventId": 177142398,
-      "programTitle": "Test: ENG v NZL 1st Test Day 5",
+      "eventId": 177667607,
+      "programTitle": "ODI: BAN v AUS Game 3",
       "channelId": 9,
       "scheduledDate": 1781544600000,
       "duration": 60,
-      "episodeTitle": "ENG v NZL 1st Test Day 5",
+      "episodeTitle": "BAN v AUS Game 3",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 2613658,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/arr1t1.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/479nq2.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
