@@ -1,25 +1,16 @@
 {
   "channel": "4KF1",
-  "date": "2026-06-13",
+  "date": "2026-06-14",
   "label": "today",
-  "fetchedAt": 1781321365276,
-  "fetchedAtIST": "13/6/2026, 8:59:25 am",
+  "fetchedAt": 1781408691507,
+  "fetchedAtIST": "14/6/2026, 9:14:51 am",
   "events": [
     {
-      "eventId": "xygoujlkgtxf1mxzvn13rharg",
-      "programTitle": "Barcelona Practice 3",
-      "scheduledDate": 1781346600000,
+      "eventId": "1ljxcf5k49q0j1kfjqjwhdrsac",
+      "programTitle": "Barcelona Race",
+      "scheduledDate": 1781442000000,
       "duration": 120,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/bulxa2rvb1ry5tc8o9yfb0l91_image-header_pRow_1780529314000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
-      "competitionTitle": "Formula 1",
-      "sport": "Motorsport"
-    },
-    {
-      "eventId": "q4dmbljv0qyjz4dvs0j98ky3",
-      "programTitle": "Barcelona Qualifying",
-      "scheduledDate": 1781359200000,
-      "duration": 120,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/dz6vgazrspwlt4cngt4bt9bc8_image-header_pRow_1780529470000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/702da5w9tmknntq9pd6a10eqk_image-header_pRow_1780529427000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Formula 1",
       "sport": "Motorsport"
     }

@@ -1,0 +1,36 @@
+{
+  "channel": "4KF",
+  "date": "2026-06-20",
+  "label": "upcoming",
+  "fetchedAt": 1781408691508,
+  "fetchedAtIST": "14/6/2026, 9:14:51 am",
+  "events": [
+    {
+      "eventId": "15b3tr7kbn7r5pwtkd3keog560",
+      "programTitle": "Adelaide v Melbourne",
+      "scheduledDate": 1781925300000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/18gn1m2c2z7yujtvpw4m1ekm1_image-header_pRow_1775009100000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    },
+    {
+      "eventId": "wkfit2lq8ouw0k4ze13w8rctm0",
+      "programTitle": "GWS v Carlton",
+      "scheduledDate": 1781936100000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/4bhit71loantrtbddl3gp7jf5_image-header_pRow_1775009233000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    },
+    {
+      "eventId": "c2ytpe3n2roj04w52e1idhts00",
+      "programTitle": "Collingwood v Port Adelaide",
+      "scheduledDate": 1781948100000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/9ff2whxm2pxlfikcd99kv1j6r_image-header_pRow_1775009123000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    }
+  ]
+}

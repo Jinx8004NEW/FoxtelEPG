@@ -1,0 +1,18 @@
+{
+  "channel": "4KL",
+  "date": "2026-06-13",
+  "label": "aired",
+  "fetchedAt": 1781408691503,
+  "fetchedAtIST": "14/6/2026, 9:14:51 am",
+  "events": [
+    {
+      "eventId": "1w9jwvusdrfrg1itgda6ny1ywc",
+      "programTitle": "Eels v Raiders",
+      "scheduledDate": 1781343300000,
+      "duration": 172,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/d09suimkfzmsitnc6eohis9z8_image-header_pRow_1781054195000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "NRL",
+      "sport": "Rugby League"
+    }
+  ]
+}
