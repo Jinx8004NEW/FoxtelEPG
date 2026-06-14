@@ -2,8 +2,8 @@
   "channel": "4KF",
   "date": "2026-06-14",
   "label": "today",
-  "fetchedAt": 1781424866040,
-  "fetchedAtIST": "14/6/2026, 1:44:26 pm",
+  "fetchedAt": 1781457580191,
+  "fetchedAtIST": "14/6/2026, 10:49:40 pm",
   "events": [
     {
       "eventId": "18fnhyslonoia1w3p2lbiwgfdu",
@@ -19,7 +19,7 @@
       "programTitle": "St Kilda v GWS",
       "scheduledDate": 1781414100000,
       "duration": 172,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/d5xx09feeqjobzqprrtpxntf3_image-header_pRow_1780976856000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/7rybwvugof1yjngmjmvzpy6pj_image-header_pRow_1780976856000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
