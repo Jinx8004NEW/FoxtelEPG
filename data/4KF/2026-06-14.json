@@ -2,15 +2,15 @@
   "channel": "4KF",
   "date": "2026-06-14",
   "label": "today",
-  "fetchedAt": 1781408691504,
-  "fetchedAtIST": "14/6/2026, 9:14:51 am",
+  "fetchedAt": 1781424866040,
+  "fetchedAtIST": "14/6/2026, 1:44:26 pm",
   "events": [
     {
       "eventId": "18fnhyslonoia1w3p2lbiwgfdu",
       "programTitle": "Richmond v Brisbane",
       "scheduledDate": 1781406600000,
-      "duration": 230,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/cbco3k27v17sjmwbnis3e1ctq_image-header_pRow_1780976800000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 177,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/1njm5iwmnf1acnqkdzvrfn4nz_image-header_pRow_1780976800000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     },
@@ -18,8 +18,8 @@
       "eventId": "1vfxmsq10rst11cc1uywga4o5d",
       "programTitle": "St Kilda v GWS",
       "scheduledDate": 1781414100000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/ab0ava5kwsf59z54ejkok408e_image-header_pRow_1780976856000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 172,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/d5xx09feeqjobzqprrtpxntf3_image-header_pRow_1780976856000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
