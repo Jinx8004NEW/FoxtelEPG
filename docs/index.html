@@ -311,7 +311,7 @@ body {
 
 .event-card {
   display: grid;
-  grid-template-columns: 110px 1fr auto;
+  grid-template-columns: 110px 110px 1fr auto;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 10px;
@@ -335,6 +335,37 @@ body {
   width: 3px; background: var(--live);
 }
 
+/* image column */
+.ev-image {
+  position: relative;
+  border-right: 1px solid var(--border);
+  background: var(--surface3);
+  overflow: hidden;
+  min-height: 76px;
+}
+.ev-image img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+  position: absolute; inset: 0;
+}
+.ev-image.no-img { background: var(--surface2); }
+.ev-image.no-img::after {
+  content: '—';
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text3); font-size: 18px;
+}
+.ev-dl-btn {
+  position: absolute; bottom: 4px; right: 4px;
+  width: 22px; height: 22px; border-radius: 5px;
+  background: rgba(0,0,0,0.55); border: none;
+  display: flex; align-items: center; justify-content: center;
+  color: #fff; font-size: 12px; cursor: pointer;
+  opacity: 0; transition: opacity .15s;
+  padding: 0; line-height: 1; z-index: 2;
+}
+.ev-image:hover .ev-dl-btn { opacity: 1; }
+.ev-dl-btn:hover { background: rgba(0,0,0,0.8); }
+
 /* time column */
 .ev-time {
   padding: 14px 10px;
@@ -342,27 +373,6 @@ body {
   gap: 3px; border-right: 1px solid var(--border);
   background: var(--surface2);
 }
-.ev-thumb-wrap {
-  position: relative; width: 100%; aspect-ratio: 16/9;
-  border-radius: 5px; overflow: hidden; margin-bottom: 4px;
-  border: 1px solid var(--border);
-  background: var(--surface3);
-}
-.ev-thumb-wrap img {
-  width: 100%; height: 100%; object-fit: cover; display: block;
-}
-.ev-thumb-wrap.no-img { display: none; }
-.ev-dl-btn {
-  position: absolute; bottom: 2px; right: 2px;
-  width: 18px; height: 18px; border-radius: 4px;
-  background: rgba(0,0,0,0.55); border: none;
-  display: flex; align-items: center; justify-content: center;
-  color: #fff; font-size: 10px; cursor: pointer;
-  opacity: 0; transition: opacity .15s;
-  padding: 0; line-height: 1;
-}
-.ev-thumb-wrap:hover .ev-dl-btn { opacity: 1; }
-.ev-dl-btn:hover { background: rgba(0,0,0,0.8); }
 .ev-time-start {
   font-family: var(--mono); font-size: 14px; font-weight: 500; letter-spacing: -.01em;
   line-height: 1;
@@ -478,7 +488,11 @@ mark.hl { background: rgba(251,191,36,.25); border-radius: 2px; padding: 0 1px; 
 /* ── RESPONSIVE ── */
 @media(max-width: 800px) {
   .sidebar { display: none; }
-  .event-card { grid-template-columns: 96px 1fr auto; }
+  .event-card { grid-template-columns: 80px 80px 1fr auto; }
+}
+@media(max-width: 600px) {
+  .event-card { grid-template-columns: 64px 1fr auto; }
+  .ev-image { display: none; }
 }
 @media(max-width: 520px) {
   .stats { grid-template-columns: repeat(2,1fr); }
@@ -699,8 +713,8 @@ const ALL_TAGS = Object.keys(CHANNELS);
 
 let currentChannel = 'FSN', currentFilter = 'all', currentDate = '';
 let searchQuery = '', isCompact = false;
-let availableDates = {}, loadedData = {};
-ALL_TAGS.forEach(t => { availableDates[t] = []; });
+let availableDates = {}, loadedData = {}, loadedFiles = {}, localDatePills = {};
+ALL_TAGS.forEach(t => { availableDates[t] = []; localDatePills[t] = []; });
 
 /* ── THEME ── */
 function toggleTheme() {
@@ -740,17 +754,52 @@ setInterval(updateClock,1000); updateClock();
 function toIST(ms) {
   return new Date(ms).toLocaleString(undefined,{timeZone:USER_TZ,hour:'2-digit',minute:'2-digit',hour12:false});
 }
-function toISTDate(ms) {
-  return new Date(ms).toLocaleDateString(undefined,{timeZone:USER_TZ,weekday:'long',day:'numeric',month:'long',year:'numeric'});
-}
 function todayIST() { return new Date().toLocaleDateString('en-CA',{timeZone:USER_TZ}); }
 function toFullLocal(ms) {
   return new Date(ms).toLocaleString(undefined,{timeZone:USER_TZ,weekday:'short',day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit',hour12:true});
 }
-function formatDateLabel(d) {
-  const dt = new Date(d+'T12:00:00+05:30');
-  const day = dt.toLocaleDateString(undefined,{timeZone:USER_TZ,day:'numeric',month:'short'}).toUpperCase();
-  return day;
+function formatDateLabel(dateStr) {
+  const d = new Date(dateStr+'T00:00:00Z');
+  return d.toLocaleDateString(undefined,{timeZone:'UTC',day:'numeric',month:'short'}).toUpperCase();
+}
+/* local calendar-day boundaries (ms, [start,end)) for a YYYY-MM-DD date in USER_TZ */
+function localDayRange(dateStr) {
+  const [y,m,day] = dateStr.split('-').map(Number);
+  let guess = Date.UTC(y,m-1,day,12,0,0);
+  const fmt = new Intl.DateTimeFormat('en-CA',{timeZone:USER_TZ,year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false});
+  for (let i=0;i<3;i++) {
+    const parts = fmt.formatToParts(new Date(guess));
+    const map = {};
+    parts.forEach(p=>map[p.type]=p.value);
+    const localMidnight = Date.UTC(+map.year,+map.month-1,+map.day,+map.hour,+map.minute,+map.second);
+    const target = Date.UTC(y,m-1,day,12,0,0);
+    const diff = target - localMidnight;
+    if (diff===0) break;
+    guess += diff;
+  }
+  const start = guess - 12*60*60*1000;
+  const end = start + 24*60*60*1000;
+  return [start,end];
+}
+/* map a timestamp to its YYYY-MM-DD calendar date in USER_TZ */
+function localDateKey(ms) {
+  return new Date(ms).toLocaleDateString('en-CA',{timeZone:USER_TZ});
+}
+function shiftDateStr(dateStr,deltaDays) {
+  const d = new Date(dateStr+'T00:00:00Z');
+  d.setUTCDate(d.getUTCDate()+deltaDays);
+  return d.toISOString().slice(0,10);
+}
+/* derive selectable local-calendar-day pills from AUS-bucketed file labels:
+   each file label can spill into the local day before/after, so include neighbours */
+function computeLocalDatePills(fileLabels) {
+  const set = new Set();
+  fileLabels.forEach(label=>{
+    set.add(shiftDateStr(label,-1));
+    set.add(label);
+    set.add(shiftDateStr(label,1));
+  });
+  return [...set].sort().reverse();
 }
 function minsUntil(ms) { return Math.max(0,Math.round((ms-Date.now())/60000)); }
 function minsLeft(s,d) { return Math.max(0,Math.round((s+d*60000-Date.now())/60000)); }
@@ -913,10 +962,13 @@ document.addEventListener('keydown',e=>{
 async function fetchIndex() {
   const res=await fetch(`${REPO_RAW}/data/index.json?_=${Date.now()}`);
   const data=await res.json();
-  ALL_TAGS.forEach(t=>{ availableDates[t]=data[t]||[]; });
+  ALL_TAGS.forEach(t=>{
+    availableDates[t]=data[t]||[];
+    localDatePills[t]=computeLocalDatePills(availableDates[t]);
+  });
   renderDatePicker();
-  const today=todayIST(), dates=availableDates[currentChannel];
-  currentDate=dates.includes(today)?today:(dates[0]||'');
+  const today=todayIST(), pills=localDatePills[currentChannel];
+  currentDate=pills.includes(today)?today:(pills[0]||'');
   updateChannelUI(currentChannel);
   if (currentDate) await loadSchedule(currentChannel,currentDate);
 }
@@ -924,7 +976,7 @@ async function fetchIndex() {
 /* ── DATE PICKER ── */
 function renderDatePicker() {
   const bar=document.getElementById('date-row');
-  const dates=availableDates[currentChannel], today=todayIST();
+  const dates=localDatePills[currentChannel], today=todayIST();
   if (!dates.length) { bar.innerHTML='<span style="font-size:11px;color:var(--text3)">No data yet</span>'; return; }
   bar.innerHTML=dates.map(d=>
     `<button class="date-pill${d===currentDate?' active':''}${d===today?' today':''}" onclick="selectDate('${d}')">${formatDateLabel(d)}${d===today?' · Today':''}</button>`
@@ -942,9 +994,9 @@ async function switchChannel(tag) {
   if (el) el.classList.add(is4K(tag)?'active-4k':'active');
   updateChannelUI(tag);
   renderDatePicker();
-  const today=todayIST(), dates=availableDates[tag];
-  if (!currentDate||!dates.includes(currentDate))
-    currentDate=dates.includes(today)?today:(dates[0]||'');
+  const today=todayIST(), pills=localDatePills[tag];
+  if (!currentDate||!pills.includes(currentDate))
+    currentDate=pills.includes(today)?today:(pills[0]||'');
   if (currentDate) await loadSchedule(tag,currentDate);
   else {
     document.getElementById('guide-container').innerHTML=is4K(tag)
@@ -974,34 +1026,70 @@ function applyFilter(events) {
   return evs;
 }
 
-/* ── LOAD SCHEDULE ── */
-async function loadSchedule(tag,date,force=false) {
-  const k=tag+'_'+date, i4k=is4K(tag);
+/* ── FETCH A SINGLE FILE (cached) ── */
+async function fetchFile(tag,label,force=false) {
+  const fk=tag+'_file_'+label;
+  if (!force&&loadedFiles[fk]) return loadedFiles[fk];
+  const res=await fetch(`${REPO_RAW}/data/${tag}/${label}.json?_=${force?Date.now():label}`);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const data=await res.json();
+  loadedFiles[fk]=data;
+  return data;
+}
+
+/* ── LOAD SCHEDULE (localDate = YYYY-MM-DD in USER_TZ) ── */
+async function loadSchedule(tag,localDate,force=false) {
+  const k=tag+'_'+localDate, i4k=is4K(tag);
   if (!force&&loadedData[k]) { render(loadedData[k]); return; }
   document.getElementById('guide-container').innerHTML=
-    `<div class="loading"><div class="loader${i4k?' loader-4k':''}"></div><div class="loading-text">Loading ${tag} ${date}…</div></div>`;
+    `<div class="loading"><div class="loader${i4k?' loader-4k':''}"></div><div class="loading-text">Loading ${tag} ${localDate}…</div></div>`;
+
+  const candidates=[shiftDateStr(localDate,-1),localDate,shiftDateStr(localDate,1)]
+    .filter(label=>availableDates[tag].includes(label));
+
+  if (!candidates.length) {
+    document.getElementById('guide-container').innerHTML=i4k
+      ?`<div class="no-4k-state"><div class="no-4k-icon">📅</div><div class="no-4k-title">No Events on ${localDate}</div><div class="no-4k-sub">4K channels only broadcast selected events. No ${CHANNELS[tag].sport} matches scheduled. Try another date.</div></div>`
+      :`<div class="empty-state"><div class="empty-title">Not Available</div><div class="empty-sub">Schedule for ${localDate} not found.</div></div>`;
+    return;
+  }
+
   try {
-    const res=await fetch(`${REPO_RAW}/data/${tag}/${date}.json?_=${force?Date.now():date}`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data=await res.json();
+    const results=await Promise.allSettled(candidates.map(label=>fetchFile(tag,label,force)));
+    const fetched=results.filter(r=>r.status==='fulfilled').map(r=>r.value);
+    if (!fetched.length) throw new Error(results[0].reason?.message||'fetch failed');
+
+    const [dayStart,dayEnd]=localDayRange(localDate);
+    const seen=new Set();
+    let events=[];
+    fetched.forEach(d=>(d.events||[]).forEach(ev=>{
+      const id=ev.eventId??(ev.programTitle+'_'+ev.scheduledDate);
+      if (seen.has(id)) return;
+      seen.add(id);
+      if (ev.scheduledDate>=dayStart&&ev.scheduledDate<dayEnd) events.push(ev);
+    }));
+    events.sort((a,b)=>a.scheduledDate-b.scheduledDate);
+
+    const fetchedAt=Math.max(...fetched.map(d=>d.fetchedAt||0));
+    const data={date:localDate,events,fetchedAt,fetchedAtIST:fetched[0].fetchedAtIST};
     loadedData[k]=data;
-    updateLiveBadges(tag,data.events);
+    updateLiveBadges(tag,events);
     render(data);
-    if (date===todayIST()) setTimeout(()=>{
+    if (localDate===todayIST()) setTimeout(()=>{
       const lv=document.querySelector('.event-card.is-live');
       if (lv) lv.scrollIntoView({behavior:'smooth',block:'center'});
     },400);
   } catch(e) {
     document.getElementById('guide-container').innerHTML=i4k
-      ?`<div class="no-4k-state"><div class="no-4k-icon">📅</div><div class="no-4k-title">No Events on ${date}</div><div class="no-4k-sub">4K channels only broadcast selected events. No ${CHANNELS[tag].sport} matches scheduled. Try another date.</div></div>`
-      :`<div class="empty-state"><div class="empty-title">Not Available</div><div class="empty-sub">Schedule for ${date} not found.<br><span style="font-size:11px;color:var(--text3)">${e.message}</span></div></div>`;
+      ?`<div class="no-4k-state"><div class="no-4k-icon">📅</div><div class="no-4k-title">No Events on ${localDate}</div><div class="no-4k-sub">4K channels only broadcast selected events. No ${CHANNELS[tag].sport} matches scheduled. Try another date.</div></div>`
+      :`<div class="empty-state"><div class="empty-title">Not Available</div><div class="empty-sub">Schedule for ${localDate} not found.<br><span style="font-size:11px;color:var(--text3)">${e.message}</span></div></div>`;
   }
 }
 
 async function refreshCurrent() {
   const btn=document.getElementById('refresh-btn');
   btn.classList.add('spinning'); btn.disabled=true;
-  loadedData={}; await fetchIndex();
+  loadedData={}; loadedFiles={}; await fetchIndex();
   btn.classList.remove('spinning'); btn.disabled=false;
   showToast('✓ Refreshed');
 }
@@ -1016,9 +1104,8 @@ function render(data) {
     ?`Today · fetched ${ago<60?ago+'m ago':Math.round(ago/60)+'h ago'}`
     :`Archive · ${data.date}`;
 
-  if (events.length) {
-    document.getElementById('ch-heading-date').textContent=toISTDate(events[0].scheduledDate);
-  }
+  document.getElementById('ch-heading-date').textContent=
+    new Date(data.date+'T12:00:00Z').toLocaleDateString(undefined,{timeZone:'UTC',weekday:'long',day:'numeric',month:'long',year:'numeric'});
 
   const liveEvs=events.filter(e=>now>=e.scheduledDate&&now<e.scheduledDate+e.duration*60000);
   const upcoming=events.filter(e=>e.scheduledDate>now);
@@ -1032,7 +1119,7 @@ function render(data) {
   `;
 
   document.getElementById('footer-info').textContent=
-    ALL_TAGS.map(t=>`${t}:${availableDates[t]?.length||0}d`).join(' · ');
+    ALL_TAGS.map(t=>`${t}:${localDatePills[t]?.length||0}d`).join(' · ');
 
   updateOnAir(events);
 
@@ -1070,20 +1157,20 @@ function render(data) {
     const sportTag=(ev.sport&&ev.sport!==ev.competitionTitle)?`<span class="tag">${ev.sport}</span>`:'';
     const titleAttr=(ev.programTitle||'').replace(/'/g,"\\'").replace(/"/g,'&quot;');
     const imgUrl=ev.imageUrl||'';
-    const thumbHtml=imgUrl
-      ?`<div class="ev-thumb-wrap">
-          <img src="${imgUrl}" alt="${titleAttr}" loading="lazy" onerror="this.closest('.ev-thumb-wrap').classList.add('no-img')">
+    const imageHtml=imgUrl
+      ?`<div class="ev-image">
+          <img src="${imgUrl}" alt="${titleAttr}" loading="lazy" onerror="this.closest('.ev-image').classList.add('no-img'); this.remove();">
           <button class="ev-dl-btn" onclick='downloadImage("${imgUrl}","${titleAttr}",event)' title="Download image">⬇</button>
         </div>`
-      :'';
+      :`<div class="ev-image no-img"></div>`;
 
     const card=document.createElement('div');
     card.className=`event-card ${stateClass}${i4k?' is-4k':''}`;
     card.style.animationDelay=(idx*0.025)+'s';
 
     card.innerHTML=`
+      ${imageHtml}
       <div class="ev-time">
-        ${thumbHtml}
         <div class="ev-time-start" title="${toFullLocal(ev.scheduledDate)}">${toIST(ev.scheduledDate)}</div>
         <div class="ev-dur">${ev.duration} min</div>
         ${etaHtml}
