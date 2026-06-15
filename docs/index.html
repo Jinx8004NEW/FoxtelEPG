@@ -130,7 +130,25 @@ body {
 .tb-btn.on { border-color: var(--active-border); color: var(--active); background: var(--active-bg); }
 .tb-btn .spin { display: inline-block; }
 .tb-btn.spinning .spin { animation: spin .7s linear infinite; }
-.menu-btn { display: none; padding: 5px 9px; font-size: 14px; }
+.menu-btn { display: none; padding: 5px 10px; font-size: 14px; gap: 6px; }
+.menu-btn-icon-wrap { position: relative; display: inline-flex; line-height: 1; }
+.menu-btn-label { font-size: 11px; font-weight: 500; letter-spacing: .02em; }
+.menu-pulse {
+  position: absolute; top: -3px; right: -5px;
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 0 var(--accent-bg);
+  animation: menuPulse 1.6s ease-out infinite;
+}
+.menu-pulse.hide { display: none; }
+@keyframes menuPulse {
+  0% { box-shadow: 0 0 0 0 rgba(96,165,250,0.5); }
+  70% { box-shadow: 0 0 0 6px rgba(96,165,250,0); }
+  100% { box-shadow: 0 0 0 0 rgba(96,165,250,0); }
+}
+@media(max-width: 520px) {
+  .menu-btn-label { display: none; }
+}
 @keyframes spin { to { transform: rotate(360deg); } }
 
 /* ── ON AIR BAR ── */
@@ -345,10 +363,16 @@ body {
 /* image column */
 .ev-image {
   position: relative;
-  border-right: 1px solid var(--border);
-  background: var(--surface3);
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 6px;
   overflow: hidden;
-  min-height: 76px;
+  background: var(--surface3);
+}
+.ev-image-cell {
+  border-right: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  padding: 8px;
 }
 .ev-image img {
   width: 100%; height: 100%; object-fit: cover; display: block;
@@ -521,7 +545,10 @@ mark.hl { background: rgba(251,191,36,.25); border-radius: 2px; padding: 0 1px; 
 
 <!-- TOPBAR -->
 <header class="topbar">
-  <button class="tb-btn menu-btn" id="menu-btn" onclick="toggleSidebar()" aria-label="Channels">☰</button>
+  <button class="tb-btn menu-btn" id="menu-btn" onclick="toggleSidebar()" aria-label="Channels">
+    <span class="menu-btn-icon-wrap">☰<span class="menu-pulse" id="menu-pulse"></span></span>
+    <span class="menu-btn-label">Channels</span>
+  </button>
   <div class="brand"><div class="brand-dot"></div>Foxtel Guide</div>
   <div class="ist-clock" id="ist-clock">--:--:--</div>
   <div class="search-wrap">
@@ -969,10 +996,22 @@ function highlight(text,q) {
 function toggleSidebar() {
   document.getElementById('sidebar').classList.toggle('open');
   document.getElementById('sidebar-backdrop').classList.toggle('open');
+  dismissMenuPulse();
 }
 function closeSidebar() {
   document.getElementById('sidebar').classList.remove('open');
   document.getElementById('sidebar-backdrop').classList.remove('open');
+}
+function dismissMenuPulse() {
+  const p=document.getElementById('menu-pulse');
+  if (p) p.classList.add('hide');
+  localStorage.setItem('menuHintSeen','1');
+}
+if (localStorage.getItem('menuHintSeen')) {
+  document.addEventListener('DOMContentLoaded',()=>{
+    const p=document.getElementById('menu-pulse');
+    if (p) p.classList.add('hide');
+  });
 }
 
 /* ── KEYBOARD ── */
@@ -1189,11 +1228,13 @@ function render(data) {
     const titleAttr=(ev.programTitle||'').replace(/'/g,"\\'").replace(/"/g,'&quot;');
     const imgUrl=ev.imageUrl||'';
     const imageHtml=imgUrl
-      ?`<div class="ev-image">
-          <img src="${imgUrl}" alt="${titleAttr}" loading="lazy" onerror="this.closest('.ev-image').classList.add('no-img'); this.remove();">
-          <button class="ev-dl-btn" onclick='downloadImage("${imgUrl}","${titleAttr}",event)' title="Download image">⬇</button>
+      ?`<div class="ev-image-cell">
+          <div class="ev-image">
+            <img src="${imgUrl}" alt="${titleAttr}" loading="lazy" onerror="this.closest('.ev-image').classList.add('no-img'); this.remove();">
+            <button class="ev-dl-btn" onclick='downloadImage("${imgUrl}","${titleAttr}",event)' title="Download image">⬇</button>
+          </div>
         </div>`
-      :`<div class="ev-image no-img"></div>`;
+      :`<div class="ev-image-cell"><div class="ev-image no-img"></div></div>`;
 
     const card=document.createElement('div');
     card.className=`event-card ${stateClass}${i4k?' is-4k':''}`;
