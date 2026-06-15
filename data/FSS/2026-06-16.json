@@ -1,10 +1,28 @@
 {
   "channel": "FSS",
   "date": "2026-06-16",
-  "label": "tomorrow",
-  "fetchedAt": 1781543507854,
-  "fetchedAtIST": "15/6/2026, 10:41:47 pm",
+  "label": "today",
+  "fetchedAt": 1781561836503,
+  "fetchedAtIST": "16/6/2026, 3:47:16 am",
   "events": [
+    {
+      "eventId": 177004574,
+      "programTitle": "Live: Surfing: WSL: El Salvador FD",
+      "channelId": 664,
+      "scheduledDate": 1781528400000,
+      "duration": 240,
+      "episodeTitle": "El Salvador FD",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "NEW EPISODE",
+      "displaySepNum": false,
+      "versionNum": 2614094,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/bwpuz2.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 177694797,
       "programTitle": "Live: Surfing: WSL: El Salvador FD",
