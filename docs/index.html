@@ -311,7 +311,7 @@ body {
 
 .event-card {
   display: grid;
-  grid-template-columns: 72px 1fr auto;
+  grid-template-columns: 110px 1fr auto;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 10px;
@@ -342,6 +342,27 @@ body {
   gap: 3px; border-right: 1px solid var(--border);
   background: var(--surface2);
 }
+.ev-thumb-wrap {
+  position: relative; width: 100%; aspect-ratio: 16/9;
+  border-radius: 5px; overflow: hidden; margin-bottom: 4px;
+  border: 1px solid var(--border);
+  background: var(--surface3);
+}
+.ev-thumb-wrap img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+}
+.ev-thumb-wrap.no-img { display: none; }
+.ev-dl-btn {
+  position: absolute; bottom: 2px; right: 2px;
+  width: 18px; height: 18px; border-radius: 4px;
+  background: rgba(0,0,0,0.55); border: none;
+  display: flex; align-items: center; justify-content: center;
+  color: #fff; font-size: 10px; cursor: pointer;
+  opacity: 0; transition: opacity .15s;
+  padding: 0; line-height: 1;
+}
+.ev-thumb-wrap:hover .ev-dl-btn { opacity: 1; }
+.ev-dl-btn:hover { background: rgba(0,0,0,0.8); }
 .ev-time-start {
   font-family: var(--mono); font-size: 14px; font-weight: 500; letter-spacing: -.01em;
   line-height: 1;
@@ -378,6 +399,11 @@ body {
 .ev-ep {
   font-size: 12px; color: var(--text3); font-weight: 400;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.ev-localtime {
+  font-family: var(--mono); font-size: 10px; color: var(--text3);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  margin-top: 1px;
 }
 .ev-tags { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 1px; }
 .tag {
@@ -452,7 +478,7 @@ mark.hl { background: rgba(251,191,36,.25); border-radius: 2px; padding: 0 1px; 
 /* ── RESPONSIVE ── */
 @media(max-width: 800px) {
   .sidebar { display: none; }
-  .event-card { grid-template-columns: 64px 1fr auto; }
+  .event-card { grid-template-columns: 96px 1fr auto; }
 }
 @media(max-width: 520px) {
   .stats { grid-template-columns: repeat(2,1fr); }
@@ -466,7 +492,7 @@ mark.hl { background: rgba(251,191,36,.25); border-radius: 2px; padding: 0 1px; 
 <!-- TOPBAR -->
 <header class="topbar">
   <div class="brand"><div class="brand-dot"></div>Foxtel Guide</div>
-  <div class="ist-clock" id="ist-clock">--:--:-- IST</div>
+  <div class="ist-clock" id="ist-clock">--:--:--</div>
   <div class="search-wrap">
     <span class="search-ico">⌕</span>
     <input class="search-input" id="search-input" type="text" placeholder="Search shows… ( / to focus)" oninput="onSearch(this.value)">
@@ -641,7 +667,7 @@ mark.hl { background: rgba(251,191,36,.25); border-radius: 2px; padding: 0 1px; 
 </div>
 
 <footer>
-  <span>Foxtel TV Guide · HD + 4K · 4h auto-update · 21 days history</span>
+  <span>Foxtel TV Guide · HD + 4K · Manual refresh · 21 days history</span>
   <span id="footer-info" style="font-family:var(--mono);font-size:10px">—</span>
 </footer>
 
@@ -700,24 +726,30 @@ function toggleCompact() {
   if (loadedData[k]) render(loadedData[k]);
 }
 
+/* ── TIMEZONE ── */
+const USER_TZ = Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC';
+
 /* ── CLOCK ── */
 function updateClock() {
   document.getElementById('ist-clock').textContent =
-    new Date().toLocaleString('en-IN',{timeZone:'Asia/Kolkata',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false})+' IST';
+    new Date().toLocaleString(undefined,{timeZone:USER_TZ,hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false});
 }
 setInterval(updateClock,1000); updateClock();
 
 /* ── TIME HELPERS ── */
 function toIST(ms) {
-  return new Date(ms).toLocaleString('en-IN',{timeZone:'Asia/Kolkata',hour:'2-digit',minute:'2-digit',hour12:false});
+  return new Date(ms).toLocaleString(undefined,{timeZone:USER_TZ,hour:'2-digit',minute:'2-digit',hour12:false});
 }
 function toISTDate(ms) {
-  return new Date(ms).toLocaleDateString('en-IN',{timeZone:'Asia/Kolkata',weekday:'long',day:'numeric',month:'long',year:'numeric'});
+  return new Date(ms).toLocaleDateString(undefined,{timeZone:USER_TZ,weekday:'long',day:'numeric',month:'long',year:'numeric'});
 }
-function todayIST() { return new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Kolkata'}); }
+function todayIST() { return new Date().toLocaleDateString('en-CA',{timeZone:USER_TZ}); }
+function toFullLocal(ms) {
+  return new Date(ms).toLocaleString(undefined,{timeZone:USER_TZ,weekday:'short',day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit',hour12:true});
+}
 function formatDateLabel(d) {
   const dt = new Date(d+'T12:00:00+05:30');
-  const day = dt.toLocaleDateString('en-IN',{timeZone:'Asia/Kolkata',day:'numeric',month:'short'}).toUpperCase();
+  const day = dt.toLocaleDateString(undefined,{timeZone:USER_TZ,day:'numeric',month:'short'}).toUpperCase();
   return day;
 }
 function minsUntil(ms) { return Math.max(0,Math.round((ms-Date.now())/60000)); }
@@ -790,9 +822,36 @@ function updateLiveBadges(tag,events) {
 
 /* ── SHARE / CALENDAR ── */
 function shareEvent(title,time,ch,imgUrl) {
-  const text=`📺 ${title}\n🕐 ${time} IST on ${CHANNELS[ch].name}\n🖼 ${imgUrl}`;
+  const text=`📺 ${title}\n🕐 ${time} on ${CHANNELS[ch].name}\n🖼 ${imgUrl}`;
   if (navigator.share) navigator.share({title,text,url:window.location.href}).catch(()=>{});
   else { navigator.clipboard?.writeText(text).then(()=>showToast('✓ Copied')); }
+}
+
+/* ── DOWNLOAD IMAGE ── */
+function sanitizeFilename(name) {
+  return (name||'event').replace(/[\\/:*?"<>|]+/g,'').replace(/\s+/g,'_').slice(0,80) || 'event';
+}
+async function downloadImage(url,title,evt) {
+  if (evt) evt.stopPropagation();
+  if (!url) { showToast('No image available'); return; }
+  try {
+    const res=await fetch(url);
+    if (!res.ok) throw new Error('HTTP '+res.status);
+    const blob=await res.blob();
+    let ext='png';
+    const m=/\.(\w+)(?:\?|$)/.exec(url);
+    if (m) ext=m[1];
+    else if (blob.type) { const t=blob.type.split('/')[1]; if (t) ext=t; }
+    const a=document.createElement('a');
+    a.href=URL.createObjectURL(blob);
+    a.download=`${sanitizeFilename(title)}.${ext}`;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+    showToast('✓ Image downloaded');
+  } catch(e) {
+    window.open(url,'_blank');
+    showToast('Opened image in new tab');
+  }
 }
 function addToCalendar(evJson) {
   const ev=JSON.parse(evJson);
@@ -1009,6 +1068,14 @@ function render(data) {
     const evJson=JSON.stringify({scheduledDate:ev.scheduledDate,duration:ev.duration,programTitle:ev.programTitle,episodeTitle:ev.episodeTitle||''}).replace(/"/g,'&quot;');
     const competTag=ev.competitionTitle?`<span class="tag">${ev.competitionTitle}</span>`:'';
     const sportTag=(ev.sport&&ev.sport!==ev.competitionTitle)?`<span class="tag">${ev.sport}</span>`:'';
+    const titleAttr=(ev.programTitle||'').replace(/'/g,"\\'").replace(/"/g,'&quot;');
+    const imgUrl=ev.imageUrl||'';
+    const thumbHtml=imgUrl
+      ?`<div class="ev-thumb-wrap">
+          <img src="${imgUrl}" alt="${titleAttr}" loading="lazy" onerror="this.closest('.ev-thumb-wrap').classList.add('no-img')">
+          <button class="ev-dl-btn" onclick='downloadImage("${imgUrl}","${titleAttr}",event)' title="Download image">⬇</button>
+        </div>`
+      :'';
 
     const card=document.createElement('div');
     card.className=`event-card ${stateClass}${i4k?' is-4k':''}`;
@@ -1016,13 +1083,15 @@ function render(data) {
 
     card.innerHTML=`
       <div class="ev-time">
-        <div class="ev-time-start">${toIST(ev.scheduledDate)}</div>
+        ${thumbHtml}
+        <div class="ev-time-start" title="${toFullLocal(ev.scheduledDate)}">${toIST(ev.scheduledDate)}</div>
         <div class="ev-dur">${ev.duration} min</div>
         ${etaHtml}
       </div>
       <div class="ev-info">
         <div class="ev-title">${highlight(ev.programTitle||'',searchQuery)}</div>
         ${ev.episodeTitle?`<div class="ev-ep">${highlight(ev.episodeTitle,searchQuery)}</div>`:''}
+        <div class="ev-localtime">${toFullLocal(ev.scheduledDate)}</div>
         <div class="ev-tags">
           ${isLive?'<span class="tag tag-live">● Live</span>':''}
           ${i4k?'<span class="tag tag-4k">✦ 4K</span>':''}
@@ -1043,12 +1112,6 @@ function render(data) {
 
   updateProgressBars();
 }
-
-/* ── AUTO REFRESH 60s ── */
-setInterval(()=>{
-  const k=currentChannel+'_'+currentDate;
-  if (loadedData[k]) { render(loadedData[k]); updateLiveBadges(currentChannel,loadedData[k].events); }
-},60000);
 
 /* ── INIT ── */
 fetchIndex().catch(()=>{
