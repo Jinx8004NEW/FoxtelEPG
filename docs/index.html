@@ -130,6 +130,7 @@ body {
 .tb-btn.on { border-color: var(--active-border); color: var(--active); background: var(--active-bg); }
 .tb-btn .spin { display: inline-block; }
 .tb-btn.spinning .spin { animation: spin .7s linear infinite; }
+.menu-btn { display: none; padding: 5px 9px; font-size: 14px; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
 /* ── ON AIR BAR ── */
@@ -208,6 +209,12 @@ body {
   padding: 1px 5px; border-radius: 3px; flex-shrink: 0;
 }
 .sidebar-sep { height: 1px; background: var(--border); margin: 8px 0; }
+.sidebar-backdrop {
+  display: none;
+  position: fixed; inset: 52px 0 0 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 199;
+}
 
 /* ── MAIN CONTENT ── */
 .main { flex: 1; min-width: 0; }
@@ -311,7 +318,7 @@ body {
 
 .event-card {
   display: grid;
-  grid-template-columns: 110px 110px 1fr auto;
+  grid-template-columns: 170px 110px 1fr auto;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 10px;
@@ -369,9 +376,10 @@ body {
 /* time column */
 .ev-time {
   padding: 14px 10px;
-  display: flex; flex-direction: column; justify-content: center; align-items: flex-end;
+  display: flex; flex-direction: column; justify-content: center; align-items: center;
   gap: 3px; border-right: 1px solid var(--border);
   background: var(--surface2);
+  text-align: center;
 }
 .ev-time-start {
   font-family: var(--mono); font-size: 14px; font-weight: 500; letter-spacing: -.01em;
@@ -487,8 +495,16 @@ mark.hl { background: rgba(251,191,36,.25); border-radius: 2px; padding: 0 1px; 
 
 /* ── RESPONSIVE ── */
 @media(max-width: 800px) {
-  .sidebar { display: none; }
-  .event-card { grid-template-columns: 80px 80px 1fr auto; }
+  .event-card { grid-template-columns: 120px 80px 1fr auto; }
+  .menu-btn { display: flex; }
+  .sidebar {
+    position: fixed; top: 52px; left: 0; height: calc(100vh - 52px);
+    z-index: 200; transform: translateX(-100%);
+    transition: transform .2s ease;
+    box-shadow: var(--shadow-md);
+  }
+  .sidebar.open { transform: translateX(0); }
+  .sidebar-backdrop.open { display: block; }
 }
 @media(max-width: 600px) {
   .event-card { grid-template-columns: 64px 1fr auto; }
@@ -505,6 +521,7 @@ mark.hl { background: rgba(251,191,36,.25); border-radius: 2px; padding: 0 1px; 
 
 <!-- TOPBAR -->
 <header class="topbar">
+  <button class="tb-btn menu-btn" id="menu-btn" onclick="toggleSidebar()" aria-label="Channels">☰</button>
   <div class="brand"><div class="brand-dot"></div>Foxtel Guide</div>
   <div class="ist-clock" id="ist-clock">--:--:--</div>
   <div class="search-wrap">
@@ -528,6 +545,9 @@ mark.hl { background: rgba(251,191,36,.25); border-radius: 2px; padding: 0 1px; 
 </div>
 
 <div class="layout">
+
+  <!-- SIDEBAR BACKDROP (mobile) -->
+  <div class="sidebar-backdrop" id="sidebar-backdrop" onclick="closeSidebar()"></div>
 
   <!-- SIDEBAR -->
   <nav class="sidebar" id="sidebar">
@@ -945,6 +965,16 @@ function highlight(text,q) {
   return text.replace(new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})`, 'gi'), '<mark class="hl">$1</mark>');
 }
 
+/* ── MOBILE SIDEBAR DRAWER ── */
+function toggleSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+  document.getElementById('sidebar-backdrop').classList.toggle('open');
+}
+function closeSidebar() {
+  document.getElementById('sidebar').classList.remove('open');
+  document.getElementById('sidebar-backdrop').classList.remove('open');
+}
+
 /* ── KEYBOARD ── */
 document.addEventListener('keydown',e=>{
   if (e.target.tagName==='INPUT') return;
@@ -955,7 +985,7 @@ document.addEventListener('keydown',e=>{
     if (el) el.scrollIntoView({behavior:'smooth',block:'center'});
     else showToast('No live show right now');
   }
-  if (e.key==='Escape') { clearSearch(); document.getElementById('search-input').blur(); }
+  if (e.key==='Escape') { clearSearch(); document.getElementById('search-input').blur(); closeSidebar(); }
 });
 
 /* ── FETCH INDEX ── */
@@ -994,6 +1024,7 @@ async function switchChannel(tag) {
   if (el) el.classList.add(is4K(tag)?'active-4k':'active');
   updateChannelUI(tag);
   renderDatePicker();
+  closeSidebar();
   const today=todayIST(), pills=localDatePills[tag];
   if (!currentDate||!pills.includes(currentDate))
     currentDate=pills.includes(today)?today:(pills[0]||'');
@@ -1134,20 +1165,20 @@ function render(data) {
 
   filtered.forEach((ev,idx)=>{
     const endTs=ev.scheduledDate+ev.duration*60000;
-    const isLive=isToday&&now>=ev.scheduledDate&&now<endTs;
-    const isPast=isToday&&now>=endTs;
-    const isUpc=isToday&&ev.scheduledDate>now;
+    const isLive=now>=ev.scheduledDate&&now<endTs;
+    const isPast=now>=endTs;
+    const isUpc=ev.scheduledDate>now;
     const pct=isLive?Math.min(100,((now-ev.scheduledDate)/(endTs-ev.scheduledDate))*100):0;
     const minsToStart=minsUntil(ev.scheduledDate);
     const minsRemain=minsLeft(ev.scheduledDate,ev.duration);
 
     let stateClass=isLive?'is-live':isPast?'is-past':isUpc?'is-upcoming':'';
-    let dotClass=isPast?'dot-past':isLive?'dot-live':i4k?'dot-4k':'dot-up';
-    let stClass=isPast?'st-past':isLive?'st-live':i4k?'st-4k':'st-up';
-    let statusLabel=isPast?'Aired':isLive?'Live':i4k?'4K':'Next';
+    let dotClass=isPast?'dot-past':isLive?'dot-live':'dot-up';
+    let stClass=isPast?'st-past':isLive?'st-live':'st-up';
+    let statusLabel=isPast?'Aired':isLive?'Live':'Upcoming';
 
     let etaHtml='';
-    if (isLive&&isToday)
+    if (isLive)
       etaHtml=`<div class="ev-eta" data-end="${endTs}" data-start="${ev.scheduledDate}" data-islive="1">${fmtCountdown(minsRemain)}</div>`;
     else if (isUpc&&isToday&&minsToStart<=120)
       etaHtml=`<div class="ev-eta" data-start="${ev.scheduledDate}" data-end="${endTs}" data-islive="0">in ${minsToStart<60?minsToStart+'m':Math.floor(minsToStart/60)+'h '+minsToStart%60+'m'}</div>`;
