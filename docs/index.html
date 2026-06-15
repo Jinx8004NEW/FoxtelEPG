@@ -557,7 +557,6 @@ mark.hl { background: rgba(251,191,36,.25); border-radius: 2px; padding: 0 1px; 
     <button class="search-clear" id="search-clear" onclick="clearSearch()">×</button>
   </div>
   <div class="topbar-spacer"></div>
-  <button class="tb-btn" id="compact-btn" onclick="toggleCompact()">⊟ Compact</button>
   <button class="tb-btn" onclick="toggleTheme()"><span id="theme-ico">☀</span> <span id="theme-lbl">Light</span></button>
   <button class="tb-btn" id="refresh-btn" onclick="refreshCurrent()"><span class="spin">↻</span> Refresh</button>
 </header>
@@ -759,7 +758,7 @@ const CHANNELS = {
 const ALL_TAGS = Object.keys(CHANNELS);
 
 let currentChannel = 'FSN', currentFilter = 'all', currentDate = '';
-let searchQuery = '', isCompact = false;
+let searchQuery = '';
 let availableDates = {}, loadedData = {}, loadedFiles = {}, localDatePills = {};
 ALL_TAGS.forEach(t => { availableDates[t] = []; localDatePills[t] = []; });
 
@@ -778,14 +777,6 @@ function toggleTheme() {
   document.getElementById('theme-ico').textContent = s === 'dark' ? '🌙' : '☀';
   document.getElementById('theme-lbl').textContent = s === 'dark' ? 'Dark' : 'Light';
 })();
-
-/* ── COMPACT ── */
-function toggleCompact() {
-  isCompact = !isCompact;
-  document.getElementById('compact-btn').classList.toggle('on', isCompact);
-  const k = currentChannel+'_'+currentDate;
-  if (loadedData[k]) render(loadedData[k]);
-}
 
 /* ── TIMEZONE ── */
 const USER_TZ = Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC';
@@ -1018,7 +1009,6 @@ if (localStorage.getItem('menuHintSeen')) {
 document.addEventListener('keydown',e=>{
   if (e.target.tagName==='INPUT') return;
   if (e.key==='/') { e.preventDefault(); document.getElementById('search-input').focus(); }
-  if (e.key==='v'||e.key==='V') toggleCompact();
   if (e.key==='l'||e.key==='L') {
     const el=document.querySelector('.event-card.is-live');
     if (el) el.scrollIntoView({behavior:'smooth',block:'center'});
