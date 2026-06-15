@@ -1,0 +1,27 @@
+{
+  "channel": "4KF",
+  "date": "2026-06-21",
+  "label": "upcoming",
+  "fetchedAt": 1781543540656,
+  "fetchedAtIST": "15/6/2026, 10:42:20 pm",
+  "events": [
+    {
+      "eventId": "1idwkh9oj03t2pw50gotupoos0",
+      "programTitle": "Richmond v North Melbourne",
+      "scheduledDate": 1782011400000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/1e5ze9eqf8z113kst36jltdo8_image-header_pRow_1775009255000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    },
+    {
+      "eventId": "e54gxe0cusa301lzfd63bmwlmb",
+      "programTitle": "St Kilda v Bulldogs",
+      "scheduledDate": 1782018900000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/1uzkupra8405b4lp4cmnyha9q_image-header_pRow_1775009206000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    }
+  ]
+}

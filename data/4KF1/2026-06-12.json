@@ -2,12 +2,12 @@
   "channel": "4KF1",
   "date": "2026-06-12",
   "label": "aired",
-  "fetchedAt": 1781457580194,
-  "fetchedAtIST": "14/6/2026, 10:49:40 pm",
+  "fetchedAt": 1781543540653,
+  "fetchedAtIST": "15/6/2026, 10:42:20 pm",
   "events": [
     {
       "eventId": "udncpva0gf6u1i6eihid5ccyt",
-      "programTitle": "Barcelona Practice 1",
+      "programTitle": "F1 Barcelona Practice 1",
       "scheduledDate": 1781263800000,
       "duration": 132,
       "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/c4kawsw2ndpv6t2c8zm4m2uzv_image-header_pRow_1780529211000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
@@ -16,7 +16,7 @@
     },
     {
       "eventId": "a733grhravvezk9sftjt8zou",
-      "programTitle": "Barcelona Practice 2",
+      "programTitle": "F1 Barcelona Practice 2",
       "scheduledDate": 1781276400000,
       "duration": 99,
       "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/6n59ns9t56r5ol4q2kseli837_image-header_pRow_1780529266000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
