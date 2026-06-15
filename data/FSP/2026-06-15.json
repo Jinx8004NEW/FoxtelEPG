@@ -2,8 +2,8 @@
   "channel": "FSP",
   "date": "2026-06-15",
   "label": "today",
-  "fetchedAt": 1781471360123,
-  "fetchedAtIST": "15/6/2026, 2:39:20 am",
+  "fetchedAt": 1781495967089,
+  "fetchedAtIST": "15/6/2026, 9:29:27 am",
   "events": [
     {
       "eventId": 177633391,
@@ -271,7 +271,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": false,
-      "versionNum": 2613449,
+      "versionNum": 2614112,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/t6vwra.png",
       "placeholder": false,
       "isMovie": false,
