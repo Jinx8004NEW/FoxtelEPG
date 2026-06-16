@@ -2,15 +2,15 @@
   "channel": "4KF1",
   "date": "2026-06-14",
   "label": "aired",
-  "fetchedAt": 1781581826597,
-  "fetchedAtIST": "16/6/2026, 9:20:26 am",
+  "fetchedAt": 1781601888592,
+  "fetchedAtIST": "16/6/2026, 2:54:48 pm",
   "events": [
     {
       "eventId": "1ljxcf5k49q0j1kfjqjwhdrsac",
-      "programTitle": "F1 Barcelona Race",
+      "programTitle": "Barcelona Race",
       "scheduledDate": 1781442000000,
-      "duration": 240,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/30o7o3bli8xzomoob3627hoqo_image-header_pRow_1780529427000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 120,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/702da5w9tmknntq9pd6a10eqk_image-header_pRow_1780529427000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Formula 1",
       "sport": "Motorsport"
     }
