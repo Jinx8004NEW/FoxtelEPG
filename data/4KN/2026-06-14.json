@@ -2,15 +2,15 @@
   "channel": "4KN",
   "date": "2026-06-14",
   "label": "aired",
-  "fetchedAt": 1781601888590,
-  "fetchedAtIST": "16/6/2026, 2:54:48 pm",
+  "fetchedAt": 1781709694355,
+  "fetchedAtIST": "17/6/2026, 8:51:34 pm",
   "events": [
     {
       "eventId": "1h3x8v5uhi6ebaemiblk3wkv20",
       "programTitle": "Vixens v Fever",
       "scheduledDate": 1781409600000,
-      "duration": 90,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/4mqw2xu2psegubx2snz7u7xdl_image-header_pRow_1780976399000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 107,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/3ti3v597bnii4xqwrp7mx24mu_image-header_pRow_1780976399000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Suncorp Super Netball",
       "sport": "Netball"
     },
@@ -18,8 +18,8 @@
       "eventId": "b2mnr2xyshiv017e224mgaiavl",
       "programTitle": "Giants v Swifts",
       "scheduledDate": 1781416800000,
-      "duration": 90,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/cj305x37oes0h3sv0f7n47t82_image-header_pRow_1780976440000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 109,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/1b1e12xuo68oj88amlz67khgz_image-header_pRow_1780976440000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Suncorp Super Netball",
       "sport": "Netball"
     }

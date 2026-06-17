@@ -2,24 +2,24 @@
   "channel": "4KF1",
   "date": "2026-06-12",
   "label": "aired",
-  "fetchedAt": 1781601888591,
-  "fetchedAtIST": "16/6/2026, 2:54:48 pm",
+  "fetchedAt": 1781709694357,
+  "fetchedAtIST": "17/6/2026, 8:51:34 pm",
   "events": [
     {
       "eventId": "udncpva0gf6u1i6eihid5ccyt",
-      "programTitle": "Barcelona Practice 1",
+      "programTitle": "F1 Barcelona Practice 1",
       "scheduledDate": 1781263800000,
-      "duration": 120,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/cd4enqyvqrd58mseop35ied9b_image-header_pRow_1780529211000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 132,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/c4kawsw2ndpv6t2c8zm4m2uzv_image-header_pRow_1780529211000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Formula 1",
       "sport": "Motorsport"
     },
     {
       "eventId": "a733grhravvezk9sftjt8zou",
-      "programTitle": "Barcelona Practice 2",
+      "programTitle": "F1 Barcelona Practice 2",
       "scheduledDate": 1781276400000,
-      "duration": 120,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/dt4i8if8eb0zgqsn2fkbeswuj_image-header_pRow_1780529266000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 99,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/6n59ns9t56r5ol4q2kseli837_image-header_pRow_1780529266000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Formula 1",
       "sport": "Motorsport"
     }

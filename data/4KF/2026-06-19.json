@@ -2,15 +2,15 @@
   "channel": "4KF",
   "date": "2026-06-19",
   "label": "upcoming",
-  "fetchedAt": 1781601888593,
-  "fetchedAtIST": "16/6/2026, 2:54:48 pm",
+  "fetchedAt": 1781709694358,
+  "fetchedAtIST": "17/6/2026, 8:51:34 pm",
   "events": [
     {
       "eventId": "gbr69gxrz3uq0kqatsuha41010",
       "programTitle": "Gold Coast v Hawthorn",
       "scheduledDate": 1781862000000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/4w83kgpczt51m9b5oze0jro21_image-header_pRow_1775009165000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/4w83kgpczt51m9b5oze0jro21_image-header_pRow_1781496357000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
