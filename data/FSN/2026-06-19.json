@@ -2,8 +2,8 @@
   "channel": "FSN",
   "date": "2026-06-19",
   "label": "day after",
-  "fetchedAt": 1781647716598,
-  "fetchedAtIST": "17/6/2026, 3:38:36 am",
+  "fetchedAt": 1781668304959,
+  "fetchedAtIST": "17/6/2026, 9:21:44 am",
   "events": [
     {
       "eventId": 177311490,
@@ -306,7 +306,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 9275895,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -391,7 +391,7 @@
       "seriesNumber": "2026",
       "displaySepNum": false,
       "versionNum": 9275895,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/d1cf42.png",
+      "imageUrl": "",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
