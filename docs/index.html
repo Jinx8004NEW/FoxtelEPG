@@ -1120,13 +1120,21 @@ async function loadSchedule(tag,localDate,force=false) {
     if (!fetched.length) throw new Error(results[0].reason?.message||'fetch failed');
 
     const [dayStart,dayEnd]=localDayRange(localDate);
-    const seen=new Set();
+    const seenIds=new Set();
+    const seenTimes=new Set();
     let events=[];
     fetched.forEach(d=>(d.events||[]).forEach(ev=>{
       const id=ev.eventId??(ev.programTitle+'_'+ev.scheduledDate);
-      if (seen.has(id)) return;
-      seen.add(id);
-      if (ev.scheduledDate>=dayStart&&ev.scheduledDate<dayEnd) events.push(ev);
+      if (seenIds.has(id)) return;
+      seenIds.add(id);
+      if (ev.scheduledDate<dayStart||ev.scheduledDate>=dayEnd) return;
+      // upstream feed sometimes republishes the same fixture across adjacent daily
+      // files with a different eventId and slightly reworded title, but always at
+      // the identical scheduledDate on the same channel — so scheduledDate alone is
+      // the reliable duplicate signal here, not title text
+      if (seenTimes.has(ev.scheduledDate)) return;
+      seenTimes.add(ev.scheduledDate);
+      events.push(ev);
     }));
     events.sort((a,b)=>a.scheduledDate-b.scheduledDate);
 
