@@ -2,8 +2,8 @@
   "channel": "FS3",
   "date": "2026-06-18",
   "label": "tomorrow",
-  "fetchedAt": 1781709635961,
-  "fetchedAtIST": "17/6/2026, 8:50:35 pm",
+  "fetchedAt": 1781719974358,
+  "fetchedAtIST": "17/6/2026, 11:42:54 pm",
   "events": [
     {
       "eventId": 180660450,
@@ -223,7 +223,7 @@
       "seriesNumber": "2026",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 9239612,
+      "versionNum": 9239638,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/t4vw32.png",
       "placeholder": false,
       "isMovie": false,
