@@ -1,9 +1,9 @@
 {
   "channel": "ES2",
   "date": "2026-06-19",
-  "label": "day after",
-  "fetchedAt": 1781720010321,
-  "fetchedAtIST": "17/6/2026, 11:43:30 pm",
+  "label": "tomorrow",
+  "fetchedAt": 1781733592216,
+  "fetchedAtIST": "18/6/2026, 3:29:52 am",
   "events": [
     {
       "eventId": 180681454,
@@ -83,7 +83,7 @@
       "premiereInd": false,
       "episodeNumber": "5",
       "displaySepNum": true,
-      "versionNum": 9315838,
+      "versionNum": 9315832,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
       "placeholder": false,
       "isMovie": false,
