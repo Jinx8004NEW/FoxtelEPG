@@ -101,6 +101,16 @@ body {
   padding: 3px 10px; border-radius: 6px;
   letter-spacing: 0.03em; flex-shrink: 0;
 }
+.tz-pill {
+  font-family: var(--mono); font-size: 10px; font-weight: 500;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 1px solid var(--border);
+  padding: 3px 8px; border-radius: 6px;
+  letter-spacing: 0.03em; flex-shrink: 0;
+  cursor: pointer; transition: border-color .15s;
+}
+.tz-pill:hover { border-color: var(--border2); }
 .topbar-spacer { flex: 1; }
 .search-wrap { flex: 1; max-width: 340px; position: relative; }
 .search-ico {
@@ -506,6 +516,46 @@ body {
 }
 .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 
+/* ── TIMEZONE MODAL ── */
+.tz-modal-backdrop {
+  display: none;
+  position: fixed; inset: 0; z-index: 300;
+  background: rgba(0,0,0,0.55);
+  align-items: center; justify-content: center;
+}
+.tz-modal-backdrop.show { display: flex; }
+.tz-modal {
+  width: 92%; max-width: 360px; max-height: 70vh;
+  background: var(--surface); border: 1px solid var(--border2);
+  border-radius: 12px; box-shadow: var(--shadow-md);
+  display: flex; flex-direction: column; overflow: hidden;
+}
+.tz-modal-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 16px 10px; font-size: 14px; font-weight: 600;
+}
+.tz-modal-close {
+  background: none; border: none; color: var(--text2); font-size: 18px;
+  cursor: pointer; line-height: 1; padding: 0 4px;
+}
+.tz-search {
+  margin: 0 16px 10px; padding: 7px 10px;
+  background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 7px; color: var(--text); font-family: var(--font); font-size: 13px;
+  outline: none;
+}
+.tz-list { overflow-y: auto; padding: 0 8px 12px; }
+.tz-opt {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 9px 10px; border-radius: 7px; cursor: pointer;
+  font-size: 13px; color: var(--text2);
+}
+.tz-opt:hover { background: var(--surface2); color: var(--text); }
+.tz-opt.active { background: var(--active-bg); color: var(--active); }
+.tz-opt-offset { font-family: var(--mono); font-size: 11px; color: var(--text3); }
+.tz-opt.active .tz-opt-offset { color: var(--active); }
+.tz-auto-opt { border-bottom: 1px solid var(--border); margin-bottom: 6px; padding-bottom: 12px; }
+
 /* ── FOOTER ── */
 footer {
   background: var(--surface); border-top: 1px solid var(--border);
@@ -551,6 +601,7 @@ mark.hl { background: rgba(251,191,36,.25); border-radius: 2px; padding: 0 1px; 
   </button>
   <div class="brand"><div class="brand-dot"></div>Foxtel Guide</div>
   <div class="ist-clock" id="ist-clock">--:--:--</div>
+  <button class="tz-pill" id="tz-pill" onclick="openTZPicker()" title="Click to change timezone"><span id="tz-label">—</span></button>
   <div class="search-wrap">
     <span class="search-ico">⌕</span>
     <input class="search-input" id="search-input" type="text" placeholder="Search shows… ( / to focus)" oninput="onSearch(this.value)">
@@ -733,6 +784,17 @@ mark.hl { background: rgba(251,191,36,.25); border-radius: 2px; padding: 0 1px; 
 
 <div class="toast" id="toast"></div>
 
+<div class="tz-modal-backdrop" id="tz-modal-backdrop" onclick="closeTZPicker()">
+  <div class="tz-modal" onclick="event.stopPropagation()">
+    <div class="tz-modal-header">
+      <span>Choose timezone</span>
+      <button class="tz-modal-close" onclick="closeTZPicker()">×</button>
+    </div>
+    <input class="tz-search" id="tz-search" type="text" placeholder="Search timezone…" oninput="renderTZList(this.value)">
+    <div class="tz-list" id="tz-list"></div>
+  </div>
+</div>
+
 <script>
 const REPO_RAW = 'https://raw.githubusercontent.com/Jinx8004NEW/FoxtelEPG/main';
 
@@ -779,7 +841,32 @@ function toggleTheme() {
 })();
 
 /* ── TIMEZONE ── */
-const USER_TZ = Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC';
+function getUserTZ() {
+  return localStorage.getItem('tzOverride') || Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC';
+}
+let USER_TZ = getUserTZ();
+function setUserTZ(tz) {
+  if (tz) localStorage.setItem('tzOverride',tz);
+  else localStorage.removeItem('tzOverride');
+  USER_TZ = getUserTZ();
+  updateClock();
+  updateTZLabel();
+  loadedData={}; loadedFiles={};
+  const today=todayIST();
+  ALL_TAGS.forEach(t=>{ localDatePills[t]=computeLocalDatePills(availableDates[t]); });
+  renderDatePicker();
+  const pills=localDatePills[currentChannel];
+  currentDate=pills.includes(today)?today:(pills[0]||currentDate);
+  if (currentDate) loadSchedule(currentChannel,currentDate,true);
+}
+function updateTZLabel() {
+  const el=document.getElementById('tz-label');
+  if (!el) return;
+  const isOverride=!!localStorage.getItem('tzOverride');
+  const short=new Intl.DateTimeFormat('en-US',{timeZone:USER_TZ,timeZoneName:'short'}).formatToParts(new Date()).find(p=>p.type==='timeZoneName')?.value||USER_TZ;
+  el.textContent=short+(isOverride?' ✦':'');
+  el.title=isOverride?`Manual: ${USER_TZ} (click to change)`:`Auto-detected: ${USER_TZ} (click to override)`;
+}
 
 /* ── CLOCK ── */
 function updateClock() {
@@ -1005,6 +1092,54 @@ if (localStorage.getItem('menuHintSeen')) {
   });
 }
 
+/* ── TIMEZONE PICKER ── */
+const TZ_LIST = [
+  'Pacific/Auckland','Australia/Sydney','Australia/Melbourne','Australia/Brisbane','Australia/Adelaide',
+  'Australia/Perth','Asia/Tokyo','Asia/Seoul','Asia/Shanghai','Asia/Singapore','Asia/Hong_Kong',
+  'Asia/Kolkata','Asia/Karachi','Asia/Dubai','Asia/Bangkok','Asia/Jakarta','Europe/London',
+  'Europe/Paris','Europe/Berlin','Europe/Moscow','Africa/Cairo','Africa/Johannesburg',
+  'America/New_York','America/Chicago','America/Denver','America/Los_Angeles','America/Sao_Paulo',
+  'America/Mexico_City','Pacific/Honolulu','UTC'
+];
+function tzOffsetLabel(tz) {
+  try {
+    return new Intl.DateTimeFormat('en-US',{timeZone:tz,timeZoneName:'shortOffset'}).formatToParts(new Date()).find(p=>p.type==='timeZoneName')?.value||'';
+  } catch(e) { return ''; }
+}
+function openTZPicker() {
+  document.getElementById('tz-modal-backdrop').classList.add('show');
+  document.getElementById('tz-search').value='';
+  renderTZList('');
+  setTimeout(()=>document.getElementById('tz-search').focus(),50);
+}
+function closeTZPicker() {
+  document.getElementById('tz-modal-backdrop').classList.remove('show');
+}
+function renderTZList(query) {
+  const q=(query||'').trim().toLowerCase();
+  const list=document.getElementById('tz-list');
+  const isOverride=!!localStorage.getItem('tzOverride');
+  const browserTZ=Intl.DateTimeFormat().resolvedOptions().timeZone||'UTC';
+  let html=`<div class="tz-opt tz-auto-opt${!isOverride?' active':''}" onclick="selectTZ(null)">
+    <span>✦ Auto-detect (${browserTZ})</span>
+  </div>`;
+  const filtered=q?TZ_LIST.filter(tz=>tz.toLowerCase().replace(/_/g,' ').includes(q)):TZ_LIST;
+  if (!filtered.length) html+='<div style="padding:10px;font-size:12px;color:var(--text3)">No matches</div>';
+  filtered.forEach(tz=>{
+    const active=isOverride&&USER_TZ===tz;
+    const label=tz.split('/').pop().replace(/_/g,' ');
+    html+=`<div class="tz-opt${active?' active':''}" onclick="selectTZ('${tz}')">
+      <span>${label}</span><span class="tz-opt-offset">${tzOffsetLabel(tz)}</span>
+    </div>`;
+  });
+  list.innerHTML=html;
+}
+function selectTZ(tz) {
+  setUserTZ(tz);
+  closeTZPicker();
+  showToast(tz?`✓ Timezone set to ${tz.split('/').pop().replace(/_/g,' ')}`:'✓ Using auto-detected timezone');
+}
+
 /* ── KEYBOARD ── */
 document.addEventListener('keydown',e=>{
   if (e.target.tagName==='INPUT') return;
@@ -1014,7 +1149,7 @@ document.addEventListener('keydown',e=>{
     if (el) el.scrollIntoView({behavior:'smooth',block:'center'});
     else showToast('No live show right now');
   }
-  if (e.key==='Escape') { clearSearch(); document.getElementById('search-input').blur(); closeSidebar(); }
+  if (e.key==='Escape') { clearSearch(); document.getElementById('search-input').blur(); closeSidebar(); closeTZPicker(); }
 });
 
 /* ── FETCH INDEX ── */
@@ -1271,6 +1406,7 @@ function render(data) {
 }
 
 /* ── INIT ── */
+updateTZLabel();
 fetchIndex().catch(()=>{
   document.getElementById('guide-container').innerHTML=
     '<div class="empty-state"><div class="empty-title">No Data Yet</div><div class="empty-sub">Go to GitHub → Actions → Run "Fetch Foxtel Schedule" manually.</div></div>';
