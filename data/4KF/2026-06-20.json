@@ -2,15 +2,15 @@
   "channel": "4KF",
   "date": "2026-06-20",
   "label": "upcoming",
-  "fetchedAt": 1781720033166,
-  "fetchedAtIST": "17/6/2026, 11:43:53 pm",
+  "fetchedAt": 1781807153360,
+  "fetchedAtIST": "18/6/2026, 11:55:53 pm",
   "events": [
     {
       "eventId": "15b3tr7kbn7r5pwtkd3keog560",
       "programTitle": "Adelaide v Melbourne",
       "scheduledDate": 1781925300000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/18gn1m2c2z7yujtvpw4m1ekm1_image-header_pRow_1775009100000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/18gn1m2c2z7yujtvpw4m1ekm1_image-header_pRow_1781743662000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     },
@@ -28,7 +28,7 @@
       "programTitle": "Collingwood v Port Adelaide",
       "scheduledDate": 1781948100000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/9ff2whxm2pxlfikcd99kv1j6r_image-header_pRow_1775009123000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/9ff2whxm2pxlfikcd99kv1j6r_image-header_pRow_1781743999000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
