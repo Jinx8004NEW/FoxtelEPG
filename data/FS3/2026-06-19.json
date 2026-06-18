@@ -1,10 +1,28 @@
 {
   "channel": "FS3",
   "date": "2026-06-19",
-  "label": "tomorrow",
-  "fetchedAt": 1781807094383,
-  "fetchedAtIST": "18/6/2026, 11:54:54 pm",
+  "label": "today",
+  "fetchedAt": 1781820292619,
+  "fetchedAtIST": "19/6/2026, 3:34:52 am",
   "events": [
+    {
+      "eventId": 180660461,
+      "programTitle": "Live: Sport Special: Sport Special",
+      "channelId": 133,
+      "scheduledDate": 1781778600000,
+      "duration": 330,
+      "episodeTitle": "Sport Special",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2018",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 2615005,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/63izb.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 180660462,
       "programTitle": "Live: US Open: Round 1",

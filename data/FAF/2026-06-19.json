@@ -1,10 +1,27 @@
 {
   "channel": "FAF",
   "date": "2026-06-19",
-  "label": "tomorrow",
-  "fetchedAt": 1781807100178,
-  "fetchedAtIST": "18/6/2026, 11:55:00 pm",
+  "label": "today",
+  "fetchedAt": 1781820298349,
+  "fetchedAtIST": "19/6/2026, 3:34:58 am",
   "events": [
+    {
+      "eventId": 180659281,
+      "programTitle": "AFL: Round 15 Fremantle vs Geelong",
+      "channelId": 330,
+      "scheduledDate": 1781790900000,
+      "duration": 150,
+      "episodeTitle": "Round 15 Fremantle vs Geelong",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 9323002,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/9fbze5.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 180659282,
       "programTitle": "AFL: Round 15 Fremantle vs Geelong",
