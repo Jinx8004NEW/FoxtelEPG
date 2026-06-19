@@ -2,15 +2,15 @@
   "channel": "4KF",
   "date": "2026-06-18",
   "label": "aired",
-  "fetchedAt": 1781820352395,
-  "fetchedAtIST": "19/6/2026, 3:35:52 am",
+  "fetchedAt": 1781841794552,
+  "fetchedAtIST": "19/6/2026, 9:33:14 am",
   "events": [
     {
       "eventId": "12ieuj4iiqvus18zvm89hs2u5y",
       "programTitle": "Fremantle v Geelong",
       "scheduledDate": 1781777400000,
       "duration": 230,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/2m72tpa98ppcn1lvg1r16qubc_image-header_pRow_1780482669000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/2m72tpa98ppcn1lvg1r16qubc_image-header_pRow_1781496433000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
