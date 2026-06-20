@@ -2,8 +2,8 @@
   "channel": "4KF1",
   "date": "2026-06-20",
   "label": "today",
-  "fetchedAt": 1781941759777,
-  "fetchedAtIST": "20/6/2026, 1:19:19 pm",
+  "fetchedAt": 1781951509336,
+  "fetchedAtIST": "20/6/2026, 4:01:49 pm",
   "events": [
     {
       "eventId": "1plvd4ixm99r41ifqt6z1jwjoz",
@@ -27,8 +27,8 @@
       "eventId": "186unnf8ssjoq1js9cpbsagjvk",
       "programTitle": "Supercars Darwin Race 18",
       "scheduledDate": 1781931900000,
-      "duration": 235,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/liz1od58c3wa6l9oym9ntqrx_image-header_pRow_1781485656000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 166,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/qc7nu58ghemg92rufnszftnq_image-header_pRow_1781485656000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "V8 Supercars",
       "sport": "Motorsport"
     }

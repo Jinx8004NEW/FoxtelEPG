@@ -2,8 +2,8 @@
   "channel": "4KL",
   "date": "2026-06-20",
   "label": "today",
-  "fetchedAt": 1781941759774,
-  "fetchedAtIST": "20/6/2026, 1:19:19 pm",
+  "fetchedAt": 1781951509333,
+  "fetchedAtIST": "20/6/2026, 4:01:49 pm",
   "events": [
     {
       "eventId": "16wsbambqi0rx2ls6ipxpe49h0",
@@ -27,8 +27,17 @@
       "eventId": "11z6aqx3ro8wz1f7kp70w4czp4",
       "programTitle": "Titans v Panthers",
       "scheduledDate": 1781940600000,
-      "duration": 175,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/7sabadi733cmycdt19qxvrxcj_image-header_pRow_1781656994000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 129,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/9z3yz5gq6gwjdtlu5ldwc66zk_image-header_pRow_1781656994000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "NRL",
+      "sport": "Rugby League"
+    },
+    {
+      "eventId": "1bvm7vgderyb61b781ia5dqvld",
+      "programTitle": "Bulldogs v Sea Eagles",
+      "scheduledDate": 1781948100000,
+      "duration": 245,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/4jl7dhi2v3ov56lncw3oi73he_image-header_pRow_1781657067000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "NRL",
       "sport": "Rugby League"
     }
