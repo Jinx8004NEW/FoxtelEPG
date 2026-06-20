@@ -1,16 +1,16 @@
 {
   "channel": "4KF",
   "date": "2026-06-20",
-  "label": "tomorrow",
-  "fetchedAt": 1781891687532,
-  "fetchedAtIST": "19/6/2026, 11:24:47 pm",
+  "label": "today",
+  "fetchedAt": 1781941759771,
+  "fetchedAtIST": "20/6/2026, 1:19:19 pm",
   "events": [
     {
       "eventId": "15b3tr7kbn7r5pwtkd3keog560",
       "programTitle": "Adelaide v Melbourne",
       "scheduledDate": 1781925300000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/18gn1m2c2z7yujtvpw4m1ekm1_image-header_pRow_1781743662000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 177,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/f3sm20bx40qqywknlfw7x6n23_image-header_pRow_1781496492000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     },
@@ -18,8 +18,8 @@
       "eventId": "wkfit2lq8ouw0k4ze13w8rctm0",
       "programTitle": "GWS v Carlton",
       "scheduledDate": 1781936100000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/4bhit71loantrtbddl3gp7jf5_image-header_pRow_1775009233000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 240,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/cgumwentp4f1lq9upvrkl2s94_image-header_pRow_1775009233000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     },
