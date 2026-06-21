@@ -2,15 +2,15 @@
   "channel": "4KL",
   "date": "2026-06-21",
   "label": "today",
-  "fetchedAt": 1782030557282,
-  "fetchedAtIST": "21/6/2026, 1:59:17 pm",
+  "fetchedAt": 1782062789788,
+  "fetchedAtIST": "21/6/2026, 10:56:29 pm",
   "events": [
     {
       "eventId": "17vzh8uzdgb51v5lzznq0zbvx0",
       "programTitle": "Roosters v Sharks",
       "scheduledDate": 1782029700000,
-      "duration": 195,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/c8729jicvnuy0r5r1viy80mhl_image-header_pRow_1781657261000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 182,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/2ivjbtiw0q289eagdkyf7w79s_image-header_pRow_1781657261000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "NRL",
       "sport": "Rugby League"
     }
