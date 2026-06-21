@@ -2,8 +2,8 @@
   "channel": "4KF1",
   "date": "2026-06-21",
   "label": "today",
-  "fetchedAt": 1782014168881,
-  "fetchedAtIST": "21/6/2026, 9:26:08 am",
+  "fetchedAt": 1782030557284,
+  "fetchedAtIST": "21/6/2026, 1:59:17 pm",
   "events": [
     {
       "eventId": "t8t7h6mcxqu21q2l3uooyjhem",
@@ -18,8 +18,17 @@
       "eventId": "igfdw06g1x5y1qaaqjk29bge5",
       "programTitle": "Supercars Darwin Top 10 Shootout",
       "scheduledDate": 1782006420000,
-      "duration": 218,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/7tod8h2723fl6iv4rm7q7lxr8_image-header_pRow_1781485607000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 170,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/56r3b3s51nafd1zfct0nov9zi_image-header_pRow_1781485607000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "V8 Supercars",
+      "sport": "Motorsport"
+    },
+    {
+      "eventId": "1vcsnzz3zrwjj1oxh3609lgitk",
+      "programTitle": "Supercars Darwin Race 19",
+      "scheduledDate": 1782015900000,
+      "duration": 183,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/ecfodh4ypupia1hkrotew7dal_image-header_pRow_1781485768000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "V8 Supercars",
       "sport": "Motorsport"
     }
