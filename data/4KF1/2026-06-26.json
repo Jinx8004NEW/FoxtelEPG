@@ -1,0 +1,27 @@
+{
+  "channel": "4KF1",
+  "date": "2026-06-26",
+  "label": "upcoming",
+  "fetchedAt": 1782147113626,
+  "fetchedAtIST": "22/6/2026, 10:21:53 pm",
+  "events": [
+    {
+      "eventId": "1bhhas9y25rbkzgf18sgazt6c",
+      "programTitle": "F1 Austria Practice 1",
+      "scheduledDate": 1782473400000,
+      "duration": 120,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/5boflljk6ifpli610a1kh9cwe_image-header_pRow_1781486657000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "Formula 1",
+      "sport": "Motorsport"
+    },
+    {
+      "eventId": "ds50f34hmkcg17we9lu7w3by4",
+      "programTitle": "F1 Austria Practice 2",
+      "scheduledDate": 1782486000000,
+      "duration": 120,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/aqw8k8oegf4ofohvf9k3bnais_image-header_pRow_1781486758000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "Formula 1",
+      "sport": "Motorsport"
+    }
+  ]
+}
