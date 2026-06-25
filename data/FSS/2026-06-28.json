@@ -1,0 +1,27 @@
+{
+  "channel": "FSS",
+  "date": "2026-06-28",
+  "label": "day after",
+  "fetchedAt": 1782423639545,
+  "fetchedAtIST": "26/6/2026, 3:10:39 am",
+  "events": [
+    {
+      "eventId": 180737186,
+      "programTitle": "Live: WSL Championship Tour: Rio FL Day",
+      "channelId": 664,
+      "scheduledDate": 1782554400000,
+      "duration": 540,
+      "episodeTitle": "Rio Final Day",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 9817564,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/gs1jfv.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}
