@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-06-27",
   "label": "day after",
-  "fetchedAt": 1782336058203,
-  "fetchedAtIST": "25/6/2026, 2:50:58 am",
+  "fetchedAt": 1782356205486,
+  "fetchedAtIST": "25/6/2026, 8:26:45 am",
   "events": [
     {
       "eventId": 180603788,
@@ -168,7 +168,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 9738663,
+      "versionNum": 9755462,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/b207rv.png",
       "placeholder": false,
       "isMovie": false,

@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-06-26",
   "label": "tomorrow",
-  "fetchedAt": 1782336056864,
-  "fetchedAtIST": "25/6/2026, 2:50:56 am",
+  "fetchedAt": 1782356204194,
+  "fetchedAtIST": "25/6/2026, 8:26:44 am",
   "events": [
     {
       "eventId": 180603761,
@@ -270,7 +270,7 @@
       "seriesNumber": "2026",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 9738663,
+      "versionNum": 9755462,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/saiwo.png",
       "placeholder": false,
       "isMovie": false,

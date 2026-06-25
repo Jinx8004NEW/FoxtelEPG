@@ -2,8 +2,8 @@
   "channel": "FSS",
   "date": "2026-06-25",
   "label": "today",
-  "fetchedAt": 1782336061317,
-  "fetchedAtIST": "25/6/2026, 2:51:01 am",
+  "fetchedAt": 1782356208572,
+  "fetchedAtIST": "25/6/2026, 8:26:48 am",
   "events": [
     {
       "eventId": 180672151,
@@ -237,7 +237,7 @@
       "seriesNumber": "2026",
       "episodeNumber": "12",
       "displaySepNum": true,
-      "versionNum": 9739176,
+      "versionNum": 9755254,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
       "isMovie": false,

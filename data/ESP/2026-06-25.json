@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-06-25",
   "label": "today",
-  "fetchedAt": 1782336067038,
-  "fetchedAtIST": "25/6/2026, 2:51:07 am",
+  "fetchedAt": 1782356214241,
+  "fetchedAtIST": "25/6/2026, 8:26:54 am",
   "events": [
     {
       "eventId": 180759740,
@@ -239,7 +239,7 @@
       "episodeNumber": "6",
       "displaySepNum": true,
       "versionNum": 9737655,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

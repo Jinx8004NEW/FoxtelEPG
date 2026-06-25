@@ -2,8 +2,8 @@
   "channel": "FS1",
   "date": "2026-06-25",
   "label": "today",
-  "fetchedAt": 1782336026689,
-  "fetchedAtIST": "25/6/2026, 2:50:26 am",
+  "fetchedAt": 1782356173911,
+  "fetchedAtIST": "25/6/2026, 8:26:13 am",
   "events": [
     {
       "eventId": 180658842,
@@ -459,7 +459,7 @@
       "seriesNumber": "2026",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 9741804,
+      "versionNum": 9755095,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ntgtuu.png",
       "placeholder": false,
       "isMovie": false,
