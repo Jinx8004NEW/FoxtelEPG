@@ -1,0 +1,18 @@
+{
+  "channel": "4KN",
+  "date": "2026-06-27",
+  "label": "tomorrow",
+  "fetchedAt": 1782444428974,
+  "fetchedAtIST": "26/6/2026, 8:57:08 am",
+  "events": [
+    {
+      "eventId": "12h147jtn5df2bg6lv0nattfg0",
+      "programTitle": "Prelim Final Vixens v Fever",
+      "scheduledDate": 1782552600000,
+      "duration": 90,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/b9111ok1gv0yquur9l5cthe1a_image-header_pRow_1782086500000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "Suncorp Super Netball",
+      "sport": "Netball"
+    }
+  ]
+}

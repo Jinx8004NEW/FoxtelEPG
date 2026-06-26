@@ -1,16 +1,16 @@
 {
   "channel": "4KF",
   "date": "2026-06-25",
-  "label": "today",
-  "fetchedAt": 1782336095006,
-  "fetchedAtIST": "25/6/2026, 2:51:35 am",
+  "label": "aired",
+  "fetchedAt": 1782444428966,
+  "fetchedAtIST": "26/6/2026, 8:57:08 am",
   "events": [
     {
       "eventId": "11z7hmduupujq1tbc8455a7q27",
       "programTitle": "Brisbane v Sydney",
       "scheduledDate": 1782379800000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/v4fyiui9gwvlp573g9tr7qqr_image-header_pRow_1782102189000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 238,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/2j0u8rs97bh7w2s3diw0m9fis_image-header_pRow_1782102189000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

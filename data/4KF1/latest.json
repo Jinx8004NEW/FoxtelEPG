@@ -1,35 +1,26 @@
 {
   "channel": "4KF1",
-  "date": "2026-06-21",
+  "date": "2026-06-26",
   "label": "today",
-  "fetchedAt": 1782062789789,
-  "fetchedAtIST": "21/6/2026, 10:56:29 pm",
+  "fetchedAt": 1782444428969,
+  "fetchedAtIST": "26/6/2026, 8:57:08 am",
   "events": [
     {
-      "eventId": "t8t7h6mcxqu21q2l3uooyjhem",
-      "programTitle": "Supercars Darwin Qualifying",
-      "scheduledDate": 1781996400000,
-      "duration": 184,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/3igt6fswt40cbl4a6l23tpavn_image-header_pRow_1781485722000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
-      "competitionTitle": "V8 Supercars",
+      "eventId": "1bhhas9y25rbkzgf18sgazt6c",
+      "programTitle": "F1 Austria Practice 1",
+      "scheduledDate": 1782473400000,
+      "duration": 120,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/5boflljk6ifpli610a1kh9cwe_image-header_pRow_1781486657000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "Formula 1",
       "sport": "Motorsport"
     },
     {
-      "eventId": "igfdw06g1x5y1qaaqjk29bge5",
-      "programTitle": "Supercars Darwin Top 10 Shootout",
-      "scheduledDate": 1782006420000,
-      "duration": 170,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/56r3b3s51nafd1zfct0nov9zi_image-header_pRow_1781485607000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
-      "competitionTitle": "V8 Supercars",
-      "sport": "Motorsport"
-    },
-    {
-      "eventId": "1vcsnzz3zrwjj1oxh3609lgitk",
-      "programTitle": "Supercars Darwin Race 19",
-      "scheduledDate": 1782015900000,
-      "duration": 183,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/ecfodh4ypupia1hkrotew7dal_image-header_pRow_1781485768000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
-      "competitionTitle": "V8 Supercars",
+      "eventId": "ds50f34hmkcg17we9lu7w3by4",
+      "programTitle": "F1 Austria Practice 2",
+      "scheduledDate": 1782486000000,
+      "duration": 120,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/aqw8k8oegf4ofohvf9k3bnais_image-header_pRow_1781486758000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "Formula 1",
       "sport": "Motorsport"
     }
   ]

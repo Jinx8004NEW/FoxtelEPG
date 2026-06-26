@@ -1,16 +1,16 @@
 {
   "channel": "4KF",
-  "date": "2026-06-25",
+  "date": "2026-06-26",
   "label": "today",
-  "fetchedAt": 1782336095006,
-  "fetchedAtIST": "25/6/2026, 2:51:35 am",
+  "fetchedAt": 1782444428970,
+  "fetchedAtIST": "26/6/2026, 8:57:08 am",
   "events": [
     {
-      "eventId": "11z7hmduupujq1tbc8455a7q27",
-      "programTitle": "Brisbane v Sydney",
-      "scheduledDate": 1782379800000,
+      "eventId": "1bamr33bqk7m51tyx0ayijw53f",
+      "programTitle": "Hawthorn v GWS",
+      "scheduledDate": 1782466800000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/v4fyiui9gwvlp573g9tr7qqr_image-header_pRow_1782102189000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/5t5kplfanklggt2m9el1zd5us_image-header_pRow_1782102347000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
