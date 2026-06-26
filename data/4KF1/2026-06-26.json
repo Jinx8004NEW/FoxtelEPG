@@ -2,15 +2,15 @@
   "channel": "4KF1",
   "date": "2026-06-26",
   "label": "today",
-  "fetchedAt": 1782470980778,
-  "fetchedAtIST": "26/6/2026, 4:19:40 pm",
+  "fetchedAt": 1782483585473,
+  "fetchedAtIST": "26/6/2026, 7:49:45 pm",
   "events": [
     {
       "eventId": "1bhhas9y25rbkzgf18sgazt6c",
       "programTitle": "F1 Austria Practice 1",
       "scheduledDate": 1782473400000,
-      "duration": 120,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/5boflljk6ifpli610a1kh9cwe_image-header_pRow_1781486657000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 96,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/l37i0upbz1iz3e8m1nxo134a_image-header_pRow_1781486657000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Formula 1",
       "sport": "Motorsport"
     },
