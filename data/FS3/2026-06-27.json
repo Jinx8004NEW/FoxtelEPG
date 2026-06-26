@@ -1,10 +1,28 @@
 {
   "channel": "FS3",
   "date": "2026-06-27",
-  "label": "tomorrow",
-  "fetchedAt": 1782495890557,
-  "fetchedAtIST": "26/6/2026, 11:14:50 pm",
+  "label": "today",
+  "fetchedAt": 1782508577994,
+  "fetchedAtIST": "27/6/2026, 2:46:17 am",
   "events": [
+    {
+      "eventId": 180737816,
+      "programTitle": "Live: Golf: Open d'Italia Round 2",
+      "channelId": 133,
+      "scheduledDate": 1782471600000,
+      "duration": 300,
+      "episodeTitle": "Open d'Italia Round 2",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 9842281,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/w1w3gb.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 180737817,
       "programTitle": "Live: USPGA: Travelers Championship R2",

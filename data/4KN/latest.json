@@ -1,25 +1,16 @@
 {
   "channel": "4KN",
-  "date": "2026-06-21",
+  "date": "2026-06-27",
   "label": "today",
-  "fetchedAt": 1782062789790,
-  "fetchedAtIST": "21/6/2026, 10:56:29 pm",
+  "fetchedAt": 1782508639117,
+  "fetchedAtIST": "27/6/2026, 2:47:19 am",
   "events": [
     {
-      "eventId": "14nygze9a2ad0ofmis0ycupbz0",
-      "programTitle": "Major SF Thunderbirds v Vixens",
-      "scheduledDate": 1782014400000,
-      "duration": 117,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/jow22hecswywcajf84xa8obe_image-header_pRow_1781486997000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
-      "competitionTitle": "Suncorp Super Netball",
-      "sport": "Netball"
-    },
-    {
-      "eventId": "1x7bb1l77194x1k9yv3z6a2one",
-      "programTitle": "Minor SF Fever v Mavericks",
-      "scheduledDate": 1782021600000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/7fq2an51su0001x8ywgq122ey_image-header_pRow_1781487053000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "eventId": "12h147jtn5df2bg6lv0nattfg0",
+      "programTitle": "Prelim Final Vixens v Fever",
+      "scheduledDate": 1782552600000,
+      "duration": 90,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/b9111ok1gv0yquur9l5cthe1a_image-header_pRow_1782086500000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Suncorp Super Netball",
       "sport": "Netball"
     }

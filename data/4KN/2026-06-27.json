@@ -1,9 +1,9 @@
 {
   "channel": "4KN",
   "date": "2026-06-27",
-  "label": "tomorrow",
-  "fetchedAt": 1782483585478,
-  "fetchedAtIST": "26/6/2026, 7:49:45 pm",
+  "label": "today",
+  "fetchedAt": 1782508639117,
+  "fetchedAtIST": "27/6/2026, 2:47:19 am",
   "events": [
     {
       "eventId": "12h147jtn5df2bg6lv0nattfg0",
