@@ -1,16 +1,16 @@
 {
   "channel": "4KF2",
   "date": "2026-06-28",
-  "label": "tomorrow",
-  "fetchedAt": 1782554753716,
-  "fetchedAtIST": "27/6/2026, 3:35:53 pm",
+  "label": "today",
+  "fetchedAt": 1782654114928,
+  "fetchedAtIST": "28/6/2026, 7:11:54 pm",
   "events": [
     {
       "eventId": "18d9y8lbjz0sbi76y926w67400",
       "programTitle": "Fremantle v Gold Coast",
       "scheduledDate": 1782630600000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/6zhuo78zo0gut9lvov5y4xo3j_image-header_pRow_1782102239000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 159,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/7yp57w0ynth5xt6dc6ci9p4bw_image-header_pRow_1782102239000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

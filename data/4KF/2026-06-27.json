@@ -1,9 +1,9 @@
 {
   "channel": "4KF",
   "date": "2026-06-27",
-  "label": "today",
-  "fetchedAt": 1782554753707,
-  "fetchedAtIST": "27/6/2026, 3:35:53 pm",
+  "label": "aired",
+  "fetchedAt": 1782654114922,
+  "fetchedAtIST": "28/6/2026, 7:11:54 pm",
   "events": [
     {
       "eventId": "1tt1s6hsgdj0215d7xjfq5u2v3",
@@ -27,8 +27,8 @@
       "eventId": "5u6bbsraztw40uhqa9mtf8xq40",
       "programTitle": "Port Adelaide v Adelaide",
       "scheduledDate": 1782552900000,
-      "duration": 280,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/eqj7c5945nb5bjqxr42bl9r4t_image-header_pRow_1782102463000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 254,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/dj44ic1dgim71k6416qgszxm1_image-header_pRow_1782102462000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

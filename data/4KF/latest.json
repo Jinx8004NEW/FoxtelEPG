@@ -1,34 +1,25 @@
 {
   "channel": "4KF",
-  "date": "2026-06-27",
+  "date": "2026-06-28",
   "label": "today",
-  "fetchedAt": 1782554753707,
-  "fetchedAtIST": "27/6/2026, 3:35:53 pm",
+  "fetchedAt": 1782654114923,
+  "fetchedAtIST": "28/6/2026, 7:11:54 pm",
   "events": [
     {
-      "eventId": "1tt1s6hsgdj0215d7xjfq5u2v3",
-      "programTitle": "Carlton v West Coast",
-      "scheduledDate": 1782530100000,
-      "duration": 177,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/3olcm98kwodj36hjdd7t59vvb_image-header_pRow_1782102388000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "eventId": "1mr5yej0f20zg1bw2lul5495ss",
+      "programTitle": "North Melbourne v Essendon",
+      "scheduledDate": 1782623700000,
+      "duration": 169,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/db9o1j17c4f3xyjcborlgtsyh_image-header_pRow_1782102288000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     },
     {
-      "eventId": "1xeh4norgpy9k1aw8t0bonth7b",
-      "programTitle": "Collingwood v Richmond",
-      "scheduledDate": 1782540900000,
-      "duration": 186,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/9cscqb0d1rkf5syhqp2jltkb2_image-header_pRow_1782102146000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
-      "competitionTitle": "AFL",
-      "sport": "Australian Rules Football"
-    },
-    {
-      "eventId": "5u6bbsraztw40uhqa9mtf8xq40",
-      "programTitle": "Port Adelaide v Adelaide",
-      "scheduledDate": 1782552900000,
-      "duration": 280,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/eqj7c5945nb5bjqxr42bl9r4t_image-header_pRow_1782102463000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "eventId": "18d9y8lbjz0sbi76y926w67400",
+      "programTitle": "Fremantle v Gold Coast",
+      "scheduledDate": 1782630600000,
+      "duration": 159,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/83a23ppu0dego8tbrl6mppp68_image-header_pRow_1782102239000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

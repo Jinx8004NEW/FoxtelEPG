@@ -1,16 +1,25 @@
 {
   "channel": "4KF",
   "date": "2026-06-28",
-  "label": "tomorrow",
-  "fetchedAt": 1782554753716,
-  "fetchedAtIST": "27/6/2026, 3:35:53 pm",
+  "label": "today",
+  "fetchedAt": 1782654114923,
+  "fetchedAtIST": "28/6/2026, 7:11:54 pm",
   "events": [
     {
       "eventId": "1mr5yej0f20zg1bw2lul5495ss",
       "programTitle": "North Melbourne v Essendon",
       "scheduledDate": 1782623700000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/d8bskyopx7q1lpy6e1ybxxpcn_image-header_pRow_1782102288000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 169,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/db9o1j17c4f3xyjcborlgtsyh_image-header_pRow_1782102288000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    },
+    {
+      "eventId": "18d9y8lbjz0sbi76y926w67400",
+      "programTitle": "Fremantle v Gold Coast",
+      "scheduledDate": 1782630600000,
+      "duration": 159,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/83a23ppu0dego8tbrl6mppp68_image-header_pRow_1782102239000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

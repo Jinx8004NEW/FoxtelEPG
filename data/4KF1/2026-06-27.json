@@ -1,16 +1,16 @@
 {
   "channel": "4KF1",
   "date": "2026-06-27",
-  "label": "today",
-  "fetchedAt": 1782554753714,
-  "fetchedAtIST": "27/6/2026, 3:35:53 pm",
+  "label": "aired",
+  "fetchedAt": 1782654114924,
+  "fetchedAtIST": "28/6/2026, 7:11:54 pm",
   "events": [
     {
       "eventId": "1f5jr4ppuvbrb1hmg7k6rgrpfg",
       "programTitle": "F1 Austria Practice 3",
       "scheduledDate": 1782556200000,
-      "duration": 120,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/4wfstc07e1dezil66n48kyzu_image-header_pRow_1781486791000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 102,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/6xv93h2xr6tb1ysu6ew8gwkgn_image-header_pRow_1781486791000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Formula 1",
       "sport": "Motorsport"
     },
@@ -18,8 +18,8 @@
       "eventId": "2w3dpodqef8s1enrbuvcood2e",
       "programTitle": "F1 Austria Qualifying",
       "scheduledDate": 1782568800000,
-      "duration": 120,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/1f0niv7lchmvpg42tt89z4yk8_image-header_pRow_1781486848000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 173,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/1v8ptiqwkp4ypqm7iw3oxmj75_image-header_pRow_1781486848000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Formula 1",
       "sport": "Motorsport"
     }

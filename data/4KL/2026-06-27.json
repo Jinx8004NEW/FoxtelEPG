@@ -1,9 +1,9 @@
 {
   "channel": "4KL",
   "date": "2026-06-27",
-  "label": "today",
-  "fetchedAt": 1782554753711,
-  "fetchedAtIST": "27/6/2026, 3:35:53 pm",
+  "label": "aired",
+  "fetchedAt": 1782654114925,
+  "fetchedAtIST": "28/6/2026, 7:11:54 pm",
   "events": [
     {
       "eventId": "lek3jeqf2cbs0ma560dxgbgoo0",
@@ -27,8 +27,8 @@
       "eventId": "1614lyzypz48p1vhmposvamdm9",
       "programTitle": "Sea Eagles v Storm",
       "scheduledDate": 1782552900000,
-      "duration": 245,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/6662x57n2z7orerra6le1pwns_image-header_pRow_1782191215000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 187,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/5uh1nhxv7k5j6aaq6s7viyz9e_image-header_pRow_1782191215000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "NRL",
       "sport": "Rugby League"
     }
