@@ -1,16 +1,16 @@
 {
   "channel": "4KF1",
   "date": "2026-06-28",
-  "label": "today",
-  "fetchedAt": 1782654114929,
-  "fetchedAtIST": "28/6/2026, 7:11:54 pm",
+  "label": "aired",
+  "fetchedAt": 1782680398267,
+  "fetchedAtIST": "29/6/2026, 2:29:58 am",
   "events": [
     {
       "eventId": "19vbdu2unvgpk18rcfeykznrf6",
       "programTitle": "F1 Austria Race",
       "scheduledDate": 1782651600000,
-      "duration": 270,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/eac99ml2w3ibqr6dld5umvx0z_image-header_pRow_1781486894000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 217,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/4h0s7nvg4eu14jzi4x62qrgks_image-header_pRow_1781486894000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Formula 1",
       "sport": "Motorsport"
     }
