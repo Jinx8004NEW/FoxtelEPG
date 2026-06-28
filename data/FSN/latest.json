@@ -2,8 +2,8 @@
   "channel": "FSN",
   "date": "2026-06-28",
   "label": "today",
-  "fetchedAt": 1782632902999,
-  "fetchedAtIST": "28/6/2026, 1:18:22 pm",
+  "fetchedAt": 1782642299720,
+  "fetchedAtIST": "28/6/2026, 3:54:59 pm",
   "events": [
     {
       "eventId": 180682507,
@@ -594,7 +594,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 9920774,
+      "versionNum": 9834792,
       "imageUrl": "",
       "placeholder": false,
       "isMovie": false,
