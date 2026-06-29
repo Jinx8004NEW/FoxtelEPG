@@ -2,8 +2,8 @@
   "channel": "4KF",
   "date": "2026-06-27",
   "label": "aired",
-  "fetchedAt": 1782680398263,
-  "fetchedAtIST": "29/6/2026, 2:29:58 am",
+  "fetchedAt": 1782768277666,
+  "fetchedAtIST": "30/6/2026, 2:54:37 am",
   "events": [
     {
       "eventId": "1tt1s6hsgdj0215d7xjfq5u2v3",
@@ -25,7 +25,7 @@
     },
     {
       "eventId": "5u6bbsraztw40uhqa9mtf8xq40",
-      "programTitle": "Port Adelaide v Adelaide",
+      "programTitle": "AFL Game of the Round",
       "scheduledDate": 1782552900000,
       "duration": 254,
       "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/dj44ic1dgim71k6416qgszxm1_image-header_pRow_1782102462000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
