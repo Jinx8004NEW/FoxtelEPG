@@ -2,15 +2,15 @@
   "channel": "4KF",
   "date": "2026-07-03",
   "label": "upcoming",
-  "fetchedAt": 1782768277675,
-  "fetchedAtIST": "30/6/2026, 2:54:37 am",
+  "fetchedAt": 1782789935704,
+  "fetchedAtIST": "30/6/2026, 8:55:35 am",
   "events": [
     {
       "eventId": "auksrvlpklm701ojqxeouujuks",
       "programTitle": "Sydney v Western Bulldogs",
       "scheduledDate": 1783071600000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/4njoxkgpxam4o45yyydrwgww6_image-header_pRow_1782185887000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/4njoxkgpxam4o45yyydrwgww6_image-header_pRow_1782780403000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

@@ -2,15 +2,15 @@
   "channel": "4KF2",
   "date": "2026-07-03",
   "label": "upcoming",
-  "fetchedAt": 1782768277674,
-  "fetchedAtIST": "30/6/2026, 2:54:37 am",
+  "fetchedAt": 1782789935704,
+  "fetchedAtIST": "30/6/2026, 8:55:35 am",
   "events": [
     {
       "eventId": "70n79qacy0460h3orpxmn5wwp0",
       "programTitle": "West Coast v Adelaide",
       "scheduledDate": 1783073400000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/cps5wc2bhv6tfm1z2uysh25fz_image-header_pRow_1782185887000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/cps5wc2bhv6tfm1z2uysh25fz_image-header_pRow_1782780453000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
