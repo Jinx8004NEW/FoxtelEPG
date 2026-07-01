@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-07-03",
   "label": "day after",
-  "fetchedAt": 1782854772874,
-  "fetchedAtIST": "1/7/2026, 2:56:12 am",
+  "fetchedAt": 1782876792844,
+  "fetchedAtIST": "1/7/2026, 9:03:12 am",
   "events": [
     {
       "eventId": 181056043,
@@ -86,7 +86,7 @@
       "episodeNumber": "1",
       "displaySepNum": true,
       "versionNum": 10837611,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8g1zfk.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -171,7 +171,7 @@
       "seriesNumber": "2017",
       "displaySepNum": true,
       "versionNum": 10837611,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ssne.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -292,7 +292,7 @@
       "seriesNumber": "2017",
       "displaySepNum": true,
       "versionNum": 10837611,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ssne.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -569,7 +569,7 @@
       "episodeNumber": "58",
       "displaySepNum": true,
       "versionNum": 10837611,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/htnp63.jpeg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

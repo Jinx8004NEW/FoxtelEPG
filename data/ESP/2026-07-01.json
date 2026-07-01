@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-07-01",
   "label": "today",
-  "fetchedAt": 1782854805260,
-  "fetchedAtIST": "1/7/2026, 2:56:45 am",
+  "fetchedAt": 1782876824626,
+  "fetchedAtIST": "1/7/2026, 9:03:44 am",
   "events": [
     {
       "eventId": 180948736,
@@ -426,7 +426,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 10784970,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/bgsqk.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

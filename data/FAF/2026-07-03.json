@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-07-03",
   "label": "day after",
-  "fetchedAt": 1782854784425,
-  "fetchedAtIST": "1/7/2026, 2:56:24 am",
+  "fetchedAt": 1782876804307,
+  "fetchedAtIST": "1/7/2026, 9:03:24 am",
   "events": [
     {
       "eventId": 180864681,
@@ -52,7 +52,7 @@
       "pashTag": "AFL Classic Matches",
       "displaySepNum": true,
       "versionNum": 10837576,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/97c5c9.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -104,7 +104,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 10837576,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/dpg9xw.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/9rz74z.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -139,7 +139,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 10837576,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/dpg9xw.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/9rz74z.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -191,7 +191,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 10837576,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/dpg9xw.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/9rz74z.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -243,7 +243,7 @@
       "episodeNumber": "53",
       "displaySepNum": true,
       "versionNum": 10837576,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/qlh5mb.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -262,7 +262,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 10837576,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/a99xxe.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -298,7 +298,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 10837576,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/dpg9xw.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/9jiar1.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -334,7 +334,7 @@
       "episodeNumber": "54",
       "displaySepNum": true,
       "versionNum": 10837576,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/qlh5mb.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -419,7 +419,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 10837576,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/dpg9xw.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/lpmkb.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -436,7 +436,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 10837576,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/dpg9xw.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/9jiar1.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

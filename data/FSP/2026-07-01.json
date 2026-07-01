@@ -2,8 +2,8 @@
   "channel": "FSP",
   "date": "2026-07-01",
   "label": "today",
-  "fetchedAt": 1782854787652,
-  "fetchedAtIST": "1/7/2026, 2:56:27 am",
+  "fetchedAt": 1782876807407,
+  "fetchedAtIST": "1/7/2026, 9:03:27 am",
   "events": [
     {
       "eventId": 180940262,
@@ -257,7 +257,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 10837714,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
