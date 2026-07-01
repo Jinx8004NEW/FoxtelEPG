@@ -2,15 +2,15 @@
   "channel": "4KF",
   "date": "2026-07-04",
   "label": "upcoming",
-  "fetchedAt": 1782828827018,
-  "fetchedAtIST": "30/6/2026, 7:43:47 pm",
+  "fetchedAt": 1782893423768,
+  "fetchedAtIST": "1/7/2026, 1:40:23 pm",
   "events": [
     {
       "eventId": "w7vsupvg04gh01808v6tcd4dw7",
       "programTitle": "Hawthorn v Melbourne",
       "scheduledDate": 1783134900000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/dwrdr2u1mphn2hwbvs2t7ku18_image-header_pRow_1782185887000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/dwrdr2u1mphn2hwbvs2t7ku18_image-header_pRow_1782780513000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     },
@@ -19,7 +19,7 @@
       "programTitle": "Gold Coast v Collingwood",
       "scheduledDate": 1783145700000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/57wdgwlwcxfyhxp9psg8fj057_image-header_pRow_1782185887000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/57wdgwlwcxfyhxp9psg8fj057_image-header_pRow_1782780617000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     },
@@ -28,7 +28,7 @@
       "programTitle": "Richmond v Carlton",
       "scheduledDate": 1783157700000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/fcqwk46dbnau9ji5entco323_image-header_pRow_1782185887000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/fcqwk46dbnau9ji5entco323_image-header_pRow_1782780978000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

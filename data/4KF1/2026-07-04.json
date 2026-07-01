@@ -1,0 +1,27 @@
+{
+  "channel": "4KF1",
+  "date": "2026-07-04",
+  "label": "upcoming",
+  "fetchedAt": 1782893423766,
+  "fetchedAtIST": "1/7/2026, 1:40:23 pm",
+  "events": [
+    {
+      "eventId": "1otjmk6gqli8q192nkwhpk7122",
+      "programTitle": "F1 Great Britain Sprint Race",
+      "scheduledDate": 1783162800000,
+      "duration": 120,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/6pz9n8lnch76m961qwxduay0x_image-header_pRow_1782789602000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "Formula 1",
+      "sport": "Motorsport"
+    },
+    {
+      "eventId": "o3i4qm5knyx513xdryezf2f32",
+      "programTitle": "F1 Great Britain Qualifying",
+      "scheduledDate": 1783173600000,
+      "duration": 120,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/a88pziykyo4gx3y698blz5zfu_image-header_pRow_1782789746000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "Formula 1",
+      "sport": "Motorsport"
+    }
+  ]
+}

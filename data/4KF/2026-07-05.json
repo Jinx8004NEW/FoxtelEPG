@@ -2,15 +2,15 @@
   "channel": "4KF",
   "date": "2026-07-05",
   "label": "upcoming",
-  "fetchedAt": 1782828827019,
-  "fetchedAtIST": "30/6/2026, 7:43:47 pm",
+  "fetchedAt": 1782893423769,
+  "fetchedAtIST": "1/7/2026, 1:40:23 pm",
   "events": [
     {
       "eventId": "quvzjoif6nm401sdjf7fu8wb85",
       "programTitle": "Essendon v St Kilda",
       "scheduledDate": 1783228500000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/8hfryleiydudkxv8l0cam629f_image-header_pRow_1782185887000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/8hfryleiydudkxv8l0cam629f_image-header_pRow_1782780280000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

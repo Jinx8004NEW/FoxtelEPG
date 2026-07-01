@@ -2,15 +2,15 @@
   "channel": "4KF2",
   "date": "2026-07-04",
   "label": "upcoming",
-  "fetchedAt": 1782828827019,
-  "fetchedAtIST": "30/6/2026, 7:43:47 pm",
+  "fetchedAt": 1782893423769,
+  "fetchedAtIST": "1/7/2026, 1:40:23 pm",
   "events": [
     {
       "eventId": "p0wr162x8icn012qvydzx8xtda",
       "programTitle": "GWS v Fremantle",
       "scheduledDate": 1783136100000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/b26y4kf3retvwbxerjsyc8sog_image-header_pRow_1782185887000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/b26y4kf3retvwbxerjsyc8sog_image-header_pRow_1782780559000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

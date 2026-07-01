@@ -2,15 +2,15 @@
   "channel": "4KF2",
   "date": "2026-07-05",
   "label": "upcoming",
-  "fetchedAt": 1782828827018,
-  "fetchedAtIST": "30/6/2026, 7:43:47 pm",
+  "fetchedAt": 1782893423768,
+  "fetchedAtIST": "1/7/2026, 1:40:23 pm",
   "events": [
     {
       "eventId": "uvfub2px9hv701cj5din0xc3uy",
       "programTitle": "Port Adelaide v North Melbourne",
       "scheduledDate": 1783233600000,
       "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/778ikexjfhwjfcavntulp79cc_image-header_pRow_1782185887000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/778ikexjfhwjfcavntulp79cc_image-header_pRow_1782781059000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
