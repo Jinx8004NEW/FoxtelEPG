@@ -819,7 +819,10 @@ const CHANNELS = {
 };
 const ALL_TAGS = Object.keys(CHANNELS);
 
-let currentChannel = 'FSN', currentFilter = 'all', currentDate = '';
+let currentChannel = localStorage.getItem('lastChannel') && CHANNELS[localStorage.getItem('lastChannel')]
+  ? localStorage.getItem('lastChannel')
+  : 'FSN';
+let currentFilter = 'all', currentDate = '';
 let searchQuery = '';
 let availableDates = {}, loadedData = {}, loadedFiles = {}, localDatePills = {};
 ALL_TAGS.forEach(t => { availableDates[t] = []; localDatePills[t] = []; });
@@ -830,14 +833,18 @@ function toggleTheme() {
   const next = d.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
   d.setAttribute('data-theme', next);
   localStorage.setItem('theme', next);
+  applyThemeButton(next);
+}
+function applyThemeButton(current) {
+  // Button shows the theme clicking it will switch TO (the opposite of current)
+  const next = current === 'dark' ? 'light' : 'dark';
   document.getElementById('theme-ico').textContent = next === 'dark' ? '🌙' : '☀';
   document.getElementById('theme-lbl').textContent = next === 'dark' ? 'Dark' : 'Light';
 }
 (function initTheme() {
   const s = localStorage.getItem('theme') || 'dark';
   document.documentElement.setAttribute('data-theme', s);
-  document.getElementById('theme-ico').textContent = s === 'dark' ? '🌙' : '☀';
-  document.getElementById('theme-lbl').textContent = s === 'dark' ? 'Dark' : 'Light';
+  applyThemeButton(s);
 })();
 
 /* ── TIMEZONE ── */
@@ -1181,6 +1188,7 @@ async function selectDate(d) { currentDate=d; renderDatePicker(); await loadSche
 /* ── CHANNEL SWITCH ── */
 async function switchChannel(tag) {
   currentChannel=tag;
+  localStorage.setItem('lastChannel', tag);
   document.querySelectorAll('.ch-item').forEach(el=>{
     el.classList.remove('active','active-4k');
   });
@@ -1405,7 +1413,13 @@ function render(data) {
   updateProgressBars();
 }
 
-/* ── INIT ── */
+/* ── INIT: reflect the persisted channel selection in the sidebar UI before data loads ── */
+(function initChannelUI() {
+  document.querySelectorAll('.ch-item').forEach(el=>el.classList.remove('active','active-4k'));
+  const el=document.getElementById('tab-'+currentChannel);
+  if (el) el.classList.add(is4K(currentChannel)?'active-4k':'active');
+})();
+
 updateTZLabel();
 fetchIndex().catch(()=>{
   document.getElementById('guide-container').innerHTML=
