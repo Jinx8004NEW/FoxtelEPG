@@ -1,0 +1,58 @@
+{
+  "channel": "ES2",
+  "date": "2026-07-20",
+  "fetchedAt": 1786129457949,
+  "fetchedAtIST": "8/8/2026, 12:34:17 am",
+  "events": [
+    {
+      "eventId": 181312994,
+      "programTitle": "Live: WNBA: Wings vs. Sparks",
+      "channelId": 321,
+      "scheduledDate": 1784480400000,
+      "duration": 120,
+      "episodeTitle": "Wings vs. Sparks",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 13507896,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xp4ebd.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181312997,
+      "programTitle": "Live: MLB: Yankees vs. Dodgers",
+      "channelId": 321,
+      "scheduledDate": 1784502000000,
+      "duration": 180,
+      "episodeTitle": "Yankees vs. Dodgers",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 13507896,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/r56wl0.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181312999,
+      "programTitle": "Premier Lacrosse League: Cannons vs. At",
+      "channelId": 321,
+      "scheduledDate": 1784520000000,
+      "duration": 120,
+      "episodeTitle": "Cannons vs. Atlas",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 13507896,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/2a080n.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}

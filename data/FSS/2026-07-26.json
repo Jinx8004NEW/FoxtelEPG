@@ -1,0 +1,25 @@
+{
+  "channel": "FSS",
+  "date": "2026-07-26",
+  "fetchedAt": 1786129413714,
+  "fetchedAtIST": "8/8/2026, 12:33:33 am",
+  "events": [
+    {
+      "eventId": 181777942,
+      "programTitle": "SailGP: Great Britain Day 1",
+      "channelId": 664,
+      "scheduledDate": 1785088800000,
+      "duration": 90,
+      "episodeTitle": "Great Britain Day 1",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 13501956,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/64rvf1.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}

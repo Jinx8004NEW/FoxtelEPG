@@ -1,0 +1,59 @@
+{
+  "channel": "ESP",
+  "date": "2026-08-04",
+  "fetchedAt": 1786129447592,
+  "fetchedAtIST": "8/8/2026, 12:34:07 am",
+  "events": [
+    {
+      "eventId": 181635455,
+      "programTitle": "Live: First Take: Wednesday 5 August 20",
+      "channelId": 13,
+      "scheduledDate": 1785852000000,
+      "duration": 120,
+      "episodeTitle": "Wednesday 5 August 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 13556688,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/439uum.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181635456,
+      "programTitle": "Live: The Pat McAfee Show: Wednesday 5",
+      "channelId": 13,
+      "scheduledDate": 1785859200000,
+      "duration": 120,
+      "episodeTitle": "Wednesday 5 August 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 13556688,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/5xgtu4.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181635457,
+      "programTitle": "Live: SportsCenter: Wednesday 5 August",
+      "channelId": 13,
+      "scheduledDate": 1785866400000,
+      "duration": 60,
+      "episodeTitle": "Wednesday 5 August 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 13556688,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/u9hfs3.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}

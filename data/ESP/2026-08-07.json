@@ -1,0 +1,42 @@
+{
+  "channel": "ESP",
+  "date": "2026-08-07",
+  "fetchedAt": 1786129450537,
+  "fetchedAtIST": "8/8/2026, 12:34:10 am",
+  "events": [
+    {
+      "eventId": 181711459,
+      "programTitle": "Live: The Pat McAfee Show: Saturday 8 A",
+      "channelId": 13,
+      "scheduledDate": 1786120200000,
+      "duration": 90,
+      "episodeTitle": "Saturday 8 August 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 13556688,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/5xgtu4.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181711460,
+      "programTitle": "Live: SportsCenter: Saturday 8 August 2",
+      "channelId": 13,
+      "scheduledDate": 1786125600000,
+      "duration": 60,
+      "episodeTitle": "Saturday 8 August 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 13548820,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/u9hfs3.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}

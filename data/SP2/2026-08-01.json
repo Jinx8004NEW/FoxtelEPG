@@ -1,0 +1,61 @@
+{
+  "channel": "SP2",
+  "date": "2026-08-01",
+  "fetchedAt": 1786129293765,
+  "fetchedAtIST": "8/8/2026, 12:31:33 am",
+  "events": [
+    {
+      "eventId": 181606982,
+      "programTitle": "Get 'Em Onside",
+      "channelId": 10,
+      "scheduledDate": 1785588000000,
+      "duration": 10,
+      "episodeTitle": "Episode 72",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "episodeNumber": "72",
+      "displaySepNum": true,
+      "versionNum": 13554908,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/htnp63.jpeg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181606984,
+      "programTitle": "NRL Mini: GLD v WAR",
+      "channelId": 10,
+      "scheduledDate": 1785590700000,
+      "duration": 30,
+      "episodeTitle": "GLD v WAR",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 13554908,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/20x3u2.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181830583,
+      "programTitle": "Live: ESL: Castleford v Warrington",
+      "channelId": 10,
+      "scheduledDate": 1785592800000,
+      "duration": 120,
+      "episodeTitle": "Castleford v Warrington",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 13554908,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/765ld5.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}

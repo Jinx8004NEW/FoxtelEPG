@@ -1,0 +1,42 @@
+{
+  "channel": "FAF",
+  "date": "2026-08-06",
+  "fetchedAt": 1786129349343,
+  "fetchedAtIST": "8/8/2026, 12:32:29 am",
+  "events": [
+    {
+      "eventId": 181562562,
+      "programTitle": "AFL: Western Bulldogs vs Melbourne",
+      "channelId": 330,
+      "scheduledDate": 1786031100000,
+      "duration": 150,
+      "episodeTitle": "Western Bulldogs vs Melbourne",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 13468564,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/23flex.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181562563,
+      "programTitle": "AFL: Western Bulldogs vs Melbourne",
+      "channelId": 330,
+      "scheduledDate": 1786040100000,
+      "duration": 155,
+      "episodeTitle": "Western Bulldogs vs Melbourne",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 13468564,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/23flex.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}

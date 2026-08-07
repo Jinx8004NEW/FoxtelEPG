@@ -1,0 +1,40 @@
+{
+  "channel": "ES2",
+  "date": "2026-07-28",
+  "fetchedAt": 1786129465750,
+  "fetchedAtIST": "8/8/2026, 12:34:25 am",
+  "events": [
+    {
+      "eventId": 181881362,
+      "programTitle": "Derek Jeter: A Tribute",
+      "channelId": 321,
+      "scheduledDate": 1785236400000,
+      "duration": 60,
+      "episodeTitle": "A Tribute",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 13507896,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1opbkx.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181881363,
+      "programTitle": "MLB Network Presents: Joy in Wrigleyvil",
+      "channelId": 321,
+      "scheduledDate": 1785240000000,
+      "duration": 60,
+      "episodeTitle": "Joy in Wrigleyville",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 13507896,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/q0bxo4.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}

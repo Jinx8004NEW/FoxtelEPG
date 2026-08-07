@@ -1,9 +1,8 @@
 {
   "channel": "FSP",
   "date": "2026-08-10",
-  "label": "day after",
-  "fetchedAt": 1786129085052,
-  "fetchedAtIST": "8/8/2026, 12:28:05 am",
+  "fetchedAt": 1786129378311,
+  "fetchedAtIST": "8/8/2026, 12:32:58 am",
   "events": [
     {
       "eventId": 181913351,
@@ -52,7 +51,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 13509490,
+      "versionNum": 13554836,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6rcdlz.png",
       "placeholder": false,
       "isMovie": false,
