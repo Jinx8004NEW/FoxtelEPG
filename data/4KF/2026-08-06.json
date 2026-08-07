@@ -1,0 +1,18 @@
+{
+  "channel": "4KF",
+  "date": "2026-08-06",
+  "label": "aired",
+  "fetchedAt": 1786129132034,
+  "fetchedAtIST": "8/8/2026, 12:28:52 am",
+  "events": [
+    {
+      "eventId": "1cozzow8vgmaj1shltlngzgnel",
+      "programTitle": "Western Bulldogs v North Melbourne",
+      "scheduledDate": 1786008600000,
+      "duration": 229,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/7hde6z5wfx378bouop4vb3z3e_image-header_pRow_1785732855000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "AFL",
+      "sport": "Australian Rules Football"
+    }
+  ]
+}
