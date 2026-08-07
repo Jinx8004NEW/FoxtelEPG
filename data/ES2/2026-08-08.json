@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-08-08",
   "label": "today",
-  "fetchedAt": 1786129104441,
-  "fetchedAtIST": "8/8/2026, 12:28:24 am",
+  "fetchedAt": 1786134613599,
+  "fetchedAtIST": "8/8/2026, 2:00:13 am",
   "events": [
     {
       "eventId": 181711480,
@@ -15,7 +15,7 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 13507896,
+      "versionNum": 13564856,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1538g4.jpg",
       "placeholder": false,
       "isMovie": false,

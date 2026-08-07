@@ -1,8 +1,9 @@
 {
   "channel": "FAF",
   "date": "2026-08-09",
-  "fetchedAt": 1786129352316,
-  "fetchedAtIST": "8/8/2026, 12:32:32 am",
+  "label": "tomorrow",
+  "fetchedAt": 1786134586214,
+  "fetchedAtIST": "8/8/2026, 1:59:46 am",
   "events": [
     {
       "eventId": 181622175,
@@ -32,7 +33,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 13509357,
+      "versionNum": 13468564,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ugbndn.png",
       "placeholder": false,
       "isMovie": false,
@@ -99,7 +100,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 13509357,
+      "versionNum": 13468564,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/timzlr.png",
       "placeholder": false,
       "isMovie": false,
@@ -379,7 +380,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 13509373,
+      "versionNum": 13468564,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/wxuqnm.png",
       "placeholder": false,
       "isMovie": false,

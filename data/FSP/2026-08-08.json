@@ -1,9 +1,28 @@
 {
   "channel": "FSP",
   "date": "2026-08-08",
-  "fetchedAt": 1786129376354,
-  "fetchedAtIST": "8/8/2026, 12:32:56 am",
+  "label": "today",
+  "fetchedAt": 1786134590656,
+  "fetchedAtIST": "8/8/2026, 1:59:50 am",
   "events": [
+    {
+      "eventId": 181607742,
+      "programTitle": "Live: Golf: Ladies European Tour",
+      "channelId": 93,
+      "scheduledDate": 1786107600000,
+      "duration": 240,
+      "episodeTitle": "London Championship Round 2",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2024",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 13554836,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/9kbpe.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 181607743,
       "programTitle": "SailGP: Great Britain Day 2",
