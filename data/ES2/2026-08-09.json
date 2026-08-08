@@ -1,9 +1,9 @@
 {
   "channel": "ES2",
   "date": "2026-08-09",
-  "label": "tomorrow",
-  "fetchedAt": 1786206044372,
-  "fetchedAtIST": "8/8/2026, 9:50:44 pm",
+  "label": "today",
+  "fetchedAt": 1786220269903,
+  "fetchedAtIST": "9/8/2026, 1:47:49 am",
   "events": [
     {
       "eventId": 181720247,
@@ -16,7 +16,7 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 13564856,
+      "versionNum": 14165638,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/g7f13k.jpg",
       "placeholder": false,
       "isMovie": false,
