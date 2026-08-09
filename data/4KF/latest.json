@@ -2,8 +2,8 @@
   "channel": "4KF",
   "date": "2026-08-09",
   "label": "today",
-  "fetchedAt": 1786278543507,
-  "fetchedAtIST": "9/8/2026, 5:59:03 pm",
+  "fetchedAt": 1786292588449,
+  "fetchedAtIST": "9/8/2026, 9:53:08 pm",
   "events": [
     {
       "eventId": "1xmverjz5sed5dnbco0grsmsx0",
@@ -27,8 +27,8 @@
       "eventId": "wv3jn1yrmthp0sliogjoxp2te0",
       "programTitle": "St Kilda v Carlton",
       "scheduledDate": 1786267200000,
-      "duration": 280,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/5bpr4l4u5sgc7gtg9uvraz041_image-header_pRow_1785733314000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 214,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/6jmsk60eqn7yckl8jq8fg3a88_image-header_pRow_1785733313000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
