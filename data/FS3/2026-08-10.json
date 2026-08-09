@@ -1,10 +1,28 @@
 {
   "channel": "FS3",
   "date": "2026-08-10",
-  "label": "tomorrow",
-  "fetchedAt": 1786292529439,
-  "fetchedAtIST": "9/8/2026, 9:52:09 pm",
+  "label": "today",
+  "fetchedAt": 1786306786496,
+  "fetchedAtIST": "10/8/2026, 1:49:46 am",
   "events": [
+    {
+      "eventId": 182116566,
+      "programTitle": "Live: USPGA: Wyndham Championship Final",
+      "channelId": 133,
+      "scheduledDate": 1786276800000,
+      "duration": 300,
+      "episodeTitle": "Wyndham Championship Final Round",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "NEW EPISODE",
+      "displaySepNum": true,
+      "versionNum": 14165526,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/jf94l.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 181622524,
       "programTitle": "Live: USPGA: Wyndham Championship FR",

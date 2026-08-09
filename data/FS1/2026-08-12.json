@@ -1,0 +1,27 @@
+{
+  "channel": "FS1",
+  "date": "2026-08-12",
+  "label": "day after",
+  "fetchedAt": 1786306777912,
+  "fetchedAtIST": "10/8/2026, 1:49:37 am",
+  "events": [
+    {
+      "eventId": 181796226,
+      "programTitle": "Live: The Hundred: Phoenix v MI London",
+      "channelId": 9,
+      "scheduledDate": 1786554000000,
+      "duration": 210,
+      "episodeTitle": "Phoenix v MI London",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 14248061,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/d62hfp.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}

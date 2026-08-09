@@ -1,10 +1,27 @@
 {
   "channel": "FSN",
   "date": "2026-08-10",
-  "label": "tomorrow",
-  "fetchedAt": 1786292512932,
-  "fetchedAtIST": "9/8/2026, 9:51:52 pm",
+  "label": "today",
+  "fetchedAt": 1786306769631,
+  "fetchedAtIST": "10/8/2026, 1:49:29 am",
   "events": [
+    {
+      "eventId": 181859540,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1786282200000,
+      "duration": 30,
+      "episodeTitle": "Sunday 9 August 2026, 23:30.",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 13246405,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 181859593,
       "programTitle": "FOX SPORTS News",
