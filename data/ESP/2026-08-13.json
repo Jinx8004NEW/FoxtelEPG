@@ -1,0 +1,59 @@
+{
+  "channel": "ESP",
+  "date": "2026-08-13",
+  "label": "day after",
+  "fetchedAt": 1786393920393,
+  "fetchedAtIST": "11/8/2026, 2:02:00 am",
+  "events": [
+    {
+      "eventId": 181799327,
+      "programTitle": "Live: First Take",
+      "channelId": 13,
+      "scheduledDate": 1786629600000,
+      "duration": 120,
+      "episodeTitle": "Friday 14 August 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 14239826,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/439uum.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181941597,
+      "programTitle": "First Take",
+      "channelId": 13,
+      "scheduledDate": 1786636800000,
+      "duration": 120,
+      "episodeTitle": "Friday 14 August 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 14239826,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/439uum.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181799330,
+      "programTitle": "Live: SportsCenter",
+      "channelId": 13,
+      "scheduledDate": 1786644000000,
+      "duration": 60,
+      "episodeTitle": "Friday 14 August 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 14239826,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/u9hfs3.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}

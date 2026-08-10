@@ -1,0 +1,42 @@
+{
+  "channel": "FAF",
+  "date": "2026-08-13",
+  "label": "day after",
+  "fetchedAt": 1786393898516,
+  "fetchedAtIST": "11/8/2026, 2:01:38 am",
+  "events": [
+    {
+      "eventId": 181740441,
+      "programTitle": "AFL",
+      "channelId": 330,
+      "scheduledDate": 1786635900000,
+      "duration": 150,
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 14159386,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/dpg9xw.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181756537,
+      "programTitle": "VFL: Tasmania v Werribee",
+      "channelId": 330,
+      "scheduledDate": 1786644900000,
+      "duration": 155,
+      "episodeTitle": "Tasmania v Werribee",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 14159386,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/b2jor.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}

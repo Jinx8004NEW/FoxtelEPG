@@ -1,0 +1,45 @@
+{
+  "channel": "FSS",
+  "date": "2026-08-13",
+  "label": "day after",
+  "fetchedAt": 1786393914951,
+  "fetchedAtIST": "11/8/2026, 2:01:54 am",
+  "events": [
+    {
+      "eventId": 181705678,
+      "programTitle": "Spirit of Sport",
+      "channelId": 664,
+      "scheduledDate": 1786638600000,
+      "duration": 30,
+      "episodeTitle": "Episode 10",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "episodeNumber": "10",
+      "displaySepNum": true,
+      "versionNum": 14249073,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8ctdh.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181705679,
+      "programTitle": "Live: WSL Championship Tour: Tahiti Day",
+      "channelId": 664,
+      "scheduledDate": 1786640400000,
+      "duration": 540,
+      "episodeTitle": "Tahiti Day 6",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 14249073,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/gs1jfv.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}
