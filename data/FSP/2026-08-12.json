@@ -2,8 +2,8 @@
   "channel": "FSP",
   "date": "2026-08-12",
   "label": "tomorrow",
-  "fetchedAt": 1786393902750,
-  "fetchedAtIST": "11/8/2026, 2:01:42 am",
+  "fetchedAt": 1786409772472,
+  "fetchedAtIST": "11/8/2026, 6:26:12 am",
   "events": [
     {
       "eventId": 181705694,
@@ -381,7 +381,7 @@
       "episodeNumber": "7",
       "displaySepNum": true,
       "versionNum": 14251065,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/k7iu78.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/puyier.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

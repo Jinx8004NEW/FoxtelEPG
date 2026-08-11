@@ -2,8 +2,8 @@
   "channel": "FSS",
   "date": "2026-08-12",
   "label": "tomorrow",
-  "fetchedAt": 1786393913706,
-  "fetchedAtIST": "11/8/2026, 2:01:53 am",
+  "fetchedAt": 1786409783478,
+  "fetchedAtIST": "11/8/2026, 6:26:23 am",
   "events": [
     {
       "eventId": 181705651,
@@ -36,7 +36,7 @@
       "episodeNumber": "7",
       "displaySepNum": true,
       "versionNum": 14249073,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/k7iu78.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/puyier.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -177,7 +177,7 @@
       "episodeNumber": "7",
       "displaySepNum": true,
       "versionNum": 14249073,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/k7iu78.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/puyier.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -195,7 +195,7 @@
       "episodeNumber": "7",
       "displaySepNum": true,
       "versionNum": 14249073,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/vzpo2h.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/khkc4y.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

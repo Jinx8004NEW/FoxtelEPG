@@ -2,8 +2,8 @@
   "channel": "FS1",
   "date": "2026-08-12",
   "label": "tomorrow",
-  "fetchedAt": 1786393880699,
-  "fetchedAtIST": "11/8/2026, 2:01:20 am",
+  "fetchedAt": 1786409750109,
+  "fetchedAtIST": "11/8/2026, 6:25:50 am",
   "events": [
     {
       "eventId": 181796226,
@@ -18,7 +18,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 14248024,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/d62hfp.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1kopvg.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

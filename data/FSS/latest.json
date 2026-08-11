@@ -2,8 +2,8 @@
   "channel": "FSS",
   "date": "2026-08-11",
   "label": "today",
-  "fetchedAt": 1786393912459,
-  "fetchedAtIST": "11/8/2026, 2:01:52 am",
+  "fetchedAt": 1786409782234,
+  "fetchedAtIST": "11/8/2026, 6:26:22 am",
   "events": [
     {
       "eventId": 181705646,
@@ -16,7 +16,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 14249134,
+      "versionNum": 14249073,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xim6bz.png",
       "placeholder": false,
       "isMovie": false,
