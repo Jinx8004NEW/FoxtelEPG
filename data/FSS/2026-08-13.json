@@ -2,8 +2,8 @@
   "channel": "FSS",
   "date": "2026-08-13",
   "label": "day after",
-  "fetchedAt": 1786424296172,
-  "fetchedAtIST": "11/8/2026, 10:28:16 am",
+  "fetchedAt": 1786437843948,
+  "fetchedAtIST": "11/8/2026, 2:14:03 pm",
   "events": [
     {
       "eventId": 181705678,
@@ -17,7 +17,7 @@
       "seriesNumber": "2026",
       "episodeNumber": "10",
       "displaySepNum": true,
-      "versionNum": 14249073,
+      "versionNum": 14331279,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8ctdh.png",
       "placeholder": false,
       "isMovie": false,
@@ -35,7 +35,7 @@
       "seriesNumber": "2026",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 14249073,
+      "versionNum": 14331279,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/gs1jfv.png",
       "placeholder": false,
       "isMovie": false,

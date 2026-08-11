@@ -1,0 +1,25 @@
+{
+  "channel": "ES2",
+  "date": "2026-08-13",
+  "label": "day after",
+  "fetchedAt": 1786437855419,
+  "fetchedAtIST": "11/8/2026, 2:14:15 pm",
+  "events": [
+    {
+      "eventId": 181780324,
+      "programTitle": "SC: Top Plays of July",
+      "channelId": 321,
+      "scheduledDate": 1786600800000,
+      "duration": 30,
+      "episodeTitle": "Top Plays of July",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 14323441,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/u9hfs3.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}
