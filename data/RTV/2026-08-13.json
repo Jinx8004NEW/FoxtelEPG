@@ -1,10 +1,26 @@
 {
   "channel": "RTV",
   "date": "2026-08-13",
-  "label": "tomorrow",
-  "fetchedAt": 1786553186579,
-  "fetchedAtIST": "12/8/2026, 10:16:26 pm",
+  "label": "today",
+  "fetchedAt": 1786566773477,
+  "fetchedAtIST": "13/8/2026, 2:02:53 am",
   "events": [
+    {
+      "eventId": 182093967,
+      "programTitle": "Victorian Racing Awards 2026",
+      "channelId": 571,
+      "scheduledDate": 1786541400000,
+      "duration": 30,
+      "episodeTitle": "Victorian Racing Awards 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 14331869,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7j38t.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 181921138,
       "programTitle": "Champions: So You Think",

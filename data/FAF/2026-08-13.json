@@ -1,10 +1,28 @@
 {
   "channel": "FAF",
   "date": "2026-08-13",
-  "label": "tomorrow",
-  "fetchedAt": 1786553152745,
-  "fetchedAtIST": "12/8/2026, 10:15:52 pm",
+  "label": "today",
+  "fetchedAt": 1786566739532,
+  "fetchedAtIST": "13/8/2026, 2:02:19 am",
   "events": [
+    {
+      "eventId": 181740409,
+      "programTitle": "AFL 360",
+      "channelId": 330,
+      "scheduledDate": 1786539600000,
+      "duration": 60,
+      "episodeTitle": "Episode 72",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "episodeNumber": "72",
+      "displaySepNum": true,
+      "versionNum": 14159390,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/n8py45.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 181740441,
       "programTitle": "AFL",

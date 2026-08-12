@@ -1,0 +1,43 @@
+{
+  "channel": "SP2",
+  "date": "2026-08-14",
+  "label": "tomorrow",
+  "fetchedAt": 1786566729525,
+  "fetchedAtIST": "13/8/2026, 2:02:09 am",
+  "events": [
+    {
+      "eventId": 181607370,
+      "programTitle": "Get 'Em Onside",
+      "channelId": 10,
+      "scheduledDate": 1786683600000,
+      "duration": 30,
+      "episodeTitle": "Get 'Em Onside",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 14365286,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/htnp63.jpeg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181621813,
+      "programTitle": "Get 'Em Onside",
+      "channelId": 10,
+      "scheduledDate": 1786712100000,
+      "duration": 10,
+      "episodeTitle": "Get 'Em Onside",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 14365286,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/htnp63.jpeg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}
