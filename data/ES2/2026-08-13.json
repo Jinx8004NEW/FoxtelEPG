@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-08-13",
   "label": "tomorrow",
-  "fetchedAt": 1786538645096,
-  "fetchedAtIST": "12/8/2026, 6:14:05 pm",
+  "fetchedAt": 1786553180949,
+  "fetchedAtIST": "12/8/2026, 10:16:20 pm",
   "events": [
     {
       "eventId": 181780324,
@@ -15,7 +15,7 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 14338219,
+      "versionNum": 14338209,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/u9hfs3.jpg",
       "placeholder": false,
       "isMovie": false,
