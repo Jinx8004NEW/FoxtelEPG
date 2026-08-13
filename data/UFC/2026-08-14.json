@@ -2,8 +2,8 @@
   "channel": "UFC",
   "date": "2026-08-14",
   "label": "tomorrow",
-  "fetchedAt": 1786625119849,
-  "fetchedAtIST": "13/8/2026, 6:15:19 pm",
+  "fetchedAt": 1786639529388,
+  "fetchedAtIST": "13/8/2026, 10:15:29 pm",
   "events": [
     {
       "eventId": 182077186,
@@ -65,7 +65,7 @@
       "seriesNumber": "2024",
       "episodeNumber": "33",
       "displaySepNum": true,
-      "versionNum": 14377195,
+      "versionNum": 14377199,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/y0m69q.png",
       "placeholder": false,
       "isMovie": false,
