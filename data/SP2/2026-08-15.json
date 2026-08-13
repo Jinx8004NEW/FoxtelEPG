@@ -1,16 +1,16 @@
 {
   "channel": "SP2",
-  "date": "2026-08-14",
-  "label": "tomorrow",
-  "fetchedAt": 1786583004712,
-  "fetchedAtIST": "13/8/2026, 6:33:24 am",
+  "date": "2026-08-15",
+  "label": "day after",
+  "fetchedAt": 1786583006107,
+  "fetchedAtIST": "13/8/2026, 6:33:26 am",
   "events": [
     {
-      "eventId": 181607370,
+      "eventId": 181621831,
       "programTitle": "Get 'Em Onside",
       "channelId": 10,
-      "scheduledDate": 1786683600000,
-      "duration": 30,
+      "scheduledDate": 1786759200000,
+      "duration": 10,
       "episodeTitle": "Get 'Em Onside",
       "parentalRating": "NC",
       "premiereInd": false,
@@ -23,10 +23,10 @@
       "adultsOnly": false
     },
     {
-      "eventId": 181621813,
+      "eventId": 181621842,
       "programTitle": "Get 'Em Onside",
       "channelId": 10,
-      "scheduledDate": 1786712100000,
+      "scheduledDate": 1786797600000,
       "duration": 10,
       "episodeTitle": "Get 'Em Onside",
       "parentalRating": "NC",

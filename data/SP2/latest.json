@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-08-13",
   "label": "today",
-  "fetchedAt": 1786566728270,
-  "fetchedAtIST": "13/8/2026, 2:02:08 am",
+  "fetchedAt": 1786583003408,
+  "fetchedAtIST": "13/8/2026, 6:33:23 am",
   "events": [
     {
       "eventId": 181607325,
@@ -17,8 +17,26 @@
       "seriesNumber": "2026",
       "episodeNumber": "75",
       "displaySepNum": true,
-      "versionNum": 14365286,
+      "versionNum": 14365288,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/366rlp.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181607350,
+      "programTitle": "Live: NRL Thursday Night League",
+      "channelId": 10,
+      "scheduledDate": 1786611600000,
+      "duration": 50,
+      "episodeTitle": "Round 24",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 14365288,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/b6001r.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
