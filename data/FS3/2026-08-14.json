@@ -1,10 +1,28 @@
 {
   "channel": "FS3",
   "date": "2026-08-14",
-  "label": "tomorrow",
-  "fetchedAt": 1786639485365,
-  "fetchedAtIST": "13/8/2026, 10:14:45 pm",
+  "label": "today",
+  "fetchedAt": 1786653024390,
+  "fetchedAtIST": "14/8/2026, 2:00:24 am",
   "events": [
+    {
+      "eventId": 181705749,
+      "programTitle": "Live: USPGA: St. Jude's Championship R1",
+      "channelId": 133,
+      "scheduledDate": 1786620600000,
+      "duration": 390,
+      "episodeTitle": "St. Jude's Championship Round 1",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 14333747,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ht4dpa.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 181741204,
       "programTitle": "Live: USPGA: FedEx St. Jude Championshi",

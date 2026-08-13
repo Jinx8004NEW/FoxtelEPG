@@ -1,0 +1,27 @@
+{
+  "channel": "SPS",
+  "date": "2026-08-16",
+  "label": "day after",
+  "fetchedAt": 1786653043997,
+  "fetchedAtIST": "14/8/2026, 2:00:43 am",
+  "events": [
+    {
+      "eventId": 181756413,
+      "programTitle": "Live: WSL Championship Tour: Tahiti D9",
+      "channelId": 307,
+      "scheduledDate": 1786899600000,
+      "duration": 540,
+      "episodeTitle": "Tahiti Day 9",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 14385374,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/gs1jfv.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}
