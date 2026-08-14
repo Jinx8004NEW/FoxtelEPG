@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-08-14",
   "label": "today",
-  "fetchedAt": 1786669385197,
-  "fetchedAtIST": "14/8/2026, 6:33:05 am",
+  "fetchedAt": 1786685093106,
+  "fetchedAtIST": "14/8/2026, 10:54:53 am",
   "events": [
     {
       "eventId": 181607370,
@@ -16,7 +16,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 14413145,
+      "versionNum": 14413158,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/htnp63.jpeg",
       "placeholder": false,
       "isMovie": false,
@@ -33,7 +33,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 14413145,
+      "versionNum": 14413158,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/htnp63.jpeg",
       "placeholder": false,
       "isMovie": false,

@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-08-14",
   "label": "today",
-  "fetchedAt": 1786669408195,
-  "fetchedAtIST": "14/8/2026, 6:33:28 am",
+  "fetchedAt": 1786685115968,
+  "fetchedAtIST": "14/8/2026, 10:55:15 am",
   "events": [
     {
       "eventId": 181705628,
@@ -361,7 +361,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 14385374,
+      "versionNum": 14385382,
       "imageUrl": "",
       "placeholder": false,
       "isMovie": false,
