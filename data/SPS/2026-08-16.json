@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-08-16",
   "label": "day after",
-  "fetchedAt": 1786653043997,
-  "fetchedAtIST": "14/8/2026, 2:00:43 am",
+  "fetchedAt": 1786669410818,
+  "fetchedAtIST": "14/8/2026, 6:33:30 am",
   "events": [
     {
       "eventId": 181756413,
@@ -17,7 +17,7 @@
       "seriesNumber": "2026",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 14385374,
+      "versionNum": 14385382,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/gs1jfv.png",
       "placeholder": false,
       "isMovie": false,
