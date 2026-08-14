@@ -1,10 +1,28 @@
 {
   "channel": "FS1",
   "date": "2026-08-15",
-  "label": "tomorrow",
-  "fetchedAt": 1786725602250,
-  "fetchedAtIST": "14/8/2026, 10:10:02 pm",
+  "label": "today",
+  "fetchedAt": 1786738877668,
+  "fetchedAtIST": "15/8/2026, 1:51:17 am",
   "events": [
+    {
+      "eventId": 182065408,
+      "programTitle": "Live: The Hundred W: Eliminator",
+      "channelId": 9,
+      "scheduledDate": 1786712400000,
+      "duration": 210,
+      "episodeTitle": "Eliminator",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 14413236,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sduc7m.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 181856505,
       "programTitle": "Live: The Hundred: Eliminator",

@@ -1,10 +1,27 @@
 {
   "channel": "ESP",
   "date": "2026-08-15",
-  "label": "tomorrow",
-  "fetchedAt": 1786725642079,
-  "fetchedAtIST": "14/8/2026, 10:10:42 pm",
+  "label": "today",
+  "fetchedAt": 1786738917862,
+  "fetchedAtIST": "15/8/2026, 1:51:57 am",
   "events": [
+    {
+      "eventId": 181837308,
+      "programTitle": "Live: One Championship: ONE Friday Figh",
+      "channelId": 13,
+      "scheduledDate": 1786714200000,
+      "duration": 180,
+      "episodeTitle": "ONE Friday Fights: 166",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 14423813,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/dvkikk.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 181847276,
       "programTitle": "MLB Network's Quick Pitch",

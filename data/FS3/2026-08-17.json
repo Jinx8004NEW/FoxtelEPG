@@ -1,0 +1,60 @@
+{
+  "channel": "FS3",
+  "date": "2026-08-17",
+  "label": "day after",
+  "fetchedAt": 1786738891865,
+  "fetchedAtIST": "15/8/2026, 1:51:31 am",
+  "events": [
+    {
+      "eventId": 181760972,
+      "programTitle": "USPGA",
+      "channelId": 133,
+      "scheduledDate": 1786975200000,
+      "duration": 120,
+      "episodeTitle": "USPGA Tour",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 14424330,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/p8xv2l.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181760973,
+      "programTitle": "USPGA",
+      "channelId": 133,
+      "scheduledDate": 1786982400000,
+      "duration": 120,
+      "episodeTitle": "USPGA Tour",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 14424330,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/p8xv2l.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181760974,
+      "programTitle": "USPGA",
+      "channelId": 133,
+      "scheduledDate": 1786989600000,
+      "duration": 120,
+      "episodeTitle": "USPGA Tour",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 14424330,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/p8xv2l.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}
