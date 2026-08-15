@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-08-16",
   "label": "tomorrow",
-  "fetchedAt": 1786738896276,
-  "fetchedAtIST": "15/8/2026, 1:51:36 am",
+  "fetchedAt": 1786754291602,
+  "fetchedAtIST": "15/8/2026, 6:08:11 am",
   "events": [
     {
       "eventId": 181740486,
@@ -189,7 +189,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 14385434,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/b2jor.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/thmxn.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
