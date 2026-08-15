@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-08-15",
   "label": "today",
-  "fetchedAt": 1786767640520,
-  "fetchedAtIST": "15/8/2026, 9:50:40 am",
+  "fetchedAt": 1786781790538,
+  "fetchedAtIST": "15/8/2026, 1:46:30 pm",
   "events": [
     {
       "eventId": 181837308,
@@ -16,7 +16,7 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 14423813,
+      "versionNum": 14438130,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/dvkikk.jpg",
       "placeholder": false,
       "isMovie": false,
