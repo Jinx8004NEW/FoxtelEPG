@@ -1,0 +1,61 @@
+{
+  "channel": "FSP",
+  "date": "2026-08-17",
+  "label": "day after",
+  "fetchedAt": 1786810350593,
+  "fetchedAtIST": "15/8/2026, 9:42:30 pm",
+  "events": [
+    {
+      "eventId": 181772738,
+      "programTitle": "SailGP: Great Britain Day 1",
+      "channelId": 93,
+      "scheduledDate": 1786977000000,
+      "duration": 90,
+      "episodeTitle": "Great Britain Day 1",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 14417329,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/64rvf1.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181772739,
+      "programTitle": "SailGP: Great Britain Day 2",
+      "channelId": 93,
+      "scheduledDate": 1786982400000,
+      "duration": 90,
+      "episodeTitle": "Great Britain Day 2",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 14417329,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/64rvf1.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181772740,
+      "programTitle": "Live: Ultimate Pool Champions League",
+      "channelId": 93,
+      "scheduledDate": 1786987800000,
+      "duration": 210,
+      "episodeTitle": "Week 10",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 14417329,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/bawe0.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}
