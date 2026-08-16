@@ -1,26 +1,10 @@
 {
   "channel": "ES2",
-  "date": "2026-08-16",
+  "date": "2026-08-17",
   "label": "today",
-  "fetchedAt": 1786896814803,
-  "fetchedAtIST": "16/8/2026, 9:43:34 pm",
+  "fetchedAt": 1786911083817,
+  "fetchedAtIST": "17/8/2026, 1:41:23 am",
   "events": [
-    {
-      "eventId": 182121251,
-      "programTitle": "SC: Top Plays of July",
-      "channelId": 321,
-      "scheduledDate": 1786834800000,
-      "duration": 30,
-      "episodeTitle": "Top Plays of July",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 14469382,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/u9hfs3.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
     {
       "eventId": 181859173,
       "programTitle": "Live: SportsCenter",

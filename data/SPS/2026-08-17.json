@@ -1,10 +1,29 @@
 {
   "channel": "SPS",
   "date": "2026-08-17",
-  "label": "tomorrow",
-  "fetchedAt": 1786896799557,
-  "fetchedAtIST": "16/8/2026, 9:43:19 pm",
+  "label": "today",
+  "fetchedAt": 1786911067115,
+  "fetchedAtIST": "17/8/2026, 1:41:07 am",
   "events": [
+    {
+      "eventId": 181740031,
+      "programTitle": "Live: Motorsport: British Superbikes",
+      "channelId": 307,
+      "scheduledDate": 1786881600000,
+      "duration": 300,
+      "episodeTitle": "British Superbikes",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "episodeNumber": "23",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 14456143,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8gi6c.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 181756413,
       "programTitle": "Live: WSL Championship Tour: Tahiti D9",

@@ -1,0 +1,26 @@
+{
+  "channel": "FSP",
+  "date": "2026-08-19",
+  "label": "day after",
+  "fetchedAt": 1786911064088,
+  "fetchedAtIST": "17/8/2026, 1:41:04 am",
+  "events": [
+    {
+      "eventId": 181830603,
+      "programTitle": "NASCAR Cup Highlights: Richmond",
+      "channelId": 93,
+      "scheduledDate": 1787158800000,
+      "duration": 60,
+      "episodeTitle": "Richmond",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 14463953,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/t8kpmw.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "channel": "SPS",
+  "date": "2026-08-19",
+  "label": "day after",
+  "fetchedAt": 1786911069689,
+  "fetchedAtIST": "17/8/2026, 1:41:09 am",
+  "events": [
+    {
+      "eventId": 181756482,
+      "programTitle": "MotorRacing 360",
+      "channelId": 307,
+      "scheduledDate": 1787131800000,
+      "duration": 60,
+      "episodeTitle": "Episode 24",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "episodeNumber": "24",
+      "displaySepNum": true,
+      "versionNum": 14456143,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8iy2w.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181756485,
+      "programTitle": "MotorRacing 360",
+      "channelId": 307,
+      "scheduledDate": 1787140800000,
+      "duration": 60,
+      "episodeTitle": "Episode 24",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "episodeNumber": "24",
+      "displaySepNum": true,
+      "versionNum": 14456143,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8iy2w.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}

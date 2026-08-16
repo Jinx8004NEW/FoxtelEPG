@@ -1,10 +1,28 @@
 {
   "channel": "FS1",
   "date": "2026-08-17",
-  "label": "tomorrow",
-  "fetchedAt": 1786896771990,
-  "fetchedAtIST": "16/8/2026, 9:42:51 pm",
+  "label": "today",
+  "fetchedAt": 1786911039179,
+  "fetchedAtIST": "17/8/2026, 1:40:39 am",
   "events": [
+    {
+      "eventId": 182065409,
+      "programTitle": "Live: The Hundred W: Final",
+      "channelId": 9,
+      "scheduledDate": 1786885200000,
+      "duration": 210,
+      "episodeTitle": "Final",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 14456690,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/npp5wu.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 181881288,
       "programTitle": "Live: The Hundred: Final",

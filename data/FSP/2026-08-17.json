@@ -1,10 +1,28 @@
 {
   "channel": "FSP",
   "date": "2026-08-17",
-  "label": "tomorrow",
-  "fetchedAt": 1786896794056,
-  "fetchedAtIST": "16/8/2026, 9:43:14 pm",
+  "label": "today",
+  "fetchedAt": 1786911061546,
+  "fetchedAtIST": "17/8/2026, 1:41:01 am",
   "events": [
+    {
+      "eventId": 181741198,
+      "programTitle": "Live: Golf: Danish Golf Championship Fi",
+      "channelId": 93,
+      "scheduledDate": 1786874400000,
+      "duration": 300,
+      "episodeTitle": "Danish Golf Championship Final Round",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 14463953,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/huns3h.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 181772738,
       "programTitle": "SailGP: Great Britain Day 1",
