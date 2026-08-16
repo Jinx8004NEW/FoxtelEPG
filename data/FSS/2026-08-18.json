@@ -2,8 +2,8 @@
   "channel": "FSS",
   "date": "2026-08-18",
   "label": "day after",
-  "fetchedAt": 1786868220394,
-  "fetchedAtIST": "16/8/2026, 1:47:00 pm",
+  "fetchedAt": 1786882723056,
+  "fetchedAtIST": "16/8/2026, 5:48:43 pm",
   "events": [
     {
       "eventId": 181771540,
@@ -222,7 +222,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 14444444,
+      "versionNum": 14444446,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/64rvf1.png",
       "placeholder": false,
       "isMovie": false,
