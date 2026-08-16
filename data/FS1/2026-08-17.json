@@ -2,8 +2,8 @@
   "channel": "FS1",
   "date": "2026-08-17",
   "label": "tomorrow",
-  "fetchedAt": 1786840797113,
-  "fetchedAtIST": "16/8/2026, 6:09:57 am",
+  "fetchedAt": 1786854306230,
+  "fetchedAtIST": "16/8/2026, 9:55:06 am",
   "events": [
     {
       "eventId": 181881288,
@@ -398,7 +398,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 14446428,
+      "versionNum": 14456720,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/npp5wu.png",
       "placeholder": false,
       "isMovie": false,
