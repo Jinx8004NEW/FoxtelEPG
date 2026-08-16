@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-08-18",
   "label": "day after",
-  "fetchedAt": 1786882734308,
-  "fetchedAtIST": "16/8/2026, 5:48:54 pm",
+  "fetchedAt": 1786896817282,
+  "fetchedAtIST": "16/8/2026, 9:43:37 pm",
   "events": [
     {
       "eventId": 181901112,
@@ -85,7 +85,7 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 14420804,
+      "versionNum": 14469382,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/2xi1m.png",
       "placeholder": false,
       "isMovie": false,
