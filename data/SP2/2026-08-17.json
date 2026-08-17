@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-08-17",
   "label": "today",
-  "fetchedAt": 1786911044770,
-  "fetchedAtIST": "17/8/2026, 1:40:44 am",
+  "fetchedAt": 1786927048270,
+  "fetchedAtIST": "17/8/2026, 6:07:28 am",
   "events": [
     {
       "eventId": 182070320,
@@ -36,7 +36,7 @@
       "pashTag": "ROUND 24",
       "displaySepNum": true,
       "versionNum": 14462025,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/on7n6o.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/mr6bya.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -72,7 +72,7 @@
       "pashTag": "ROUND 24",
       "displaySepNum": true,
       "versionNum": 14462025,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/on7n6o.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/mr6bya.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

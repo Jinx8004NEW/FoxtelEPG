@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-08-18",
   "label": "tomorrow",
-  "fetchedAt": 1786911046047,
-  "fetchedAtIST": "17/8/2026, 1:40:46 am",
+  "fetchedAt": 1786927049655,
+  "fetchedAtIST": "17/8/2026, 6:07:29 am",
   "events": [
     {
       "eventId": 181621907,
@@ -553,7 +553,7 @@
       "pashTag": "ROUND 24",
       "displaySepNum": true,
       "versionNum": 14462025,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/on7n6o.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/mr6bya.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

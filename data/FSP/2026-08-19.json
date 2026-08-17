@@ -2,8 +2,8 @@
   "channel": "FSP",
   "date": "2026-08-19",
   "label": "day after",
-  "fetchedAt": 1786911064088,
-  "fetchedAtIST": "17/8/2026, 1:41:04 am",
+  "fetchedAt": 1786927068555,
+  "fetchedAtIST": "17/8/2026, 6:07:48 am",
   "events": [
     {
       "eventId": 181830603,
@@ -16,7 +16,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 14463953,
+      "versionNum": 14458011,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/t8kpmw.png",
       "placeholder": false,
       "isMovie": false,
