@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-08-19",
   "label": "day after",
-  "fetchedAt": 1786955480778,
-  "fetchedAtIST": "17/8/2026, 2:01:20 pm",
+  "fetchedAt": 1786969318974,
+  "fetchedAtIST": "17/8/2026, 5:51:58 pm",
   "events": [
     {
       "eventId": 181756482,
@@ -17,7 +17,7 @@
       "seriesNumber": "2026",
       "episodeNumber": "24",
       "displaySepNum": true,
-      "versionNum": 14456156,
+      "versionNum": 14619547,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8iy2w.png",
       "placeholder": false,
       "isMovie": false,
@@ -35,7 +35,7 @@
       "seriesNumber": "2026",
       "episodeNumber": "24",
       "displaySepNum": true,
-      "versionNum": 14456156,
+      "versionNum": 14619547,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8iy2w.png",
       "placeholder": false,
       "isMovie": false,
