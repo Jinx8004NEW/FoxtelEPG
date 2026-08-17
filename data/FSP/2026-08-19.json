@@ -2,8 +2,8 @@
   "channel": "FSP",
   "date": "2026-08-19",
   "label": "day after",
-  "fetchedAt": 1786969313226,
-  "fetchedAtIST": "17/8/2026, 5:51:53 pm",
+  "fetchedAt": 1786983321635,
+  "fetchedAtIST": "17/8/2026, 9:45:21 pm",
   "events": [
     {
       "eventId": 181830603,
@@ -16,8 +16,25 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 14618548,
+      "versionNum": 14702884,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/t8kpmw.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181830604,
+      "programTitle": "Live: USPGA: St. Jude Championship FR",
+      "channelId": 93,
+      "scheduledDate": 1787162400000,
+      "duration": 120,
+      "episodeTitle": "St. Jude Championship Final Round",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 14702884,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/19zzvg.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
