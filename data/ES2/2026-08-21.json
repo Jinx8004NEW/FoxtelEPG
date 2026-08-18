@@ -1,0 +1,60 @@
+{
+  "channel": "ES2",
+  "date": "2026-08-21",
+  "label": "day after",
+  "fetchedAt": 1787083945001,
+  "fetchedAtIST": "19/8/2026, 1:42:25 am",
+  "events": [
+    {
+      "eventId": 181979325,
+      "programTitle": "Live: First Take",
+      "channelId": 321,
+      "scheduledDate": 1787320800000,
+      "duration": 120,
+      "episodeTitle": "Saturday 22 August 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 15103790,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/439uum.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181979326,
+      "programTitle": "Live: The Pat McAfee Show",
+      "channelId": 321,
+      "scheduledDate": 1787328000000,
+      "duration": 60,
+      "episodeTitle": "Saturday 22 August 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 15103790,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/5xgtu4.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181979327,
+      "programTitle": "Live: Little League Baseball",
+      "channelId": 321,
+      "scheduledDate": 1787331600000,
+      "duration": 120,
+      "episodeTitle": "Little League World Series",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 15103790,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/q8piu1.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}

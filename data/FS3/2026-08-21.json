@@ -1,0 +1,45 @@
+{
+  "channel": "FS3",
+  "date": "2026-08-21",
+  "label": "day after",
+  "fetchedAt": 1787083910824,
+  "fetchedAtIST": "19/8/2026, 1:41:50 am",
+  "events": [
+    {
+      "eventId": 181872770,
+      "programTitle": "Live: USPGA: BMW Championship Round 1",
+      "channelId": 133,
+      "scheduledDate": 1787234400000,
+      "duration": 300,
+      "episodeTitle": "BMW Championship Round 1",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 14700026,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/p8xv2l.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 181872783,
+      "programTitle": "Live: USPGA: BMW Championship Round 2",
+      "channelId": 133,
+      "scheduledDate": 1787320800000,
+      "duration": 300,
+      "episodeTitle": "BMW Championship Round 2",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 14700026,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/p8xv2l.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}
