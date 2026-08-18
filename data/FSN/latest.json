@@ -2,8 +2,8 @@
   "channel": "FSN",
   "date": "2026-08-18",
   "label": "today",
-  "fetchedAt": 1787013441086,
-  "fetchedAtIST": "18/8/2026, 6:07:21 am",
+  "fetchedAt": 1787027122327,
+  "fetchedAtIST": "18/8/2026, 9:55:22 am",
   "events": [
     {
       "eventId": 181859947,
@@ -509,7 +509,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 14930936,
+      "versionNum": 15017384,
       "imageUrl": "",
       "placeholder": false,
       "isMovie": false,
@@ -764,7 +764,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 14930936,
+      "versionNum": 15017384,
       "imageUrl": "",
       "placeholder": false,
       "isMovie": false,
