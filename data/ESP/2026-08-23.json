@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-08-23",
   "label": "day after",
-  "fetchedAt": 1787257070976,
-  "fetchedAtIST": "21/8/2026, 1:47:50 am",
+  "fetchedAt": 1787272822789,
+  "fetchedAtIST": "21/8/2026, 6:10:22 am",
   "events": [
     {
       "eventId": 181997305,
@@ -213,7 +213,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 15284321,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
