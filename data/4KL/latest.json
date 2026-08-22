@@ -2,15 +2,15 @@
   "channel": "4KL",
   "date": "2026-08-22",
   "label": "today",
-  "fetchedAt": 1787372619310,
-  "fetchedAtIST": "22/8/2026, 9:53:39 am",
+  "fetchedAt": 1787386711962,
+  "fetchedAtIST": "22/8/2026, 1:48:31 pm",
   "events": [
     {
       "eventId": "15arqdpb95fce1a8j0vwkygm57",
       "programTitle": "Australia v Bangladesh Second Test Day 1",
       "scheduledDate": 1787356800000,
-      "duration": 530,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/1eizgnwy5qom6sut5b2a355lk_image-header_pRow_1786683318000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 472,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/es5mthiibxqfwd34xtpt2ryty_image-header_pRow_1786683318000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "ICC World Test Championship",
       "sport": "Cricket"
     },
@@ -18,9 +18,27 @@
       "eventId": "xtbzpho07f2601u8743aahd7ai",
       "programTitle": "Knights v Wests Tigers",
       "scheduledDate": 1787366700000,
-      "duration": 165,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/84rh4mahcvuk8416epwan6tdp_image-header_pRow_1787108599000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 113,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/xtne5tn0feqj8rgvgbrafima_image-header_pRow_1787108599000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "NRL Women",
+      "sport": "Rugby League"
+    },
+    {
+      "eventId": "1lfhbz209muz71qxmmomwwyf51",
+      "programTitle": "Knights v Sea Eagles",
+      "scheduledDate": 1787374800000,
+      "duration": 136,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/11yuqmfvnynwd7mo0q16615dz_image-header_pRow_1786940391000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "NRL",
+      "sport": "Rugby League"
+    },
+    {
+      "eventId": "108w88ycdbbbo15aiwad0g1vwu",
+      "programTitle": "Rabbitohs v Warriors",
+      "scheduledDate": 1787383800000,
+      "duration": 175,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/7s0ah3kheykqfeblqas4emie4_image-header_pRow_1786940439000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "NRL",
       "sport": "Rugby League"
     }
   ]
