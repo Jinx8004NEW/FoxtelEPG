@@ -1,9 +1,9 @@
 {
   "channel": "4KF1",
   "date": "2026-08-22",
-  "label": "today",
-  "fetchedAt": 1787415196006,
-  "fetchedAtIST": "22/8/2026, 9:43:16 pm",
+  "label": "aired",
+  "fetchedAt": 1787429572873,
+  "fetchedAtIST": "23/8/2026, 1:42:52 am",
   "events": [
     {
       "eventId": "1n416a8lc8tcl1mjehfyt34s9f",
@@ -46,7 +46,7 @@
       "programTitle": "F1 Netherlands Qualifying",
       "scheduledDate": 1787407200000,
       "duration": 120,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/a5homlmd1ed6ye1jbkbd9l676_image-header_pRow_1785114854000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/45aineeusnjy3j4ql7kef4slm_image-header_pRow_1785114853000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "Formula 1",
       "sport": "Motorsport"
     }
