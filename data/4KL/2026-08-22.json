@@ -2,8 +2,8 @@
   "channel": "4KL",
   "date": "2026-08-22",
   "label": "today",
-  "fetchedAt": 1787401125037,
-  "fetchedAtIST": "22/8/2026, 5:48:45 pm",
+  "fetchedAt": 1787415196007,
+  "fetchedAtIST": "22/8/2026, 9:43:16 pm",
   "events": [
     {
       "eventId": "15arqdpb95fce1a8j0vwkygm57",
@@ -45,8 +45,8 @@
       "eventId": "h1zhyav2qb4j01pn1qjuup5953",
       "programTitle": "Dragons v Bulldogs",
       "scheduledDate": 1787391300000,
-      "duration": 245,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/4pp1c5vivkugkkpnkpmsk8cw1_image-header_pRow_1787192378000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 182,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/f0hda7z5hn87ok2w2ot2le9ou_image-header_pRow_1787192378000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "NRL",
       "sport": "Rugby League"
     }
