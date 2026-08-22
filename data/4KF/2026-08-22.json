@@ -2,15 +2,15 @@
   "channel": "4KF",
   "date": "2026-08-22",
   "label": "today",
-  "fetchedAt": 1787359109330,
-  "fetchedAtIST": "22/8/2026, 6:08:29 am",
+  "fetchedAt": 1787372619310,
+  "fetchedAtIST": "22/8/2026, 9:53:39 am",
   "events": [
     {
       "eventId": "1iwvh4xoii6ig1emv6e7vi0052",
       "programTitle": "Carlton v Fremantle",
       "scheduledDate": 1787368500000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/3hnd3ltfd2c3dmsxzdax0bueh_image-header_pRow_1782189858000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 225,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/awlzzohy52hxurxvw25lsp4dd_image-header_pRow_1782189858000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     },
