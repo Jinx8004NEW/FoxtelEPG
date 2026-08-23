@@ -2,15 +2,24 @@
   "channel": "4KF1",
   "date": "2026-08-23",
   "label": "today",
-  "fetchedAt": 1787445706103,
-  "fetchedAtIST": "23/8/2026, 6:11:46 am",
+  "fetchedAt": 1787459294676,
+  "fetchedAtIST": "23/8/2026, 9:58:14 am",
   "events": [
     {
       "eventId": "e0289j1zdk5i1wne42idn6vi5",
       "programTitle": "Supercars Ipswich Qualifying",
       "scheduledDate": 1787437800000,
-      "duration": 235,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/bpkrt528s1v70fcnqszt2c5bu_image-header_pRow_1786585411000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 199,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/3gs9lh5633p5x9lumgigfqq39_image-header_pRow_1786585411000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "competitionTitle": "V8 Supercars",
+      "sport": "Motorsport"
+    },
+    {
+      "eventId": "jb8wnhkklrex15p2x33kwy9o9",
+      "programTitle": "Supercars Ipswich Top 10 Shootout",
+      "scheduledDate": 1787448300000,
+      "duration": 250,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/6mophi9jv1ctzz0ziemlqz0tt_image-header_pRow_1786585609000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "V8 Supercars",
       "sport": "Motorsport"
     },

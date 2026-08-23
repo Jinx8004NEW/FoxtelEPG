@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-08-23",
   "label": "today",
-  "fetchedAt": 1787445658701,
-  "fetchedAtIST": "23/8/2026, 6:10:58 am",
+  "fetchedAt": 1787459247337,
+  "fetchedAtIST": "23/8/2026, 9:57:27 am",
   "events": [
     {
       "eventId": 181788691,
@@ -319,7 +319,7 @@
       "seriesNumber": "2026",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 15462934,
+      "versionNum": 15463094,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ie4l64.png",
       "placeholder": false,
       "isMovie": false,
@@ -337,7 +337,7 @@
       "seriesNumber": "2026",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 15462934,
+      "versionNum": 15463094,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/azwrf.png",
       "placeholder": false,
       "isMovie": false,
