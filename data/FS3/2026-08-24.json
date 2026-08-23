@@ -1,10 +1,28 @@
 {
   "channel": "FS3",
   "date": "2026-08-24",
-  "label": "tomorrow",
-  "fetchedAt": 1787501603275,
-  "fetchedAtIST": "23/8/2026, 9:43:23 pm",
+  "label": "today",
+  "fetchedAt": 1787515857713,
+  "fetchedAtIST": "24/8/2026, 1:40:57 am",
   "events": [
+    {
+      "eventId": 181872807,
+      "programTitle": "Live: USPGA: BMW Championship FR",
+      "channelId": 133,
+      "scheduledDate": 1787491800000,
+      "duration": 150,
+      "episodeTitle": "BMW Championship Final Round",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 15463244,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/p8xv2l.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 181891918,
       "programTitle": "Live: USPGA: BMW Championship FR",
