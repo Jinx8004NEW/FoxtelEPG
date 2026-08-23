@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-08-23",
   "label": "today",
-  "fetchedAt": 1787429514211,
-  "fetchedAtIST": "23/8/2026, 1:41:54 am",
+  "fetchedAt": 1787445647086,
+  "fetchedAtIST": "23/8/2026, 6:10:47 am",
   "events": [
     {
       "eventId": 181771914,
@@ -444,7 +444,7 @@
       "seriesNumber": "2026",
       "episodeNumber": "20",
       "displaySepNum": true,
-      "versionNum": 15380700,
+      "versionNum": 15380716,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8oj0w3.png",
       "placeholder": false,
       "isMovie": false,
