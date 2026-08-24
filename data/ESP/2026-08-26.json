@@ -1,9 +1,9 @@
 {
   "channel": "ESP",
   "date": "2026-08-26",
-  "label": "day after",
-  "fetchedAt": 1787588651595,
-  "fetchedAtIST": "24/8/2026, 9:54:11 pm",
+  "label": "tomorrow",
+  "fetchedAt": 1787602741641,
+  "fetchedAtIST": "25/8/2026, 1:49:01 am",
   "events": [
     {
       "eventId": 182058551,
