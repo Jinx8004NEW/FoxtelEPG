@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-08-27",
   "label": "day after",
-  "fetchedAt": 1787602719688,
-  "fetchedAtIST": "25/8/2026, 1:48:39 am",
+  "fetchedAt": 1787618319645,
+  "fetchedAtIST": "25/8/2026, 6:08:39 am",
   "events": [
     {
       "eventId": 181937983,
@@ -375,7 +375,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 15380716,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/z156q8.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -428,7 +428,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 15380716,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/z156q8.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -499,7 +499,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 15380716,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/z156q8.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

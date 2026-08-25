@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-08-26",
   "label": "tomorrow",
-  "fetchedAt": 1787602730003,
-  "fetchedAtIST": "25/8/2026, 1:48:50 am",
+  "fetchedAt": 1787618329957,
+  "fetchedAtIST": "25/8/2026, 6:08:49 am",
   "events": [
     {
       "eventId": 181872577,
@@ -377,7 +377,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 15463094,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7hie4m.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/lzinc5.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
