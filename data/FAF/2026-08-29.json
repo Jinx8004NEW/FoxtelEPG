@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-08-29",
   "label": "day after",
-  "fetchedAt": 1787783716447,
-  "fetchedAtIST": "27/8/2026, 4:05:16 am",
+  "fetchedAt": 1787809251877,
+  "fetchedAtIST": "27/8/2026, 11:10:51 am",
   "events": [
     {
       "eventId": 182092660,
@@ -141,7 +141,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 15722942,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ljltl2.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -195,7 +195,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 15722942,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ljltl2.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -249,7 +249,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 15722942,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ljltl2.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
