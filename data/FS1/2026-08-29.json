@@ -2,8 +2,8 @@
   "channel": "FS1",
   "date": "2026-08-29",
   "label": "today",
-  "fetchedAt": 1787962455893,
-  "fetchedAtIST": "29/8/2026, 5:44:15 am",
+  "fetchedAt": 1787999648926,
+  "fetchedAtIST": "29/8/2026, 4:04:08 pm",
   "events": [
     {
       "eventId": 182137726,
@@ -275,7 +275,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 15982060,
+      "versionNum": 15982018,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
       "placeholder": false,
       "isMovie": false,
