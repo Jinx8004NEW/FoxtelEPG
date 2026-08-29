@@ -1,10 +1,28 @@
 {
   "channel": "FSP",
   "date": "2026-08-30",
-  "label": "tomorrow",
-  "fetchedAt": 1788018923599,
-  "fetchedAtIST": "29/8/2026, 9:25:23 pm",
+  "label": "today",
+  "fetchedAt": 1788030008530,
+  "fetchedAtIST": "30/8/2026, 12:30:08 am",
   "events": [
+    {
+      "eventId": 182481068,
+      "programTitle": "Live: ETPL: Rotterdam v Belfast",
+      "channelId": 93,
+      "scheduledDate": 1788009300000,
+      "duration": 225,
+      "episodeTitle": "Rotterdam v Belfast",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 15982172,
+      "imageUrl": "",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 182031577,
       "programTitle": "Live: FIM Speedway World Cup: Final",
