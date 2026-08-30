@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-08-30",
   "label": "today",
-  "fetchedAt": 1788041236865,
-  "fetchedAtIST": "30/8/2026, 3:37:16 am",
+  "fetchedAt": 1788056416563,
+  "fetchedAtIST": "30/8/2026, 7:50:16 am",
   "events": [
     {
       "eventId": 182369731,
@@ -472,7 +472,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 15851264,
+      "versionNum": 16069848,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/t8kpmw.png",
       "placeholder": false,
       "isMovie": false,
