@@ -1,16 +1,16 @@
 {
   "channel": "4KF",
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "label": "today",
-  "fetchedAt": 1788449293889,
-  "fetchedAtIST": "3/9/2026, 8:58:13 pm",
+  "fetchedAt": 1788461981225,
+  "fetchedAtIST": "4/9/2026, 12:29:41 am",
   "events": [
     {
-      "eventId": "ycpxt8jnfbam0q4siaxr5udu00",
-      "programTitle": "Fremantle v Hawthorn",
-      "scheduledDate": 1788430200000,
-      "duration": 234,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/6r97i8bxkraphnzzs5i9ahugq_image-header_pRow_1788148171000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "eventId": "9aunnecjjl8t0uuq2fl53xd5q0",
+      "programTitle": "Geelong v Carlton",
+      "scheduledDate": 1788514800000,
+      "duration": 130,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/ai99035n908625ddcatdfo8x1_image-header_pRow_1788148214000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
