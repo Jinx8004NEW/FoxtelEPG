@@ -2,8 +2,8 @@
   "channel": "FS1",
   "date": "2026-09-03",
   "label": "today",
-  "fetchedAt": 1788386877770,
-  "fetchedAtIST": "3/9/2026, 3:37:57 am",
+  "fetchedAt": 1788400807667,
+  "fetchedAtIST": "3/9/2026, 7:30:07 am",
   "events": [
     {
       "eventId": 182507230,
@@ -285,7 +285,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 16412920,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/entegm.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -302,7 +302,7 @@
       "episodeNumber": "1",
       "displaySepNum": true,
       "versionNum": 16412920,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

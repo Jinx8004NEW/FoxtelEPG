@@ -2,8 +2,8 @@
   "channel": "FS3",
   "date": "2026-09-03",
   "label": "today",
-  "fetchedAt": 1788386889771,
-  "fetchedAtIST": "3/9/2026, 3:38:09 am",
+  "fetchedAt": 1788400819017,
+  "fetchedAtIST": "3/9/2026, 7:30:19 am",
   "events": [
     {
       "eventId": 182572247,
@@ -218,7 +218,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 16413113,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/wddypt.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
