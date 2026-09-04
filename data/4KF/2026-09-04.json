@@ -2,15 +2,15 @@
   "channel": "4KF",
   "date": "2026-09-04",
   "label": "today",
-  "fetchedAt": 1788510183661,
-  "fetchedAtIST": "4/9/2026, 1:53:03 pm",
+  "fetchedAt": 1788535538003,
+  "fetchedAtIST": "4/9/2026, 8:55:38 pm",
   "events": [
     {
       "eventId": "9aunnecjjl8t0uuq2fl53xd5q0",
       "programTitle": "Geelong v Carlton",
       "scheduledDate": 1788514800000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/ai99035n908625ddcatdfo8x1_image-header_pRow_1788148214000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 241,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/18fza6pq6geco3dtkdo4gh7c4_image-header_pRow_1788148214000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }

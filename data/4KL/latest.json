@@ -2,15 +2,15 @@
   "channel": "4KL",
   "date": "2026-09-04",
   "label": "today",
-  "fetchedAt": 1788510183659,
-  "fetchedAtIST": "4/9/2026, 1:53:03 pm",
+  "fetchedAt": 1788535538001,
+  "fetchedAtIST": "4/9/2026, 8:55:38 pm",
   "events": [
     {
       "eventId": "1893le2tops951q37rsgb2qba3",
       "programTitle": "Titans v Dolphins",
       "scheduledDate": 1788508800000,
-      "duration": 175,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/9cm5zw17frktxccw9yvosu8o6_image-header_pRow_1788313252000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 149,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/13psg90mgpv70un6ec0f5rlf_image-header_pRow_1788313252000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "NRL",
       "sport": "Rugby League"
     }
