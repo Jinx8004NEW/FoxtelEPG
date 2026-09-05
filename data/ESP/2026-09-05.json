@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-09-05",
   "label": "today",
-  "fetchedAt": 1788594944858,
-  "fetchedAtIST": "5/9/2026, 1:25:44 pm",
+  "fetchedAt": 1788607724922,
+  "fetchedAtIST": "5/9/2026, 4:58:44 pm",
   "events": [
     {
       "eventId": 182285798,
@@ -313,7 +313,7 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 16581160,
+      "versionNum": 16572753,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/uf5n5w.jpg",
       "placeholder": false,
       "isMovie": false,
