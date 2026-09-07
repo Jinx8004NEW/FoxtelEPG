@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-09-09",
   "label": "day after",
-  "fetchedAt": 1788731429687,
-  "fetchedAtIST": "7/9/2026, 3:20:29 am",
+  "fetchedAt": 1788745729538,
+  "fetchedAtIST": "7/9/2026, 7:18:49 am",
   "events": [
     {
       "eventId": 182361836,
@@ -51,7 +51,7 @@
       "episodeNumber": "24",
       "displaySepNum": true,
       "versionNum": 16745364,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/rxp1e.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
