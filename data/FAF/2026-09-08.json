@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-09-08",
   "label": "today",
-  "fetchedAt": 1788819773848,
-  "fetchedAtIST": "8/9/2026, 3:52:53 am",
+  "fetchedAt": 1788832776872,
+  "fetchedAtIST": "8/9/2026, 7:29:36 am",
   "events": [
     {
       "eventId": 182584239,
@@ -277,7 +277,7 @@
       "seriesNumber": "2026",
       "episodeNumber": "82",
       "displaySepNum": true,
-      "versionNum": 15722815,
+      "versionNum": 16845513,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/n8py45.png",
       "placeholder": false,
       "isMovie": false,
@@ -382,7 +382,7 @@
       "episodeNumber": "134",
       "displaySepNum": true,
       "versionNum": 16845513,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/a99xxe.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -417,7 +417,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 16845513,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ehb1rx.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -451,7 +451,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 16845513,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ehb1rx.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -485,7 +485,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 16845513,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ehb1rx.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -519,7 +519,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 16845513,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ehb1rx.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -553,7 +553,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 16845513,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ehb1rx.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -587,7 +587,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 16845513,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ehb1rx.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -621,7 +621,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 16845513,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ehb1rx.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

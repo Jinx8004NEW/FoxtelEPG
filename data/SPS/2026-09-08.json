@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-09-08",
   "label": "today",
-  "fetchedAt": 1788819785435,
-  "fetchedAtIST": "8/9/2026, 3:53:05 am",
+  "fetchedAt": 1788832788685,
+  "fetchedAtIST": "8/9/2026, 7:29:48 am",
   "events": [
     {
       "eventId": 182584503,
@@ -17,7 +17,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 16845474,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xt1ten.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -85,7 +85,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 16845474,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xt1ten.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -152,7 +152,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 16845474,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xt1ten.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
