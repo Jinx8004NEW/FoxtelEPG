@@ -2,8 +2,8 @@
   "channel": "FSS",
   "date": "2026-09-11",
   "label": "day after",
-  "fetchedAt": 1788905379654,
-  "fetchedAtIST": "9/9/2026, 3:39:39 am",
+  "fetchedAt": 1788919499737,
+  "fetchedAtIST": "9/9/2026, 7:34:59 am",
   "events": [
     {
       "eventId": 182687076,
@@ -181,7 +181,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 16845317,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -297,7 +297,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 16845317,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/w1w3gb.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ju5sp0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -313,7 +313,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 16845317,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/s2xa9q.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -330,7 +330,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 16845317,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6355o.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -347,7 +347,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 16845317,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ji0eq2.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -364,7 +364,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 16845317,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ji0eq2.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
