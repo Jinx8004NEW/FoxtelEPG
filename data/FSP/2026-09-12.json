@@ -1,9 +1,9 @@
 {
   "channel": "FSP",
   "date": "2026-09-12",
-  "label": "day after",
-  "fetchedAt": 1789054061224,
-  "fetchedAtIST": "10/9/2026, 8:57:41 pm",
+  "label": "tomorrow",
+  "fetchedAt": 1789066141549,
+  "fetchedAtIST": "11/9/2026, 12:19:01 am",
   "events": [
     {
       "eventId": 182317096,

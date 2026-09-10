@@ -1,10 +1,28 @@
 {
   "channel": "FSP",
   "date": "2026-09-11",
-  "label": "tomorrow",
-  "fetchedAt": 1789054059918,
-  "fetchedAtIST": "10/9/2026, 8:57:39 pm",
+  "label": "today",
+  "fetchedAt": 1789066140254,
+  "fetchedAtIST": "11/9/2026, 12:19:00 am",
   "events": [
+    {
+      "eventId": 182723660,
+      "programTitle": "Live: CPL: Tridents v Patriots",
+      "channelId": 93,
+      "scheduledDate": 1789048500000,
+      "duration": 245,
+      "episodeTitle": "Tridents v Patriots",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 17033984,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ojztt.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 182725252,
       "programTitle": "Porsche Supercup Highlights",

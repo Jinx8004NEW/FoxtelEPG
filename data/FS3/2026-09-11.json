@@ -1,10 +1,28 @@
 {
   "channel": "FS3",
   "date": "2026-09-11",
-  "label": "tomorrow",
-  "fetchedAt": 1789054048403,
-  "fetchedAtIST": "10/9/2026, 8:57:28 pm",
+  "label": "today",
+  "fetchedAt": 1789066129181,
+  "fetchedAtIST": "11/9/2026, 12:18:49 am",
   "events": [
+    {
+      "eventId": 182280837,
+      "programTitle": "Live: Golf: Irish Open Round 1",
+      "channelId": 133,
+      "scheduledDate": 1789043400000,
+      "duration": 330,
+      "episodeTitle": "Irish Open Round 1",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 17078639,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/f79u4x.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 182687112,
       "programTitle": "USPGA: Tour Championship Final Round",

@@ -1,10 +1,27 @@
 {
   "channel": "FSS",
   "date": "2026-09-11",
-  "label": "tomorrow",
-  "fetchedAt": 1789054071386,
-  "fetchedAtIST": "10/9/2026, 8:57:51 pm",
+  "label": "today",
+  "fetchedAt": 1789066151304,
+  "fetchedAtIST": "11/9/2026, 12:19:11 am",
   "events": [
+    {
+      "eventId": 182644077,
+      "programTitle": "Live: ETPL: Belfast v Amsterdam",
+      "channelId": 664,
+      "scheduledDate": 1789046100000,
+      "duration": 225,
+      "episodeTitle": "Belfast v Amsterdam",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 17018935,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ic48sf.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 182687076,
       "programTitle": "SailGP: Spain Day 1",
