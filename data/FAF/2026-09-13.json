@@ -1,9 +1,9 @@
 {
   "channel": "FAF",
   "date": "2026-09-13",
-  "label": "day after",
-  "fetchedAt": 1789140576077,
-  "fetchedAtIST": "11/9/2026, 8:59:36 pm",
+  "label": "tomorrow",
+  "fetchedAt": 1789152705313,
+  "fetchedAtIST": "12/9/2026, 12:21:45 am",
   "events": [
     {
       "eventId": 182775025,
