@@ -2,15 +2,15 @@
   "channel": "4KF",
   "date": "2026-09-12",
   "label": "today",
-  "fetchedAt": 1789200832210,
-  "fetchedAtIST": "12/9/2026, 1:43:52 pm",
+  "fetchedAt": 1789223889871,
+  "fetchedAtIST": "12/9/2026, 8:08:09 pm",
   "events": [
     {
       "eventId": "3chhl9olr4aw0133ipdn7fsg7s",
       "programTitle": "Brisbane v Adelaide Semi Final",
       "scheduledDate": 1789205700000,
-      "duration": 130,
-      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/52zdf5xjvqyh7nlz40vumgf7m_image-header_pRow_1788840111000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
+      "duration": 266,
+      "imageUrl": "https://image.discovery.indazn.com/jp/v3/jp/none/bb3ngqu3uoyok4e06e0f1fxp_image-header_pRow_1788840111000/fill/none/top/none/80/1920/1080/webp/image?brand=kayo",
       "competitionTitle": "AFL",
       "sport": "Australian Rules Football"
     }
