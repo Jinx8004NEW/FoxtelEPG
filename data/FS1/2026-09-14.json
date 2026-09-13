@@ -1,10 +1,27 @@
 {
   "channel": "FS1",
   "date": "2026-09-14",
-  "label": "tomorrow",
-  "fetchedAt": 1789323892966,
-  "fetchedAtIST": "13/9/2026, 11:54:52 pm",
+  "label": "today",
+  "fetchedAt": 1789336497416,
+  "fetchedAtIST": "14/9/2026, 3:24:57 am",
   "events": [
+    {
+      "eventId": 182844172,
+      "programTitle": "Live: LIVE: T20: Afghanistan v India: G",
+      "channelId": 9,
+      "scheduledDate": 1789307400000,
+      "duration": 245,
+      "episodeTitle": "Afghanistan v India: Game 1",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "NEW EPISODE",
+      "displaySepNum": true,
+      "versionNum": 17293678,
+      "imageUrl": "",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 182805601,
       "programTitle": "Live: WCPL: Guyana v Barbados",
