@@ -2,162 +2,9 @@
   "channel": "FSN",
   "date": "2026-09-13",
   "label": "today",
-  "fetchedAt": 1789288611620,
-  "fetchedAtIST": "13/9/2026, 2:06:51 pm",
+  "fetchedAt": 1789312565825,
+  "fetchedAtIST": "13/9/2026, 8:46:05 pm",
   "events": [
-    {
-      "eventId": 182483191,
-      "programTitle": "FOX SPORTS News",
-      "channelId": 126,
-      "scheduledDate": 1789219800000,
-      "duration": 30,
-      "episodeTitle": "Saturday 12 September 2026",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 15795272,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182483192,
-      "programTitle": "FOX SPORTS News",
-      "channelId": 126,
-      "scheduledDate": 1789221600000,
-      "duration": 30,
-      "episodeTitle": "Saturday 12 September 2026",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 15795272,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182483193,
-      "programTitle": "FOX SPORTS News",
-      "channelId": 126,
-      "scheduledDate": 1789223400000,
-      "duration": 30,
-      "episodeTitle": "Saturday 12 September 2026",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 15795272,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182483194,
-      "programTitle": "FOX SPORTS News",
-      "channelId": 126,
-      "scheduledDate": 1789225200000,
-      "duration": 30,
-      "episodeTitle": "Saturday 12 September 2026",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 15795272,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182483195,
-      "programTitle": "FOX SPORTS News",
-      "channelId": 126,
-      "scheduledDate": 1789227000000,
-      "duration": 30,
-      "episodeTitle": "Saturday 12 September 2026",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 15795272,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182483196,
-      "programTitle": "FOX SPORTS News",
-      "channelId": 126,
-      "scheduledDate": 1789228800000,
-      "duration": 30,
-      "episodeTitle": "Saturday 12 September 2026",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 15795272,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182483197,
-      "programTitle": "FOX SPORTS News",
-      "channelId": 126,
-      "scheduledDate": 1789230600000,
-      "duration": 30,
-      "episodeTitle": "Saturday 12 September 2026",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 15795272,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182483198,
-      "programTitle": "FOX SPORTS News",
-      "channelId": 126,
-      "scheduledDate": 1789232400000,
-      "duration": 30,
-      "episodeTitle": "Saturday 12 September 2026",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 15795272,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182483199,
-      "programTitle": "FOX SPORTS News",
-      "channelId": 126,
-      "scheduledDate": 1789234200000,
-      "duration": 30,
-      "episodeTitle": "Saturday 12 September 2026",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 15795272,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
     {
       "eventId": 182483200,
       "programTitle": "FOX SPORTS News",
@@ -172,8 +19,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483201,
@@ -189,8 +36,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483202,
@@ -206,8 +53,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483203,
@@ -223,8 +70,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483204,
@@ -240,8 +87,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483205,
@@ -257,8 +104,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483206,
@@ -274,8 +121,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/8kuhs.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483207,
@@ -291,8 +138,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/8kuhs.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483208,
@@ -308,8 +155,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/8kuhs.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483209,
@@ -325,8 +172,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/8kuhs.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483210,
@@ -342,8 +189,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/8kuhs.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483211,
@@ -359,8 +206,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/8kuhs.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483212,
@@ -376,8 +223,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483213,
@@ -393,8 +240,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483214,
@@ -410,8 +257,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483215,
@@ -427,8 +274,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483216,
@@ -444,8 +291,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483217,
@@ -461,8 +308,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483218,
@@ -478,8 +325,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483219,
@@ -495,8 +342,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483220,
@@ -512,8 +359,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483221,
@@ -529,8 +376,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483222,
@@ -546,8 +393,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483223,
@@ -563,8 +410,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483224,
@@ -580,8 +427,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483225,
@@ -597,8 +444,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483226,
@@ -614,8 +461,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483227,
@@ -631,8 +478,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483228,
@@ -648,8 +495,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/bwla8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483229,
@@ -665,8 +512,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/bwla8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483230,
@@ -682,8 +529,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/bwla8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483231,
@@ -699,8 +546,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/bwla8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483232,
@@ -716,8 +563,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/bwla8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483233,
@@ -733,8 +580,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/bwla8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483234,
@@ -750,8 +597,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/bwla8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483235,
@@ -767,8 +614,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/bwla8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483236,
@@ -784,8 +631,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483237,
@@ -801,8 +648,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483238,
@@ -818,8 +665,8 @@
       "versionNum": 15795272,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182483239,
@@ -998,6 +845,687 @@
       "scheduledDate": 1789324200000,
       "duration": 30,
       "episodeTitle": "Sunday 13 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483250,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789326000000,
+      "duration": 30,
+      "episodeTitle": "Sunday 13 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483251,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789327800000,
+      "duration": 30,
+      "episodeTitle": "Sunday 13 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483252,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789329600000,
+      "duration": 30,
+      "episodeTitle": "Sunday 13 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483253,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789331400000,
+      "duration": 30,
+      "episodeTitle": "Sunday 13 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483254,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789333200000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483255,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789335000000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483256,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789336800000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483257,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789338600000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483258,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789340400000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483259,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789342200000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483260,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789344000000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483261,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789345800000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483262,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789347600000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483263,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789349400000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483264,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789351200000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483265,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789353000000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182759629,
+      "programTitle": "Finals Footy with Matty Johns",
+      "channelId": 126,
+      "scheduledDate": 1789354800000,
+      "duration": 60,
+      "episodeTitle": "Episode 1",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182759630,
+      "programTitle": "NRL Mini: EF2",
+      "channelId": 126,
+      "scheduledDate": 1789358400000,
+      "duration": 20,
+      "episodeTitle": "EF2",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "episodeNumber": "207",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8c6np4.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182759631,
+      "programTitle": "NRL Mini: QF2",
+      "channelId": 126,
+      "scheduledDate": 1789359600000,
+      "duration": 20,
+      "episodeTitle": "QF2",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8c6np4.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182759632,
+      "programTitle": "AFL Mini: Semi Final 1",
+      "channelId": 126,
+      "scheduledDate": 1789360800000,
+      "duration": 20,
+      "episodeTitle": "Semi Final 1",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/coyzou.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182759633,
+      "programTitle": "F1 Mini: Spain",
+      "channelId": 126,
+      "scheduledDate": 1789362000000,
+      "duration": 30,
+      "episodeTitle": "Spain",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1oavam.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182759634,
+      "programTitle": "AFLW Mini: Round 5 SYD v GWS",
+      "channelId": 126,
+      "scheduledDate": 1789363800000,
+      "duration": 20,
+      "episodeTitle": "Round 5 SYD v GWS",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/vfq7f7.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182759635,
+      "programTitle": "AFLW Mini: Round 5 NM v CAR",
+      "channelId": 126,
+      "scheduledDate": 1789365000000,
+      "duration": 20,
+      "episodeTitle": "Round 5 NM v CAR",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/vfq7f7.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182759636,
+      "programTitle": "NRLW MINI: Round 11 BRI v WAR",
+      "channelId": 126,
+      "scheduledDate": 1789366200000,
+      "duration": 20,
+      "episodeTitle": "Round 11 BRI v WAR",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/vb1736.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182759637,
+      "programTitle": "F1 Mini: Spain",
+      "channelId": 126,
+      "scheduledDate": 1789367400000,
+      "duration": 30,
+      "episodeTitle": "Spain",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1oavam.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483278,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789369200000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483279,
+      "programTitle": "AFL Tonight",
+      "channelId": 126,
+      "scheduledDate": 1789371000000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/a99xxe.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483280,
+      "programTitle": "NRL Tonight",
+      "channelId": 126,
+      "scheduledDate": 1789372800000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/aqozar.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483281,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789374600000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483282,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789376400000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483283,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789378200000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483284,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789380000000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483285,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789381800000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483286,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789383600000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483287,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789385400000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483288,
+      "programTitle": "NRL Tonight",
+      "channelId": 126,
+      "scheduledDate": 1789387200000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/aqozar.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483289,
+      "programTitle": "AFL Tonight",
+      "channelId": 126,
+      "scheduledDate": 1789389000000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/a99xxe.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483290,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789390800000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483291,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789392600000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 15795272,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okdfp8.jpg",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182483292,
+      "programTitle": "FOX SPORTS News",
+      "channelId": 126,
+      "scheduledDate": 1789394400000,
+      "duration": 30,
+      "episodeTitle": "Monday 14 September 2026",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
