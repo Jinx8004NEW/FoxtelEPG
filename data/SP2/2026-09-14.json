@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-09-14",
   "label": "tomorrow",
-  "fetchedAt": 1789312578414,
-  "fetchedAtIST": "13/9/2026, 8:46:18 pm",
+  "fetchedAt": 1789323898663,
+  "fetchedAtIST": "13/9/2026, 11:54:58 pm",
   "events": [
     {
       "eventId": 182805564,
@@ -573,7 +573,7 @@
       "seriesNumber": "2026",
       "episodeNumber": "27",
       "displaySepNum": true,
-      "versionNum": 17332295,
+      "versionNum": 17280533,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hapgph.png",
       "placeholder": false,
       "isMovie": false,
