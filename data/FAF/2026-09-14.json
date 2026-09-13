@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-09-14",
   "label": "tomorrow",
-  "fetchedAt": 1789249729229,
-  "fetchedAtIST": "13/9/2026, 3:18:49 am",
+  "fetchedAt": 1789264763776,
+  "fetchedAtIST": "13/9/2026, 7:29:23 am",
   "events": [
     {
       "eventId": 182804889,
@@ -113,7 +113,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 17192308,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/cclxd.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/fo22v.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -129,7 +129,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 17192308,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/cclxd.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/fo22v.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -145,7 +145,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 17192308,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/cclxd.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/fo22v.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
