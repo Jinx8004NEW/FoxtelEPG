@@ -2,94 +2,9 @@
   "channel": "SP2",
   "date": "2026-09-14",
   "label": "today",
-  "fetchedAt": 1789377721418,
-  "fetchedAtIST": "14/9/2026, 2:52:01 pm",
+  "fetchedAt": 1789406007973,
+  "fetchedAtIST": "14/9/2026, 10:43:27 pm",
   "events": [
-    {
-      "eventId": 182805562,
-      "programTitle": "Finals Footy with Matty Johns",
-      "channelId": 10,
-      "scheduledDate": 1789306500000,
-      "duration": 63,
-      "episodeTitle": "Episode 1",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "episodeNumber": "1",
-      "displaySepNum": true,
-      "versionNum": 17407703,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/yau01h.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182853527,
-      "programTitle": "NRL: Panthers v Roosters QF",
-      "channelId": 10,
-      "scheduledDate": 1789310280000,
-      "duration": 61,
-      "episodeTitle": "Panthers v Roosters QF",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17407703,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v4nc6i.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182758011,
-      "programTitle": "NRL: Rabbitohs v Knights EF",
-      "channelId": 10,
-      "scheduledDate": 1789313940000,
-      "duration": 56,
-      "episodeTitle": "Rabbitohs v Knights EF",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17407703,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/zewlif.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182758012,
-      "programTitle": "NRL: Warriors v Dolphins QF",
-      "channelId": 10,
-      "scheduledDate": 1789317300000,
-      "duration": 58,
-      "episodeTitle": "Warriors v Dolphins QF",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17407703,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/lohfjy.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182775237,
-      "programTitle": "NRL: Sharks v Cowboys EF",
-      "channelId": 10,
-      "scheduledDate": 1789320780000,
-      "duration": 55,
-      "episodeTitle": "Sharks v Cowboys EF",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17407703,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/n9whpj.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
     {
       "eventId": 182805564,
       "programTitle": "NRL: Panthers v Roosters QF",
@@ -104,8 +19,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v4nc6i.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182758015,
@@ -121,8 +36,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/zewlif.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853528,
@@ -138,8 +53,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1i41qg.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182805565,
@@ -155,8 +70,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/yau01h.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182774721,
@@ -172,8 +87,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/tt7052.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182774722,
@@ -189,8 +104,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/uz5y1u.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182775239,
@@ -206,8 +121,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1i41qg.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182805566,
@@ -224,8 +139,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/s7shaz.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182774725,
@@ -241,8 +156,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/tt7052.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182774918,
@@ -258,8 +173,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/uz5y1u.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182805567,
@@ -275,8 +190,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/yau01h.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182743511,
@@ -292,8 +207,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xjl5rw.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182805568,
@@ -309,8 +224,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/vb1736.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182805569,
@@ -326,8 +241,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/grgtsu.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182805570,
@@ -343,8 +258,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/yau01h.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182805571,
@@ -360,8 +275,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/buxh06.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182805572,
@@ -377,8 +292,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/vb1736.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182805573,
@@ -394,8 +309,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/vb1736.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182805574,
@@ -411,8 +326,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/yau01h.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182775240,
@@ -428,8 +343,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1i41qg.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182805575,
@@ -446,8 +361,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/s7shaz.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182774728,
@@ -463,8 +378,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/tt7052.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182805580,
@@ -480,8 +395,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/yau01h.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182743523,
@@ -497,8 +412,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/zhci72.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182137517,
@@ -516,8 +431,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/aqozar.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182137518,
@@ -535,8 +450,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/366rlp.jpg",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182137519,
@@ -553,8 +468,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hapgph.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182241966,
@@ -571,8 +486,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/366rlp.jpg",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182241967,
@@ -589,8 +504,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hapgph.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182241968,
@@ -607,8 +522,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/366rlp.jpg",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182241969,
@@ -625,8 +540,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hapgph.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182241970,
@@ -677,8 +592,8 @@
       "versionNum": 17407703,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182758028,
@@ -695,8 +610,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hapgph.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182769093,
@@ -712,8 +627,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/lohfjy.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798209,
@@ -729,8 +644,8 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/n9whpj.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805577,
@@ -746,8 +661,467 @@
       "versionNum": 17407703,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v4nc6i.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182769096,
+      "programTitle": "NRL: Rabbitohs v Knights EF",
+      "channelId": 10,
+      "scheduledDate": 1789412400000,
+      "duration": 60,
+      "episodeTitle": "Rabbitohs v Knights EF",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/zewlif.png",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798211,
+      "programTitle": "NRLW MINI: Roosters v Bulldogs",
+      "channelId": 10,
+      "scheduledDate": 1789416000000,
+      "duration": 20,
+      "episodeTitle": "Roosters v Bulldogs",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xjl5rw.png",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182805578,
+      "programTitle": "NRLW MINI: Wests Tigers v Raiders",
+      "channelId": 10,
+      "scheduledDate": 1789417200000,
+      "duration": 20,
+      "episodeTitle": "Wests Tigers v Raiders",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/vb1736.png",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182805579,
+      "programTitle": "NRLW MINI: Eels v Cowboys",
+      "channelId": 10,
+      "scheduledDate": 1789418400000,
+      "duration": 20,
+      "episodeTitle": "Eels v Cowboys",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/grgtsu.png",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798214,
+      "programTitle": "NRL 360",
+      "channelId": 10,
+      "scheduledDate": 1789419600000,
+      "duration": 60,
+      "episodeTitle": "NRL 360",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798215,
+      "programTitle": "Matty & Cronk",
+      "channelId": 10,
+      "scheduledDate": 1789423200000,
+      "duration": 30,
+      "episodeTitle": "Episode 27",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "episodeNumber": "27",
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hapgph.png",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798216,
+      "programTitle": "NRL 360",
+      "channelId": 10,
+      "scheduledDate": 1789425000000,
+      "duration": 60,
+      "episodeTitle": "NRL 360",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798217,
+      "programTitle": "League Lounge",
+      "channelId": 10,
+      "scheduledDate": 1789428600000,
+      "duration": 30,
+      "episodeTitle": "League Lounge",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/vb72js.png",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798218,
+      "programTitle": "NRL 360",
+      "channelId": 10,
+      "scheduledDate": 1789430400000,
+      "duration": 60,
+      "episodeTitle": "NRL 360",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798219,
+      "programTitle": "Matty & Cronk",
+      "channelId": 10,
+      "scheduledDate": 1789434000000,
+      "duration": 30,
+      "episodeTitle": "Episode 27",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "episodeNumber": "27",
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hapgph.png",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798220,
+      "programTitle": "NRL 360",
+      "channelId": 10,
+      "scheduledDate": 1789435800000,
+      "duration": 60,
+      "episodeTitle": "NRL 360",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798221,
+      "programTitle": "Matty & Cronk",
+      "channelId": 10,
+      "scheduledDate": 1789439400000,
+      "duration": 30,
+      "episodeTitle": "Episode 27",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "episodeNumber": "27",
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hapgph.png",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798222,
+      "programTitle": "NRL 360",
+      "channelId": 10,
+      "scheduledDate": 1789441200000,
+      "duration": 60,
+      "episodeTitle": "NRL 360",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798223,
+      "programTitle": "Matty & Cronk",
+      "channelId": 10,
+      "scheduledDate": 1789444800000,
+      "duration": 30,
+      "episodeTitle": "Episode 27",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "episodeNumber": "27",
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hapgph.png",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798224,
+      "programTitle": "NRL 360",
+      "channelId": 10,
+      "scheduledDate": 1789446600000,
+      "duration": 60,
+      "episodeTitle": "NRL 360",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798225,
+      "programTitle": "Matty & Cronk",
+      "channelId": 10,
+      "scheduledDate": 1789450200000,
+      "duration": 30,
+      "episodeTitle": "Episode 27",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "episodeNumber": "27",
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hapgph.png",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798226,
+      "programTitle": "NRL 360",
+      "channelId": 10,
+      "scheduledDate": 1789452000000,
+      "duration": 60,
+      "episodeTitle": "NRL 360",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182743524,
+      "programTitle": "Live: The Run Home with Fletch and Scop",
+      "channelId": 10,
+      "scheduledDate": 1789455600000,
+      "duration": 60,
+      "episodeTitle": "The Run Home with Scope and Fletch",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/zhci72.png",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182137528,
+      "programTitle": "Live: NRL Tonight",
+      "channelId": 10,
+      "scheduledDate": 1789459200000,
+      "duration": 30,
+      "episodeTitle": "Episode 145",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "episodeNumber": "145",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/aqozar.png",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182137529,
+      "programTitle": "Live: NRL 360",
+      "channelId": 10,
+      "scheduledDate": 1789461000000,
+      "duration": 60,
+      "episodeTitle": "Episode 90",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "episodeNumber": "89",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/366rlp.jpg",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182743525,
+      "programTitle": "Live: Face to Face on Fox: Craig Gower",
+      "channelId": 10,
+      "scheduledDate": 1789464600000,
+      "duration": 30,
+      "episodeTitle": "Craig Gower",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/yysszf.png",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798227,
+      "programTitle": "NRL 360",
+      "channelId": 10,
+      "scheduledDate": 1789466400000,
+      "duration": 60,
+      "episodeTitle": "NRL 360",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798228,
+      "programTitle": "Face to Face on Fox: Craig Gower",
+      "channelId": 10,
+      "scheduledDate": 1789470000000,
+      "duration": 30,
+      "episodeTitle": "Craig Gower",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/yysszf.png",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798229,
+      "programTitle": "NRL 360",
+      "channelId": 10,
+      "scheduledDate": 1789471800000,
+      "duration": 60,
+      "episodeTitle": "NRL 360",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798230,
+      "programTitle": "Face to Face on Fox: Craig Gower",
+      "channelId": 10,
+      "scheduledDate": 1789475400000,
+      "duration": 30,
+      "episodeTitle": "Craig Gower",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/yysszf.png",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798231,
+      "programTitle": "NRL 360",
+      "channelId": 10,
+      "scheduledDate": 1789477200000,
+      "duration": 60,
+      "episodeTitle": "NRL 360",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182798232,
+      "programTitle": "Face to Face on Fox: Craig Gower",
+      "channelId": 10,
+      "scheduledDate": 1789480800000,
+      "duration": 30,
+      "episodeTitle": "Craig Gower",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 17407703,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/yysszf.png",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
     }
   ]
 }
