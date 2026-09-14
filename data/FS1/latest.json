@@ -2,8 +2,8 @@
   "channel": "FS1",
   "date": "2026-09-14",
   "label": "today",
-  "fetchedAt": 1789336497416,
-  "fetchedAtIST": "14/9/2026, 3:24:57 am",
+  "fetchedAt": 1789352215983,
+  "fetchedAtIST": "14/9/2026, 7:46:55 am",
   "events": [
     {
       "eventId": 182844172,
@@ -16,11 +16,11 @@
       "premiereInd": false,
       "pashTag": "NEW EPISODE",
       "displaySepNum": true,
-      "versionNum": 17293678,
-      "imageUrl": "",
+      "versionNum": 17379092,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805601,
@@ -34,11 +34,11 @@
       "seriesNumber": "2026",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17293678,
+      "versionNum": 17379092,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/yubqnv.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182719480,
@@ -51,11 +51,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17293678,
+      "versionNum": 17379092,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/jbjkxd.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805602,
@@ -68,11 +68,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17293678,
+      "versionNum": 17379092,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ojztt.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805603,
@@ -86,27 +86,27 @@
       "seriesNumber": "2026",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17293678,
+      "versionNum": 17379092,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ojztt.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805424,
-      "programTitle": "Test: England v Pakistan 3rd Test Day 5",
+      "programTitle": "Test: England v Pakistan 3rd Test Day 4",
       "channelId": 9,
       "scheduledDate": 1789354800000,
       "duration": 60,
-      "episodeTitle": "England v Pakistan 3rd Test Day 5",
+      "episodeTitle": "England v Pakistan 3rd Test Day 4",
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17293678,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/a0qivb.png",
+      "versionNum": 17379092,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805425,
@@ -114,15 +114,15 @@
       "channelId": 9,
       "scheduledDate": 1789358400000,
       "duration": 20,
-      "episodeTitle": "England v Pakistan 3rd Test Day 5",
+      "episodeTitle": "England v Pakistan 3rd Test Day 4",
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17293678,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8g4uwg.png",
+      "versionNum": 17379092,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/oqdza2.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805426,
@@ -134,11 +134,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17293678,
+      "versionNum": 17379092,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xaq7ke.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182492889,
@@ -151,11 +151,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17293678,
+      "versionNum": 17379092,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/jbjkxd.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805427,
@@ -167,11 +167,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17293678,
+      "versionNum": 17379092,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/huv6l8.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805605,
@@ -183,27 +183,27 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17293678,
+      "versionNum": 17379092,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/f4jns8.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805405,
-      "programTitle": "Test: England v Pakistan 3rd Test Day 5",
+      "programTitle": "Test: England v Pakistan 3rd Test Day 4",
       "channelId": 9,
       "scheduledDate": 1789367400000,
       "duration": 60,
-      "episodeTitle": "England v Pakistan 3rd Test Day 5",
+      "episodeTitle": "England v Pakistan 3rd Test Day 4",
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17293678,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/a0qivb.png",
+      "versionNum": 17379092,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182769056,
@@ -215,11 +215,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17293678,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7ln93.png",
+      "versionNum": 17379092,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6kzlf.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805606,
@@ -232,11 +232,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17293678,
+      "versionNum": 17379092,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ojztt.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182769058,
@@ -248,11 +248,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17293678,
+      "versionNum": 17379092,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7ln93.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182769059,
@@ -264,11 +264,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17293678,
+      "versionNum": 17379092,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7ln93.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182769060,
@@ -280,11 +280,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17293678,
+      "versionNum": 17379092,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7ln93.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182769061,
@@ -296,11 +296,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17293678,
+      "versionNum": 17379092,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7ln93.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182769062,
@@ -312,11 +312,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17293678,
+      "versionNum": 17379092,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8wksf.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805407,
@@ -328,11 +328,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17293678,
+      "versionNum": 17379092,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182769063,
@@ -343,8 +343,9 @@
       "episodeTitle": "Australia v Bangladesh 1st Test Day 2",
       "parentalRating": "NC",
       "premiereInd": false,
+      "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17293678,
+      "versionNum": 17379092,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
       "placeholder": false,
       "isMovie": false,
@@ -359,8 +360,9 @@
       "episodeTitle": "Australia v Bangladesh 1st Test Day 3",
       "parentalRating": "NC",
       "premiereInd": false,
+      "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17293678,
+      "versionNum": 17379092,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/j2j4q3.png",
       "placeholder": false,
       "isMovie": false,
@@ -376,7 +378,7 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17293678,
+      "versionNum": 17379092,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/u0h32j.png",
       "placeholder": false,
       "isMovie": false,
@@ -392,7 +394,7 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17293678,
+      "versionNum": 17379092,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
       "placeholder": false,
       "isMovie": false,
