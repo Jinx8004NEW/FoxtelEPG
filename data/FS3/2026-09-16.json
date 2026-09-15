@@ -1,10 +1,27 @@
 {
   "channel": "FS3",
   "date": "2026-09-16",
-  "label": "tomorrow",
-  "fetchedAt": 1789487600346,
-  "fetchedAtIST": "15/9/2026, 9:23:20 pm",
+  "label": "today",
+  "fetchedAt": 1789500113372,
+  "fetchedAtIST": "16/9/2026, 12:51:53 am",
   "events": [
+    {
+      "eventId": 182853488,
+      "programTitle": "Live: T20: Afghanistan v India",
+      "channelId": 133,
+      "scheduledDate": 1789480200000,
+      "duration": 250,
+      "episodeTitle": "Afghanistan v India",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 17484198,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8x75p7.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 182369796,
       "programTitle": "Golf: Dubai Desert Classic Final Round",
@@ -327,8 +344,8 @@
       "versionNum": 17484198,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     }
   ]
 }

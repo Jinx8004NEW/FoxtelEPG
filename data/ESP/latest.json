@@ -1,276 +1,10 @@
 {
   "channel": "ESP",
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "label": "today",
-  "fetchedAt": 1789487628250,
-  "fetchedAtIST": "15/9/2026, 9:23:48 pm",
+  "fetchedAt": 1789500142097,
+  "fetchedAtIST": "16/9/2026, 12:52:22 am",
   "events": [
-    {
-      "eventId": 182633025,
-      "programTitle": "Live: Big Day with Peter Schrager: Tues",
-      "channelId": 13,
-      "scheduledDate": 1789408800000,
-      "duration": 60,
-      "episodeTitle": "Tuesday 15 September 2026",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "pashTag": "LIVE",
-      "displaySepNum": true,
-      "versionNum": 17436581,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182456809,
-      "programTitle": "Live: NFL Live",
-      "channelId": 13,
-      "scheduledDate": 1789412400000,
-      "duration": 120,
-      "episodeTitle": "Tuesday 15 September 2026",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "pashTag": "LIVE",
-      "displaySepNum": true,
-      "versionNum": 17436581,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/l4q2st.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182456810,
-      "programTitle": "Live: SportsCenter",
-      "channelId": 13,
-      "scheduledDate": 1789419600000,
-      "duration": 30,
-      "episodeTitle": "Tuesday 15 September 2026",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "pashTag": "LIVE",
-      "displaySepNum": true,
-      "versionNum": 17436581,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/u9hfs3.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182456811,
-      "programTitle": "Live: Pardon The Interruption",
-      "channelId": 13,
-      "scheduledDate": 1789421400000,
-      "duration": 30,
-      "episodeTitle": "Tuesday 15 September 2026",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "pashTag": "LIVE",
-      "displaySepNum": true,
-      "versionNum": 17436581,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/uegl9r.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182456812,
-      "programTitle": "Live: Monday Night Countdown: Tuesday 1",
-      "channelId": 13,
-      "scheduledDate": 1789423200000,
-      "duration": 120,
-      "episodeTitle": "Tuesday 15 September 2026",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "pashTag": "LIVE",
-      "displaySepNum": true,
-      "versionNum": 17436581,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182456813,
-      "programTitle": "Live: Monday Night Kickoff: Progressive",
-      "channelId": 13,
-      "scheduledDate": 1789430400000,
-      "duration": 15,
-      "episodeTitle": "Progressive Monday Night Kickoff",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "pashTag": "LIVE",
-      "displaySepNum": true,
-      "versionNum": 17436581,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182482701,
-      "programTitle": "Live: NFL: Chiefs vs. Broncos",
-      "channelId": 13,
-      "scheduledDate": 1789431300000,
-      "duration": 180,
-      "episodeTitle": "Chiefs vs. Broncos",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "pashTag": "LIVE",
-      "displaySepNum": true,
-      "versionNum": 17436581,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ryzgkv.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182482702,
-      "programTitle": "Live: Monday Night Postgame Presented b",
-      "channelId": 13,
-      "scheduledDate": 1789442100000,
-      "duration": 15,
-      "episodeTitle": "Monday Night Postgame",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "pashTag": "LIVE",
-      "displaySepNum": true,
-      "versionNum": 17436581,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182482703,
-      "programTitle": "Live: SportsCenter with Scott Van Pelt:",
-      "channelId": 13,
-      "scheduledDate": 1789443000000,
-      "duration": 60,
-      "episodeTitle": "Tuesday 15 September 2026",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "pashTag": "LIVE",
-      "displaySepNum": true,
-      "versionNum": 17436581,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/u9hfs3.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182482704,
-      "programTitle": "Live: SportsCenter",
-      "channelId": 13,
-      "scheduledDate": 1789446600000,
-      "duration": 60,
-      "episodeTitle": "Tuesday 15 September 2026",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "pashTag": "LIVE",
-      "displaySepNum": true,
-      "versionNum": 17436581,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/u9hfs3.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182482705,
-      "programTitle": "SC: Australia Weekly",
-      "channelId": 13,
-      "scheduledDate": 1789450200000,
-      "duration": 30,
-      "episodeTitle": "SC: Australia Weekly",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17436581,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/aylz6.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182482706,
-      "programTitle": "NFL: Chiefs vs. Broncos",
-      "channelId": 13,
-      "scheduledDate": 1789452000000,
-      "duration": 120,
-      "episodeTitle": "Chiefs vs. Broncos",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17436581,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ryzgkv.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182592523,
-      "programTitle": "SC: Australia Weekly",
-      "channelId": 13,
-      "scheduledDate": 1789459200000,
-      "duration": 30,
-      "episodeTitle": "SC: Australia Weekly",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17436581,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/aylz6.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182482708,
-      "programTitle": "ESPN FC: Tuesday 15 September 2026",
-      "channelId": 13,
-      "scheduledDate": 1789461000000,
-      "duration": 30,
-      "episodeTitle": "Tuesday 15 September 2026",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17436581,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/uf5n5w.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182482709,
-      "programTitle": "NFL: Chiefs vs. Broncos",
-      "channelId": 13,
-      "scheduledDate": 1789462800000,
-      "duration": 150,
-      "episodeTitle": "Chiefs vs. Broncos",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17436581,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ryzgkv.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182482710,
-      "programTitle": "SC: Australia Weekly",
-      "channelId": 13,
-      "scheduledDate": 1789471800000,
-      "duration": 30,
-      "episodeTitle": "SC: Australia Weekly",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17436581,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/aylz6.jpg",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
     {
       "eventId": 182482711,
       "programTitle": "Live: Get Up",
@@ -282,11 +16,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/390xty.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182482712,
@@ -299,11 +33,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/439uum.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182482713,
@@ -316,11 +50,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/5xgtu4.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182633026,
@@ -333,11 +67,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182482715,
@@ -350,11 +84,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/5z7u4x.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182482716,
@@ -367,11 +101,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/l4q2st.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182482717,
@@ -383,11 +117,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/aylz6.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182482718,
@@ -400,11 +134,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/uegl9r.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182482719,
@@ -417,11 +151,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/u9hfs3.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182482720,
@@ -433,11 +167,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/aylz6.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182482721,
@@ -450,11 +184,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/aylz6.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182482722,
@@ -467,11 +201,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/bhld3a.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182500468,
@@ -484,11 +218,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/u9hfs3.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182500469,
@@ -501,11 +235,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/u9hfs3.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182835916,
@@ -517,11 +251,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/mpmhaj.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182500471,
@@ -533,11 +267,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/mpmhaj.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182514923,
@@ -549,11 +283,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/mpmhaj.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182835917,
@@ -565,11 +299,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182514926,
@@ -581,11 +315,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522921,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/uf5n5w.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182514927,
@@ -597,11 +331,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/bhld3a.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182514928,
@@ -613,11 +347,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/aylz6.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182514929,
@@ -629,11 +363,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/uf5n5w.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182514930,
@@ -646,11 +380,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/390xty.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182514931,
@@ -663,11 +397,45 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17436581,
+      "versionNum": 17522926,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/439uum.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182514932,
+      "programTitle": "Live: The Pat McAfee Show",
+      "channelId": 13,
+      "scheduledDate": 1789574400000,
+      "duration": 60,
+      "episodeTitle": "Thursday 17 September 2026",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 17522926,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/5xgtu4.jpg",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182514933,
+      "programTitle": "Live: MLB: Guardians vs. White Sox",
+      "channelId": 13,
+      "scheduledDate": 1789578000000,
+      "duration": 180,
+      "episodeTitle": "Guardians vs. White Sox",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 17522926,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6jhakl.png",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
     }
   ]
 }

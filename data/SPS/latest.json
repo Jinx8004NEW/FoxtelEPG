@@ -1,348 +1,10 @@
 {
   "channel": "SPS",
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "label": "today",
-  "fetchedAt": 1789487616637,
-  "fetchedAtIST": "15/9/2026, 9:23:36 pm",
+  "fetchedAt": 1789500130654,
+  "fetchedAtIST": "16/9/2026, 12:52:10 am",
   "events": [
-    {
-      "eventId": 182805584,
-      "programTitle": "Live: Ultimate Pool NxtGen",
-      "channelId": 307,
-      "scheduledDate": 1789405200000,
-      "duration": 210,
-      "episodeTitle": "Adult Pairs Week 2",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "pashTag": "LIVE",
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/u9555o.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182805111,
-      "programTitle": "F1: Spain Race",
-      "channelId": 307,
-      "scheduledDate": 1789417800000,
-      "duration": 120,
-      "episodeTitle": "Spain Race",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/waihvw.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182805430,
-      "programTitle": "F1 Chequered Flag: Spain",
-      "channelId": 307,
-      "scheduledDate": 1789425000000,
-      "duration": 60,
-      "episodeTitle": "Spain",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/a6bic8.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182805585,
-      "programTitle": "F1: Ted's Notebook",
-      "channelId": 307,
-      "scheduledDate": 1789428600000,
-      "duration": 30,
-      "episodeTitle": "Spain Race",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/3rjrci.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182774946,
-      "programTitle": "Supercars: The Bend 500",
-      "channelId": 307,
-      "scheduledDate": 1789430400000,
-      "duration": 60,
-      "episodeTitle": "The Bend 500",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xa0137.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182805112,
-      "programTitle": "Supercars: Trackside: The Bend Review",
-      "channelId": 307,
-      "scheduledDate": 1789434000000,
-      "duration": 30,
-      "episodeTitle": "The Bend Review",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2025",
-      "episodeNumber": "4",
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/vbwrfz.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182805431,
-      "programTitle": "F1 Mini: Spain Race",
-      "channelId": 307,
-      "scheduledDate": 1789435800000,
-      "duration": 30,
-      "episodeTitle": "Spain Race",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1u51xe.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182853441,
-      "programTitle": "FIM Endurance World Championship",
-      "channelId": 307,
-      "scheduledDate": 1789437600000,
-      "duration": 60,
-      "episodeTitle": "Suzuka 8 Hours",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182805432,
-      "programTitle": "MotoGP: San Marino Sprint Race",
-      "channelId": 307,
-      "scheduledDate": 1789441200000,
-      "duration": 30,
-      "episodeTitle": "San Marino Sprint Race",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/zrrns.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182805433,
-      "programTitle": "MotoGP: San Marino Race",
-      "channelId": 307,
-      "scheduledDate": 1789443000000,
-      "duration": 60,
-      "episodeTitle": "San Marino Race",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4xwsnc.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182241212,
-      "programTitle": "MotoGP After the Flag: San Marino",
-      "channelId": 307,
-      "scheduledDate": 1789446600000,
-      "duration": 30,
-      "episodeTitle": "San Marino",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8g6vf.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182805114,
-      "programTitle": "F1: Spain Race",
-      "channelId": 307,
-      "scheduledDate": 1789448400000,
-      "duration": 120,
-      "episodeTitle": "Spain Race",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/waihvw.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182805464,
-      "programTitle": "F1 Chequered Flag: Spain",
-      "channelId": 307,
-      "scheduledDate": 1789455600000,
-      "duration": 60,
-      "episodeTitle": "Spain",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/a6bic8.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182805115,
-      "programTitle": "F2: Spain Feature Race",
-      "channelId": 307,
-      "scheduledDate": 1789459200000,
-      "duration": 60,
-      "episodeTitle": "Feature Race",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/m0xdgh.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182805465,
-      "programTitle": "F1 Mini: Spain Race",
-      "channelId": 307,
-      "scheduledDate": 1789462800000,
-      "duration": 30,
-      "episodeTitle": "Spain Race",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1u51xe.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182805466,
-      "programTitle": "F1: Ted's Notebook",
-      "channelId": 307,
-      "scheduledDate": 1789464600000,
-      "duration": 30,
-      "episodeTitle": "Spain Race",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/3rjrci.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182774955,
-      "programTitle": "Pro Bull Riders Team Series",
-      "channelId": 307,
-      "scheduledDate": 1789466400000,
-      "duration": 60,
-      "episodeTitle": "Episode 3",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "episodeNumber": "3",
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6teblf.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182774956,
-      "programTitle": "Pro Bull Riders Team Series",
-      "channelId": 307,
-      "scheduledDate": 1789470000000,
-      "duration": 60,
-      "episodeTitle": "Episode 4",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "episodeNumber": "4",
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6teblf.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182774957,
-      "programTitle": "International Brawling C'ship",
-      "channelId": 307,
-      "scheduledDate": 1789473600000,
-      "duration": 60,
-      "episodeTitle": "Highlights",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/g1qesf.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182805612,
-      "programTitle": "MotoGP: Marc Marquez: Best of 2025",
-      "channelId": 307,
-      "scheduledDate": 1789477200000,
-      "duration": 10,
-      "episodeTitle": "Marc Marquez: Best of 2025",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17481409,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4xwsnc.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
     {
       "eventId": 182774964,
       "programTitle": "Live: ETPL: Edinburgh v Rotterdam",
@@ -357,8 +19,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ic48sf.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805600,
@@ -374,8 +36,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1u51xe.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874627,
@@ -391,8 +53,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/mecp5s.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874628,
@@ -408,8 +70,8 @@
       "versionNum": 17481409,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874629,
@@ -424,8 +86,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/b3u7hy.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182830049,
@@ -440,8 +102,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/zrrns.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182830050,
@@ -456,8 +118,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6s0r8l.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182830051,
@@ -473,8 +135,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4xwsnc.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182830052,
@@ -490,8 +152,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8g6vf.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874715,
@@ -507,8 +169,8 @@
       "versionNum": 17481409,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874631,
@@ -524,8 +186,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/np0hk5.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182830053,
@@ -540,8 +202,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/m0xdgh.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182830054,
@@ -557,8 +219,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/waihvw.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874632,
@@ -574,8 +236,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/3rjrci.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874633,
@@ -591,8 +253,8 @@
       "versionNum": 17481409,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182830055,
@@ -607,8 +269,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/g1qesf.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853344,
@@ -624,8 +286,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6teblf.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853316,
@@ -641,8 +303,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6teblf.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853317,
@@ -658,8 +320,8 @@
       "versionNum": 17481409,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874617,
@@ -675,8 +337,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xa0137.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874735,
@@ -692,8 +354,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8iy2w.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853319,
@@ -708,8 +370,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/zrrns.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853320,
@@ -725,8 +387,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4xwsnc.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874736,
@@ -742,8 +404,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8iy2w.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853322,
@@ -759,8 +421,8 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1u51xe.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853323,
@@ -776,14 +438,82 @@
       "versionNum": 17481409,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/3rjrci.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874729,
       "programTitle": "MotorRacing 360",
       "channelId": 307,
       "scheduledDate": 1789567200000,
+      "duration": 60,
+      "episodeTitle": "MotorRacing 360",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 17481409,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8iy2w.png",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182853325,
+      "programTitle": "F1: Spain Practice 1",
+      "channelId": 307,
+      "scheduledDate": 1789570800000,
+      "duration": 60,
+      "episodeTitle": "Spain Practice 1",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 17481409,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/nk4n36.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182853326,
+      "programTitle": "F1: Spain Practice 2",
+      "channelId": 307,
+      "scheduledDate": 1789574400000,
+      "duration": 60,
+      "episodeTitle": "Spain Practice 2",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 17481409,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4rkode.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182853327,
+      "programTitle": "F1: Spain Practice 3",
+      "channelId": 307,
+      "scheduledDate": 1789578000000,
+      "duration": 60,
+      "episodeTitle": "Spain Practice 3",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 17481409,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/b207rv.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182874730,
+      "programTitle": "MotorRacing 360",
+      "channelId": 307,
+      "scheduledDate": 1789581600000,
       "duration": 60,
       "episodeTitle": "MotorRacing 360",
       "parentalRating": "NC",

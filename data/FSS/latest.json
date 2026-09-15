@@ -1,315 +1,10 @@
 {
   "channel": "FSS",
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "label": "today",
-  "fetchedAt": 1789487622459,
-  "fetchedAtIST": "15/9/2026, 9:23:42 pm",
+  "fetchedAt": 1789500136381,
+  "fetchedAtIST": "16/9/2026, 12:52:16 am",
   "events": [
-    {
-      "eventId": 182853429,
-      "programTitle": "WSL Replay: El Salvador",
-      "channelId": 664,
-      "scheduledDate": 1789410000000,
-      "duration": 50,
-      "episodeTitle": "El Salvador",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17495041,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/gs1jfv.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182853430,
-      "programTitle": "WSL Replay: Rio",
-      "channelId": 664,
-      "scheduledDate": 1789413000000,
-      "duration": 50,
-      "episodeTitle": "Rio",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17495041,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/gs1jfv.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182853431,
-      "programTitle": "WSL Replay: Tahiti",
-      "channelId": 664,
-      "scheduledDate": 1789416000000,
-      "duration": 50,
-      "episodeTitle": "Tahiti",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17495041,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/gs1jfv.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182853432,
-      "programTitle": "WSL Replay: Fiji",
-      "channelId": 664,
-      "scheduledDate": 1789419000000,
-      "duration": 50,
-      "episodeTitle": "Fiji",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17495041,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/gs1jfv.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182853433,
-      "programTitle": "Supercars Mini: The Bend 500",
-      "channelId": 664,
-      "scheduledDate": 1789422000000,
-      "duration": 20,
-      "episodeTitle": "The Bend 500",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17495041,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/fxv22t.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182853434,
-      "programTitle": "NASCAR Cup Series Highlights",
-      "channelId": 664,
-      "scheduledDate": 1789423200000,
-      "duration": 60,
-      "episodeTitle": "The Chase Illinois",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17495041,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/np0hk5.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182853435,
-      "programTitle": "MotoGP: San Marino Race",
-      "channelId": 664,
-      "scheduledDate": 1789426800000,
-      "duration": 60,
-      "episodeTitle": "San Marino Race",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17495041,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4xwsnc.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182354148,
-      "programTitle": "MotoGP After the Flag: San Marino",
-      "channelId": 664,
-      "scheduledDate": 1789430400000,
-      "duration": 30,
-      "episodeTitle": "San Marino",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17495041,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8g6vf.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182769009,
-      "programTitle": "NASCAR Cup Series Highlights",
-      "channelId": 664,
-      "scheduledDate": 1789432200000,
-      "duration": 60,
-      "episodeTitle": "The Chase Illinois",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17495041,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/np0hk5.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182769010,
-      "programTitle": "Golf: Irish Open Final Round",
-      "channelId": 664,
-      "scheduledDate": 1789435800000,
-      "duration": 120,
-      "episodeTitle": "Irish Open Final Round",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17495041,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/juvzgo.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182769011,
-      "programTitle": "Getting A Round In",
-      "channelId": 664,
-      "scheduledDate": 1789443000000,
-      "duration": 30,
-      "episodeTitle": "Kate McCarthy",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "episodeNumber": "8",
-      "displaySepNum": true,
-      "versionNum": 17495041,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/63qq50.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182769012,
-      "programTitle": "SailGP: Spain Day 1",
-      "channelId": 664,
-      "scheduledDate": 1789444800000,
-      "duration": 90,
-      "episodeTitle": "Spain Day 1",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17495041,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/62kztr.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182769013,
-      "programTitle": "SailGP: Spain Day 2",
-      "channelId": 664,
-      "scheduledDate": 1789450200000,
-      "duration": 90,
-      "episodeTitle": "Spain Day 2",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17495041,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/64rvf1.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182769014,
-      "programTitle": "Legends Tour Highlights",
-      "channelId": 664,
-      "scheduledDate": 1789455600000,
-      "duration": 60,
-      "episodeTitle": "European Legends Tour Highlights",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17495041,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/62gq3.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182354155,
-      "programTitle": "Golf: Irish Open Final Round",
-      "channelId": 664,
-      "scheduledDate": 1789459200000,
-      "duration": 120,
-      "episodeTitle": "Irish Open Final Round",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17495041,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/juvzgo.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182853381,
-      "programTitle": "F1: Spain Race",
-      "channelId": 664,
-      "scheduledDate": 1789466400000,
-      "duration": 120,
-      "episodeTitle": "Spain Race",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17495041,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/waihvw.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182853382,
-      "programTitle": "F1 Chequered Flag: Spain",
-      "channelId": 664,
-      "scheduledDate": 1789473600000,
-      "duration": 60,
-      "episodeTitle": "Spain",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17495041,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/a6bic8.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182805463,
-      "programTitle": "F1: Ted's Notebook",
-      "channelId": 664,
-      "scheduledDate": 1789477200000,
-      "duration": 30,
-      "episodeTitle": "Spain Race",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17495041,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/3rjrci.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
     {
       "eventId": 182354159,
       "programTitle": "Golf: Dp World Tour Highlights",
@@ -324,8 +19,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4cq5ce.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182875020,
@@ -341,8 +36,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1u51xe.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182875021,
@@ -358,8 +53,8 @@
       "versionNum": 17495041,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182875022,
@@ -375,8 +70,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/rerkg3.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182875023,
@@ -392,8 +87,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/rerkg3.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182875024,
@@ -410,8 +105,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/rerkg3.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182875025,
@@ -428,8 +123,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/rerkg3.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182875026,
@@ -446,8 +141,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/rerkg3.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182875027,
@@ -464,8 +159,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/rerkg3.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182875028,
@@ -482,8 +177,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/rerkg3.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182875029,
@@ -499,8 +194,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/rerkg3.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182875030,
@@ -516,8 +211,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/fxv22t.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182875031,
@@ -533,8 +228,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/waihvw.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182830036,
@@ -549,8 +244,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/zrrns.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182830037,
@@ -566,8 +261,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4xwsnc.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182354164,
@@ -583,8 +278,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8g6vf.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182769021,
@@ -599,8 +294,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/62kztr.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182769022,
@@ -616,8 +311,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/64rvf1.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853380,
@@ -633,8 +328,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/waihvw.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874747,
@@ -649,8 +344,8 @@
       "versionNum": 17495041,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182354169,
@@ -667,8 +362,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/pp1yci.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874748,
@@ -685,8 +380,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/63qq50.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874947,
@@ -702,8 +397,8 @@
       "versionNum": 17495041,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853439,
@@ -719,8 +414,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v8vu3n.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182354172,
@@ -737,8 +432,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8iy2w.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182769027,
@@ -753,8 +448,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/b3vv8.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874749,
@@ -771,8 +466,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/63qq50.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874988,
@@ -788,8 +483,8 @@
       "versionNum": 17495041,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874750,
@@ -806,8 +501,8 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/vzpo2h.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874743,
@@ -824,8 +519,25 @@
       "versionNum": 17495041,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/63qq50.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
+    },
+    {
+      "eventId": 182853377,
+      "programTitle": "Live: WSL Championship Tour: WSL Champi",
+      "channelId": 664,
+      "scheduledDate": 1789569000000,
+      "duration": 570,
+      "episodeTitle": "WSL Championship Tour Day 6",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 17495041,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1phwdv.png",
+      "placeholder": false,
+      "adultsOnly": false,
+      "isMovie": false
     }
   ]
 }
