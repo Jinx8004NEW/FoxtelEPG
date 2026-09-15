@@ -2,8 +2,8 @@
   "channel": "FSP",
   "date": "2026-09-17",
   "label": "day after",
-  "fetchedAt": 1789426278141,
-  "fetchedAtIST": "15/9/2026, 4:21:18 am",
+  "fetchedAt": 1789438998539,
+  "fetchedAtIST": "15/9/2026, 7:53:18 am",
   "events": [
     {
       "eventId": 182853387,
@@ -16,28 +16,29 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17449677,
-      "imageUrl": "",
+      "versionNum": 17466488,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sf40ix.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182805665,
-      "programTitle": "MotoGP After the Flag: San Marino",
+      "eventId": 182874622,
+      "programTitle": "MotoGP: San Marino Race",
       "channelId": 93,
       "scheduledDate": 1789590600000,
       "duration": 25,
-      "episodeTitle": "San Marino",
+      "episodeTitle": "San Marino Race",
       "parentalRating": "NC",
       "premiereInd": false,
-      "seriesNumber": "2026",
+      "seriesNumber": "2025",
+      "episodeNumber": "113",
       "displaySepNum": true,
-      "versionNum": 17449677,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8g6vf.png",
+      "versionNum": 17466488,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hsp9ze.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853388,
@@ -50,28 +51,29 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17449677,
-      "imageUrl": "",
+      "versionNum": 17466488,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sf40ix.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182805666,
-      "programTitle": "MotoGP After the Flag: San Marino",
+      "eventId": 182874623,
+      "programTitle": "MotoGP: San Marino Race",
       "channelId": 93,
       "scheduledDate": 1789601400000,
       "duration": 25,
-      "episodeTitle": "San Marino",
+      "episodeTitle": "San Marino Race",
       "parentalRating": "NC",
       "premiereInd": false,
-      "seriesNumber": "2026",
+      "seriesNumber": "2025",
+      "episodeNumber": "113",
       "displaySepNum": true,
-      "versionNum": 17449677,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8g6vf.png",
+      "versionNum": 17466488,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hsp9ze.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853389,
@@ -84,11 +86,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17449677,
-      "imageUrl": "",
+      "versionNum": 17466488,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sf40ix.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182854041,
@@ -102,11 +104,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "8",
       "displaySepNum": true,
-      "versionNum": 17449677,
-      "imageUrl": "",
+      "versionNum": 17466488,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/vzpo2h.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853391,
@@ -119,11 +121,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17449677,
+      "versionNum": 17466488,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1u51xe.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853393,
@@ -136,11 +138,11 @@
       "premiereInd": false,
       "seriesNumber": "2023",
       "displaySepNum": true,
-      "versionNum": 17449677,
+      "versionNum": 17466488,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/mwin4t.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853395,
@@ -152,29 +154,29 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17449677,
-      "imageUrl": "",
+      "versionNum": 17466488,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/g1qesf.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182853396,
-      "programTitle": "Live: Golf: PGA Tour Champions",
+      "eventId": 182874624,
+      "programTitle": "Live: Golf: PGA Championship Round 1 (F",
       "channelId": 93,
       "scheduledDate": 1789626600000,
       "duration": 270,
-      "episodeTitle": "Pure Insurance Round 1",
+      "episodeTitle": "PGA Championship Round 1 (Featured Groups)",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17449677,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/9w4f8.png",
+      "versionNum": 17466488,
+      "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853397,
@@ -188,11 +190,11 @@
       "seriesNumber": "2026",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17449677,
+      "versionNum": 17466488,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/9w4f8.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853398,
@@ -205,11 +207,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17449677,
+      "versionNum": 17466488,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1u51xe.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853399,
@@ -222,11 +224,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17449677,
-      "imageUrl": "",
+      "versionNum": 17466488,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/9vaws.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853400,
@@ -239,11 +241,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17449677,
-      "imageUrl": "",
+      "versionNum": 17466488,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/f4jns8.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     }
   ]
 }
