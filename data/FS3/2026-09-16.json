@@ -2,8 +2,8 @@
   "channel": "FS3",
   "date": "2026-09-16",
   "label": "tomorrow",
-  "fetchedAt": 1789463010013,
-  "fetchedAtIST": "15/9/2026, 2:33:30 pm",
+  "fetchedAt": 1789487600346,
+  "fetchedAtIST": "15/9/2026, 9:23:20 pm",
   "events": [
     {
       "eventId": 182369796,
@@ -16,11 +16,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17487878,
+      "versionNum": 17484198,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/9gq0a.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853376,
@@ -33,11 +33,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17487878,
+      "versionNum": 17484198,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/juvzgo.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182369798,
@@ -50,11 +50,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17487878,
+      "versionNum": 17484198,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/jgwq9w.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182830097,
@@ -67,11 +67,11 @@
       "premiereInd": false,
       "seriesNumber": "2023",
       "displaySepNum": true,
-      "versionNum": 17487878,
+      "versionNum": 17484198,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8s6nsv.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182830098,
@@ -83,11 +83,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17487878,
+      "versionNum": 17484198,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/aw1u1o.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182830099,
@@ -100,11 +100,11 @@
       "premiereInd": false,
       "seriesNumber": "2023",
       "displaySepNum": true,
-      "versionNum": 17487878,
+      "versionNum": 17484198,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/mwin4t.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182369802,
@@ -118,11 +118,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "9",
       "displaySepNum": true,
-      "versionNum": 17487878,
+      "versionNum": 17484198,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/63qq50.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182369803,
@@ -135,11 +135,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17487878,
+      "versionNum": 17484198,
       "imageUrl": "",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874944,
@@ -153,11 +153,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "36",
       "displaySepNum": true,
-      "versionNum": 17487878,
+      "versionNum": 17484198,
       "imageUrl": "",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182369805,
@@ -170,11 +170,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17487878,
+      "versionNum": 17484198,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/9w4f8.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853503,
@@ -187,11 +187,11 @@
       "premiereInd": false,
       "episodeNumber": "30",
       "displaySepNum": true,
-      "versionNum": 17487878,
+      "versionNum": 17484198,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v8vu3n.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853371,
@@ -203,11 +203,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17487878,
+      "versionNum": 17484198,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/a2mx8.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853372,
@@ -221,11 +221,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "1",
       "displaySepNum": true,
-      "versionNum": 17487878,
+      "versionNum": 17484198,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8mjpg4.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182369809,
@@ -239,11 +239,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "9",
       "displaySepNum": true,
-      "versionNum": 17487878,
+      "versionNum": 17484198,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/63qq50.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182369810,
@@ -256,11 +256,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17487878,
+      "versionNum": 17484198,
       "imageUrl": "",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853373,
@@ -274,11 +274,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "9",
       "displaySepNum": true,
-      "versionNum": 17487878,
+      "versionNum": 17484198,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/63qq50.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874717,
@@ -290,11 +290,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17487878,
+      "versionNum": 17484198,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6gu30.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874718,
@@ -307,11 +307,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17487878,
+      "versionNum": 17484198,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/f4jns8.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182409310,
@@ -324,11 +324,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17487878,
+      "versionNum": 17484198,
       "imageUrl": "",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     }
   ]
 }
