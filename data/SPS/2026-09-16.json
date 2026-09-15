@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-09-16",
   "label": "tomorrow",
-  "fetchedAt": 1789439002917,
-  "fetchedAtIST": "15/9/2026, 7:53:22 am",
+  "fetchedAt": 1789463027929,
+  "fetchedAtIST": "15/9/2026, 2:33:47 pm",
   "events": [
     {
       "eventId": 182874628,
@@ -16,11 +16,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/k7iu78.png",
+      "versionNum": 17484243,
+      "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874629,
@@ -32,11 +32,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/b3u7hy.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182830049,
@@ -48,11 +48,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/zrrns.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182830050,
@@ -64,11 +64,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6s0r8l.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182830051,
@@ -81,11 +81,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4xwsnc.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182830052,
@@ -98,28 +98,28 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8g6vf.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182874630,
-      "programTitle": "NASCAR O'Reilly Auto Parts Series: NOAP",
+      "eventId": 182874715,
+      "programTitle": "NASCAR Auto Parts Series Highlights",
       "channelId": 307,
       "scheduledDate": 1789511400000,
       "duration": 60,
-      "episodeTitle": "NOAPS Race at WWTR",
+      "episodeTitle": "NASCAR Auto Parts Series Highlights",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874631,
@@ -132,11 +132,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/np0hk5.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182830053,
@@ -148,45 +148,45 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/m0xdgh.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182830054,
       "programTitle": "F1: Spain Race",
       "channelId": 307,
       "scheduledDate": 1789522200000,
-      "duration": 125,
+      "duration": 120,
       "episodeTitle": "Spain Race",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/waihvw.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874632,
       "programTitle": "F1: Ted's Notebook",
       "channelId": 307,
-      "scheduledDate": 1789529700000,
-      "duration": 25,
+      "scheduledDate": 1789529400000,
+      "duration": 30,
       "episodeTitle": "Spain Race",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/3rjrci.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874633,
@@ -199,11 +199,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/k7iu78.png",
+      "versionNum": 17484243,
+      "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182830055,
@@ -215,11 +215,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/g1qesf.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853344,
@@ -232,11 +232,11 @@
       "premiereInd": false,
       "episodeNumber": "3",
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6teblf.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853316,
@@ -249,11 +249,11 @@
       "premiereInd": false,
       "episodeNumber": "4",
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6teblf.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853317,
@@ -266,11 +266,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xa0137.png",
+      "versionNum": 17484243,
+      "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874617,
@@ -283,14 +283,14 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xa0137.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182853493,
+      "eventId": 182874735,
       "programTitle": "MotorRacing 360",
       "channelId": 307,
       "scheduledDate": 1789551000000,
@@ -300,11 +300,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8iy2w.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853319,
@@ -316,11 +316,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/zrrns.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853320,
@@ -333,14 +333,14 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4xwsnc.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182853494,
+      "eventId": 182874736,
       "programTitle": "MotorRacing 360",
       "channelId": 307,
       "scheduledDate": 1789560000000,
@@ -350,11 +350,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8iy2w.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853322,
@@ -367,11 +367,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1u51xe.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853323,
@@ -384,14 +384,14 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/3rjrci.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182853497,
+      "eventId": 182874729,
       "programTitle": "MotorRacing 360",
       "channelId": 307,
       "scheduledDate": 1789567200000,
@@ -401,11 +401,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8iy2w.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853325,
@@ -418,11 +418,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/nk4n36.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853326,
@@ -435,11 +435,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4rkode.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853327,
@@ -452,14 +452,14 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/b207rv.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182853498,
+      "eventId": 182874730,
       "programTitle": "MotorRacing 360",
       "channelId": 307,
       "scheduledDate": 1789581600000,
@@ -469,11 +469,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17466479,
+      "versionNum": 17484243,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8iy2w.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     }
   ]
 }

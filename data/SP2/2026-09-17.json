@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-09-17",
   "label": "day after",
-  "fetchedAt": 1789438981540,
-  "fetchedAtIST": "15/9/2026, 7:53:01 am",
+  "fetchedAt": 1789463005579,
+  "fetchedAtIST": "15/9/2026, 2:33:25 pm",
   "events": [
     {
       "eventId": 182242032,
@@ -16,11 +16,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17465895,
+      "versionNum": 17490603,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/zewlif.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182242033,
@@ -33,11 +33,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17465895,
+      "versionNum": 17490603,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/lohfjy.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798257,
@@ -50,11 +50,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17465895,
+      "versionNum": 17490603,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/n9whpj.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182242035,
@@ -66,11 +66,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17465895,
+      "versionNum": 17490603,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182242036,
@@ -84,11 +84,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "26",
       "displaySepNum": true,
-      "versionNum": 17465895,
+      "versionNum": 17490603,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ybm3pu.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182242037,
@@ -96,17 +96,15 @@
       "channelId": 10,
       "scheduledDate": 1789597800000,
       "duration": 60,
-      "episodeTitle": "Episode 89",
+      "episodeTitle": "NRL 360",
       "parentalRating": "NC",
       "premiereInd": false,
-      "seriesNumber": "2026",
-      "episodeNumber": "88",
       "displaySepNum": true,
-      "versionNum": 17465895,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/366rlp.jpg",
+      "versionNum": 17490603,
+      "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182242038,
@@ -120,11 +118,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "26",
       "displaySepNum": true,
-      "versionNum": 17465895,
+      "versionNum": 17490603,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ybm3pu.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182242039,
@@ -132,17 +130,15 @@
       "channelId": 10,
       "scheduledDate": 1789603200000,
       "duration": 60,
-      "episodeTitle": "Episode 89",
+      "episodeTitle": "NRL 360",
       "parentalRating": "NC",
       "premiereInd": false,
-      "seriesNumber": "2026",
-      "episodeNumber": "88",
       "displaySepNum": true,
-      "versionNum": 17465895,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/366rlp.jpg",
+      "versionNum": 17490603,
+      "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182242040,
@@ -156,11 +152,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "26",
       "displaySepNum": true,
-      "versionNum": 17465895,
+      "versionNum": 17490603,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ybm3pu.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182242041,
@@ -171,14 +167,12 @@
       "episodeTitle": "NRL 360",
       "parentalRating": "NC",
       "premiereInd": false,
-      "seriesNumber": "2026",
-      "episodeNumber": "90",
       "displaySepNum": true,
-      "versionNum": 17465895,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/366rlp.jpg",
+      "versionNum": 17490603,
+      "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798258,
@@ -192,11 +186,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "26",
       "displaySepNum": true,
-      "versionNum": 17465895,
+      "versionNum": 17490603,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ybm3pu.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182242043,
@@ -207,14 +201,12 @@
       "episodeTitle": "NRL 360",
       "parentalRating": "NC",
       "premiereInd": false,
-      "seriesNumber": "2026",
-      "episodeNumber": "90",
       "displaySepNum": true,
-      "versionNum": 17465895,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/366rlp.jpg",
+      "versionNum": 17490603,
+      "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182242044,
@@ -228,11 +220,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "26",
       "displaySepNum": true,
-      "versionNum": 17465895,
+      "versionNum": 17490603,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ybm3pu.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182242045,
@@ -243,14 +235,12 @@
       "episodeTitle": "NRL 360",
       "parentalRating": "NC",
       "premiereInd": false,
-      "seriesNumber": "2026",
-      "episodeNumber": "90",
       "displaySepNum": true,
-      "versionNum": 17465895,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/366rlp.jpg",
+      "versionNum": 17490603,
+      "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182242046,
@@ -264,11 +254,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "26",
       "displaySepNum": true,
-      "versionNum": 17465895,
+      "versionNum": 17490603,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ybm3pu.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182280844,
@@ -279,14 +269,12 @@
       "episodeTitle": "NRL 360",
       "parentalRating": "NC",
       "premiereInd": false,
-      "seriesNumber": "2026",
-      "episodeNumber": "90",
       "displaySepNum": true,
-      "versionNum": 17465895,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/366rlp.jpg",
+      "versionNum": 17490603,
+      "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182280845,
@@ -297,14 +285,12 @@
       "episodeTitle": "NRL 360",
       "parentalRating": "NC",
       "premiereInd": false,
-      "seriesNumber": "2026",
-      "episodeNumber": "90",
       "displaySepNum": true,
-      "versionNum": 17465895,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/366rlp.jpg",
+      "versionNum": 17490603,
+      "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182137549,
@@ -319,18 +305,18 @@
       "episodeNumber": "147",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17465895,
+      "versionNum": 17490603,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/aqozar.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182137550,
       "programTitle": "Live: NRL 360",
       "channelId": 10,
       "scheduledDate": 1789633800000,
-      "duration": 30,
+      "duration": 60,
       "episodeTitle": "NRL 360",
       "parentalRating": "NC",
       "premiereInd": false,
@@ -338,29 +324,11 @@
       "episodeNumber": "91",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17465895,
+      "versionNum": 17490603,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/366rlp.jpg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182798259,
-      "programTitle": "Live: NRLW on Fox",
-      "channelId": 10,
-      "scheduledDate": 1789635600000,
-      "duration": 30,
-      "episodeTitle": "NRLW on Fox",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "pashTag": "LIVE",
-      "displaySepNum": true,
-      "versionNum": 17465895,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/d7tlny.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182280846,
@@ -375,11 +343,11 @@
       "episodeNumber": "12",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17465895,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/d7tlny.png",
+      "versionNum": 17490603,
+      "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182280847,
@@ -393,29 +361,27 @@
       "seriesNumber": "2026",
       "episodeNumber": "91",
       "displaySepNum": true,
-      "versionNum": 17465895,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/366rlp.jpg",
+      "versionNum": 17490603,
+      "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182280848,
-      "programTitle": "NRLW on Fox",
+      "eventId": 182874949,
+      "programTitle": "No Program Information Available",
       "channelId": 10,
       "scheduledDate": 1789642800000,
       "duration": 30,
-      "episodeTitle": "NRLW on Fox",
+      "episodeTitle": "No Program Information Available",
       "parentalRating": "NC",
       "premiereInd": false,
-      "seriesNumber": "2026",
-      "episodeNumber": "12",
       "displaySepNum": true,
-      "versionNum": 17465895,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/d7tlny.png",
+      "versionNum": 17490603,
+      "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182280849,
@@ -429,29 +395,28 @@
       "seriesNumber": "2026",
       "episodeNumber": "91",
       "displaySepNum": true,
-      "versionNum": 17465895,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/366rlp.jpg",
+      "versionNum": 17490603,
+      "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182280850,
-      "programTitle": "NRLW on Fox",
+      "eventId": 182874725,
+      "programTitle": "Get 'Em Onside",
       "channelId": 10,
       "scheduledDate": 1789648200000,
       "duration": 30,
-      "episodeTitle": "NRLW on Fox",
+      "episodeTitle": "Finals Week 2",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
-      "episodeNumber": "12",
       "displaySepNum": true,
-      "versionNum": 17465895,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/d7tlny.png",
+      "versionNum": 17490603,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/htnp63.jpeg",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182280851,
@@ -462,12 +427,14 @@
       "episodeTitle": "NRL 360",
       "parentalRating": "NC",
       "premiereInd": false,
+      "seriesNumber": "2026",
+      "episodeNumber": "90",
       "displaySepNum": true,
-      "versionNum": 17465895,
+      "versionNum": 17490603,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182241807,
@@ -481,11 +448,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "12",
       "displaySepNum": true,
-      "versionNum": 17465895,
+      "versionNum": 17490603,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/d7tlny.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182241808,
@@ -499,11 +466,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "91",
       "displaySepNum": true,
-      "versionNum": 17465895,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/366rlp.jpg",
+      "versionNum": 17490603,
+      "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182241809,
@@ -517,11 +484,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "12",
       "displaySepNum": true,
-      "versionNum": 17465895,
+      "versionNum": 17490603,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/d7tlny.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805473,
@@ -534,11 +501,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17465895,
+      "versionNum": 17490603,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/u2nd4e.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182241811,
@@ -551,11 +518,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17465895,
+      "versionNum": 17490603,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/zewlif.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182241812,
@@ -568,11 +535,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17465895,
+      "versionNum": 17490603,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/lohfjy.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     }
   ]
 }
