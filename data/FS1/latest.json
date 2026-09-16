@@ -1,340 +1,10 @@
 {
   "channel": "FS1",
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "label": "today",
-  "fetchedAt": 1789573479094,
-  "fetchedAtIST": "16/9/2026, 9:14:39 pm",
+  "fetchedAt": 1789585915736,
+  "fetchedAtIST": "17/9/2026, 12:41:55 am",
   "events": [
-    {
-      "eventId": 182853489,
-      "programTitle": "Live: T20: England v Sri Lanka G1",
-      "channelId": 9,
-      "scheduledDate": 1789491600000,
-      "duration": 270,
-      "episodeTitle": "England v Sri Lanka G1",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "pashTag": "LIVE",
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xtdx21.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182769080,
-      "programTitle": "Ashes Classic: 2010/11 3rd Test",
-      "channelId": 9,
-      "scheduledDate": 1789507800000,
-      "duration": 30,
-      "episodeTitle": "2010/11 3rd Test",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2023",
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7ln93.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182775300,
-      "programTitle": "Test: AUS v BAN 2nd Test",
-      "channelId": 9,
-      "scheduledDate": 1789509600000,
-      "duration": 60,
-      "episodeTitle": "AUS v BAN 2nd Test",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182874709,
-      "programTitle": "Test: ENG v PAK 1st Test",
-      "channelId": 9,
-      "scheduledDate": 1789513200000,
-      "duration": 60,
-      "episodeTitle": "ENG v PAK 1st Test",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182874710,
-      "programTitle": "Test: ENG v PAK 2nd Test",
-      "channelId": 9,
-      "scheduledDate": 1789516800000,
-      "duration": 60,
-      "episodeTitle": "ENG v PAK 2nd Test",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182874711,
-      "programTitle": "Test: ENG v PAK 3rd Test",
-      "channelId": 9,
-      "scheduledDate": 1789520400000,
-      "duration": 60,
-      "episodeTitle": "ENG v PAK 3rd Test",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182769086,
-      "programTitle": "Test Classic: 1993/94 AUS v NZL 2nd Test",
-      "channelId": 9,
-      "scheduledDate": 1789524000000,
-      "duration": 60,
-      "episodeTitle": "1993/94 AUS v NZL 2nd Test",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2018",
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/huv6l8.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182769087,
-      "programTitle": "Test Classic: 2011/12 AUS v NZL 2nd Test",
-      "channelId": 9,
-      "scheduledDate": 1789527600000,
-      "duration": 60,
-      "episodeTitle": "2011/12 AUS v NZL 2nd Test",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2024",
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/huv6l8.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182853490,
-      "programTitle": "T20: England v Sri Lanka G1",
-      "channelId": 9,
-      "scheduledDate": 1789531200000,
-      "duration": 20,
-      "episodeTitle": "England v Sri Lanka G1",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xaq7ke.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182874603,
-      "programTitle": "ODI Mini: Zimbabwe v Australia G1",
-      "channelId": 9,
-      "scheduledDate": 1789532400000,
-      "duration": 20,
-      "episodeTitle": "Zimbabwe v Australia G1",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7y2di.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182853491,
-      "programTitle": "T20 Mini: Afghanistan v India G2",
-      "channelId": 9,
-      "scheduledDate": 1789533600000,
-      "duration": 20,
-      "episodeTitle": "Afghanistan v India G2",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/s64c64.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182853492,
-      "programTitle": "ODI: AUS v SA 2018 Game 2",
-      "channelId": 9,
-      "scheduledDate": 1789534800000,
-      "duration": 60,
-      "episodeTitle": "AUS v SA 2018 Game 2",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7y2di.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182874606,
-      "programTitle": "ODI: Zimbabwe v Australia G1",
-      "channelId": 9,
-      "scheduledDate": 1789538400000,
-      "duration": 60,
-      "episodeTitle": "Zimbabwe v Australia G1",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7y2di.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182805363,
-      "programTitle": "Keepin It Cricket",
-      "channelId": 9,
-      "scheduledDate": 1789542000000,
-      "duration": 60,
-      "episodeTitle": "Episode 3",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "episodeNumber": "3",
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okfdb8.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182874703,
-      "programTitle": "Test: ENG v PAK 3rd Test",
-      "channelId": 9,
-      "scheduledDate": 1789545600000,
-      "duration": 60,
-      "episodeTitle": "ENG v PAK 3rd Test",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182805365,
-      "programTitle": "Test Classic: 2008/09 AUS v SA 1st Test",
-      "channelId": 9,
-      "scheduledDate": 1789549200000,
-      "duration": 60,
-      "episodeTitle": "2008/09 AUS v SA 1st Test",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2023",
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/huv6l8.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182805366,
-      "programTitle": "Test Classic: 2008/09 AUS v SA 3rd Test",
-      "channelId": 9,
-      "scheduledDate": 1789552800000,
-      "duration": 60,
-      "episodeTitle": "2008/09 AUS v SA 3rd Test",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2018",
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/huv6l8.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182805367,
-      "programTitle": "Keepin It Cricket",
-      "channelId": 9,
-      "scheduledDate": 1789556400000,
-      "duration": 60,
-      "episodeTitle": "Episode 3",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "episodeNumber": "3",
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okfdb8.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182874607,
-      "programTitle": "ODI Mini: Zimbabwe v Australia G1",
-      "channelId": 9,
-      "scheduledDate": 1789560000000,
-      "duration": 20,
-      "episodeTitle": "Zimbabwe v Australia G1",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7y2di.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182853504,
-      "programTitle": "T20 Mini: Afghanistan v India G2",
-      "channelId": 9,
-      "scheduledDate": 1789561200000,
-      "duration": 25,
-      "episodeTitle": "Afghanistan v India G2",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17580787,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/s64c64.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
     {
       "eventId": 182805370,
       "programTitle": "Live: ETPL: Glasgow v Amsterdam",
@@ -349,8 +19,8 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ic48sf.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182805371,
@@ -366,8 +36,8 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874936,
@@ -383,8 +53,8 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/yjlfca.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874937,
@@ -400,8 +70,8 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874604,
@@ -416,8 +86,8 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7y2di.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182830072,
@@ -433,8 +103,8 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ojztt.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182830073,
@@ -450,8 +120,8 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ojztt.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182805377,
@@ -467,8 +137,8 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7ln93.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874706,
@@ -483,8 +153,8 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7y2di.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182805380,
@@ -501,8 +171,8 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ojztt.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874707,
@@ -517,8 +187,8 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7y2di.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182805382,
@@ -533,8 +203,8 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/huv6l8.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874708,
@@ -549,8 +219,8 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7y2di.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874948,
@@ -566,8 +236,8 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okfdb8.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182830075,
@@ -583,8 +253,8 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/huv6l8.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874713,
@@ -599,8 +269,8 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/f4jns8.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182830077,
@@ -616,8 +286,8 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ojztt.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182830078,
@@ -633,8 +303,8 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ic48sf.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874714,
@@ -650,8 +320,8 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182830080,
@@ -667,8 +337,57 @@
       "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182830081,
+      "programTitle": "Test: AUS v BAN 2nd Test",
+      "channelId": 9,
+      "scheduledDate": 1789657200000,
+      "duration": 60,
+      "episodeTitle": "AUS v BAN 2nd Test",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 17580787,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182830082,
+      "programTitle": "Test Classic: 2014/15 AUS v IND 1st Test",
+      "channelId": 9,
+      "scheduledDate": 1789660800000,
+      "duration": 60,
+      "episodeTitle": "2014/15 AUS v IND 1st Test",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 17580787,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/huv6l8.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182894880,
+      "programTitle": "Live: T20: England v Sri Lanka",
+      "channelId": 9,
+      "scheduledDate": 1789664400000,
+      "duration": 270,
+      "episodeTitle": "England v Sri Lanka",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 17580787,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xaq7ke.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
     }
   ]
 }

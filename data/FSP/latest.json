@@ -1,301 +1,10 @@
 {
   "channel": "FSP",
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "label": "today",
-  "fetchedAt": 1789573501223,
-  "fetchedAtIST": "16/9/2026, 9:15:01 pm",
+  "fetchedAt": 1789585939797,
+  "fetchedAtIST": "17/9/2026, 12:42:19 am",
   "events": [
-    {
-      "eventId": 182875014,
-      "programTitle": "Live: Women's Softball WC: Mexico v Chi",
-      "channelId": 93,
-      "scheduledDate": 1789494900000,
-      "duration": 155,
-      "episodeTitle": "Mexico v China",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "pashTag": "LIVE",
-      "displaySepNum": true,
-      "versionNum": 17589287,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sf40ix.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182805625,
-      "programTitle": "Supercars Mini: The Bend 500",
-      "channelId": 93,
-      "scheduledDate": 1789504200000,
-      "duration": 25,
-      "episodeTitle": "The Bend 500",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17589287,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/fxv22t.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182875015,
-      "programTitle": "Live: Women's Softball WC: NZ v Brazil",
-      "channelId": 93,
-      "scheduledDate": 1789505700000,
-      "duration": 155,
-      "episodeTitle": "NZ v Brazil",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "pashTag": "LIVE",
-      "displaySepNum": true,
-      "versionNum": 17589287,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sf40ix.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182874612,
-      "programTitle": "MotoGP: San Marino Race",
-      "channelId": 93,
-      "scheduledDate": 1789515000000,
-      "duration": 25,
-      "episodeTitle": "San Marino Race",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2025",
-      "episodeNumber": "113",
-      "displaySepNum": true,
-      "versionNum": 17589287,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hsp9ze.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182875016,
-      "programTitle": "Live: Women's Softball WC: China v USA",
-      "channelId": 93,
-      "scheduledDate": 1789516500000,
-      "duration": 155,
-      "episodeTitle": "China v USA",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "pashTag": "LIVE",
-      "displaySepNum": true,
-      "versionNum": 17589287,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sf40ix.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182805657,
-      "programTitle": "Getting A Round In",
-      "channelId": 93,
-      "scheduledDate": 1789525800000,
-      "duration": 30,
-      "episodeTitle": "Carter Gordon",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "episodeNumber": "9",
-      "displaySepNum": true,
-      "versionNum": 17589287,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/63qq50.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182853514,
-      "programTitle": "Sailing: 52 Super Series",
-      "channelId": 93,
-      "scheduledDate": 1789527600000,
-      "duration": 30,
-      "episodeTitle": "52 Super Series Sailing",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "episodeNumber": "4",
-      "displaySepNum": true,
-      "versionNum": 17589287,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8teur.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182805659,
-      "programTitle": "DP World Tour Highlights",
-      "channelId": 93,
-      "scheduledDate": 1789529400000,
-      "duration": 120,
-      "episodeTitle": "Irish Open",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17589287,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182875017,
-      "programTitle": "International Brawling Championship: IB",
-      "channelId": 93,
-      "scheduledDate": 1789536600000,
-      "duration": 60,
-      "episodeTitle": "IBC02",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "displaySepNum": true,
-      "versionNum": 17589287,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/g1qesf.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182854042,
-      "programTitle": "UFC Countdown: UFC 331",
-      "channelId": 93,
-      "scheduledDate": 1789540200000,
-      "duration": 30,
-      "episodeTitle": "UFC 331",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17589287,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/k7iu78.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182874931,
-      "programTitle": "F1 Mini: Spain Race",
-      "channelId": 93,
-      "scheduledDate": 1789542000000,
-      "duration": 30,
-      "episodeTitle": "Spain Race",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17589287,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1u51xe.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182875018,
-      "programTitle": "Pro Bull Riders Team Series",
-      "channelId": 93,
-      "scheduledDate": 1789543800000,
-      "duration": 60,
-      "episodeTitle": "Episode 5",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "episodeNumber": "5",
-      "displaySepNum": true,
-      "versionNum": 17589287,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6teblf.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182854043,
-      "programTitle": "Fight Week: UFC 331",
-      "channelId": 93,
-      "scheduledDate": 1789547400000,
-      "duration": 30,
-      "episodeTitle": "UFC 331",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "episodeNumber": "8",
-      "displaySepNum": true,
-      "versionNum": 17589287,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/heemvi.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182853390,
-      "programTitle": "F1: Spain Race",
-      "channelId": 93,
-      "scheduledDate": 1789549200000,
-      "duration": 120,
-      "episodeTitle": "Spain Race",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17589287,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/waihvw.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182854044,
-      "programTitle": "UFC Countdown: UFC 331",
-      "channelId": 93,
-      "scheduledDate": 1789556400000,
-      "duration": 30,
-      "episodeTitle": "UFC 331",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17589287,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/k7iu78.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182874932,
-      "programTitle": "F1 Mini: Spain Race",
-      "channelId": 93,
-      "scheduledDate": 1789558200000,
-      "duration": 30,
-      "episodeTitle": "Spain Race",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17589287,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1u51xe.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
-    {
-      "eventId": 182875019,
-      "programTitle": "Pro Bull Riders Team Series",
-      "channelId": 93,
-      "scheduledDate": 1789560000000,
-      "duration": 60,
-      "episodeTitle": "Episode 5",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "episodeNumber": "5",
-      "displaySepNum": true,
-      "versionNum": 17589287,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6teblf.png",
-      "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
-    },
     {
       "eventId": 182853394,
       "programTitle": "NASCAR Cup Series: The Chase Illinois",
@@ -310,8 +19,8 @@
       "versionNum": 17589287,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4liwyt.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853384,
@@ -327,8 +36,8 @@
       "versionNum": 17589287,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1u51xe.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853385,
@@ -344,8 +53,8 @@
       "versionNum": 17589287,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/fxv22t.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182895067,
@@ -361,8 +70,8 @@
       "versionNum": 17589287,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sf40ix.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874621,
@@ -378,8 +87,8 @@
       "versionNum": 17589287,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/fxv22t.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182895068,
@@ -395,8 +104,8 @@
       "versionNum": 17589287,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sf40ix.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874622,
@@ -413,8 +122,8 @@
       "versionNum": 17589287,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hsp9ze.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182895069,
@@ -430,8 +139,8 @@
       "versionNum": 17589287,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sf40ix.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874623,
@@ -448,8 +157,8 @@
       "versionNum": 17589287,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hsp9ze.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182895070,
@@ -465,8 +174,8 @@
       "versionNum": 17589287,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sf40ix.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182854041,
@@ -483,8 +192,8 @@
       "versionNum": 17589287,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/heemvi.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853391,
@@ -500,8 +209,8 @@
       "versionNum": 17589287,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1u51xe.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853393,
@@ -517,8 +226,8 @@
       "versionNum": 17589287,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/mwin4t.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182895071,
@@ -533,8 +242,8 @@
       "versionNum": 17589287,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/g1qesf.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874624,
@@ -551,8 +260,8 @@
       "versionNum": 17589287,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/l06dzd.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182895064,
@@ -569,8 +278,59 @@
       "versionNum": 17589287,
       "imageUrl": "",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182853398,
+      "programTitle": "F1 Mini: Spain Race",
+      "channelId": 93,
+      "scheduledDate": 1789664400000,
+      "duration": 30,
+      "episodeTitle": "Spain Race",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 17589287,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1u51xe.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182853399,
+      "programTitle": "MotoGP: Grand Prix of Austria : Race",
+      "channelId": 93,
+      "scheduledDate": 1789666200000,
+      "duration": 25,
+      "episodeTitle": "Grand Prix of Austria : Race",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 17589287,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/9vaws.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182853400,
+      "programTitle": "Live: WCPL: Final",
+      "channelId": 93,
+      "scheduledDate": 1789667700000,
+      "duration": 245,
+      "episodeTitle": "Final",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 17589287,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/yubqnv.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
     }
   ]
 }

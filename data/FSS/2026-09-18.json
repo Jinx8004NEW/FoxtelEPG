@@ -1,9 +1,9 @@
 {
   "channel": "FSS",
   "date": "2026-09-18",
-  "label": "day after",
-  "fetchedAt": 1789573514805,
-  "fetchedAtIST": "16/9/2026, 9:15:14 pm",
+  "label": "tomorrow",
+  "fetchedAt": 1789585952943,
+  "fetchedAtIST": "17/9/2026, 12:42:32 am",
   "events": [
     {
       "eventId": 182830040,
@@ -19,8 +19,8 @@
       "versionNum": 17570630,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1phwdv.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182446185,
@@ -36,8 +36,8 @@
       "versionNum": 17570630,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/b207rv.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874983,
@@ -53,8 +53,8 @@
       "versionNum": 17570630,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/waihvw.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182830042,
@@ -70,8 +70,8 @@
       "versionNum": 17570630,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/3rjrci.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182446188,
@@ -87,8 +87,8 @@
       "versionNum": 17570630,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7vdu5.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182830043,
@@ -104,8 +104,8 @@
       "versionNum": 17570630,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182830044,
@@ -120,8 +120,8 @@
       "versionNum": 17570630,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182446191,
@@ -137,8 +137,8 @@
       "versionNum": 17570630,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ojztt.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182446192,
@@ -154,8 +154,8 @@
       "versionNum": 17570630,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6y6vi.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874984,
@@ -172,8 +172,8 @@
       "versionNum": 17570630,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8teur.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874985,
@@ -189,8 +189,8 @@
       "versionNum": 17570630,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/k7iu78.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874986,
@@ -207,8 +207,8 @@
       "versionNum": 17570630,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/heemvi.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874987,
@@ -224,8 +224,8 @@
       "versionNum": 17570630,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/mecp5s.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182830048,
@@ -240,8 +240,8 @@
       "versionNum": 17570630,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/b3vv8.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853409,
@@ -258,8 +258,8 @@
       "versionNum": 17570630,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8iy2w.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853410,
@@ -275,8 +275,8 @@
       "versionNum": 17570630,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1phwdv.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     }
   ]
 }
