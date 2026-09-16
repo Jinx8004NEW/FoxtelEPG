@@ -2,11 +2,11 @@
   "channel": "FS1",
   "date": "2026-09-18",
   "label": "day after",
-  "fetchedAt": 1789524979911,
-  "fetchedAtIST": "16/9/2026, 7:46:19 am",
+  "fetchedAt": 1789548940011,
+  "fetchedAtIST": "16/9/2026, 2:25:40 pm",
   "events": [
     {
-      "eventId": 182830083,
+      "eventId": 182894880,
       "programTitle": "Live: T20: England v Sri Lanka",
       "channelId": 9,
       "scheduledDate": 1789664400000,
@@ -16,11 +16,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17552489,
+      "versionNum": 17571564,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xaq7ke.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182830084,
@@ -32,11 +32,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17552489,
+      "versionNum": 17571564,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874712,
@@ -49,11 +49,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17552489,
+      "versionNum": 17571564,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874608,
@@ -65,29 +65,29 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17552489,
+      "versionNum": 17571564,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7y2di.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182830087,
-      "programTitle": "Live: CPL: Qualifier",
+      "programTitle": "Live: CPL: Q1 Falcons v Amazon Warriors",
       "channelId": 9,
       "scheduledDate": 1789689300000,
       "duration": 245,
-      "episodeTitle": "Qualifier",
+      "episodeTitle": "Q1 Falcons v Amazon Warriors",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17552489,
+      "versionNum": 17571564,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ojztt.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182875003,
@@ -100,14 +100,14 @@
       "premiereInd": false,
       "episodeNumber": "3",
       "displaySepNum": true,
-      "versionNum": 17552489,
+      "versionNum": 17571564,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okfdb8.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
-      "eventId": 182830089,
+      "eventId": 182894881,
       "programTitle": "T20: England v Sri Lanka",
       "channelId": 9,
       "scheduledDate": 1789707600000,
@@ -116,11 +116,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17552489,
+      "versionNum": 17571564,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xaq7ke.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874609,
@@ -132,14 +132,14 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17552489,
+      "versionNum": 17571564,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7y2di.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
-      "eventId": 182830091,
+      "eventId": 182894882,
       "programTitle": "T20: Afghanistan v India",
       "channelId": 9,
       "scheduledDate": 1789710000000,
@@ -148,11 +148,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17552489,
+      "versionNum": 17571564,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xaq7ke.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874610,
@@ -164,15 +164,15 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17552489,
+      "versionNum": 17571564,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7y2di.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
-      "eventId": 182853315,
-      "programTitle": "Live: ODI: Zimbabwe v Australia",
+      "eventId": 182894883,
+      "programTitle": "Live: ODI: Zimbabwe v Australia G2",
       "channelId": 9,
       "scheduledDate": 1789714800000,
       "duration": 510,
@@ -181,11 +181,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17552489,
+      "versionNum": 17571564,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/2j5hr4.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182865055,
@@ -198,11 +198,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17552489,
+      "versionNum": 17571564,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182865056,
@@ -214,11 +214,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17552489,
+      "versionNum": 17571564,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182865057,
@@ -231,11 +231,11 @@
       "premiereInd": false,
       "seriesNumber": "2024",
       "displaySepNum": true,
-      "versionNum": 17552489,
+      "versionNum": 17571564,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/huv6l8.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182865058,
@@ -247,11 +247,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17552489,
+      "versionNum": 17571564,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/huv6l8.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     }
   ]
 }

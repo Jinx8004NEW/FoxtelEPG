@@ -2,12 +2,12 @@
   "channel": "FS3",
   "date": "2026-09-17",
   "label": "tomorrow",
-  "fetchedAt": 1789524990154,
-  "fetchedAtIST": "16/9/2026, 7:46:30 am",
+  "fetchedAt": 1789548949874,
+  "fetchedAtIST": "16/9/2026, 2:25:49 pm",
   "events": [
     {
       "eventId": 182409310,
-      "programTitle": "USLPGA: The Chevron Championship Final",
+      "programTitle": "USLPGA: The Chevron Championship FR",
       "channelId": 133,
       "scheduledDate": 1789581600000,
       "duration": 120,
@@ -16,11 +16,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/jc9c2j.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182409311,
@@ -33,11 +33,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/jc9c2j.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182409312,
@@ -50,11 +50,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4cq5ce.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853362,
@@ -68,11 +68,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "1",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8mjpg4.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182409314,
@@ -86,11 +86,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "9",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/63qq50.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853495,
@@ -103,11 +103,11 @@
       "premiereInd": false,
       "episodeNumber": "30",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v8vu3n.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182409316,
@@ -120,11 +120,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7vdu5.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874945,
@@ -138,11 +138,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "36",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/x8v7v6.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853365,
@@ -154,11 +154,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kiksna.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853366,
@@ -172,11 +172,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "1",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8mjpg4.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182409320,
@@ -190,11 +190,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "9",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/63qq50.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853496,
@@ -207,11 +207,11 @@
       "premiereInd": false,
       "episodeNumber": "30",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v8vu3n.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874946,
@@ -225,11 +225,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "36",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/x8v7v6.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874938,
@@ -242,11 +242,11 @@
       "premiereInd": false,
       "episodeNumber": "23",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853346,
@@ -259,11 +259,11 @@
       "premiereInd": false,
       "episodeNumber": "19",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/cserv6.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853347,
@@ -277,11 +277,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "1",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8mjpg4.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182874728,
@@ -294,11 +294,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/yoj1lm.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182409327,
@@ -312,11 +312,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "9",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/63qq50.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853440,
@@ -329,45 +329,45 @@
       "premiereInd": false,
       "episodeNumber": "30",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v8vu3n.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182409329,
       "programTitle": "USPGA Mini: St. Jude Championship FR",
       "channelId": 133,
       "scheduledDate": 1789639200000,
-      "duration": 15,
+      "duration": 20,
       "episodeTitle": "St Jude Championship Final Round",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/p9ygnn.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182409330,
       "programTitle": "USPGA Mini: BMW Championship Final Round",
       "channelId": 133,
-      "scheduledDate": 1789640100000,
-      "duration": 25,
+      "scheduledDate": 1789640400000,
+      "duration": 20,
       "episodeTitle": "BMW Championship Final Round",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/s4xt4u.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182409331,
@@ -380,29 +380,46 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7o2bqq.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182894990,
+      "programTitle": "Golf: The Cut",
+      "channelId": 133,
+      "scheduledDate": 1789642800000,
+      "duration": 30,
+      "episodeTitle": "Episode 30",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "episodeNumber": "30",
+      "displaySepNum": true,
+      "versionNum": 17570425,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v8vu3n.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853350,
       "programTitle": "Live: USPGA: Biltmore Championship R1",
       "channelId": 133,
-      "scheduledDate": 1789642800000,
-      "duration": 480,
+      "scheduledDate": 1789644600000,
+      "duration": 450,
       "episodeTitle": "Biltmore Championship Round 1",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17552334,
+      "versionNum": 17570425,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     }
   ]
 }

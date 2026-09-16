@@ -2,25 +2,25 @@
   "channel": "SPS",
   "date": "2026-09-18",
   "label": "day after",
-  "fetchedAt": 1789525008894,
-  "fetchedAtIST": "16/9/2026, 7:46:48 am",
+  "fetchedAt": 1789548967845,
+  "fetchedAtIST": "16/9/2026, 2:26:07 pm",
   "events": [
     {
       "eventId": 182853450,
-      "programTitle": "Live: World Series of Darts FL: Tag 1",
+      "programTitle": "Live: World Series of Darts Final",
       "channelId": 307,
       "scheduledDate": 1789664400000,
       "duration": 240,
-      "episodeTitle": "Tag 1",
+      "episodeTitle": "Day 1",
       "parentalRating": "NC",
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874738,
@@ -33,11 +33,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8iy2w.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853452,
@@ -50,15 +50,15 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853453,
-      "programTitle": "Moto2: San MarinoRace",
+      "programTitle": "Moto2: San Marino Race",
       "channelId": 307,
       "scheduledDate": 1789686000000,
       "duration": 60,
@@ -67,11 +67,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sc8ms8.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853454,
@@ -83,11 +83,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/zrrns.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853455,
@@ -100,11 +100,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/s10r75.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853456,
@@ -117,11 +117,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874739,
@@ -134,11 +134,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8iy2w.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853458,
@@ -151,15 +151,15 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xa0137.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853459,
-      "programTitle": "Porsche Carrera Cup Highlights: Carrera",
+      "programTitle": "Porsche Carrera Cup Highlights: Round 4",
       "channelId": 307,
       "scheduledDate": 1789705500000,
       "duration": 55,
@@ -169,11 +169,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "4",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/bw3er.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853460,
@@ -187,15 +187,15 @@
       "seriesNumber": "2025",
       "episodeNumber": "113",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hsp9ze.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182853461,
-      "programTitle": "MotoGP: Austria Race",
+      "eventId": 182894970,
+      "programTitle": "MotoGP: 2025 Austria Race",
       "channelId": 307,
       "scheduledDate": 1789710000000,
       "duration": 60,
@@ -203,32 +203,32 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4xwsnc.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182853462,
-      "programTitle": "INSIDE Ducati Lenovo Team",
+      "eventId": 182894971,
+      "programTitle": "MotoGP: Inside Ducati: Aragon",
       "channelId": 307,
       "scheduledDate": 1789713600000,
       "duration": 15,
-      "episodeTitle": "Episode 13",
+      "episodeTitle": "Aragon",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "episodeNumber": "13",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182853463,
+      "eventId": 182894972,
       "programTitle": "Live: Moto3: Austria Practice 1",
       "channelId": 307,
       "scheduledDate": 1789714500000,
@@ -238,14 +238,14 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/69xu21.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182853464,
+      "eventId": 182894973,
       "programTitle": "Live: Moto2: Austria Practice 1",
       "channelId": 307,
       "scheduledDate": 1789717200000,
@@ -255,14 +255,14 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/69xu21.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182853465,
+      "eventId": 182894974,
       "programTitle": "Live: MotoGP: Austria Practice 1",
       "channelId": 307,
       "scheduledDate": 1789720500000,
@@ -272,15 +272,15 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4xwsnc.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182853466,
-      "programTitle": "MotoGP Mini: Austria",
+      "eventId": 182894975,
+      "programTitle": "MotoGP Mini: 2025 Austria",
       "channelId": 307,
       "scheduledDate": 1789725000000,
       "duration": 25,
@@ -288,11 +288,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/61q3w.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874726,
@@ -305,14 +305,14 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8iy2w.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182853468,
+      "eventId": 182894976,
       "programTitle": "Live: Moto3: Austria Practice 2",
       "channelId": 307,
       "scheduledDate": 1789729800000,
@@ -322,31 +322,31 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/69xu21.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182874613,
+      "eventId": 182894977,
       "programTitle": "Live: FIM Speedway World Championship:",
       "channelId": 307,
       "scheduledDate": 1789732500000,
       "duration": 55,
-      "episodeTitle": "Austria Practice 2 (KAYO)",
+      "episodeTitle": "Austria Practice 2",
       "parentalRating": "NC",
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182853469,
+      "eventId": 182894978,
       "programTitle": "Live: MotoGP: Austria Practice 2",
       "channelId": 307,
       "scheduledDate": 1789735800000,
@@ -356,29 +356,29 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4xwsnc.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
-      "eventId": 182853470,
-      "programTitle": "INSIDE Ducati Lenovo Team",
+      "eventId": 182894979,
+      "programTitle": "MotoGP: Inside Ducati: Aragon",
       "channelId": 307,
       "scheduledDate": 1789740600000,
       "duration": 20,
-      "episodeTitle": "Episode 13",
+      "episodeTitle": "Aragon",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "episodeNumber": "13",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874614,
@@ -392,11 +392,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "8",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/heemvi.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182241295,
@@ -409,28 +409,28 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8zpw85.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853472,
-      "programTitle": "Live: World Series of Darts FL: Tag 2",
+      "programTitle": "Live: World Series of Darts Final",
       "channelId": 307,
       "scheduledDate": 1789750800000,
       "duration": 240,
-      "episodeTitle": "Tag 2",
+      "episodeTitle": "Day 2",
       "parentalRating": "NC",
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17552443,
+      "versionNum": 17577177,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     }
   ]
 }
