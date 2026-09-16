@@ -2,8 +2,8 @@
   "channel": "FS3",
   "date": "2026-09-17",
   "label": "tomorrow",
-  "fetchedAt": 1789548949874,
-  "fetchedAtIST": "16/9/2026, 2:25:49 pm",
+  "fetchedAt": 1789573491413,
+  "fetchedAtIST": "16/9/2026, 9:14:51 pm",
   "events": [
     {
       "eventId": 182409310,
@@ -16,11 +16,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/jc9c2j.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182409311,
@@ -33,11 +33,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/jc9c2j.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182409312,
@@ -50,11 +50,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4cq5ce.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853362,
@@ -68,11 +68,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "1",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8mjpg4.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182409314,
@@ -86,11 +86,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "9",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/63qq50.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853495,
@@ -103,11 +103,11 @@
       "premiereInd": false,
       "episodeNumber": "30",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v8vu3n.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182409316,
@@ -120,11 +120,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7vdu5.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874945,
@@ -132,17 +132,17 @@
       "channelId": 133,
       "scheduledDate": 1789608600000,
       "duration": 60,
-      "episodeTitle": "2026",
+      "episodeTitle": "Ladies European Tour",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "episodeNumber": "36",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/x8v7v6.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853365,
@@ -154,11 +154,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kiksna.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853366,
@@ -172,11 +172,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "1",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8mjpg4.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182409320,
@@ -190,11 +190,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "9",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/63qq50.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853496,
@@ -207,11 +207,11 @@
       "premiereInd": false,
       "episodeNumber": "30",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v8vu3n.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874946,
@@ -219,17 +219,17 @@
       "channelId": 133,
       "scheduledDate": 1789623000000,
       "duration": 60,
-      "episodeTitle": "2026",
+      "episodeTitle": "Ladies European Tour",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "episodeNumber": "36",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/x8v7v6.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874938,
@@ -242,11 +242,11 @@
       "premiereInd": false,
       "episodeNumber": "23",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853346,
@@ -259,11 +259,11 @@
       "premiereInd": false,
       "episodeNumber": "19",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/cserv6.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853347,
@@ -277,11 +277,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "1",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8mjpg4.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874728,
@@ -294,11 +294,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/yoj1lm.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182409327,
@@ -312,11 +312,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "9",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/63qq50.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853440,
@@ -329,11 +329,11 @@
       "premiereInd": false,
       "episodeNumber": "30",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v8vu3n.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182409329,
@@ -346,11 +346,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/p9ygnn.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182409330,
@@ -363,11 +363,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/s4xt4u.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182409331,
@@ -380,11 +380,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7o2bqq.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182894990,
@@ -397,11 +397,11 @@
       "premiereInd": false,
       "episodeNumber": "30",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v8vu3n.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182853350,
@@ -415,11 +415,11 @@
       "seriesNumber": "2026",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     }
   ]
 }

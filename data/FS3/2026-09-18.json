@@ -2,8 +2,8 @@
   "channel": "FS3",
   "date": "2026-09-18",
   "label": "day after",
-  "fetchedAt": 1789548951111,
-  "fetchedAtIST": "16/9/2026, 2:25:51 pm",
+  "fetchedAt": 1789573492651,
+  "fetchedAtIST": "16/9/2026, 9:14:52 pm",
   "events": [
     {
       "eventId": 182853350,
@@ -17,11 +17,11 @@
       "seriesNumber": "2026",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853351,
@@ -35,11 +35,11 @@
       "seriesNumber": "2026",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182875002,
@@ -47,17 +47,17 @@
       "channelId": 133,
       "scheduledDate": 1789682400000,
       "duration": 60,
-      "episodeTitle": "2026",
+      "episodeTitle": "Ladies European Tour",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "episodeNumber": "36",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/x8v7v6.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853353,
@@ -71,79 +71,79 @@
       "seriesNumber": "2026",
       "episodeNumber": "9",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/63qq50.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
-      "eventId": 182446715,
-      "programTitle": "Golf: PGA Championship Round 1",
+      "eventId": 182895379,
+      "programTitle": "Golf: Korn Ferry Tour",
       "channelId": 133,
       "scheduledDate": 1789687800000,
       "duration": 90,
-      "episodeTitle": "PGA Championship Round 1",
+      "episodeTitle": "NCH Round 1",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17570425,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/l06dzd.png",
+      "versionNum": 17537307,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7vdu5.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
-      "eventId": 182853354,
-      "programTitle": "USPGA: Biltmore Championship Round 1",
+      "eventId": 182895380,
+      "programTitle": "ELPGA: La Sella Open Round 1",
       "channelId": 133,
       "scheduledDate": 1789693200000,
       "duration": 90,
+      "episodeTitle": "La Sella Open Round 1",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "displaySepNum": true,
+      "versionNum": 17537307,
+      "imageUrl": "",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 182895381,
+      "programTitle": "USPGA: Biltmore Championship Round 1",
+      "channelId": 133,
+      "scheduledDate": 1789698600000,
+      "duration": 90,
       "episodeTitle": "Biltmore Championship Round 1",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
-      "eventId": 182853355,
+      "eventId": 182895382,
       "programTitle": "Golf: PGA Championship Round 1",
       "channelId": 133,
-      "scheduledDate": 1789698600000,
+      "scheduledDate": 1789704000000,
       "duration": 90,
       "episodeTitle": "PGA Championship Round 1",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/l06dzd.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
-    },
-    {
-      "eventId": 182853356,
-      "programTitle": "USPGA: Biltmore Championship Round 1",
-      "channelId": 133,
-      "scheduledDate": 1789704000000,
-      "duration": 90,
-      "episodeTitle": "Biltmore Championship Round 1",
-      "parentalRating": "NC",
-      "premiereInd": false,
-      "seriesNumber": "2026",
-      "displaySepNum": true,
-      "versionNum": 17570425,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
-      "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182446720,
@@ -156,11 +156,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7vdu5.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182894615,
@@ -174,11 +174,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "9",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/63qq50.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182894986,
@@ -191,11 +191,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182894617,
@@ -208,11 +208,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/n0zdwl.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182894618,
@@ -220,17 +220,17 @@
       "channelId": 133,
       "scheduledDate": 1789725600000,
       "duration": 60,
-      "episodeTitle": "2026",
+      "episodeTitle": "Ladies European Tour",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "episodeNumber": "36",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/x8v7v6.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182894987,
@@ -244,11 +244,11 @@
       "seriesNumber": "2026",
       "episodeNumber": "9",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/63qq50.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     },
     {
       "eventId": 182853361,
@@ -262,11 +262,11 @@
       "seriesNumber": "2026",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17570425,
+      "versionNum": 17537307,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
-      "adultsOnly": false,
-      "isMovie": false
+      "isMovie": false,
+      "adultsOnly": false
     }
   ]
 }

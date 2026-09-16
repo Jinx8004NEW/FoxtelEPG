@@ -2,8 +2,8 @@
   "channel": "FS1",
   "date": "2026-09-18",
   "label": "day after",
-  "fetchedAt": 1789548940011,
-  "fetchedAtIST": "16/9/2026, 2:25:40 pm",
+  "fetchedAt": 1789573481635,
+  "fetchedAtIST": "16/9/2026, 9:14:41 pm",
   "events": [
     {
       "eventId": 182894880,
@@ -16,11 +16,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17571564,
+      "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xaq7ke.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182830084,
@@ -32,44 +32,44 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571564,
+      "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874712,
       "programTitle": "Test: ENG v PAK 3rd Test",
       "channelId": 9,
       "scheduledDate": 1789684200000,
-      "duration": 65,
+      "duration": 60,
       "episodeTitle": "ENG v PAK 3rd Test",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17571564,
+      "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874608,
       "programTitle": "ODI Mini: Zimbabwe v Australia G1",
       "channelId": 9,
-      "scheduledDate": 1789688100000,
-      "duration": 20,
+      "scheduledDate": 1789687800000,
+      "duration": 25,
       "episodeTitle": "Zimbabwe v Australia G1",
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571564,
+      "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7y2di.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182830087,
@@ -83,11 +83,11 @@
       "seriesNumber": "2026",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17571564,
+      "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ojztt.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182875003,
@@ -100,11 +100,11 @@
       "premiereInd": false,
       "episodeNumber": "3",
       "displaySepNum": true,
-      "versionNum": 17571564,
+      "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/okfdb8.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182894881,
@@ -116,11 +116,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571564,
+      "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xaq7ke.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874609,
@@ -132,11 +132,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571564,
+      "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7y2di.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182894882,
@@ -148,11 +148,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571564,
+      "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xaq7ke.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182874610,
@@ -164,11 +164,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571564,
+      "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7y2di.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182894883,
@@ -181,11 +181,11 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17571564,
+      "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/2j5hr4.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182865055,
@@ -198,11 +198,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17571564,
+      "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182865056,
@@ -214,11 +214,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571564,
+      "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182865057,
@@ -231,11 +231,11 @@
       "premiereInd": false,
       "seriesNumber": "2024",
       "displaySepNum": true,
-      "versionNum": 17571564,
+      "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/huv6l8.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182865058,
@@ -247,11 +247,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571564,
+      "versionNum": 17580787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/huv6l8.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     }
   ]
 }

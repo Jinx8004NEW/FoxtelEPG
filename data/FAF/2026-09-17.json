@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-09-17",
   "label": "tomorrow",
-  "fetchedAt": 1789548955412,
-  "fetchedAtIST": "16/9/2026, 2:25:55 pm",
+  "fetchedAt": 1789573496947,
+  "fetchedAtIST": "16/9/2026, 9:14:56 pm",
   "events": [
     {
       "eventId": 182798359,
@@ -15,11 +15,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798360,
@@ -31,11 +31,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ywnit.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798361,
@@ -47,11 +47,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798362,
@@ -63,11 +63,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ywnit.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798363,
@@ -80,11 +80,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/euiuuu.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798365,
@@ -96,11 +96,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798366,
@@ -112,11 +112,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ywnit.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798367,
@@ -128,11 +128,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798368,
@@ -144,11 +144,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ywnit.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798369,
@@ -160,11 +160,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798370,
@@ -176,11 +176,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ywnit.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798371,
@@ -192,11 +192,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798372,
@@ -208,11 +208,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ywnit.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798373,
@@ -225,11 +225,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/a14xl9.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798374,
@@ -242,11 +242,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/s4lces.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805189,
@@ -259,11 +259,11 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/a14xl9.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798376,
@@ -275,11 +275,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798377,
@@ -291,11 +291,11 @@
       "parentalRating": "NC",
       "premiereInd": false,
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ywnit.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798378,
@@ -308,11 +308,11 @@
       "premiereInd": false,
       "episodeNumber": "54",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8g3em9.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798379,
@@ -327,15 +327,15 @@
       "episodeNumber": "141",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7nz21u.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798380,
-      "programTitle": "Live: FIRST CRACK PREVIEW",
+      "programTitle": "Live: First Crack Preview",
       "channelId": 330,
       "scheduledDate": 1789633800000,
       "duration": 30,
@@ -345,31 +345,32 @@
       "episodeNumber": "27",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/e96wwg.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182894821,
-      "programTitle": "TBA: Round 22 BRI v HAW",
+      "programTitle": "AFL Mini: Round 22 BRI v HAW",
       "channelId": 330,
       "scheduledDate": 1789635600000,
       "duration": 20,
       "episodeTitle": "Round 22 BRI v HAW",
       "parentalRating": "NC",
       "premiereInd": false,
+      "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/epktzq.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798381,
-      "programTitle": "FIRST CRACK PREVIEW",
+      "programTitle": "First Crack Preview",
       "channelId": 330,
       "scheduledDate": 1789636800000,
       "duration": 30,
@@ -378,32 +379,32 @@
       "premiereInd": false,
       "episodeNumber": "27",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/e96wwg.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182894822,
-      "programTitle": "TBA: AFL Mini",
+      "programTitle": "AFL Mini: Round 18 FRE v SYD",
       "channelId": 330,
       "scheduledDate": 1789638600000,
       "duration": 20,
-      "episodeTitle": "AFL Mini",
+      "episodeTitle": "Round 18 FRE v SYD",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/epktzq.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798382,
-      "programTitle": "FIRST CRACK PREVIEW",
+      "programTitle": "First Crack Preview",
       "channelId": 330,
       "scheduledDate": 1789639800000,
       "duration": 30,
@@ -412,31 +413,32 @@
       "premiereInd": false,
       "episodeNumber": "27",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/e96wwg.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182894823,
-      "programTitle": "TBA: Round 22 BRI v HAW",
+      "programTitle": "AFL Mini: Round 22 BRI v HAW",
       "channelId": 330,
       "scheduledDate": 1789641600000,
       "duration": 20,
       "episodeTitle": "Round 22 BRI v HAW",
       "parentalRating": "NC",
       "premiereInd": false,
+      "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/epktzq.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798383,
-      "programTitle": "FIRST CRACK PREVIEW",
+      "programTitle": "First Crack Preview",
       "channelId": 330,
       "scheduledDate": 1789642800000,
       "duration": 30,
@@ -445,32 +447,32 @@
       "premiereInd": false,
       "episodeNumber": "27",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/e96wwg.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182894824,
-      "programTitle": "TBA: AFL Mini",
+      "programTitle": "AFL Mini: Round 18 FRE v SYD",
       "channelId": 330,
       "scheduledDate": 1789644600000,
       "duration": 20,
-      "episodeTitle": "AFL Mini",
+      "episodeTitle": "Round 18 FRE v SYD",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/epktzq.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798384,
-      "programTitle": "FIRST CRACK PREVIEW",
+      "programTitle": "First Crack Preview",
       "channelId": 330,
       "scheduledDate": 1789645800000,
       "duration": 30,
@@ -479,31 +481,32 @@
       "premiereInd": false,
       "episodeNumber": "27",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/e96wwg.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182894825,
-      "programTitle": "TBA: Round 22 BRI v HAW",
+      "programTitle": "AFL Mini: Round 22 BRI v HAW",
       "channelId": 330,
       "scheduledDate": 1789647600000,
       "duration": 20,
       "episodeTitle": "Round 22 BRI v HAW",
       "parentalRating": "NC",
       "premiereInd": false,
+      "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/epktzq.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798385,
-      "programTitle": "FIRST CRACK PREVIEW",
+      "programTitle": "First Crack Preview",
       "channelId": 330,
       "scheduledDate": 1789648800000,
       "duration": 30,
@@ -512,28 +515,28 @@
       "premiereInd": false,
       "episodeNumber": "27",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/e96wwg.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182894826,
-      "programTitle": "TBA: AFL Mini",
+      "programTitle": "AFL Mini: Round 18 FRE v SYD",
       "channelId": 330,
       "scheduledDate": 1789650600000,
       "duration": 20,
-      "episodeTitle": "AFL Mini",
+      "episodeTitle": "Round 18 FRE v SYD",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/epktzq.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798386,
@@ -546,15 +549,15 @@
       "premiereInd": false,
       "episodeNumber": "54",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8g3em9.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182798387,
-      "programTitle": "FIRST CRACK PREVIEW",
+      "programTitle": "First Crack Preview",
       "channelId": 330,
       "scheduledDate": 1789652700000,
       "duration": 30,
@@ -563,31 +566,32 @@
       "premiereInd": false,
       "episodeNumber": "27",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/e96wwg.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182894795,
-      "programTitle": "TBA: Round 22 BRI v HAW",
+      "programTitle": "AFL Mini: Round 22 BRI v HAW",
       "channelId": 330,
       "scheduledDate": 1789654500000,
       "duration": 20,
       "episodeTitle": "Round 22 BRI v HAW",
       "parentalRating": "NC",
       "premiereInd": false,
+      "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/epktzq.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805190,
-      "programTitle": "FIRST CRACK PREVIEW",
+      "programTitle": "First Crack Preview",
       "channelId": 330,
       "scheduledDate": 1789655700000,
       "duration": 30,
@@ -596,32 +600,32 @@
       "premiereInd": false,
       "episodeNumber": "27",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/e96wwg.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182894796,
-      "programTitle": "TBA: AFL Mini",
+      "programTitle": "AFL Mini: Round 18 FRE v SYD",
       "channelId": 330,
       "scheduledDate": 1789657500000,
       "duration": 20,
-      "episodeTitle": "AFL Mini",
+      "episodeTitle": "Round 18 FRE v SYD",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/epktzq.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805191,
-      "programTitle": "FIRST CRACK PREVIEW",
+      "programTitle": "First Crack Preview",
       "channelId": 330,
       "scheduledDate": 1789658700000,
       "duration": 30,
@@ -630,31 +634,32 @@
       "premiereInd": false,
       "episodeNumber": "27",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/e96wwg.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182894797,
-      "programTitle": "TBA: Round 22 BRI v HAW",
+      "programTitle": "AFL Mini: Round 22 BRI v HAW",
       "channelId": 330,
       "scheduledDate": 1789660500000,
       "duration": 20,
       "episodeTitle": "Round 22 BRI v HAW",
       "parentalRating": "NC",
       "premiereInd": false,
+      "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/epktzq.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805193,
-      "programTitle": "FIRST CRACK PREVIEW",
+      "programTitle": "First Crack Preview",
       "channelId": 330,
       "scheduledDate": 1789661700000,
       "duration": 30,
@@ -663,32 +668,32 @@
       "premiereInd": false,
       "episodeNumber": "27",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/e96wwg.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182894798,
-      "programTitle": "TBA: AFL Mini",
+      "programTitle": "AFL Mini: Round 18 FRE v SYD",
       "channelId": 330,
       "scheduledDate": 1789663500000,
       "duration": 20,
-      "episodeTitle": "AFL Mini",
+      "episodeTitle": "Round 18 FRE v SYD",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/epktzq.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805194,
-      "programTitle": "FIRST CRACK PREVIEW",
+      "programTitle": "First Crack Preview",
       "channelId": 330,
       "scheduledDate": 1789664700000,
       "duration": 30,
@@ -697,31 +702,32 @@
       "premiereInd": false,
       "episodeNumber": "27",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/e96wwg.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182894799,
-      "programTitle": "TBA: Round 22 BRI v HAW",
+      "programTitle": "AFL Mini: Round 22 BRI v HAW",
       "channelId": 330,
       "scheduledDate": 1789666500000,
       "duration": 20,
       "episodeTitle": "Round 22 BRI v HAW",
       "parentalRating": "NC",
       "premiereInd": false,
+      "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/epktzq.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182805195,
-      "programTitle": "FIRST CRACK PREVIEW",
+      "programTitle": "First Crack Preview",
       "channelId": 330,
       "scheduledDate": 1789667700000,
       "duration": 30,
@@ -730,28 +736,28 @@
       "premiereInd": false,
       "episodeNumber": "27",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/e96wwg.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     },
     {
       "eventId": 182894800,
-      "programTitle": "TBA: AFL Mini",
+      "programTitle": "AFL Mini: Round 18 FRE v SYD",
       "channelId": 330,
       "scheduledDate": 1789669500000,
       "duration": 20,
-      "episodeTitle": "AFL Mini",
+      "episodeTitle": "Round 18 FRE v SYD",
       "parentalRating": "NC",
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17571548,
+      "versionNum": 17578907,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/epktzq.png",
       "placeholder": false,
-      "isMovie": false,
-      "adultsOnly": false
+      "adultsOnly": false,
+      "isMovie": false
     }
   ]
 }
