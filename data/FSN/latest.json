@@ -2,8 +2,8 @@
   "channel": "FSN",
   "date": "2026-09-17",
   "label": "today",
-  "fetchedAt": 1789585909631,
-  "fetchedAtIST": "17/9/2026, 12:41:49 am",
+  "fetchedAt": 1789597700475,
+  "fetchedAtIST": "17/9/2026, 3:58:20 am",
   "events": [
     {
       "eventId": 182483395,
@@ -696,7 +696,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 17609437,
+      "versionNum": 17609445,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ls44wp.png",
       "placeholder": false,
       "isMovie": false,
