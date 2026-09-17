@@ -1,10 +1,27 @@
 {
   "channel": "FSS",
   "date": "2026-09-18",
-  "label": "tomorrow",
-  "fetchedAt": 1789660314722,
-  "fetchedAtIST": "17/9/2026, 9:21:54 pm",
+  "label": "today",
+  "fetchedAt": 1789673066171,
+  "fetchedAtIST": "18/9/2026, 12:54:26 am",
   "events": [
+    {
+      "eventId": 182894992,
+      "programTitle": "Live: T20: Afghanistan v India G2",
+      "channelId": 664,
+      "scheduledDate": 1789653000000,
+      "duration": 250,
+      "episodeTitle": "Afghanistan v India G2",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 17656846,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xaq7ke.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 182830040,
       "programTitle": "Live: WSL Championship Tour: Trestles D",
