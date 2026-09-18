@@ -1,9 +1,9 @@
 {
   "channel": "4KF",
   "date": "2026-09-19",
-  "label": "tomorrow",
-  "fetchedAt": 1789745172480,
-  "fetchedAtIST": "18/9/2026, 8:56:12 pm",
+  "label": "today",
+  "fetchedAt": 1789757123389,
+  "fetchedAtIST": "19/9/2026, 12:15:23 am",
   "events": [
     {
       "eventId": "3xbur5174f6e1mv9ll4mx0gwp",

@@ -1,10 +1,28 @@
 {
   "channel": "FSP",
   "date": "2026-09-19",
-  "label": "tomorrow",
-  "fetchedAt": 1789745119234,
-  "fetchedAtIST": "18/9/2026, 8:55:19 pm",
+  "label": "today",
+  "fetchedAt": 1789757073091,
+  "fetchedAtIST": "19/9/2026, 12:14:33 am",
   "events": [
+    {
+      "eventId": 182915157,
+      "programTitle": "Live: Golf: PGA Championship Round 2",
+      "channelId": 93,
+      "scheduledDate": 1789729200000,
+      "duration": 360,
+      "episodeTitle": "PGA Championship Round 2",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 17754241,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ahk8k9.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 182865504,
       "programTitle": "SailGP: Spain Day 1",
