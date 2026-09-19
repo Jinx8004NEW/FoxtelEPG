@@ -2,8 +2,8 @@
   "channel": "FS1",
   "date": "2026-09-19",
   "label": "today",
-  "fetchedAt": 1789768962860,
-  "fetchedAtIST": "19/9/2026, 3:32:42 am",
+  "fetchedAt": 1789783809113,
+  "fetchedAtIST": "19/9/2026, 7:40:09 am",
   "events": [
     {
       "eventId": 182894883,
@@ -234,7 +234,7 @@
       "premiereInd": false,
       "seriesNumber": "2024",
       "displaySepNum": true,
-      "versionNum": 17796418,
+      "versionNum": 17796426,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/huv6l8.png",
       "placeholder": false,
       "isMovie": false,
