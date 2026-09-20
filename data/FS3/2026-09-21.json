@@ -1,10 +1,28 @@
 {
   "channel": "FS3",
   "date": "2026-09-21",
-  "label": "tomorrow",
-  "fetchedAt": 1789928555264,
-  "fetchedAtIST": "20/9/2026, 11:52:35 pm",
+  "label": "today",
+  "fetchedAt": 1789941717314,
+  "fetchedAtIST": "21/9/2026, 3:31:57 am",
   "events": [
+    {
+      "eventId": 182865503,
+      "programTitle": "Live: PGA Championship: Final Round",
+      "channelId": 133,
+      "scheduledDate": 1789902000000,
+      "duration": 330,
+      "episodeTitle": "Final Round",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 17919882,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/z01fuw.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 182886922,
       "programTitle": "Live: USPGA: Biltmore Championship FR",
