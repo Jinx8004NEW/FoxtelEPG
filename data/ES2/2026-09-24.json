@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-09-24",
   "label": "today",
-  "fetchedAt": 1790215759281,
-  "fetchedAtIST": "24/9/2026, 7:39:19 am",
+  "fetchedAt": 1790239891509,
+  "fetchedAtIST": "24/9/2026, 2:21:31 pm",
   "events": [
     {
       "eventId": 182633054,
@@ -196,7 +196,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 18214091,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/aan26r.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
