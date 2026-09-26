@@ -1,9 +1,9 @@
 {
   "channel": "FSN",
   "date": "2026-09-28",
-  "label": "day after",
-  "fetchedAt": 1790436030258,
-  "fetchedAtIST": "26/9/2026, 8:50:30 pm",
+  "label": "tomorrow",
+  "fetchedAt": 1790448589037,
+  "fetchedAtIST": "27/9/2026, 12:19:49 am",
   "events": [
     {
       "eventId": 182897062,
