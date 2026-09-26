@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-09-26",
   "label": "today",
-  "fetchedAt": 1790377040045,
-  "fetchedAtIST": "26/9/2026, 4:27:20 am",
+  "fetchedAt": 1790389804516,
+  "fetchedAtIST": "26/9/2026, 8:00:04 am",
   "events": [
     {
       "eventId": 182696210,
@@ -167,7 +167,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 18401141,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ez4vdq.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -282,7 +282,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 18401141,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ez4vdq.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
