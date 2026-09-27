@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-09-29",
   "label": "day after",
-  "fetchedAt": 1790460942342,
-  "fetchedAtIST": "27/9/2026, 3:45:42 am",
+  "fetchedAt": 1790475987173,
+  "fetchedAtIST": "27/9/2026, 7:56:27 am",
   "events": [
     {
       "eventId": 183022089,
@@ -351,7 +351,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 18407212,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/fo22v.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -367,7 +367,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 18407212,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/fo22v.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -383,7 +383,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 18407212,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/fo22v.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

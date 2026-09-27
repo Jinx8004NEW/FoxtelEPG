@@ -2,8 +2,8 @@
   "channel": "FSP",
   "date": "2026-09-29",
   "label": "day after",
-  "fetchedAt": 1790460948085,
-  "fetchedAtIST": "27/9/2026, 3:45:48 am",
+  "fetchedAt": 1790475993170,
+  "fetchedAtIST": "27/9/2026, 7:56:33 am",
   "events": [
     {
       "eventId": 183056848,
@@ -318,7 +318,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 18488197,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
