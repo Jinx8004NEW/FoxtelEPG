@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-09-28",
   "label": "today",
-  "fetchedAt": 1790548889929,
-  "fetchedAtIST": "28/9/2026, 4:11:29 am",
+  "fetchedAt": 1790562646386,
+  "fetchedAtIST": "28/9/2026, 8:00:46 am",
   "events": [
     {
       "eventId": 182776462,
@@ -84,7 +84,7 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 18574608,
+      "versionNum": 18574638,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/qwi9gp.jpg",
       "placeholder": false,
       "isMovie": false,
