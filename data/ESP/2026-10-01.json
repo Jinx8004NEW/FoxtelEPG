@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-10-01",
   "label": "day after",
-  "fetchedAt": 1790640208993,
-  "fetchedAtIST": "29/9/2026, 5:33:28 am",
+  "fetchedAt": 1790676865287,
+  "fetchedAtIST": "29/9/2026, 3:44:25 pm",
   "events": [
     {
       "eventId": 182806779,
@@ -17,7 +17,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 18646274,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -35,7 +35,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 18646274,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -54,7 +54,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 18646274,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -71,7 +71,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 18646274,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -104,7 +104,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 18646274,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/6ukwh.jpg",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ea7yn4.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -186,7 +186,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 18646274,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/6ukwh.jpg",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/qzsogi.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

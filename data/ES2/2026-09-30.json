@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-09-30",
   "label": "tomorrow",
-  "fetchedAt": 1790640213427,
-  "fetchedAtIST": "29/9/2026, 5:33:33 am",
+  "fetchedAt": 1790676869562,
+  "fetchedAtIST": "29/9/2026, 3:44:29 pm",
   "events": [
     {
       "eventId": 182759569,
@@ -119,7 +119,7 @@
       "episodeNumber": "315",
       "displaySepNum": true,
       "versionNum": 18646151,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -137,7 +137,7 @@
       "episodeNumber": "82",
       "displaySepNum": true,
       "versionNum": 18646151,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

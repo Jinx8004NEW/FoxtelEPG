@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-10-01",
   "label": "day after",
-  "fetchedAt": 1790640214754,
-  "fetchedAtIST": "29/9/2026, 5:33:34 am",
+  "fetchedAt": 1790676870828,
+  "fetchedAtIST": "29/9/2026, 3:44:30 pm",
   "events": [
     {
       "eventId": 182776559,
@@ -119,7 +119,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 18646151,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/6ukwh.jpg",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ea7yn4.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -136,7 +136,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 18646151,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/3/6ukwh.jpg",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/qzsogi.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -204,7 +204,7 @@
       "episodeNumber": "315",
       "displaySepNum": true,
       "versionNum": 18646151,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -236,7 +236,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 18646151,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -254,7 +254,7 @@
       "episodeNumber": "82",
       "displaySepNum": true,
       "versionNum": 18646151,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -270,7 +270,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 18646151,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -321,7 +321,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 18646151,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
