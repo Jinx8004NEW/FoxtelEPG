@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-10-01",
   "label": "tomorrow",
-  "fetchedAt": 1790723829956,
-  "fetchedAtIST": "30/9/2026, 4:47:09 am",
+  "fetchedAt": 1790736966304,
+  "fetchedAtIST": "30/9/2026, 8:26:06 am",
   "events": [
     {
       "eventId": 182806779,
@@ -17,7 +17,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 18748376,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sdbavj.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -35,7 +35,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 18748376,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/iv81eh.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -54,7 +54,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 18748376,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kxjzxb.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -71,7 +71,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 18748376,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/g5360b.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -219,7 +219,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 18748376,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/390xty.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-10-02",
   "label": "day after",
-  "fetchedAt": 1790723831269,
-  "fetchedAtIST": "30/9/2026, 4:47:11 am",
+  "fetchedAt": 1790736967582,
+  "fetchedAtIST": "30/9/2026, 8:26:07 am",
   "events": [
     {
       "eventId": 183131987,
@@ -167,7 +167,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 18748376,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/vi2ndo.jpeg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -217,7 +217,7 @@
       "episodeNumber": "82",
       "displaySepNum": true,
       "versionNum": 18748376,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kxjzxb.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

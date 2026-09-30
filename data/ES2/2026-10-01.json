@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-10-01",
   "label": "tomorrow",
-  "fetchedAt": 1790723835784,
-  "fetchedAtIST": "30/9/2026, 4:47:15 am",
+  "fetchedAt": 1790736971921,
+  "fetchedAtIST": "30/9/2026, 8:26:11 am",
   "events": [
     {
       "eventId": 182776559,
@@ -204,7 +204,7 @@
       "episodeNumber": "315",
       "displaySepNum": true,
       "versionNum": 18732505,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/iv81eh.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -236,7 +236,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 18732505,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sdbavj.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -254,7 +254,7 @@
       "episodeNumber": "82",
       "displaySepNum": true,
       "versionNum": 18732505,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kxjzxb.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -270,7 +270,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 18732505,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/g5360b.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -321,7 +321,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 18732505,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8d85y.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ls50sc.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
