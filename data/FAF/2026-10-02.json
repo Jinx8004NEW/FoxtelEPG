@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-10-02",
   "label": "tomorrow",
-  "fetchedAt": 1790810366856,
-  "fetchedAtIST": "1/10/2026, 4:49:26 am",
+  "fetchedAt": 1790823709113,
+  "fetchedAtIST": "1/10/2026, 8:31:49 am",
   "events": [
     {
       "eventId": 183139563,
@@ -32,7 +32,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 18831962,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/cclxd.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/123ssm.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

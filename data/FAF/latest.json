@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-10-01",
   "label": "today",
-  "fetchedAt": 1790810365553,
-  "fetchedAtIST": "1/10/2026, 4:49:25 am",
+  "fetchedAt": 1790823707738,
+  "fetchedAtIST": "1/10/2026, 8:31:47 am",
   "events": [
     {
       "eventId": 183100641,
@@ -17,7 +17,7 @@
       "episodeNumber": "31",
       "displaySepNum": true,
       "versionNum": 18831962,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/knejaw.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/pyr5o7.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
