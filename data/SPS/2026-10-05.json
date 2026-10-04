@@ -1,10 +1,28 @@
 {
   "channel": "SPS",
   "date": "2026-10-05",
-  "label": "tomorrow",
-  "fetchedAt": 1791130128781,
-  "fetchedAtIST": "4/10/2026, 9:38:48 pm",
+  "label": "today",
+  "fetchedAt": 1791153407426,
+  "fetchedAtIST": "5/10/2026, 4:06:47 am",
   "events": [
+    {
+      "eventId": 183160493,
+      "programTitle": "Live: Motorsport: British Superbikes",
+      "channelId": 307,
+      "scheduledDate": 1791115200000,
+      "duration": 300,
+      "episodeTitle": "British Superbike Championship",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 19010297,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xqsxyg.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 183168323,
       "programTitle": "F1: Bahrain Race",
