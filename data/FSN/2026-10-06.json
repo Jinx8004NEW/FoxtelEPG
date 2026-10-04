@@ -2,8 +2,8 @@
   "channel": "FSN",
   "date": "2026-10-06",
   "label": "day after",
-  "fetchedAt": 1791066699899,
-  "fetchedAtIST": "4/10/2026, 4:01:39 am",
+  "fetchedAt": 1791084027078,
+  "fetchedAtIST": "4/10/2026, 8:50:27 am",
   "events": [
     {
       "eventId": 183058913,
@@ -289,7 +289,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 18646475,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/366rlp.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -306,7 +306,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 18646475,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1oavam.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -323,7 +323,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 18646475,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/366rlp.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -340,7 +340,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 18646475,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1oavam.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
