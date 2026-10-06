@@ -2,8 +2,8 @@
   "channel": "FS3",
   "date": "2026-10-08",
   "label": "day after",
-  "fetchedAt": 1791230114109,
-  "fetchedAtIST": "6/10/2026, 1:25:14 am",
+  "fetchedAt": 1791248527802,
+  "fetchedAtIST": "6/10/2026, 6:32:07 am",
   "events": [
     {
       "eventId": 183262352,
@@ -17,7 +17,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 19197213,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/jc9c2j.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -84,7 +84,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 19197213,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/62gq3.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -288,7 +288,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 19197213,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

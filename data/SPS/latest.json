@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-10-06",
   "label": "today",
-  "fetchedAt": 1791230128394,
-  "fetchedAtIST": "6/10/2026, 1:25:28 am",
+  "fetchedAt": 1791248542839,
+  "fetchedAtIST": "6/10/2026, 6:32:22 am",
   "events": [
     {
       "eventId": 183218984,
@@ -334,7 +334,7 @@
       "seriesNumber": "2021",
       "displaySepNum": true,
       "versionNum": 19198028,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xa0137.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -532,7 +532,7 @@
       "seriesNumber": "2016",
       "displaySepNum": true,
       "versionNum": 19198028,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -612,7 +612,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 19198028,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -628,7 +628,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 19198028,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -677,7 +677,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 19198028,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -743,7 +743,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 19198028,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -792,7 +792,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 19198028,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
