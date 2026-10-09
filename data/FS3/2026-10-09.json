@@ -1,10 +1,28 @@
 {
   "channel": "FS3",
   "date": "2026-10-09",
-  "label": "tomorrow",
-  "fetchedAt": 1791482931326,
-  "fetchedAtIST": "8/10/2026, 11:38:51 pm",
+  "label": "today",
+  "fetchedAt": 1791504157004,
+  "fetchedAtIST": "9/10/2026, 5:32:37 am",
   "events": [
+    {
+      "eventId": 183212690,
+      "programTitle": "Live: Golf: Spanish Open Round 1",
+      "channelId": 133,
+      "scheduledDate": 1791460800000,
+      "duration": 300,
+      "episodeTitle": "Spanish Open Round 1",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "seriesNumber": "2026",
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 19197213,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xdjl69.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 183247997,
       "programTitle": "No Program Information Available",
