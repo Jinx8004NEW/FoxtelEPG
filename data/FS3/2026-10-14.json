@@ -2,8 +2,8 @@
   "channel": "FS3",
   "date": "2026-10-14",
   "label": "day after",
-  "fetchedAt": 1791760721125,
-  "fetchedAtIST": "12/10/2026, 4:48:41 am",
+  "fetchedAt": 1791774757736,
+  "fetchedAtIST": "12/10/2026, 8:42:37 am",
   "events": [
     {
       "eventId": 183335228,
@@ -416,7 +416,7 @@
       "seriesNumber": "2025",
       "displaySepNum": true,
       "versionNum": 19788623,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/id13r3.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
