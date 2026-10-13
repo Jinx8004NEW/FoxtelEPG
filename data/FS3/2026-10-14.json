@@ -1,10 +1,27 @@
 {
   "channel": "FS3",
   "date": "2026-10-14",
-  "label": "tomorrow",
-  "fetchedAt": 1791905034097,
-  "fetchedAtIST": "13/10/2026, 8:53:54 pm",
+  "label": "today",
+  "fetchedAt": 1791924834713,
+  "fetchedAtIST": "14/10/2026, 2:23:54 am",
   "events": [
+    {
+      "eventId": 183335227,
+      "programTitle": "Live: T20: Pakistan v Sri Lanka G3",
+      "channelId": 133,
+      "scheduledDate": 1791895800000,
+      "duration": 250,
+      "episodeTitle": "Pakistan v Sri Lanka G3",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 19914119,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/mcp93f.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 183335228,
       "programTitle": "Golf: Catalunya Championship Final Round",
