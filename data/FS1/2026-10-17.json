@@ -1,10 +1,27 @@
 {
   "channel": "FS1",
   "date": "2026-10-17",
-  "label": "tomorrow",
-  "fetchedAt": 1792165501754,
-  "fetchedAtIST": "16/10/2026, 9:15:01 pm",
+  "label": "today",
+  "fetchedAt": 1792177665142,
+  "fetchedAtIST": "17/10/2026, 12:37:45 am",
   "events": [
+    {
+      "eventId": 183397969,
+      "programTitle": "Live: WCL: SF1 SA v ENG",
+      "channelId": 9,
+      "scheduledDate": 1792149600000,
+      "duration": 240,
+      "episodeTitle": "SF1 SA v ENG",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 20172649,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/u6vjzq.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
     {
       "eventId": 183397970,
       "programTitle": "Live: WCL: SF2 AUS v WI",
