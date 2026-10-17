@@ -2,8 +2,8 @@
   "channel": "FS1",
   "date": "2026-10-19",
   "label": "day after",
-  "fetchedAt": 1792202594339,
-  "fetchedAtIST": "17/10/2026, 7:33:14 am",
+  "fetchedAt": 1792224458610,
+  "fetchedAtIST": "17/10/2026, 1:37:38 pm",
   "events": [
     {
       "eventId": 183416611,
@@ -250,7 +250,7 @@
       "seriesNumber": "2",
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 20221791,
+      "versionNum": 20221787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/12nziw.png",
       "placeholder": false,
       "isMovie": false,
@@ -267,7 +267,7 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 20221791,
+      "versionNum": 20221787,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/beq68u.png",
       "placeholder": false,
       "isMovie": false,
