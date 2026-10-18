@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-10-20",
   "label": "day after",
-  "fetchedAt": 1792273921317,
-  "fetchedAtIST": "18/10/2026, 3:22:01 am",
+  "fetchedAt": 1792289021714,
+  "fetchedAtIST": "18/10/2026, 7:33:41 am",
   "events": [
     {
       "eventId": 183467213,
@@ -17,7 +17,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 20291389,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xnfzcj.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
