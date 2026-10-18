@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-10-18",
   "label": "today",
-  "fetchedAt": 1792335879199,
-  "fetchedAtIST": "18/10/2026, 8:34:39 pm",
+  "fetchedAt": 1792347680257,
+  "fetchedAtIST": "18/10/2026, 11:51:20 pm",
   "events": [
     {
       "eventId": 183428097,
@@ -632,7 +632,7 @@
       "premiereInd": false,
       "seriesNumber": "2026",
       "displaySepNum": true,
-      "versionNum": 20311565,
+      "versionNum": 20311568,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v4nc6i.png",
       "placeholder": false,
       "isMovie": false,
@@ -942,7 +942,7 @@
       "seriesNumber": "2021",
       "pashTag": "ROUND10",
       "displaySepNum": true,
-      "versionNum": 20311565,
+      "versionNum": 20311568,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v4nc6i.png",
       "placeholder": false,
       "isMovie": false,

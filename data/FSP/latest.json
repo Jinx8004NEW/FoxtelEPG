@@ -2,8 +2,8 @@
   "channel": "FSP",
   "date": "2026-10-18",
   "label": "today",
-  "fetchedAt": 1792335896629,
-  "fetchedAtIST": "18/10/2026, 8:34:56 pm",
+  "fetchedAt": 1792347697413,
+  "fetchedAtIST": "18/10/2026, 11:51:37 pm",
   "events": [
     {
       "eventId": 183407542,
@@ -500,7 +500,7 @@
       "premiereInd": false,
       "pashTag": "LIVE",
       "displaySepNum": true,
-      "versionNum": 20338448,
+      "versionNum": 20311671,
       "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7y2di.png",
       "placeholder": false,
       "isMovie": false,
