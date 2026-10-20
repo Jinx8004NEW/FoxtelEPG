@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-10-20",
   "label": "today",
-  "fetchedAt": 1792451589460,
-  "fetchedAtIST": "20/10/2026, 4:43:09 am",
+  "fetchedAt": 1792463661749,
+  "fetchedAtIST": "20/10/2026, 8:04:21 am",
   "events": [
     {
       "eventId": 183150060,
@@ -195,7 +195,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 20464168,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/30/6802249052312036404_169.jpeg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -310,7 +310,7 @@
       "episodeNumber": "34",
       "displaySepNum": true,
       "versionNum": 20464168,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/aan26r.jpg",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/nsoo3o.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
