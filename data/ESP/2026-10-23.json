@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-10-23",
   "label": "tomorrow",
-  "fetchedAt": 1792623221201,
-  "fetchedAtIST": "22/10/2026, 4:23:41 am",
+  "fetchedAt": 1792636013604,
+  "fetchedAtIST": "22/10/2026, 7:56:53 am",
   "events": [
     {
       "eventId": 183263477,
@@ -152,7 +152,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 20637069,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/aan26r.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -168,7 +168,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 20637069,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -281,7 +281,7 @@
       "episodeNumber": "43",
       "displaySepNum": true,
       "versionNum": 20637069,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/aan26r.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
