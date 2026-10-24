@@ -2,8 +2,8 @@
   "channel": "ESP",
   "date": "2026-10-25",
   "label": "tomorrow",
-  "fetchedAt": 1792795510319,
-  "fetchedAtIST": "24/10/2026, 4:15:10 am",
+  "fetchedAt": 1792808851455,
+  "fetchedAtIST": "24/10/2026, 7:57:31 am",
   "events": [
     {
       "eventId": 183252283,
@@ -150,7 +150,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 20723482,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

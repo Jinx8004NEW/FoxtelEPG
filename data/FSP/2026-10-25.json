@@ -2,8 +2,8 @@
   "channel": "FSP",
   "date": "2026-10-25",
   "label": "tomorrow",
-  "fetchedAt": 1792795493596,
-  "fetchedAtIST": "24/10/2026, 4:14:53 am",
+  "fetchedAt": 1792808833415,
+  "fetchedAtIST": "24/10/2026, 7:57:13 am",
   "events": [
     {
       "eventId": 183543410,
@@ -35,7 +35,7 @@
       "episodeNumber": "17",
       "displaySepNum": true,
       "versionNum": 20748695,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/eqy6i.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -220,7 +220,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 20748695,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6q3d81.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/l1pvnl.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
