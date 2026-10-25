@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-10-27",
   "label": "day after",
-  "fetchedAt": 1792879551535,
-  "fetchedAtIST": "25/10/2026, 3:35:51 am",
+  "fetchedAt": 1792894438348,
+  "fetchedAtIST": "25/10/2026, 7:43:58 am",
   "events": [
     {
       "eventId": 183560439,
@@ -237,7 +237,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 20748690,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/emakk7.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -323,7 +323,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 20748690,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/emakk7.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -393,7 +393,7 @@
       "pashTag": "GRAND FINAL",
       "displaySepNum": true,
       "versionNum": 20748690,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/b4yl5o.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -410,7 +410,7 @@
       "pashTag": "ROUND 0",
       "displaySepNum": true,
       "versionNum": 20748690,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7yzwq.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
