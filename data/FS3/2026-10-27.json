@@ -2,8 +2,8 @@
   "channel": "FS3",
   "date": "2026-10-27",
   "label": "today",
-  "fetchedAt": 1793057251030,
-  "fetchedAtIST": "27/10/2026, 4:57:31 am",
+  "fetchedAt": 1793069445528,
+  "fetchedAtIST": "27/10/2026, 8:20:45 am",
   "events": [
     {
       "eventId": 183543386,
@@ -201,7 +201,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 20748829,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/uxo6mw.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -218,7 +218,7 @@
       "episodeNumber": "10",
       "displaySepNum": true,
       "versionNum": 20748829,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/49b1lg.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -269,7 +269,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 20748829,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/uxo6mw.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
