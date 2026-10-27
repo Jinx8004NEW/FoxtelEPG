@@ -1,0 +1,25 @@
+{
+  "channel": "FS3",
+  "date": "2026-10-28",
+  "label": "today",
+  "fetchedAt": 1793143182966,
+  "fetchedAtIST": "28/10/2026, 4:49:42 am",
+  "events": [
+    {
+      "eventId": 183560744,
+      "programTitle": "PGA Tour Australasia: TPS SA FR",
+      "channelId": 133,
+      "scheduledDate": 1793102400000,
+      "duration": 60,
+      "episodeTitle": "Players Series South Australia Final Round",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 20748829,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/uosgag.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}

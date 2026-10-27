@@ -1,0 +1,26 @@
+{
+  "channel": "FSS",
+  "date": "2026-10-28",
+  "label": "today",
+  "fetchedAt": 1793143205961,
+  "fetchedAtIST": "28/10/2026, 4:50:05 am",
+  "events": [
+    {
+      "eventId": 183576609,
+      "programTitle": "Live: T20: Pakistan v Sri Lanka",
+      "channelId": 664,
+      "scheduledDate": 1793087400000,
+      "duration": 550,
+      "episodeTitle": "Pakistan v Sri Lanka",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "pashTag": "LIVE",
+      "displaySepNum": true,
+      "versionNum": 20749901,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1edkmu.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}
