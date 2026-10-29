@@ -2,8 +2,8 @@
   "channel": "FS1",
   "date": "2026-10-29",
   "label": "today",
-  "fetchedAt": 1793230981073,
-  "fetchedAtIST": "29/10/2026, 5:13:01 am",
+  "fetchedAt": 1793244288100,
+  "fetchedAtIST": "29/10/2026, 8:54:48 am",
   "events": [
     {
       "eventId": 183638276,
@@ -406,7 +406,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 21212102,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/mam0w.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -442,7 +442,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 21212102,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/2eb9hc.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -476,7 +476,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 21212102,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/gixzg3.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -510,7 +510,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 21212102,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/y6qsy5.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -527,7 +527,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 21212102,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wad6.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/8pz6kb.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

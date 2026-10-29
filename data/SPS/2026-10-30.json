@@ -2,8 +2,8 @@
   "channel": "SPS",
   "date": "2026-10-30",
   "label": "tomorrow",
-  "fetchedAt": 1793231010543,
-  "fetchedAtIST": "29/10/2026, 5:13:30 am",
+  "fetchedAt": 1793244320156,
+  "fetchedAtIST": "29/10/2026, 8:55:20 am",
   "events": [
     {
       "eventId": 183663744,
@@ -17,7 +17,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 21212012,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xaq7ke.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/b0afyn.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -51,7 +51,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 21212012,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/red02n.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/f3xxhe.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -137,7 +137,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 21212012,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/red02n.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/f3xxhe.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -187,7 +187,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 21212012,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/69xu21.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/6ogyid.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -204,7 +204,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 21212012,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sc8ms8.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/rc8qyq.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -221,7 +221,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 21212012,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4xwsnc.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/fs1a0u.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -273,7 +273,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 21212012,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/69xu21.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/wr4zsq.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -290,7 +290,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 21212012,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/sc8ms8.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/rmakme.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -307,7 +307,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 21212012,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4xwsnc.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/24wdt1.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -390,7 +390,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 21212012,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7rbdzm.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -543,7 +543,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 21212012,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/b207rv.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/xr4429.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

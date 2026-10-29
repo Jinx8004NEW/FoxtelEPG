@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-10-31",
   "label": "day after",
-  "fetchedAt": 1793231000528,
-  "fetchedAtIST": "29/10/2026, 5:13:20 am",
+  "fetchedAt": 1793244309400,
+  "fetchedAtIST": "29/10/2026, 8:55:09 am",
   "events": [
     {
       "eventId": 183690329,
@@ -17,7 +17,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 21212154,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/dpg9xw.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/hvy2pw.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -33,7 +33,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 21212154,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/izd92.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/lmh6nn.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -50,7 +50,7 @@
       "episodeNumber": "100",
       "displaySepNum": true,
       "versionNum": 21212154,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/cclxd.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7xulte.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -66,7 +66,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 21212154,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/izd92.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/lmh6nn.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -83,7 +83,7 @@
       "seriesNumber": "2007",
       "displaySepNum": true,
       "versionNum": 21212154,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/feqqgi.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/yiarv8.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -100,7 +100,7 @@
       "episodeNumber": "100",
       "displaySepNum": true,
       "versionNum": 21212154,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/cclxd.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7xulte.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -296,7 +296,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 21212154,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/izd92.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/lmh6nn.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

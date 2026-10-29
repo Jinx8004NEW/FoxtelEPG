@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-10-30",
   "label": "tomorrow",
-  "fetchedAt": 1793230988045,
-  "fetchedAtIST": "29/10/2026, 5:13:08 am",
+  "fetchedAt": 1793244295772,
+  "fetchedAtIST": "29/10/2026, 8:54:55 am",
   "events": [
     {
       "eventId": 183638343,
@@ -256,7 +256,7 @@
       "pashTag": "ROUND9",
       "displaySepNum": true,
       "versionNum": 21189025,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v4nc6i.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/dhm0ih.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -356,7 +356,7 @@
       "pashTag": "ROUND9",
       "displaySepNum": true,
       "versionNum": 21189025,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/v4nc6i.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/dhm0ih.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
