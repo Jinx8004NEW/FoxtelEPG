@@ -2,8 +2,8 @@
   "channel": "RTV",
   "date": "2026-10-30",
   "label": "today",
-  "fetchedAt": 1793317377389,
-  "fetchedAtIST": "30/10/2026, 5:12:57 am",
+  "fetchedAt": 1793330860427,
+  "fetchedAtIST": "30/10/2026, 8:57:40 am",
   "events": [
     {
       "eventId": 183299781,
@@ -144,7 +144,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 21327869,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7j38t.jpg",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/30/12746398932359338861_169.jpeg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
