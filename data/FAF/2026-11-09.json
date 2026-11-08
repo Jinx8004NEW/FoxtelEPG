@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-11-09",
   "label": "tomorrow",
-  "fetchedAt": 1794093249485,
-  "fetchedAtIST": "8/11/2026, 4:44:09 am",
+  "fetchedAt": 1794107792758,
+  "fetchedAtIST": "8/11/2026, 8:46:32 am",
   "events": [
     {
       "eventId": 183834094,
@@ -196,7 +196,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 22053738,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ws70pm.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/yiarv8.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
