@@ -2,8 +2,8 @@
   "channel": "FSS",
   "date": "2026-11-11",
   "label": "tomorrow",
-  "fetchedAt": 1794268478559,
-  "fetchedAtIST": "10/11/2026, 5:24:38 am",
+  "fetchedAt": 1794287365598,
+  "fetchedAtIST": "10/11/2026, 10:39:25 am",
   "events": [
     {
       "eventId": 183833551,
@@ -101,7 +101,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 22218221,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/p8i38t.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -149,7 +149,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 22218221,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1phwdv.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -181,7 +181,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 22218221,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/p8i38t.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
