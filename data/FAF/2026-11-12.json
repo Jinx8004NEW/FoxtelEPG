@@ -2,8 +2,8 @@
   "channel": "FAF",
   "date": "2026-11-12",
   "label": "tomorrow",
-  "fetchedAt": 1794346488082,
-  "fetchedAtIST": "11/11/2026, 3:04:48 am",
+  "fetchedAt": 1794368521316,
+  "fetchedAtIST": "11/11/2026, 9:12:01 am",
   "events": [
     {
       "eventId": 183944664,
@@ -17,7 +17,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 22238677,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/dpg9xw.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/4lg5gp.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -262,7 +262,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 22238677,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/dpg9xw.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/kpc1ha.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

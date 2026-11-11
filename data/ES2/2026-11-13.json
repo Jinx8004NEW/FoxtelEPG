@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-11-13",
   "label": "day after",
-  "fetchedAt": 1794346518898,
-  "fetchedAtIST": "11/11/2026, 3:05:18 am",
+  "fetchedAt": 1794368552533,
+  "fetchedAtIST": "11/11/2026, 9:12:32 am",
   "events": [
     {
       "eventId": 183603984,
@@ -228,7 +228,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 22278489,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/46qlkr.jpg",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/j7uh98.jpg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
