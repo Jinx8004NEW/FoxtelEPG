@@ -2,8 +2,8 @@
   "channel": "FSN",
   "date": "2026-11-13",
   "label": "today",
-  "fetchedAt": 1794530861459,
-  "fetchedAtIST": "13/11/2026, 6:17:41 am",
+  "fetchedAt": 1794570094518,
+  "fetchedAtIST": "13/11/2026, 5:11:34 pm",
   "events": [
     {
       "eventId": 183588491,
@@ -357,7 +357,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 22538087,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
