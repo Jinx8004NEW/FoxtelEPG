@@ -2,8 +2,8 @@
   "channel": "FS1",
   "date": "2026-11-15",
   "label": "today",
-  "fetchedAt": 1794698963791,
-  "fetchedAtIST": "15/11/2026, 4:59:23 am",
+  "fetchedAt": 1794714244867,
+  "fetchedAtIST": "15/11/2026, 9:14:04 am",
   "events": [
     {
       "eventId": 184066434,
@@ -310,7 +310,7 @@
       "pashTag": "NEW EPISODE",
       "displaySepNum": true,
       "versionNum": 22730472,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7y2di.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -327,7 +327,7 @@
       "pashTag": "NEW EPISODE",
       "displaySepNum": true,
       "versionNum": 22730472,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7y2di.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
