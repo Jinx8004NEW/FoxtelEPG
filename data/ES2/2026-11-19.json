@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-11-19",
   "label": "day after",
-  "fetchedAt": 1794873305263,
-  "fetchedAtIST": "17/11/2026, 5:25:05 am",
+  "fetchedAt": 1794894043915,
+  "fetchedAtIST": "17/11/2026, 11:10:43 am",
   "events": [
     {
       "eventId": 183741597,
@@ -117,7 +117,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 22899753,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/vi2ndo.jpeg",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
