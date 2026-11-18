@@ -1,9 +1,9 @@
 {
   "channel": "FS1",
   "date": "2026-11-20",
-  "label": "day after",
-  "fetchedAt": 1795004844862,
-  "fetchedAtIST": "18/11/2026, 5:57:24 pm",
+  "label": "tomorrow",
+  "fetchedAt": 1795041964483,
+  "fetchedAtIST": "19/11/2026, 4:16:04 am",
   "events": [
     {
       "eventId": 184105337,
