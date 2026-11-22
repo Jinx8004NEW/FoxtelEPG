@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-11-24",
   "label": "day after",
-  "fetchedAt": 1795319917159,
-  "fetchedAtIST": "22/11/2026, 9:28:37 am",
+  "fetchedAt": 1795349806285,
+  "fetchedAtIST": "22/11/2026, 5:46:46 pm",
   "events": [
     {
       "eventId": 184204540,
@@ -185,7 +185,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 23251048,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/w43k8j.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/ybm3pu.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
