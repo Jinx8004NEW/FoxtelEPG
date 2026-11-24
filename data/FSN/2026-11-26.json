@@ -1,9 +1,9 @@
 {
   "channel": "FSN",
   "date": "2026-11-26",
-  "label": "day after",
-  "fetchedAt": 1795494619202,
-  "fetchedAtIST": "24/11/2026, 10:00:19 am",
+  "label": "tomorrow",
+  "fetchedAt": 1795547499310,
+  "fetchedAtIST": "25/11/2026, 12:41:39 am",
   "events": [
     {
       "eventId": 183589160,
@@ -357,7 +357,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 23488102,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8iy2w.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
