@@ -1,0 +1,73 @@
+{
+  "channel": "FS3",
+  "date": "2026-11-28",
+  "label": "day after",
+  "fetchedAt": 1795650792550,
+  "fetchedAtIST": "26/11/2026, 5:23:12 am",
+  "events": [
+    {
+      "eventId": 184319369,
+      "programTitle": "Australian PGA Championship: Round 3",
+      "channelId": 133,
+      "scheduledDate": 1795870800000,
+      "duration": 120,
+      "episodeTitle": "Round 3",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 23507212,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wdm1l.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 184319370,
+      "programTitle": "Australian PGA Championship: Round 3",
+      "channelId": 133,
+      "scheduledDate": 1795878000000,
+      "duration": 140,
+      "episodeTitle": "Round 3",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 23507212,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wdm1l.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 184319371,
+      "programTitle": "Australian PGA Championship: Round 3",
+      "channelId": 133,
+      "scheduledDate": 1795886400000,
+      "duration": 20,
+      "episodeTitle": "Round 3",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 23507212,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wdm1l.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    },
+    {
+      "eventId": 184319372,
+      "programTitle": "Australian PGA Championship: Round 3",
+      "channelId": 133,
+      "scheduledDate": 1795887600000,
+      "duration": 120,
+      "episodeTitle": "Round 3",
+      "parentalRating": "NC",
+      "premiereInd": false,
+      "displaySepNum": true,
+      "versionNum": 23507212,
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/7wdm1l.png",
+      "placeholder": false,
+      "isMovie": false,
+      "adultsOnly": false
+    }
+  ]
+}
