@@ -2,8 +2,8 @@
   "channel": "ES2",
   "date": "2026-11-25",
   "label": "today",
-  "fetchedAt": 1795547553368,
-  "fetchedAtIST": "25/11/2026, 12:42:33 am",
+  "fetchedAt": 1795576513114,
+  "fetchedAtIST": "25/11/2026, 8:45:13 am",
   "events": [
     {
       "eventId": 183884887,
@@ -66,7 +66,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 23539500,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -117,7 +117,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 23539500,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -365,7 +365,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 23539500,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/9mc3v.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/2/7woy0.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
