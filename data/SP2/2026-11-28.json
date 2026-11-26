@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-11-28",
   "label": "day after",
-  "fetchedAt": 1795650786860,
-  "fetchedAtIST": "26/11/2026, 5:23:06 am",
+  "fetchedAt": 1795672455262,
+  "fetchedAtIST": "26/11/2026, 11:24:15 am",
   "events": [
     {
       "eventId": 184318815,
@@ -226,7 +226,7 @@
       "seriesNumber": "2021",
       "displaySepNum": true,
       "versionNum": 23533786,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1l1jxc.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/emakk7.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -243,7 +243,7 @@
       "seriesNumber": "2021",
       "displaySepNum": true,
       "versionNum": 23533786,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1l1jxc.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/emakk7.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -260,7 +260,7 @@
       "seriesNumber": "2014",
       "displaySepNum": true,
       "versionNum": 23533786,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/85gcf7.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/nu9o8a.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -276,7 +276,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 23533786,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/85gcf7.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/nu9o8a.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -343,7 +343,7 @@
       "premiereInd": false,
       "displaySepNum": true,
       "versionNum": 23533786,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/1l1jxc.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/emakk7.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

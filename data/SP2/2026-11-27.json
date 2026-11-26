@@ -2,8 +2,8 @@
   "channel": "SP2",
   "date": "2026-11-27",
   "label": "tomorrow",
-  "fetchedAt": 1795650785532,
-  "fetchedAtIST": "26/11/2026, 5:23:05 am",
+  "fetchedAt": 1795672453941,
+  "fetchedAtIST": "26/11/2026, 11:24:13 am",
   "events": [
     {
       "eventId": 184284188,
@@ -169,7 +169,7 @@
       "seriesNumber": "2011",
       "displaySepNum": true,
       "versionNum": 23533786,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/c3womd.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -235,7 +235,7 @@
       "pashTag": "ROUND17",
       "displaySepNum": true,
       "versionNum": 23533786,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/nu9o8a.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/p7cem2.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -334,7 +334,7 @@
       "pashTag": "ROUND17",
       "displaySepNum": true,
       "versionNum": 23533786,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/nu9o8a.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/p7cem2.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false

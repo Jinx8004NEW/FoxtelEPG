@@ -2,8 +2,8 @@
   "channel": "FSP",
   "date": "2026-11-26",
   "label": "today",
-  "fetchedAt": 1795650801437,
-  "fetchedAtIST": "26/11/2026, 5:23:21 am",
+  "fetchedAt": 1795672469983,
+  "fetchedAtIST": "26/11/2026, 11:24:29 am",
   "events": [
     {
       "eventId": 184307100,
@@ -186,7 +186,7 @@
       "seriesNumber": "2026",
       "displaySepNum": true,
       "versionNum": 23543273,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/t6xqli.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
@@ -270,7 +270,7 @@
       "episodeNumber": "28",
       "displaySepNum": true,
       "versionNum": 23543273,
-      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/o8iy2w.png",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/16/4/pxzql5.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
