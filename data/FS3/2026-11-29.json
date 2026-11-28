@@ -2,8 +2,8 @@
   "channel": "FS3",
   "date": "2026-11-29",
   "label": "tomorrow",
-  "fetchedAt": 1795823382796,
-  "fetchedAtIST": "28/11/2026, 5:19:42 am",
+  "fetchedAt": 1795843682839,
+  "fetchedAtIST": "28/11/2026, 10:58:02 am",
   "events": [
     {
       "eventId": 184319372,
@@ -276,7 +276,7 @@
       "pashTag": "LIVE",
       "displaySepNum": true,
       "versionNum": 23853566,
-      "imageUrl": "",
+      "imageUrl": "https://images1.resources.foxtel.com.au/store2/mount1/17/placeholder-16x9-beam.png",
       "placeholder": false,
       "isMovie": false,
       "adultsOnly": false
